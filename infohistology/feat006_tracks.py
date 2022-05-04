@@ -22,4 +22,4 @@ tracks = [
      'recordingTrack':'middlemedialDiD', 'shank':1, 'atlasZ':200}, #p1_B1 for tip, p1_B3-6 for ctx
 
     {'subject':subject, 'brainArea':'AC_left', 'histImage':'p1_A3_L',
-     'recordingTrack':'caudolateralDiD', 'shank':1, 'atlasZ':170} #p1_A1 for tip, p1_A3 for ctx]
+     'recordingTrack':'caudolateralDiD', 'shank':1, 'atlasZ':170}] #p1_A1 for tip, p1_A3 for ctx]
