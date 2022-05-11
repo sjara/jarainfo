@@ -18,12 +18,12 @@ experiments.append(exp0)
 
 exp0.add_site(2967)
 exp0.maxDepth = 2967
-exp0.add_session('11-19-31','a','AM','am_tuning_curve') 
+exp0.add_session('11-19-31','a','AM','am_tuning_curve')
 exp0.add_session('11-27-37','b','pureTones','am_tuning_curve')
 exp0.add_session('11-44-02','a','FTVOTBorders','2afc_speech')
 
 
-exp1 = celldatabase.Experiment(subject, '2022-03-11', brainArea='AC_right', probe = 'NPv1-8131', recordingTrack='middlemedialDiD', info=['middlemedial_DiD', 'soundLeft']) #reference = tip
+exp1 = celldatabase.Experiment(subject, '2022-03-11', brainArea='AC_right', probe = 'NPv1-8131', recordingTrack='middlemedial_DiD', info=['middlemedial_DiD', 'soundLeft']) #reference = tip
 experiments.append(exp1)
 # 13:53 in booth
 # 14:05 lowered electrodes, couldn't penetrate brain. Retracted and cleaned craniotomy.
@@ -34,7 +34,7 @@ experiments.append(exp1)
 
 exp1.add_site(2942)
 exp1.maxDepth = 2942
-exp1.add_session('14-47-12','a','AM','am_tuning_curve') 
+exp1.add_session('14-47-12','a','AM','am_tuning_curve')
 exp1.add_session('14-55-00','b','pureTones','am_tuning_curve') #accidentally hit the start button after I finished recording so there are ~2 extra trials in the behavior data at the end that weren't recorded.
 exp1.add_session('15-15-20','a','FTVOTBorders','2afc_speech')
 
@@ -49,8 +49,8 @@ experiments.append(exp2)
 
 exp2.add_site(2963)
 exp2.maxDepth = 2963
-exp2.add_session('13-14-54','a','AM','am_tuning_curve') 
-exp2.add_session('13-22-51','b','pureTones','am_tuning_curve') 
+exp2.add_session('13-14-54','a','AM','am_tuning_curve')
+exp2.add_session('13-22-51','b','pureTones','am_tuning_curve')
 exp2.add_session('13-36-57','a','FTVOTBorders','2afc_speech')
 
 
@@ -64,8 +64,8 @@ experiments.append(exp3)
 
 exp3.add_site(2969)
 exp3.maxDepth = 2969
-exp3.add_session('14-32-47','a','AM','am_tuning_curve') 
-exp3.add_session('14-42-11','b','pureTones','am_tuning_curve') 
+exp3.add_session('14-32-47','a','AM','am_tuning_curve')
+exp3.add_session('14-42-11','b','pureTones','am_tuning_curve')
 exp3.add_session('14-58-21','a','FTVOTBorders','2afc_speech')
 
 
@@ -80,14 +80,14 @@ experiments.append(exp4)
 
 exp4.add_site(2974)
 exp4.maxDepth = 2974
-exp4.add_session('15-18-14','a','AM','am_tuning_curve') 
-exp4.add_session('15-27-12','b','pureTones','am_tuning_curve') 
+exp4.add_session('15-18-14','a','AM','am_tuning_curve')
+exp4.add_session('15-27-12','b','pureTones','am_tuning_curve')
 exp4.add_session('15-43-29','a','FTVOTBorders','2afc_speech')
 
 
 exp5 = celldatabase.Experiment(subject, '2022-03-21', brainArea='AC_left', probe = 'NPv1-8131', recordingTrack='anteromedial_DiD', info=['anteromedial_DiD', 'soundRight']) #reference = tip
 experiments.append(exp5)
-# 10:30 in booth 
+# 10:30 in booth
 # Sylgard over R craniotomy was missing, flushed well to clean out a bit, the re-covered with sylgard.
 # 10:40 in brain
 # 10:43 reached max depth
@@ -96,13 +96,13 @@ experiments.append(exp5)
 
 exp5.add_site(3041)
 exp5.maxDepth = 3041
-exp5.add_session('11-06-40','a','AM','am_tuning_curve') 
-exp5.add_session('11-14-32','b','pureTones','am_tuning_curve') 
+exp5.add_session('11-06-40','a','AM','am_tuning_curve')
+exp5.add_session('11-14-32','b','pureTones','am_tuning_curve')
 exp5.add_session('11-30-55','a','FTVOTBorders','2afc_speech')
 
 
 #exp6 = celldatabase.Experiment(subject, '2022-03-22', brainArea='AC_left', probe = 'NPv1-8131', recordingTrack='DiI', info=['DiI', 'soundRight']) #reference = tip
 #experiments.append(exp6)
-# 10:00 in booth 
+# 10:00 in booth
 # 10:20 Couldn't get probe into brain. broke probe
 # lots of bleeding when tried to clean craniotomy, ended recording
