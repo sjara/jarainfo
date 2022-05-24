@@ -7,7 +7,7 @@ experiments = []
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType paradigmName.
 
-exp0 = celldatabase.Experiment(subject, '2022-01-11', brainArea='AC_right', probe = 'NPv1-2872', recordingTrack='DiD', info=['anteromedialDiD', 'soundLeft']) #reference = tip
+exp0 = celldatabase.Experiment(subject, '2022-01-11', brainArea='AC_right', probe = 'NPv1-2872', recordingTrack='DiD', info=['facesMedial', 'soundLeft']) #reference = tip
 experiments.append(exp0)
 # 12:57 in booth
 # 1:05 lowered probe
@@ -25,20 +25,20 @@ exp0.add_session('13-55-58','b','pureTones','am_tuning_curve')
 exp0.add_session('14-06-21','a','VOT','2afc_speech') # 4 stimuli 20211209 stim
 exp0.add_session('14-20-08','b','FT','2afc_speech') # 4 stimuli 20211209 stim
 
-#exp1 = celldatabase.Experiment(subject, '2022-01-12', brainArea='rightAC', probe = 'NPv1-2872', recordingTrack='DiI', info=['DiI', 'soundLeft']) #reference = tip
+#exp1 = celldatabase.Experiment(subject, '2022-01-12', brainArea='rightAC', probe = 'NPv1-2872', recordingTrack='DiI', info=['facesMedial', 'soundLeft']) #reference = tip
 #experiments.append(exp0)
 # 2:08 in booth
 # 2:10 lowered probes
 # 2:50 couldn't penetrate brain. Ended experiment
 
-#exp2 = celldatabase.Experiment(subject, '2022-01-18', brainArea='rightAC', probe = 'NPv1-2872', recordingTrack='DiI', info=['aterolateralDiI', 'soundLeft']) #reference = tip
+#exp2 = celldatabase.Experiment(subject, '2022-01-18', brainArea='rightAC', probe = 'NPv1-2872', recordingTrack='DiI', info=['facesMedial', 'soundLeft']) #reference = tip
 #experiments.append(exp2)
 # 13:35 in booth
 # 13:40 lowered probe
 # 14:42 couldn't penetrate brain. Ended experiment.
 # Cleaned R craniotomy
 
-exp3 = celldatabase.Experiment(subject, '2022-01-19', brainArea='AC_left', probe = 'NPv1-2872', recordingTrack='caudomedialDiD', info=['caudomedialDiD', 'soundRight']) #reference = tip
+exp3 = celldatabase.Experiment(subject, '2022-01-19', brainArea='AC_left', probe = 'NPv1-2872', recordingTrack='caudomedialDiD', info=['facesMedial', 'soundRight']) #reference = tip
 experiments.append(exp3)
 # 12:40 in booth
 # Couldn't penetrate R craniotomy again, moving to left craniotomy.
@@ -55,7 +55,7 @@ exp3.add_session('14-18-17','b','AM','am_tuning_curve')
 exp3.add_session('14-29-00','a','FT','2afc_speech') # 4 stimuli 20220115 stim
 exp3.add_session('14-42-03','b','VOT','2afc_speech') # 4 stimuli 20220115 stim
 
-exp4 = celldatabase.Experiment(subject, '2022-01-21', brainArea='AC_left', probe = 'NPv1-2761', recordingTrack='caudolateralDiI', info=['caudolateralDiI', 'soundRight']) #reference = tip
+exp4 = celldatabase.Experiment(subject, '2022-01-21', brainArea='AC_left', probe = 'NPv1-2761', recordingTrack='caudolateralDiI', info=['facesMedial', 'soundRight']) #reference = tip
 experiments.append(exp4)
 # 8:25 in booth
 # 8:35 lowered probes, in brain
