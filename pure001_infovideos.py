@@ -20,8 +20,8 @@ videos.add_session('2021-09-28', 'syncNoSound',
                    cameraParams)
 
 videos.add_session('2021-09-28', 'chord',
-                   'pure001_20210928_syncSound_01.mkv',
-                   'pure001_detectsound_20210928_syncSound_01.h5',
+                   'pure001_20210928_chord_01.mkv',
+                   'pure001_detectsound_20210928_chord_01.h5',
                    cameraParams)
                    
 
