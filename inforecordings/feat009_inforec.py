@@ -75,10 +75,26 @@ experiments.append(exp4)
 # 11:14 in brain
 # 11:20 reached max depth
 # 11:40 started recording
-# 12: done
+# 12:42 done
 
 exp4.add_site(2788)
 exp4.maxDepth = 2788
 exp4.add_session('11-39-59','a','AM','am_tuning_curve')
 exp4.add_session('11-49-31','b','pureTones','am_tuning_curve')
 exp4.add_session('12-06-33','a','FTVOTBorders','2afc_speech')
+
+
+exp5 = celldatabase.Experiment(subject, '2022-06-10', brainArea='AC_right', probe = 'NPv1-4161', recordingTrack='anteromedial_DiI', info=['facesMedial', 'soundLeft']) #reference = tip
+experiments.append(exp5)
+# 09:17 in booth
+# 09:27 couldn't penetrate brain, removed some remaining dura
+# 09:35 in brain
+# 09:42 reached max depth
+# 09:58 started recording
+# 10:53 done
+
+exp5.add_site(2919)
+exp5.maxDepth = 2919
+exp5.add_session('09-58-06','a','AM','am_tuning_curve')
+exp5.add_session('10-06-03','b','pureTones','am_tuning_curve')
+exp5.add_session('10-22-02','a','FTVOTBorders','2afc_speech')
