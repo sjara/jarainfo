@@ -98,3 +98,9 @@ exp5.maxDepth = 2919
 exp5.add_session('09-58-06','a','AM','am_tuning_curve')
 exp5.add_session('10-06-03','b','pureTones','am_tuning_curve')
 exp5.add_session('10-22-02','a','FTVOTBorders','2afc_speech')
+
+
+#exp6 = celldatabase.Experiment(subject, '2022-06-14', brainArea='AC_right', probe = 'NPv1-4161', recordingTrack='_DiD', info=['facesMedial', 'soundLeft']) #reference = tip
+#experiments.append(exp6)
+# 10:40 in booth
+# 10:42 headbar fell off, recording cancelled
