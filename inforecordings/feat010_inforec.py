@@ -24,3 +24,18 @@ exp0.add_session('12-04-47','b','pureTones','am_tuning_curve')
 exp0.add_session('12-38-02','b','FTVOTBorders','2afc_speech') #got noisy at the last ~10 trials or so, but it looks like we should still be able to sort the units out of the noise alright.
 
 
+exp1 = celldatabase.Experiment(subject, '2022-06-22', brainArea='AC_left', probe = 'NPv1-4542', recordingTrack='anteromedial_DiI', info=['facesMedial', 'soundRight']) #reference = tip
+experiments.append(exp1)
+# 10:58 in booth
+# 11:01 in brain
+# 11:09 reached max depth
+# 11:30 started recording
+# 12:30 done
+
+exp1.add_site(2973)
+exp1.maxDepth = 2973
+exp1.add_session('11-35-26','a','AM','am_tuning_curve')
+exp1.add_session('11-44-09','b','pureTones','am_tuning_curve')
+exp1.add_session('12-00-49','a','FTVOTBorders','2afc_speech') 
+
+
