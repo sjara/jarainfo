@@ -54,7 +54,7 @@ exp2.add_session('15-26-40','b','pureTones','am_tuning_curve')
 exp2.add_session('15-43-18','a','FTVOTBorders','2afc_speech') 
 
 
-exp3 = celldatabase.Experiment(subject, '2022-06-28', brainArea='AC_right', probe = 'NPv1-4542', recordingTrack='DiI', info=['facesMedial', 'soundLeft']) #reference = tip
+exp3 = celldatabase.Experiment(subject, '2022-06-28', brainArea='AC_right', probe = 'NPv1-4542', recordingTrack='middlemedial_DiI', info=['facesMedial', 'soundLeft']) #reference = tip
 experiments.append(exp3)
 # 10:36 in booth
 # 10:39 in brain
@@ -68,5 +68,19 @@ exp3.add_session('11-02-07','a','AM','am_tuning_curve')
 exp3.add_session('11-10-51','b','pureTones','am_tuning_curve')
 exp3.add_session('11-28-21','a','FTVOTBorders','2afc_speech') 
 
+
+exp4 = celldatabase.Experiment(subject, '2022-06-30', brainArea='AC_right', probe = 'NPv1-4542', recordingTrack='posterior_DiD', info=['facesMedial', 'soundLeft']) #reference = tip
+experiments.append(exp4)
+# 10:32 in booth
+# 10:38 in brain
+# 10:41 reached max depth
+# 11:00 started recording
+# 11:57 done
+
+exp4.add_site(2992)
+exp4.maxDepth = 2992
+exp4.add_session('11-00-11','a','AM','am_tuning_curve')
+exp4.add_session('11-08-03','b','pureTones','am_tuning_curve')
+exp4.add_session('11-25-31','a','FTVOTBorders','2afc_speech') 
 
 
