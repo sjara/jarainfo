@@ -68,7 +68,7 @@ exp3.add_session('15-16-38','a','AM','am_tuning_curve')
 exp3.add_session('15-24-37','b','pureTones','am_tuning_curve')
 
 
-exp4 = celldatabase.Experiment(subject, '2022-07-27', brainArea='AC_left', probe = 'NPv1-4161', recordingTrack='_DiD', info=['facesMedial', 'soundRight']) #reference = tip
+exp4 = celldatabase.Experiment(subject, '2022-07-27', brainArea='AC_left', probe = 'NPv1-4161', recordingTrack='posterior_DiD', info=['facesMedial', 'soundRight']) #reference = tip
 experiments.append(exp4)
 # 12:57 in booth
 # 13:05 in brain
