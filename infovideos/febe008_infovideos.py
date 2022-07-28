@@ -79,3 +79,18 @@ videos.add_session('2022-07-27', 'pureTones',
                    'febe008_am_tuning_20220727_02.mkv',
                    'febe008_am_tuning_20220727b.h5', cameraParams)
 
+# 2022-07-28
+
+videos.add_session('2022-07-28', 'behaviorVOT',
+                   'febe008_headfixed_speech_20220728_01.mkv',
+                   'febe008_headfixed_speech_20220728a.h5', cameraParams)
+                         
+videos.add_session('2022-07-28', 'AM',
+                   'febe008_am_tuning_20220728_01.mkv',
+                   'febe008_am_tuning_20220728a.h5', cameraParams) 
+
+videos.add_session('2022-07-28', 'pureTones',
+                   'febe008_am_tuning_20220728_02.mkv',
+                   'febe008_am_tuning_20220728b.h5', cameraParams)
+
+
