@@ -160,6 +160,10 @@ videos.add_session('2022-04-19', 'twoChordsPreExtremes',
                    cameraParams)                   
 
 
+videos.add_session('2022-07-01', 'lowestfirst6chord',
+                   'pure011_detectiongonogo_20220701a_lowestfirst6chord.mkv',
+                   'pure011_detectiongonogo_20220701a.h5',
+                   cameraParams)                   
 
 
 
