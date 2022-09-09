@@ -179,8 +179,16 @@ videos.add_session('2022-04-21', 'freqRange',
                    'pure010_detectiongonogo_20220421_xtremes_203_xconfig1.h5',
                    cameraParams)                
                                       
+videos.add_session('2022-08-25', 'AM4sec10off',
+                   'pure010_am_tuning_curve_20220825a_AM4sec10off.mkv',
+                   'pure010_am_tuning_curve_20220825a.h5',
+                   cameraParams)                   
                    
                    
+videos.add_session('2022-08-26', 'AM4sec10off',
+                   'pure010_am_tuning_curve_20220826a_AM4sec10off.mkv',
+                   'pure010_am_tuning_curve_20220826a.h5',
+                   cameraParams)                     
                    
                    
                    

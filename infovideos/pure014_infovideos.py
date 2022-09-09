@@ -24,5 +24,10 @@ videos.add_session('2022-07-27', 'detectSound',
                    'pure014_detectsound_20220727_01.mkv',
                    'pure014_detectsound_20220727a.h5',
                    cameraParams) 
+                   
+videos.add_session('2022-09-07', 'AM4sec10off',
+                   'pure014_am_tuning_curve_20220907a_AM4sec10off.mkv',
+                   'pure014_am_tuning_curve_20220907a.h5',
+                   cameraParams)                    
 
 
