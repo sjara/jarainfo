@@ -8,7 +8,7 @@ experiments = []
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType paradigmName.
 
 
-exp0 = celldatabase.Experiment(subject, '2022-11-16', brainArea='AC_right', probe = 'NPv1-4161', recordingTrack='anteromedial_DiI', info=['facesMedial', 'soundLeft']) #reference = tip
+exp0 = celldatabase.Experiment(subject, '2022-11-16', brainArea='AC_right', probe='NPv1-4161', recordingTrack='anteromedial_DiI', info=['facesMedial', 'soundLeft']) #reference = tip
 experiments.append(exp0)
 #  10:14 in booth
 #  10:27 in brain
@@ -22,4 +22,26 @@ exp0.add_session('10-57-52','a','AM','am_tuning_curve')
 exp0.add_session('11-07-38','b','pureTones','am_tuning_curve')
 exp0.add_session('11-24-50','a','FTVOTBorders','2afc_speech')
 
+
+exp1 = celldatabase.Experiment(subject, '2022-11-17', brainArea='AC_right', probe = 'NPv1-4161', recordingTrack='anterolateral_DiD', info=['facesMedial', 'soundLeft']) #reference = tip
+experiments.append(exp1)
+#  10:02 in booth
+#  10:20 in brain
+#  10:25 x axis bumped, probe removed to inspect
+#  11:15 failed to reinsert probe. Recording session cancelled.
+
+
+exp2 = celldatabase.Experiment(subject, '2022-11-18', brainArea='AC_left', probe='NPv1-4161', recordingTrack='anteromedial_DiI', info=['facesMedial', 'soundRight']) #reference = tip
+experiments.append(exp2)
+#  10:35 in booth
+#  11:10 in brain 
+#  11:20 reached max depth 
+#  11:50 started recording 
+#  12:55 done 
+
+exp2.add_site(3000)
+exp2.maxDepth = 3000
+exp2.add_session('11-51-20','a','AM','am_tuning_curve')
+exp2.add_session('12-00-20','b','pureTones','am_tuning_curve')
+exp2.add_session('12-18-08','a','FTVOTBorders','2afc_speech')
 
