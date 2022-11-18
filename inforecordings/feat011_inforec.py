@@ -41,7 +41,7 @@ experiments.append(exp2)
 
 exp2.add_site(3000)
 exp2.maxDepth = 3000
-exp2.add_session('11-51-20','a','AM','am_tuning_curve')
+exp2.add_session('11-51-30','a','AM','am_tuning_curve')
 exp2.add_session('12-00-20','b','pureTones','am_tuning_curve')
-exp2.add_session('12-18-08','a','FTVOTBorders','2afc_speech')
+exp2.add_session('12-18-07','a','FTVOTBorders','2afc_speech')
 
