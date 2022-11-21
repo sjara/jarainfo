@@ -73,6 +73,6 @@ experiments.append(exp4)
 exp4.add_site(3040)
 exp4.maxDepth = 3040
 exp4.add_session('11-19-59','a','AM','am_tuning_curve')
-exp4.add_session('11-27-33','b','pureTones','am_tuning_curve')
+exp4.add_session('11-27-32','b','pureTones','am_tuning_curve')
 exp4.add_session('11-43-58','a','FTVOTBorders','2afc_speech')
 
