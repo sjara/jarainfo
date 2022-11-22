@@ -76,3 +76,19 @@ exp4.add_session('11-19-59','a','AM','am_tuning_curve')
 exp4.add_session('11-27-32','b','pureTones','am_tuning_curve')
 exp4.add_session('11-43-58','a','FTVOTBorders','2afc_speech')
 
+
+exp5 = celldatabase.Experiment(subject, '2022-11-22', brainArea='AC_left', probe='NPv1-4161', recordingTrack='posterior_DiD', info=['facesMedial', 'soundRight']) #reference = tip
+experiments.append(exp5)
+#  09:05 in booth
+#  09:14 in brain 
+#  09:16 reached max depth 
+#  09:38 started recording 
+#  10:40 Done
+
+exp5.add_site(3100)
+exp5.maxDepth = 3100
+exp5.add_session('09-38-20','a','AM','am_tuning_curve')
+exp5.add_session('09-46-22','b','pureTones','am_tuning_curve')
+exp5.add_session('10-02-18','a','FTVOTBorders','2afc_speech')
+
+
