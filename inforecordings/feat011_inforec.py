@@ -23,8 +23,8 @@ exp0.add_session('11-07-38','b','pureTones','am_tuning_curve')
 exp0.add_session('11-24-50','a','FTVOTBorders','2afc_speech')
 
 
-exp1 = celldatabase.Experiment(subject, '2022-11-17', brainArea='AC_right', probe = 'NPv1-4161', recordingTrack='anterolateral_DiD', info=['facesMedial', 'soundLeft']) #reference = tip
-experiments.append(exp1)
+#exp1 = celldatabase.Experiment(subject, '2022-11-17', brainArea='AC_right', probe = 'NPv1-4161', recordingTrack='anterolateral_DiD', info=['facesMedial', 'soundLeft']) #reference = tip
+#experiments.append(exp1)
 #  10:02 in booth
 #  10:20 in brain
 #  10:25 x axis bumped, probe removed to inspect
