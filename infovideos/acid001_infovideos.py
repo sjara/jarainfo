@@ -50,4 +50,47 @@ videos.add_session('2022-12-13', 'FM_Up',
                    'acid001_oddball_sequence_20221213_08.mkv',
                    'acid001_oddball_sequence_20221213h', cameraParams)  
                      
+
+# 2022-12-14
+
+videos.add_session('2022-12-14', 'pureTones',
+                   'acid001_am_tuning_curve_20221214_01pre.mkv',
+                   'acid001_am_tuning_curve_20221214apre.h5', cameraParams) 
+
+videos.add_session('2022-12-14', 'highFreq',
+                   'acid001_oddball_sequence_20221214_01pre.mkv',
+                   'acid001_oddball_sequence_20221214apre', cameraParams) 
+
+videos.add_session('2022-12-14', 'lowFreq',
+                   'acid001_oddball_sequence_20221214_02pre.mkv',
+                   'acid001_oddball_sequence_20221214bpre', cameraParams)
+
+videos.add_session('2022-12-14', 'FM_Down',
+                   'acid001_oddball_sequence_20221214_03pre.mkv',
+                   'acid001_oddball_sequence_20221214cpre', cameraParams)
                    
+videos.add_session('2022-12-14', 'FM_Up',
+                   'acid001_oddball_sequence_20221214_04pre.mkv',
+                   'acid001_oddball_sequence_20221214dpre', cameraParams)
+
+#Saline
+
+videos.add_session('2022-12-14', 'pureTones',
+                   'acid001_am_tuning_curve_20221214_01post.mkv',
+                   'acid001_am_tuning_curve_20221214apost.h5', cameraParams) 
+
+videos.add_session('2022-12-14', 'highFreq',
+                   'acid001_oddball_sequence_20221214_01post.mkv',
+                   'acid001_oddball_sequence_20221214apost', cameraParams) 
+
+videos.add_session('2022-12-14', 'lowFreq',
+                   'acid001_oddball_sequence_20221214_02post.mkv',
+                   'acid001_oddball_sequence_20221214bpost', cameraParams)
+
+videos.add_session('2022-12-14', 'FM_Down',
+                   'acid001_oddball_sequence_20221214_03post.mkv',
+                   'acid001_oddball_sequence_20221214cpost', cameraParams)
+                   
+videos.add_session('2022-12-14', 'FM_Up',
+                   'acid001_oddball_sequence_20221214_04post.mkv',
+                   'acid001_oddball_sequence_20221214dpost', cameraParams)                     
