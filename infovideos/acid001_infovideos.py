@@ -27,8 +27,7 @@ videos.add_session('2022-12-13', 'FM_Down',
 videos.add_session('2022-12-13', 'FM_Up',
                    'acid001_oddball_sequence_20221213_04.mkv',
                    'acid001_oddball_sequence_20221213d', cameraParams)
-
-#Saline
+# Saline
 
 videos.add_session('2022-12-13', 'pureTones',
                    'acid001_am_tuning_curve_20221213_02.mkv',
@@ -72,8 +71,7 @@ videos.add_session('2022-12-14', 'FM_Down',
 videos.add_session('2022-12-14', 'FM_Up',
                    'acid001_oddball_sequence_20221214_04pre.mkv',
                    'acid001_oddball_sequence_20221214dpre', cameraParams)
-
-#Saline
+# Saline
 
 videos.add_session('2022-12-14', 'pureTones',
                    'acid001_am_tuning_curve_20221214_01post.mkv',
@@ -93,4 +91,91 @@ videos.add_session('2022-12-14', 'FM_Down',
                    
 videos.add_session('2022-12-14', 'FM_Up',
                    'acid001_oddball_sequence_20221214_04post.mkv',
-                   'acid001_oddball_sequence_20221214dpost', cameraParams)                     
+                   'acid001_oddball_sequence_20221214dpost', cameraParams)
+                   
+
+# 2022-12-15
+
+videos.add_session('2022-12-15', 'pureTones',
+                   'acid001_am_tuning_curve_20221215_01pre.mkv',
+                   'acid001_am_tuning_curve_20221215apre.h5', cameraParams) 
+
+videos.add_session('2022-12-15', 'highFreq',
+                   'acid001_oddball_sequence_20221215_01pre.mkv',
+                   'acid001_oddball_sequence_20221215apre', cameraParams) 
+
+videos.add_session('2022-12-15', 'lowFreq',
+                   'acid001_oddball_sequence_20221215_02pre.mkv',
+                   'acid001_oddball_sequence_20221215bpre', cameraParams)
+
+videos.add_session('2022-12-15', 'FM_Down',
+                   'acid001_oddball_sequence_20221215_03pre.mkv',
+                   'acid001_oddball_sequence_20221215cpre', cameraParams)
+                   
+videos.add_session('2022-12-15', 'FM_Up',
+                   'acid001_oddball_sequence_20221215_04pre.mkv',
+                   'acid001_oddball_sequence_20221215dpre', cameraParams)
+# Saline
+
+videos.add_session('2022-12-15', 'pureTones',
+                   'acid001_am_tuning_curve_20221215_01post.mkv',
+                   'acid001_am_tuning_curve_20221215apost.h5', cameraParams) 
+
+videos.add_session('2022-12-15', 'highFreq',
+                   'acid001_oddball_sequence_20221215_01post.mkv',
+                   'acid001_oddball_sequence_20221215apost', cameraParams) 
+
+videos.add_session('2022-12-15', 'lowFreq',
+                   'acid001_oddball_sequence_20221215_02post.mkv',
+                   'acid001_oddball_sequence_20221215bpost', cameraParams)
+
+videos.add_session('2022-12-15', 'FM_Down',
+                   'acid001_oddball_sequence_20221215_03post.mkv',
+                   'acid001_oddball_sequence_20221215cpost', cameraParams)
+                   
+videos.add_session('2022-12-15', 'FM_Up',
+                   'acid001_oddball_sequence_20221215_04post.mkv',
+                   'acid001_oddball_sequence_20221215dpost', cameraParams)
+                  
+# 2022-12-15 Session2
+
+videos.add_session('2022-12-15', 'pureTones',
+                   'acid001_am_tuning_curve_20221215_02pre.mkv',
+                   'acid001_am_tuning_curve_20221215bpre.h5', cameraParams) 
+
+videos.add_session('2022-12-15', 'highFreq',
+                   'acid001_oddball_sequence_20221215_05pre.mkv',
+                   'acid001_oddball_sequence_20221215epre', cameraParams) 
+
+videos.add_session('2022-12-15', 'lowFreq',
+                   'acid001_oddball_sequence_20221215_06pre.mkv',
+                   'acid001_oddball_sequence_20221215fpre', cameraParams)
+
+videos.add_session('2022-12-15', 'FM_Down',
+                   'acid001_oddball_sequence_20221215_07pre.mkv',
+                   'acid001_oddball_sequence_20221215gpre', cameraParams)
+                   
+videos.add_session('2022-12-15', 'FM_Up',
+                   'acid001_oddball_sequence_20221215_08pre.mkv',
+                   'acid001_oddball_sequence_20221215hpre', cameraParams)
+# Saline
+
+videos.add_session('2022-12-15', 'pureTones',
+                   'acid001_am_tuning_curve_20221215_02post.mkv',
+                   'acid001_am_tuning_curve_20221215bpost.h5', cameraParams) 
+
+videos.add_session('2022-12-15', 'highFreq',
+                   'acid001_oddball_sequence_20221215_05post.mkv',
+                   'acid001_oddball_sequence_20221215epost', cameraParams) 
+
+videos.add_session('2022-12-15', 'lowFreq',
+                   'acid001_oddball_sequence_20221215_06post.mkv',
+                   'acid001_oddball_sequence_20221215fpost', cameraParams)
+
+videos.add_session('2022-12-15', 'FM_Down',
+                   'acid001_oddball_sequence_20221215_07post.mkv',
+                   'acid001_oddball_sequence_20221215gpost', cameraParams)
+                   
+videos.add_session('2022-12-15', 'FM_Up',
+                   'acid001_oddball_sequence_20221215_08post.mkv',
+                   'acid001_oddball_sequence_20221215hpost', cameraParams)                         

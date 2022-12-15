@@ -56,3 +56,50 @@ exp1.add_session('15-46-27','cpost','FM_Down','oddball_sequence')
 exp1.add_session('15-53-00','dpost','FM_Up','oddball_sequence')
 
 
+exp2 = celldatabase.Experiment(subject, '2022-12-15', brainArea='AC_left', probe='NPv1-4552', recordingTrack='anteriorlateral_DiI', info=['facesMedial', 'soundRight']) #reference = tip
+experiments.append(exp2)
+#  12:00 in booth
+#  12:15 in brain
+#  12:18 reached max depth
+#  12:35 started recording
+#  13:10 IP Injection. 
+#  13:50 done
+
+exp2.add_site(3050)
+exp2.maxDepth = 3050
+exp2.add_session('12-35-30','apre','pureTones','am_tuning_curve')
+exp2.add_session('12-44-42','apre','highFreq','oddball_sequence')
+exp2.add_session('12-50-28','bpre','lowFreq','oddball_sequence')
+exp2.add_session('12-56-21','cpre','FM_Down','oddball_sequence')
+exp2.add_session('13-02-57','dpre','FM_Up','oddball_sequence')
+#saline 0.1mL IP
+exp2.add_session('13-13-31','apost','pureTones','am_tuning_curve')
+exp2.add_session('13-21-33','apost','highFreq','oddball_sequence')
+exp2.add_session('13-27-17','bpost','lowFreq','oddball_sequence')
+exp2.add_session('13-33-05','cpost','FM_Down','oddball_sequence')
+exp2.add_session('13-40-40','dpost','FM_Up','oddball_sequence')
+
+
+exp3 = celldatabase.Experiment(subject, '2022-12-15', brainArea='AC_left', probe='NPv1-4552', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundRight']) #reference = tip
+experiments.append(exp3)
+#  12:00 in booth
+#  12:15 in brain
+#  12:18 reached max depth
+#  12:35 started recording
+#  13:10 IP Injection. 
+#  : done
+
+exp3.add_site()
+exp3.maxDepth = 
+exp3.add_session('--','bpre','pureTones','am_tuning_curve')
+exp3.add_session('--','epre','highFreq','oddball_sequence')
+exp3.add_session('--','fpre','lowFreq','oddball_sequence')
+exp3.add_session('--','gpre','FM_Down','oddball_sequence')
+exp3.add_session('--','hpre','FM_Up','oddball_sequence')
+#saline 0.1mL IP
+exp3.add_session('--','bpost','pureTones','am_tuning_curve')
+exp3.add_session('--','epost','highFreq','oddball_sequence')
+exp3.add_session('--','fpost','lowFreq','oddball_sequence')
+exp3.add_session('--','gpost','FM_Down','oddball_sequence')
+exp3.add_session('--','hpost','FM_Up','oddball_sequence')
+
