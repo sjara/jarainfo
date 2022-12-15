@@ -49,7 +49,7 @@ exp1.add_session('14-59-55','bpre','lowFreq','oddball_sequence')
 exp1.add_session('15-06-02','cpre','FM_Down','oddball_sequence')
 exp1.add_session('15-12-56','dpre','FM_Up','oddball_sequence')
 #saline 0.1mL IP
-exp1.add_session('15-25-38','apost','pureTones','am_tuning_curve')
+exp1.add_session('15-25-37','apost','pureTones','am_tuning_curve')
 exp1.add_session('15-33-55','apost','highFreq','oddball_sequence')
 exp1.add_session('15-39-46','bpost','lowFreq','oddball_sequence')
 exp1.add_session('15-46-27','cpost','FM_Down','oddball_sequence')
