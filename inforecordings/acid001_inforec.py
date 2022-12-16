@@ -32,6 +32,7 @@ exp0.add_session('15-50-26','h','FM_Up','oddball_sequence')
 # probe was found broken at the end of session.
 
 
+
 exp1 = celldatabase.Experiment(subject, '2022-12-14', brainArea='AC_left', probe='NPv1-4552', recordingTrack='posteriormedial_DiI', info=['facesMedial', 'soundRight']) #reference = tip
 experiments.append(exp1)
 #  14:04 in booth
@@ -54,6 +55,7 @@ exp1.add_session('15-33-55','apost','highFreq','oddball_sequence')
 exp1.add_session('15-39-46','bpost','lowFreq','oddball_sequence')
 exp1.add_session('15-46-27','cpost','FM_Down','oddball_sequence')
 exp1.add_session('15-53-00','dpost','FM_Up','oddball_sequence')
+
 
 
 exp2 = celldatabase.Experiment(subject, '2022-12-15', brainArea='AC_left', probe='NPv1-4552', recordingTrack='anteriorlateral_DiI', info=['facesMedial', 'soundRight']) #reference = tip
@@ -80,6 +82,7 @@ exp2.add_session('13-33-05','cpost','FM_Down','oddball_sequence')
 exp2.add_session('13-40-40','dpost','FM_Up','oddball_sequence')
 
 
+
 exp3 = celldatabase.Experiment(subject, '2022-12-15', brainArea='AC_left', probe='NPv1-4552', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundRight']) #reference = tip
 experiments.append(exp3)
 #  14:40 in booth
@@ -104,14 +107,15 @@ exp3.add_session('16-18-39','gpost','FM_Down','oddball_sequence')
 exp3.add_session('16-25-28','hpost','FM_Up','oddball_sequence')
 
 
+
 exp4 = celldatabase.Experiment(subject, '2022-12-15', brainArea='AC_right', probe='NPv1-4552', recordingTrack='anteromedial_DiI', info=['facesMedial', 'soundRight']) #reference = tip
-experiments.append(exp3)
+experiments.append(exp4)
 #  16:50 in booth
 #  17:00 in brain
 #  17:05 reached max depth
 #  17:19 started recording
 #  17:53 IP Injection. 
-#  : done
+#  18:30 done
 
 exp4.add_site(3030)
 exp4.maxDepth = 3030
@@ -126,4 +130,29 @@ exp4.add_session('18-03-25','ipost','highFreq','oddball_sequence')
 exp4.add_session('18-09-03','jpost','lowFreq','oddball_sequence')
 exp4.add_session('18-14-44','kpost','FM_Down','oddball_sequence')
 exp4.add_session('18-21-10','lpost','FM_Up','oddball_sequence')
+
+
+
+exp5 = celldatabase.Experiment(subject, '2022-12-16', brainArea='AC_right', probe='NPv1-4552', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundRight']) #reference = tip
+experiments.append(exp5)
+#  08:24 in booth
+#  08:33 in brain
+#  08:34 reached max depth
+#  08:51 started recording
+#  09:25 IP Injection. 
+#  10:00 done
+
+exp5.add_site(3080)
+exp5.maxDepth = 3080
+exp5.add_session('08-51-21','apre','pureTones','am_tuning_curve')
+exp5.add_session('08-59-23','apre','highFreq','oddball_sequence')
+exp5.add_session('09-04-58','bpre','lowFreq','oddball_sequence')
+exp5.add_session('09-10-32','cpre','FM_Down','oddball_sequence')
+exp5.add_session('09-17-13','dpre','FM_Up','oddball_sequence')
+#saline 0.1mL IP
+exp5.add_session('09-26-21','apost','pureTones','am_tuning_curve')
+exp5.add_session('09-34-14','apost','highFreq','oddball_sequence')
+exp5.add_session('09-40-30','bpost','lowFreq','oddball_sequence')
+exp5.add_session('09-46-07','cpost','FM_Down','oddball_sequence')
+exp5.add_session('09-52-33','dpost','FM_Up','oddball_sequence')
 
