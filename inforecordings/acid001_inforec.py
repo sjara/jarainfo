@@ -82,24 +82,48 @@ exp2.add_session('13-40-40','dpost','FM_Up','oddball_sequence')
 
 exp3 = celldatabase.Experiment(subject, '2022-12-15', brainArea='AC_left', probe='NPv1-4552', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundRight']) #reference = tip
 experiments.append(exp3)
-#  12:00 in booth
-#  12:15 in brain
-#  12:18 reached max depth
-#  12:35 started recording
-#  13:10 IP Injection. 
+#  14:40 in booth
+#  14:48 in brain
+#  14:50 reached max depth
+#  15:20 started recording
+#  15:55 IP Injection. 
+#  15:30 done
+
+exp3.add_site(3190)
+exp3.maxDepth = 3190
+exp3.add_session('15-21-21','bpre','pureTones','am_tuning_curve')
+exp3.add_session('15-29-38','epre','highFreq','oddball_sequence')
+exp3.add_session('15-35-33','fpre','lowFreq','oddball_sequence')
+exp3.add_session('15-41-16','gpre','FM_Down','oddball_sequence')
+exp3.add_session('15-47-46','hpre','FM_Up','oddball_sequence')
+#saline 0.1mL IP
+exp3.add_session('15-58-47','bpost','pureTones','am_tuning_curve')
+exp3.add_session('16-07-09','epost','highFreq','oddball_sequence')
+exp3.add_session('16-12-57','fpost','lowFreq','oddball_sequence')
+exp3.add_session('16-18-39','gpost','FM_Down','oddball_sequence')
+exp3.add_session('16-25-28','hpost','FM_Up','oddball_sequence')
+
+
+exp4 = celldatabase.Experiment(subject, '2022-12-15', brainArea='AC_right', probe='NPv1-4552', recordingTrack='anteromedial_DiI', info=['facesMedial', 'soundRight']) #reference = tip
+experiments.append(exp3)
+#  16:50 in booth
+#  17:00 in brain
+#  17:05 reached max depth
+#  17:19 started recording
+#  17:53 IP Injection. 
 #  : done
 
-exp3.add_site()
-exp3.maxDepth = 
-exp3.add_session('--','bpre','pureTones','am_tuning_curve')
-exp3.add_session('--','epre','highFreq','oddball_sequence')
-exp3.add_session('--','fpre','lowFreq','oddball_sequence')
-exp3.add_session('--','gpre','FM_Down','oddball_sequence')
-exp3.add_session('--','hpre','FM_Up','oddball_sequence')
+exp4.add_site(3030)
+exp4.maxDepth = 3030
+exp4.add_session('17-19-23','cpre','pureTones','am_tuning_curve')
+exp4.add_session('17-28-27','ipre','highFreq','oddball_sequence')
+exp4.add_session('17-34-04','jpre','lowFreq','oddball_sequence')
+exp4.add_session('17-39-47','kpre','FM_Down','oddball_sequence')
+exp4.add_session('17-46-18','lpre','FM_Up','oddball_sequence')
 #saline 0.1mL IP
-exp3.add_session('--','bpost','pureTones','am_tuning_curve')
-exp3.add_session('--','epost','highFreq','oddball_sequence')
-exp3.add_session('--','fpost','lowFreq','oddball_sequence')
-exp3.add_session('--','gpost','FM_Down','oddball_sequence')
-exp3.add_session('--','hpost','FM_Up','oddball_sequence')
+exp4.add_session('17-55-30','cpost','pureTones','am_tuning_curve')
+exp4.add_session('18-03-25','ipost','highFreq','oddball_sequence')
+exp4.add_session('18-09-03','jpost','lowFreq','oddball_sequence')
+exp4.add_session('18-14-44','kpost','FM_Down','oddball_sequence')
+exp4.add_session('18-21-10','lpost','FM_Up','oddball_sequence')
 
