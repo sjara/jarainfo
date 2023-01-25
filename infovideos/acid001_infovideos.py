@@ -1,6 +1,6 @@
 from jaratoolbox import videoinfo
 
-subject = 'feat011'
+subject = 'acid001'
 videos = videoinfo.Videos(subject)
 cameraParams = videoinfo.cameraParams['IR_webcam_640x480_30fps_VP9']
 
