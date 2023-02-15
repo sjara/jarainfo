@@ -36,4 +36,30 @@ exp0.add_session('14-11-02','cduring','','')
 exp0.add_session('14-12-17','cpost','postPureTones','am_tuning_curve')#n160
 
 
+exp1 = celldatabase.Experiment(subject, '2023-02-15', brainArea='AC_right', probe='NPv1-4542', recordingTrack='anteriormedial
+_DiD', info=['facesMedial', 'soundLeft']) #reference = tip
+experiments.append(exp1)
+#  09:50 in booth
+#  10:13 in brain
+#  10:14 reached max depth
+#  10:44 started recording
+#  14:12 done
 
+exp1.add_site(3100)
+exp1.maxDepth = 3102
+exp1.add_session('10-45-17','apre','prePureTones','am_tuning_curve')#n160
+# Injection Method 003- IP 14:50
+exp1.add_session('10-49-40','aduring','','')
+exp1.add_session('10-52-09','apost','postPureTones','am_tuning_curve')#n160
+
+exp1.add_site(3101)
+exp1.add_session('10-56-35','bpre','prePureTones','am_tuning_curve')#n160
+# Injection Method 002- subq scruf 11:01
+exp1.add_session('11-00-31','bduring','','')
+exp1.add_session('11-02-17','bpost','postPureTones','am_tuning_curve')#n160
+
+exp1.add_site(3102)
+exp1.add_session('11-07-04','cpre','prePureTones','am_tuning_curve')#n160
+# Injection Method 001- subq flank 11:11
+exp1.add_session('11-10-55','cduring','','')
+exp1.add_session('11-12-17','cpost','postPureTones','am_tuning_curve')#n160
