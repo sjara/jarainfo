@@ -107,4 +107,40 @@ videos.add_session('2023-02-16', 'postFM_Up',
                    'acid003_oddball_sequence_20230216_04post.mkv',
                    'acid003_oddball_sequence_20230216dpost', cameraParams)
                    
-                             
+
+# 2023-02-22
+# bad data. ephys computer ran out of space
+#videos.add_session('2023-02-22', 'prePureTones',
+#                   'acid003_am_tuning_curve_20230222_01pre.mkv',
+#                   'acid003_am_tuning_curve_20230222apre.h5', cameraParams) 
+
+#videos.add_session('2023-02-22', 'postPureTones',
+#                   'acid003_am_tuning_curve_20230222_01post.mkv',
+#                   'acid003_am_tuning_curve_20230222apost.h5', cameraParams) 
+                   
+
+# 2023-02-24
+
+videos.add_session('2023-02-24', 'prePureTones',
+                   'acid003_am_tuning_curve_20230224_01pre.mkv',
+                   'acid003_am_tuning_curve_20230224apre.h5', cameraParams) 
+
+videos.add_session('2023-02-24', 'postPureTones',
+                   'acid003_am_tuning_curve_20230224_01post.mkv',
+                   'acid003_am_tuning_curve_20230224apost.h5', cameraParams) 
+                     
+videos.add_session('2023-02-24', 'prePureTones',
+                   'acid003_am_tuning_curve_20230224_02pre.mkv',
+                   'acid003_am_tuning_curve_20230224bpre.h5', cameraParams) 
+
+videos.add_session('2023-02-24', 'postPureTones',
+                   'acid003_am_tuning_curve_20230224_02post.mkv',
+                   'acid003_am_tuning_curve_20230224bpost.h5', cameraParams) 
+
+videos.add_session('2023-02-24', 'prePureTones',
+                   'acid003_am_tuning_curve_20230224_03pre.mkv',
+                   'acid003_am_tuning_curve_20230224cpre.h5', cameraParams) 
+
+videos.add_session('2023-02-24', 'postPureTones',
+                   'acid003_am_tuning_curve_20230224_03post.mkv',
+                   'acid003_am_tuning_curve_20230224cpost.h5', cameraParams) 

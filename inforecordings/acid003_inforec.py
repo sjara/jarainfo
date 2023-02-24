@@ -8,7 +8,7 @@ experiments = []
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType paradigmName.
 
 
-exp0 = celldatabase.Experiment(subject, '2023-02-10', brainArea='AC_left', probe='NPv1-4542', recordingTrack='anteriorlateral_DiI', info=['facesMedial', 'soundRight']) #reference = tip
+exp0 = celldatabase.Experiment(subject, '2023-02-10', brainArea='AC_left', probe='NPv1-4542', recordingTrack='anteriorlateral_DiI', info=['facesMedial', 'soundRight']) #reference = ext
 experiments.append(exp0)
 #  13:20 in booth
 #  11:30 in brain
@@ -36,13 +36,13 @@ exp0.add_session('14-11-02','cduring','','')
 exp0.add_session('14-12-17','cpost','postPureTones','am_tuning_curve')#n160
 
 
-exp1 = celldatabase.Experiment(subject, '2023-02-15', brainArea='AC_right', probe='NPv1-4542', recordingTrack='anteriormedial_DiD', info=['facesMedial', 'soundLeft']) #reference = tip
+exp1 = celldatabase.Experiment(subject, '2023-02-15', brainArea='AC_right', probe='NPv1-4542', recordingTrack='anteriormedial_DiD', info=['facesMedial', 'soundLeft']) #reference = ext
 experiments.append(exp1)
 #  09:50 in booth
 #  10:13 in brain
 #  10:14 reached max depth
 #  10:44 started recording
-#  14:12 done
+#  11:15 done
 
 exp1.add_site(3100)
 exp1.maxDepth = 3102
@@ -64,7 +64,7 @@ exp1.add_session('11-10-55','cduring','','')
 exp1.add_session('11-12-17','cpost','postPureTones','am_tuning_curve')#n160
 
 
-exp2 = celldatabase.Experiment(subject, '2023-02-16', brainArea='AC_right', probe='NPv1-4542', recordingTrack='posteriorlateral_DiI', info=['facesMedial', 'soundLeft']) #reference = tip
+exp2 = celldatabase.Experiment(subject, '2023-02-16', brainArea='AC_right', probe='NPv1-4542', recordingTrack='posteriorlateral_DiI', info=['facesMedial', 'soundLeft']) #reference = ext
 experiments.append(exp2)
 #  10:30 in booth
 #  10:38 in brain
@@ -89,3 +89,51 @@ exp2.add_session('12-03-54','bpost','postLowFreq','oddball_sequence')
 exp2.add_session('12-10-21','cpost','postFM_Down','oddball_sequence')
 exp2.add_session('12-16-59','dpost','postFM_Up','oddball_sequence')
 
+
+
+#exp3 = celldatabase.Experiment(subject, '2023-02-22', brainArea='AC_left', probe='NPv1-4542', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundRight']) #reference = tip
+
+# bad data. computer ran out of space during expierment
+
+#experiments.append(exp3)
+#  11:20 in booth
+#  11:30 in brain
+#  11:31 reached max depth
+#  12:06 started recording
+#  14:12 done
+
+#exp3.add_site(3010)
+#exp3.maxDepth = 3012
+#exp3.add_session('12-06-31','apre','prePureTones','am_tuning_curve')#n160
+# Injection Method 003- IP 12:14
+#exp3.add_session('12-13-57','aduring','','')
+#exp3.add_session('12-15-54','apost','postPureTones','am_tuning_curve')#n160
+
+
+exp3 = celldatabase.Experiment(subject, '2023-02-24', brainArea='AC_left', probe='NPv1-4542', recordingTrack='posteriorlateral_DiI', info=['facesMedial', 'soundRight']) #reference = tip
+
+experiments.append(exp3)
+#  10:00 in booth
+#  10:06 in brain
+#  10:07 reached max depth
+#  10:42 started recording
+#  11:15 done
+
+exp3.add_site(3020)
+exp3.maxDepth = 3022
+exp3.add_session('10-42-44','apre','prePureTones','am_tuning_curve')#n160
+exp3.add_session('10-46-56','aduring','','')
+# Injection Method 003- IP 10:47
+exp3.add_session('10-48-18','apost','postPureTones','am_tuning_curve')#n160
+
+exp3.add_site(3021)
+exp3.add_session('10-52-44','bpre','prePureTones','am_tuning_curve')#n160
+exp3.add_session('10-56-57','bduring','','')
+# Injection Method 002- subq scruf 10:57
+exp3.add_session('10-58-13','bpost','postPureTones','am_tuning_curve')#n160
+
+exp3.add_site(3022)
+exp3.add_session('11-02-32','cpre','prePureTones','am_tuning_curve')#n160
+exp3.add_session('11-06-23','cduring','','')
+# Injection Method 001- subq flank 11:07
+exp3.add_session('11-07-49','cpost','postPureTones','am_tuning_curve')#n160
