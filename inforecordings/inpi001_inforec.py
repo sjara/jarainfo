@@ -49,4 +49,34 @@ exp2.add_session('10-20-20','a','PureTones','am_tuning_curve') #n320
 exp2.add_session('10-31-09','a','FM_Up','oddball_sequence') #n500
 exp2.add_session('10-39-55','b','FM_Down','oddball_sequence') #n500
 
+# Experiment 3: 2023-02-28 #
+
+exp3 = celldatabase.Experiment(subject, '2023-02-28', brainArea='AC_right', probe='NPv1-9691', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = (see sites)
+experiments.append(exp3)
+
+# Experiment Notes:
+# did 500 trials for the first one 
+
+exp3.maxDepth = 3000
+
+exp3.add_site(3000) # reference: tip
+exp3.add_session('12-39-18','a','PureTones','am_tuning_curve') #n320
+exp3.add_session('12-53-07','a','FM_Up','oddball_sequence') #n500
+exp3.add_session('13-01-31','b','FM_Down','oddball_sequence') #n500
+
+# Experiment 4: 2023-03-07 #
+
+exp4 = celldatabase.Experiment(subject, '2023-03-07', brainArea='AC_right', probe='NPv1-9691', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = (see sites)
+experiments.append(exp4)
+
+# Experiment Notes:
+
+exp4.maxDepth = 3000
+
+exp4.add_site(3000) # reference: tip
+exp4.add_session('16-44-20','a','PureTones','am_tuning_curve') #n320
+exp4.add_session('16-52-33','a','FM_Up','oddball_sequence') #n500
+exp4.add_session('16-59-19','b','FM_Down','oddball_sequence') #n500
+
+
 
