@@ -137,3 +137,32 @@ exp3.add_session('11-02-32','cpre','prePureTones','am_tuning_curve')#n160
 exp3.add_session('11-06-23','cduring','','')
 # Injection Method 001- subq flank 11:07
 exp3.add_session('11-07-49','cpost','postPureTones','am_tuning_curve')#n160
+
+
+
+exp4 = celldatabase.Experiment(subject, '2023-03-09', brainArea='AC_right', probe='NPv1-4542', recordingTrack='anteriorlateral_DiI', info=['facesMedial', 'soundLeft']) #reference = tip
+experiments.append(exp4)
+# probe has residue from Tergazyme. Passed probe tests.
+#  14:28 in booth
+#  14:33 in brain
+#  14:34 reached max depth
+#  14:51 started recording
+#  12:23 done
+
+exp4.add_site(3030)
+exp4.maxDepth = 3030
+exp4.add_session('14-55-59','apre','prePureTones','am_tuning_curve') #n321
+exp4.add_session('15-04-30','apre','preHighFreq','oddball_sequence') #n501
+exp4.add_session('15-10-08','bpre','preLowFreq','oddball_sequence') #n502
+exp4.add_session('15-15-49','cpre','preFM_Down','oddball_sequence') #n501
+exp4.add_session('15-22-14','dpre','preFM_Up','oddball_sequence') #n501
+
+#saline 0.1mL subq flank
+exp4.add_session('15-28-38','aduring','','')
+
+exp4.add_session('15-30-37','apost','postPureTones','am_tuning_curve') #n321
+exp4.add_session('15-38-41','apost','postHighFreq','oddball_sequence') #n501
+exp4.add_session('15-44-16','bpost','postLowFreq','oddball_sequence') #n501
+exp4.add_session('15-50-16','cpost','postFM_Down','oddball_sequence') #n501
+exp4.add_session('15-56-44','dpost','postFM_Up','oddball_sequence') #n501
+
