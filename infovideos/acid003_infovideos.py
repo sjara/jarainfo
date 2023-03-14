@@ -143,4 +143,49 @@ videos.add_session('2023-02-24', 'prePureTones',
 
 videos.add_session('2023-02-24', 'postPureTones',
                    'acid003_am_tuning_curve_20230224_03post.mkv',
-                   'acid003_am_tuning_curve_20230224cpost.h5', cameraParams) 
+                   'acid003_am_tuning_curve_20230224cpost.h5', cameraParams)
+                   
+# 2023-03-09
+
+videos.add_session('2023-03-09', 'prePureTones',
+                   'acid003_am_tuning_curve_20230309_01pre.mkv',
+                   'acid003_am_tuning_curve_20230309apre.h5', cameraParams) 
+
+videos.add_session('2023-03-09', 'preHighFreq',
+                   'acid003_oddball_sequence_20230309_01pre.mkv',
+                   'acid003_oddball_sequence_20230309apre', cameraParams) 
+
+videos.add_session('2023-03-09', 'preLowFreq',
+                   'acid003_oddball_sequence_20230309_02pre.mkv',
+                   'acid003_oddball_sequence_20230309bpre', cameraParams)
+
+videos.add_session('2023-03-09', 'preFM_Down',
+                   'acid003_oddball_sequence_20230309_03pre.mkv',
+                   'acid003_oddball_sequence_20230309cpre', cameraParams)
+                   
+videos.add_session('2023-03-09', 'preFM_Up',
+                   'acid003_oddball_sequence_20230309_04pre.mkv',
+                   'acid003_oddball_sequence_20230309dpre', cameraParams)
+# Saline
+
+videos.add_session('2023-03-09', 'postPureTones',
+                   'acid003_am_tuning_curve_20230309_01post.mkv',
+                   'acid003_am_tuning_curve_20230309apost.h5', cameraParams) 
+
+videos.add_session('2023-03-09', 'postHighFreq',
+                   'acid003_oddball_sequence_20230309_01post.mkv',
+                   'acid003_oddball_sequence_20230309apost', cameraParams) 
+
+videos.add_session('2023-03-09', 'postLowFreq',
+                   'acid003_oddball_sequence_20230309_02post.mkv',
+                   'acid003_oddball_sequence_20230309bpost', cameraParams)
+
+videos.add_session('2023-03-09', 'postFM_Down',
+                   'acid003_oddball_sequence_20230309_03post.mkv',
+                   'acid003_oddball_sequence_20230309cpost', cameraParams)
+                   
+videos.add_session('2023-03-09', 'postFM_Up',
+                   'acid003_oddball_sequence_20230309_04post.mkv',
+                   'acid003_oddball_sequence_20230309dpost', cameraParams)
+                   
+
