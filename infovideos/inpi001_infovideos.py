@@ -47,6 +47,7 @@ videos.add_session('2023-02-24', 'FM_Up',
 
 videos.add_session('2023-02-24', 'FM_Down',
                    'inpi001_oddball_sequence_20230221_02.mkv',
+<<<<<<< HEAD
                    'inpi001_oddball_sequence_20230221b', cameraParams)   
                    
 # 2023-02-28
@@ -90,3 +91,75 @@ videos.add_session('2023-03-13', 'FM_Up',
 videos.add_session('2023-03-13', 'FM_Down',
                    'inpi001_oddball_sequence_20230221_02.mkv',
                    'inpi001_oddball_sequence_20230221b', cameraParams)                                               
+=======
+                   'inpi001_oddball_sequence_20230221b', cameraParams)
+                   
+
+# Max's DOI Study                  
+# 2023-03-22
+
+videos.add_session('2023-03-22', 'prePureTones',
+                   'inpi001_am_tuning_curve_20230322_01pre.mkv',
+                   'inpi001_am_tuning_curve_20230322apre.h5', cameraParams) 
+
+videos.add_session('2023-03-22', 'preHighFreq',
+                   'inpi001_oddball_sequence_20230322_01pre.mkv',
+                   'inpi001_oddball_sequence_20230322apre', cameraParams) 
+
+videos.add_session('2023-03-22', 'preLowFreq',
+                   'inpi001_oddball_sequence_20230322_02pre.mkv',
+                   'inpi001_oddball_sequence_20230322bpre', cameraParams)
+
+videos.add_session('2023-03-22', 'preFM_Down',
+                   'inpi001_oddball_sequence_20230322_03pre.mkv',
+                   'inpi001_oddball_sequence_20230322cpre', cameraParams)
+                   
+videos.add_session('2023-03-22', 'preFM_Up',
+                   'inpi001_oddball_sequence_20230322_04pre.mkv',
+                   'inpi001_oddball_sequence_20230322dpre', cameraParams)
+# Saline
+
+videos.add_session('2023-03-22', 'prePureTones',
+                   'inpi001_am_tuning_curve_20230322_01saline.mkv',
+                   'inpi001_am_tuning_curve_20230322asaline.h5', cameraParams) 
+
+videos.add_session('2023-03-22', 'preHighFreq',
+                   'inpi001_oddball_sequence_20230322_01saline.mkv',
+                   'inpi001_oddball_sequence_20230322asaline', cameraParams) 
+
+videos.add_session('2023-03-22', 'preLowFreq',
+                   'inpi001_oddball_sequence_20230322_02saline.mkv',
+                   'inpi001_oddball_sequence_20230322bsaline', cameraParams)
+
+videos.add_session('2023-03-22', 'preFM_Down',
+                   'inpi001_oddball_sequence_20230322_03saline.mkv',
+                   'inpi001_oddball_sequence_20230322csaline', cameraParams)
+                   
+videos.add_session('2023-03-22', 'preFM_Up',
+                   'inpi001_oddball_sequence_20230322_04saline.mkv',
+                   'inpi001_oddball_sequence_20230322dsaline', cameraParams)
+                   
+# DOI
+
+videos.add_session('2023-03-22', 'prePureTones',
+                   'inpi001_am_tuning_curve_20230322_01doi.mkv',
+                   'inpi001_am_tuning_curve_20230322adoi.h5', cameraParams) 
+
+videos.add_session('2023-03-22', 'preHighFreq',
+                   'inpi001_oddball_sequence_20230322_01doi.mkv',
+                   'inpi001_oddball_sequence_20230322adoi', cameraParams) 
+
+videos.add_session('2023-03-22', 'preLowFreq',
+                   'inpi001_oddball_sequence_20230322_02doi.mkv',
+                   'inpi001_oddball_sequence_20230322bdoi', cameraParams)
+
+videos.add_session('2023-03-22', 'preFM_Down',
+                   'inpi001_oddball_sequence_20230322_03doi.mkv',
+                   'inpi001_oddball_sequence_20230322cdoi', cameraParams)
+                   
+videos.add_session('2023-03-22', 'preFM_Up',
+                   'inpi001_oddball_sequence_20230322_04doi.mkv',
+                   'inpi001_oddball_sequence_20230322ddoi', cameraParams)                   
+                   
+                                                
+>>>>>>> 267481925f58abea05bb798da81cba4fdd4356ac
