@@ -119,7 +119,7 @@ exp6.add_session('14-17-56','dpre','preFM_Up','oddball_sequence') #n501
 #saline "0.135mL" subq flank- 15min
 exp6.add_session('14-24-14','aduring','','')
 
-exp6.add_session('14-38-31','asaline','salinePureTones','am_tuning_curve') #n321
+exp6.add_session('14-39-31','asaline','salinePureTones','am_tuning_curve') #n321
 exp6.add_session('14-47-28','asaline','salineHighFreq','oddball_sequence') #n501
 exp6.add_session('14-53-05','bsaline','salineLowFreq','oddball_sequence') #n501
 exp6.add_session('14-58-52','csaline','salineFM_Down','oddball_sequence') #n501
