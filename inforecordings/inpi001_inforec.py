@@ -131,6 +131,6 @@ exp6.add_session('15-11-39','bduring','','')
 exp6.add_session('15-26-56','adoi','doiPureTones','am_tuning_curve') #n321
 exp6.add_session('15-34-56','adoi','doiHighFreq','oddball_sequence') #n501
 exp6.add_session('15-40-31','bdoi','doiLowFreq','oddball_sequence') #n501
-exp6.add_session('15-46-08','cdoi','doiFM_Down','oddball_sequence') #n501 may be extra ephys trials at the end
+exp6.add_session('15-46-07','cdoi','doiFM_Down','oddball_sequence') #n501 may be extra ephys trials at the end
 exp6.add_session('15-53-21','ddoi','doiFM_Up','oddball_sequence') #n501
 
