@@ -103,34 +103,34 @@ exp6 = celldatabase.Experiment(subject, '2023-03-22', brainArea='AC_right', prob
 experiments.append(exp6)
 
 # Experiment Notes:
-#  11:47 in booth
-#  14:51 started recording
+#  13:25 in booth
+#  13:36 started recording
 #  12:23 done
 
 exp6.maxDepth = 3000
 
 exp6.add_site(3000) # reference: tip
-exp6.add_session('11-53-23','apre','prePureTones','am_tuning_curve') #n321
-exp6.add_session('12-06-32','apre','preHighFreq','oddball_sequence') #n501
-exp6.add_session('--','bpre','preLowFreq','oddball_sequence') #n502
-exp6.add_session('--','cpre','preFM_Down','oddball_sequence') #n501
-exp6.add_session('--','dpre','preFM_Up','oddball_sequence') #n501
+exp6.add_session('13-51-20','apre','prePureTones','am_tuning_curve') #n321
+exp6.add_session('13-59-56','apre','preHighFreq','oddball_sequence') #n501
+exp6.add_session('14-05-37','bpre','preLowFreq','oddball_sequence') #n506
+exp6.add_session('14-11-25','cpre','preFM_Down','oddball_sequence') #n501
+exp6.add_session('14-17-56','dpre','preFM_Up','oddball_sequence') #n501
 
-#saline "" subq flank
-exp6.add_session('15-28-38','aduring','','')
+#saline "0.135mL" subq flank- 15min
+exp6.add_session('14-24-14','aduring','','')
 
-exp6.add_session('15-30-37','asaline','salinePureTones','am_tuning_curve') #n321
-exp6.add_session('15-38-41','asaline','salineHighFreq','oddball_sequence') #n501
-exp6.add_session('15-44-16','bsaline','salineLowFreq','oddball_sequence') #n501
-exp6.add_session('15-50-16','csaline','salineFM_Down','oddball_sequence') #n501
-exp6.add_session('15-56-44','dsaline','salineFM_Up','oddball_sequence') #n501
+exp6.add_session('14-38-31','asaline','salinePureTones','am_tuning_curve') #n321
+exp6.add_session('14-47-28','asaline','salineHighFreq','oddball_sequence') #n501
+exp6.add_session('14-53-05','bsaline','salineLowFreq','oddball_sequence') #n501
+exp6.add_session('14-58-52','csaline','salineFM_Down','oddball_sequence') #n501
+exp6.add_session('15-05-22','dsaline','salineFM_Up','oddball_sequence') #n501
 
-#doi "" subq flank
-exp6.add_session('15-28-38','bduring','','')
+#doi "0.135mL" subq flank 15min
+exp6.add_session('15-11-39','bduring','','')
 
-exp6.add_session('15-30-37','adoi','doiPureTones','am_tuning_curve') #n321
-exp6.add_session('15-38-41','adoi','doiHighFreq','oddball_sequence') #n501
-exp6.add_session('15-44-16','bdoi','doiLowFreq','oddball_sequence') #n501
-exp6.add_session('15-50-16','cdoi','doiFM_Down','oddball_sequence') #n501
-exp6.add_session('15-56-44','ddoi','doiFM_Up','oddball_sequence') #n501
+exp6.add_session('15-26-56','adoi','doiPureTones','am_tuning_curve') #n321
+exp6.add_session('15-34-56','adoi','doiHighFreq','oddball_sequence') #n501
+exp6.add_session('15-40-31','bdoi','doiLowFreq','oddball_sequence') #n501
+exp6.add_session('15-46-08','cdoi','doiFM_Down','oddball_sequence') #n501 may be extra ephys trials at the end
+exp6.add_session('15-53-21','ddoi','doiFM_Up','oddball_sequence') #n501
 
