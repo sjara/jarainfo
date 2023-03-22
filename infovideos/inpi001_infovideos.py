@@ -47,4 +47,46 @@ videos.add_session('2023-02-24', 'FM_Up',
 
 videos.add_session('2023-02-24', 'FM_Down',
                    'inpi001_oddball_sequence_20230221_02.mkv',
-                   'inpi001_oddball_sequence_20230221b', cameraParams)                             
+                   'inpi001_oddball_sequence_20230221b', cameraParams)   
+                   
+# 2023-02-28
+                             
+videos.add_session('2023-02-28', 'PureTones',
+                   'inpi001_am_tuning_curve_20230221_01.mkv',
+                   'inpi001_am_tuning_curve_20230221a.h5', cameraParams)
+                   
+videos.add_session('2023-02-28', 'FM_Up',
+                   'inpi001_oddball_sequence_20230221_01.mkv',
+                   'inpi001_oddball_sequence_20230221a', cameraParams) 
+
+videos.add_session('2023-02-28', 'FM_Down',
+                   'inpi001_oddball_sequence_20230221_02.mkv',
+                   'inpi001_oddball_sequence_20230221b', cameraParams)         
+                   
+# 2023-03-07
+                             
+videos.add_session('2023-03-07', 'PureTones',
+                   'inpi001_am_tuning_curve_20230221_01.mkv',
+                   'inpi001_am_tuning_curve_20230221a.h5', cameraParams)
+                   
+videos.add_session('2023-03-07', 'FM_Up',
+                   'inpi001_oddball_sequence_20230221_01.mkv',
+                   'inpi001_oddball_sequence_20230221a', cameraParams) 
+
+videos.add_session('2023-03-07', 'FM_Down',
+                   'inpi001_oddball_sequence_20230221_02.mkv',
+                   'inpi001_oddball_sequence_20230221b', cameraParams)    
+                   
+# 2023-03-13
+                             
+videos.add_session('2023-03-13', 'PureTones',
+                   'inpi001_am_tuning_curve_20230221_01.mkv',
+                   'inpi001_am_tuning_curve_20230221a.h5', cameraParams)
+                   
+videos.add_session('2023-03-13', 'FM_Up',
+                   'inpi001_oddball_sequence_20230221_01.mkv',
+                   'inpi001_oddball_sequence_20230221a', cameraParams) 
+
+videos.add_session('2023-03-13', 'FM_Down',
+                   'inpi001_oddball_sequence_20230221_02.mkv',
+                   'inpi001_oddball_sequence_20230221b', cameraParams)                                               
