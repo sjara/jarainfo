@@ -94,10 +94,11 @@ exp5.add_session('09-58-32','b','FM_Down','oddball_sequence') #n500
 
 
 
-
+#----------------
 # Max's DOI study
 
 # Experiment 6: 2023-03-22
+# DOI & Saline
 
 exp6 = celldatabase.Experiment(subject, '2023-03-22', brainArea='AC_right', probe='NPv1-9691', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = (see sites)
 experiments.append(exp6)
@@ -105,7 +106,7 @@ experiments.append(exp6)
 # Experiment Notes:
 #  13:25 in booth
 #  13:36 started recording
-#  12:23 done
+#  16:00 done
 
 exp6.maxDepth = 3000
 
