@@ -93,6 +93,7 @@ videos.add_session('2023-03-13', 'FM_Down',
                    'inpi002_oddball_sequence_20230221b', cameraParams)
 
 
+'''
 # ----------------------
 # Max's DOI Study
                   
@@ -184,4 +185,8 @@ videos.add_session('2023-03-24', 'doiFM_Down',
                    
 videos.add_session('2023-03-24', 'doiFM_Up',
                    'inpi002_oddball_sequence_20230324_04doi.mkv',
-                   'inpi002_oddball_sequence_20230324ddoi', cameraParams)            
+                   'inpi002_oddball_sequence_20230324ddoi', cameraParams)
+                   
+
+Above moved to acid007                   
+'''       
