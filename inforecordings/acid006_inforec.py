@@ -21,7 +21,7 @@ experiments.append(exp0)
 #  13:36 started recording
 #  16:00 done
 
-exp6.maxDepth = 3000
+exp0.maxDepth = 3000
 
 exp0.add_site(3000) # reference: tip
 exp0.add_session('13-51-20','apre','prePureTones','am_tuning_curve') #n321
