@@ -63,8 +63,8 @@ experiments.append(exp1)
 exp1.maxDepth = 3000
 
 exp1.add_site(3000) # reference: tip
-exp1.add_session('12-45-56','apre','prePureTones','am_tuning_curve') #n321
-exp1.add_session('12-54-28','apre','preHighFreq','oddball_sequence') #n501
+exp1.add_session('12-45-45','apre','prePureTones','am_tuning_curve') #n321
+exp1.add_session('12-54-27','apre','preHighFreq','oddball_sequence') #n501
 exp1.add_session('13-00-21','bpre','preLowFreq','oddball_sequence') #n506
 exp1.add_session('13-06-06','cpre','preFM_Down','oddball_sequence') #n501
 exp1.add_session('13-12-35','dpre','preFM_Up','oddball_sequence') #n501
@@ -81,7 +81,7 @@ exp1.add_session('14-00-14','dsaline','salineFM_Up','oddball_sequence') #n501
 #doi "0.14mL" subq flank 15min
 exp1.add_session('14-06-29','bduring','','')
 
-exp1.add_session('14-22-29','adoi','doiPureTones','am_tuning_curve') #n321
+exp1.add_session('14-22-28','adoi','doiPureTones','am_tuning_curve') #n321
 exp1.add_session('14-30-21','adoi','doiHighFreq','oddball_sequence') #n501
 exp1.add_session('14-35-57','bdoi','doiLowFreq','oddball_sequence') #n501
 exp1.add_session('14-41-29','cdoi','doiFM_Down','oddball_sequence') #n501
