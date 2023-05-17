@@ -97,4 +97,74 @@ videos.add_session('2023-03-24', 'doiFM_Down',
 videos.add_session('2023-03-24', 'doiFM_Up',
                    'acid007_oddball_sequence_20230324_04doi.mkv',
                    'acid007_oddball_sequence_20230324ddoi', cameraParams)
+
+
+
+# 2023-05-17
+# DOI & Saline
+
+videos.add_session('2023-05-17', 'prePureTones',
+                   'acid007_am_tuning_curve_20230517_01pre.mkv',
+                   'acid007_am_tuning_curve_20230517apre.h5', cameraParams) 
+
+videos.add_session('2023-05-17', 'preHighFreq',
+                   'acid007_oddball_sequence_20230517_01pre.mkv',
+                   'acid007_oddball_sequence_20230517apre', cameraParams) 
+
+videos.add_session('2023-05-17', 'preLowFreq',
+                   'acid007_oddball_sequence_20230517_02pre.mkv',
+                   'acid007_oddball_sequence_20230517bpre', cameraParams)
+
+videos.add_session('2023-05-17', 'preFM_Down',
+                   'acid007_oddball_sequence_20230517_03pre.mkv',
+                   'acid007_oddball_sequence_20230517cpre', cameraParams)
+                   
+videos.add_session('2023-05-17', 'preFM_Up',
+                   'acid007_oddball_sequence_20230517_04pre.mkv',
+                   'acid007_oddball_sequence_20230517dpre', cameraParams)
+# Saline
+
+videos.add_session('2023-05-17', 'salinePureTones',
+                   'acid007_am_tuning_curve_20230517_01saline.mkv',
+                   'acid007_am_tuning_curve_20230517asaline.h5', cameraParams) 
+
+videos.add_session('2023-05-17', 'salineHighFreq',
+                   'acid007_oddball_sequence_20230517_01saline.mkv',
+                   'acid007_oddball_sequence_20230517asaline', cameraParams) 
+
+videos.add_session('2023-05-17', 'salineLowFreq',
+                   'acid007_oddball_sequence_20230517_02saline.mkv',
+                   'acid007_oddball_sequence_20230517bsaline', cameraParams)
+
+videos.add_session('2023-05-17', 'salineFM_Down',
+                   'acid007_oddball_sequence_20230517_03saline.mkv',
+                   'acid007_oddball_sequence_20230517csaline', cameraParams)
+                   
+videos.add_session('2023-05-17', 'salineFM_Up',
+                   'acid007_oddball_sequence_20230517_04saline.mkv',
+                   'acid007_oddball_sequence_20230517dsaline', cameraParams)
+                   
+# DOI
+
+videos.add_session('2023-05-17', 'doiPureTones',
+                   'acid007_am_tuning_curve_20230517_01doi.mkv',
+                   'acid007_am_tuning_curve_20230517adoi.h5', cameraParams) 
+
+videos.add_session('2023-05-17', 'doiHighFreq',
+                   'acid007_oddball_sequence_20230517_01doi.mkv',
+                   'acid007_oddball_sequence_20230517adoi', cameraParams) 
+
+videos.add_session('2023-05-17', 'doiLowFreq',
+                   'acid007_oddball_sequence_20230517_02doi.mkv',
+                   'acid007_oddball_sequence_20230517bdoi', cameraParams)
+
+videos.add_session('2023-05-17', 'doiFM_Down',
+                   'acid007_oddball_sequence_20230517_03doi.mkv',
+                   'acid007_oddball_sequence_20230517cdoi', cameraParams)
+                   
+videos.add_session('2023-05-17', 'doiFM_Up',
+                   'acid007_oddball_sequence_20230517_04doi.mkv',
+                   'acid007_oddball_sequence_20230517ddoi', cameraParams)                   
+                   
+     
                       
