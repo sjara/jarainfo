@@ -74,7 +74,7 @@ exp1.add_session('11-44-49','ddoi','doiFM_Up','oddball_sequence') #n501
 # 2023-05-17
 # DOI & Saline
 
-exp2 = celldatabase.Experiment(subject, '2023-05-11', brainArea='AC_right', probe='NPv1-2641', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = (see sites)
+exp2 = celldatabase.Experiment(subject, '2023-05-17', brainArea='AC_right', probe='NPv1-2641', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = (see sites)
 experiments.append(exp2)
 
 # Experiment Notes:
