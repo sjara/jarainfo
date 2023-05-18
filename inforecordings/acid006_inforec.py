@@ -52,7 +52,7 @@ exp0.add_session('15-53-21','ddoi','doiFM_Up','oddball_sequence') #n501
 # 2023-05-11
 # DOI & Saline
 
-exp1 = celldatabase.Experiment(subject, '2023-05-11', brainArea='AC_right', probe='NPv1-9691', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = (see sites)
+exp1 = celldatabase.Experiment(subject, '2023-05-11', brainArea='AC_right', probe='NPv1-9691', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = ext
 experiments.append(exp1)
 
 # Experiment Notes:
@@ -62,10 +62,10 @@ experiments.append(exp1)
 
 exp1.maxDepth = 3000
 
-exp1.add_site(3000) # reference: tip
+exp1.add_site(3000)
 exp1.add_session('12-45-45','apre','prePureTones','am_tuning_curve') #n321
 exp1.add_session('12-54-27','apre','preHighFreq','oddball_sequence') #n501
-exp1.add_session('13-00-21','bpre','preLowFreq','oddball_sequence') #n506
+exp1.add_session('13-00-21','bpre','preLowFreq','oddball_sequence') #n501
 exp1.add_session('13-06-06','cpre','preFM_Down','oddball_sequence') #n501
 exp1.add_session('13-12-35','dpre','preFM_Up','oddball_sequence') #n501
 
@@ -86,4 +86,43 @@ exp1.add_session('14-30-21','adoi','doiHighFreq','oddball_sequence') #n501
 exp1.add_session('14-35-57','bdoi','doiLowFreq','oddball_sequence') #n501
 exp1.add_session('14-41-29','cdoi','doiFM_Down','oddball_sequence') #n501
 exp1.add_session('14-47-53','ddoi','doiFM_Up','oddball_sequence') #n501
+
+
+
+# 2023-05-18
+# DOI & Saline
+
+exp2 = celldatabase.Experiment(subject, '2023-05-18', brainArea='AC_right', probe='NPv1-9691', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = ext
+experiments.append(exp2)
+
+# Experiment Notes:
+#  13: in booth
+#  14:54 done
+
+exp2.maxDepth = 3000
+
+exp2.add_site(3000)
+exp2.add_session('11-48-41','apre','prePureTones','am_tuning_curve') #n321
+exp2.add_session('11-56-30','apre','preHighFreq','oddball_sequence') #n501
+exp2.add_session('12-02-00','bpre','preLowFreq','oddball_sequence') #n509
+exp2.add_session('12-07-46','cpre','preFM_Down','oddball_sequence') #n501
+exp2.add_session('12-14-07','dpre','preFM_Up','oddball_sequence') #n501
+
+#saline "0.14mL" subq flank- 15min
+exp2.add_session('12-20-20','aduring','','')
+
+exp2.add_session('12-36-07','asaline','salinePureTones','am_tuning_curve') #n321
+exp2.add_session('12-43-54','asaline','salineHighFreq','oddball_sequence') #n501
+exp2.add_session('12-49-23','bsaline','salineLowFreq','oddball_sequence') #n501
+exp2.add_session('12-54-55','csaline','salineFM_Down','oddball_sequence') #n501
+exp2.add_session('13-01-18','dsaline','salineFM_Up','oddball_sequence') #n501
+
+#doi "0.14mL" subq flank 15min
+exp2.add_session('13-07-30','bduring','','')
+
+exp2.add_session('13-23-29','adoi','doiPureTones','am_tuning_curve') #n321
+exp2.add_session('13-31-17','adoi','doiHighFreq','oddball_sequence') #n501
+exp2.add_session('13-36-44','bdoi','doiLowFreq','oddball_sequence') #n501
+exp2.add_session('13-42-17','cdoi','doiFM_Down','oddball_sequence') #n501
+exp2.add_session('13-48-37','ddoi','doiFM_Up','oddball_sequence') #n501
 

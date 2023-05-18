@@ -78,8 +78,8 @@ exp2 = celldatabase.Experiment(subject, '2023-05-17', brainArea='AC_right', prob
 experiments.append(exp2)
 
 # Experiment Notes:
-#  : Start
-#  : Done
+#  11:20 Start
+#  13:30 Done
 # 
 
 exp2.maxDepth = 3000
