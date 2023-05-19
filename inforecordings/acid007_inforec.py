@@ -9,6 +9,8 @@ experiments = []
 
 # 2023-03-23
 # Saline
+'''
+# Removed due to not able to process combined multiday sessions yet.
 
 exp0 = celldatabase.Experiment(subject, '2023-03-23', brainArea='AC_right', probe='NPv1-2641', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = (see sites)
 experiments.append(exp0)
@@ -69,7 +71,7 @@ exp1.add_session('11-38-25','cdoi','doiFM_Down','oddball_sequence') #n501
 exp1.add_session('11-44-49','ddoi','doiFM_Up','oddball_sequence') #n501
 
 
-
+'''
 
 # 2023-05-17
 # DOI & Saline
