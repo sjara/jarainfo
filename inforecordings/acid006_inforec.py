@@ -13,7 +13,7 @@ experiments = []
 # 2023-03-22
 # DOI & Saline
 
-exp0 = celldatabase.Experiment(subject, '2023-03-22', brainArea='AC_right', probe='NPv1-9691', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = (see sites)
+exp0 = celldatabase.Experiment(subject, '2023-03-22', brainArea='AC_right', probe='NPv1-9691', recordingTrack='implant_DiI', info=['facesPosterior', 'soundLeft']) #reference = (see sites)
 experiments.append(exp0)
 
 # Experiment Notes:
@@ -52,7 +52,7 @@ exp0.add_session('15-53-21','ddoi','doiFM_Up','oddball_sequence') #n501
 # 2023-05-11
 # DOI & Saline
 
-exp1 = celldatabase.Experiment(subject, '2023-05-11', brainArea='AC_right', probe='NPv1-9691', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = ext
+exp1 = celldatabase.Experiment(subject, '2023-05-11', brainArea='AC_right', probe='NPv1-9691', recordingTrack='implant_DiI', info=['facesPosterior', 'soundLeft']) #reference = ext
 experiments.append(exp1)
 
 # Experiment Notes:
@@ -92,7 +92,7 @@ exp1.add_session('14-47-53','ddoi','doiFM_Up','oddball_sequence') #n501
 # 2023-05-18
 # DOI & Saline
 
-exp2 = celldatabase.Experiment(subject, '2023-05-18', brainArea='AC_right', probe='NPv1-9691', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = ext
+exp2 = celldatabase.Experiment(subject, '2023-05-18', brainArea='AC_right', probe='NPv1-9691', recordingTrack='implant_DiI', info=['facesPosterior', 'soundLeft']) #reference = ext
 experiments.append(exp2)
 
 # Experiment Notes:

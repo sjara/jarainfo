@@ -12,7 +12,7 @@ experiments = []
 '''
 # Removed due to not able to process combined multiday sessions yet.
 
-exp0 = celldatabase.Experiment(subject, '2023-03-23', brainArea='AC_right', probe='NPv1-2641', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = (see sites)
+exp0 = celldatabase.Experiment(subject, '2023-03-23', brainArea='AC_right', probe='NPv1-2641', recordingTrack='implant_DiI', info=['facesPosterior', 'soundLeft']) #reference = (see sites)
 experiments.append(exp0)
 
 # Experiment Notes:
@@ -43,7 +43,7 @@ exp0.add_session('15-16-01','dsaline','salineFM_Up','oddball_sequence') #n501
 # 2023-03-24
 # DOI
 
-exp1 = celldatabase.Experiment(subject, '2023-03-24', brainArea='AC_right', probe='NPv1-2641', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = (see sites)
+exp1 = celldatabase.Experiment(subject, '2023-03-24', brainArea='AC_right', probe='NPv1-2641', recordingTrack='implant_DiI', info=['facesPosterior', 'soundLeft']) #reference = (see sites)
 experiments.append(exp1)
 
 # Experiment Notes:
@@ -76,7 +76,7 @@ exp1.add_session('11-44-49','ddoi','doiFM_Up','oddball_sequence') #n501
 # 2023-05-17
 # DOI & Saline
 
-exp2 = celldatabase.Experiment(subject, '2023-05-17', brainArea='AC_right', probe='NPv1-2641', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = ext
+exp2 = celldatabase.Experiment(subject, '2023-05-17', brainArea='AC_right', probe='NPv1-2641', recordingTrack='implant_DiI', info=['facesPosterior', 'soundLeft']) #reference = ext
 experiments.append(exp2)
 
 # Experiment Notes:
@@ -116,7 +116,7 @@ exp2.add_session('13-23-47','ddoi','doiFM_Up','oddball_sequence') #n501
 # 2023-05-19
 # DOI & Saline
 
-exp3 = celldatabase.Experiment(subject, '2023-05-19', brainArea='AC_right', probe='NPv1-2641', recordingTrack='??? ', info=['faces ???', 'soundLeft']) #reference = tip
+exp3 = celldatabase.Experiment(subject, '2023-05-19', brainArea='AC_right', probe='NPv1-2641', recordingTrack='implant_DiI', info=['facesPosterior', 'soundLeft']) #reference = tip
 experiments.append(exp3)
 
 # Experiment Notes:
