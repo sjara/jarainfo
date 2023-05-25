@@ -1,5 +1,7 @@
 from jaratoolbox import celldatabase
 
+# Mouse was formerly known as 'inpi002'.
+
 subject = 'acid007'
 experiments = []
 
@@ -7,12 +9,14 @@ experiments = []
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType paradigmName.
 
+
+'''
+# Commented out 2023-03-23 and 2023-03-24 due to not able to process combined multiday sessions yet.
+
 # 2023-03-23
 # Saline
-'''
-# Removed due to not able to process combined multiday sessions yet.
 
-exp0 = celldatabase.Experiment(subject, '2023-03-23', brainArea='AC_right', probe='NPv1-2641', recordingTrack='implant_DiI', info=['facesPosterior', 'soundLeft']) #reference = (see sites)
+exp0 = celldatabase.Experiment(subject, '2023-03-23', brainArea='AC_right', probe='NPv1-2641', recordingTrack='implant_DiI', info=['facesPosterior', 'soundLeft']) #reference = tip
 experiments.append(exp0)
 
 # Experiment Notes:
@@ -22,7 +26,7 @@ experiments.append(exp0)
 
 exp0.maxDepth = 3000
 
-exp0.add_site(3000) # reference: tip
+exp0.add_site(3000)
 exp0.add_session('14-03-17','apre','prePureTones','am_tuning_curve') #n321
 exp0.add_session('14-11-12','apre','preHighFreq','oddball_sequence') #n501
 exp0.add_session('14-16-47','bpre','preLowFreq','oddball_sequence') #n501
@@ -43,7 +47,7 @@ exp0.add_session('15-16-01','dsaline','salineFM_Up','oddball_sequence') #n501
 # 2023-03-24
 # DOI
 
-exp1 = celldatabase.Experiment(subject, '2023-03-24', brainArea='AC_right', probe='NPv1-2641', recordingTrack='implant_DiI', info=['facesPosterior', 'soundLeft']) #reference = (see sites)
+exp1 = celldatabase.Experiment(subject, '2023-03-24', brainArea='AC_right', probe='NPv1-2641', recordingTrack='implant_DiI', info=['facesPosterior', 'soundLeft']) #reference = tip
 experiments.append(exp1)
 
 # Experiment Notes:
@@ -53,7 +57,7 @@ experiments.append(exp1)
 
 exp1.maxDepth = 3000
 
-exp1.add_site(3000) # reference: tip
+exp1.add_site(3000)
 exp1.add_session('10-31-37','apre','prePureTones','am_tuning_curve') #n321
 exp1.add_session('10-39-28','apre','preHighFreq','oddball_sequence') #n501
 exp1.add_session('10-45-04','bpre','preLowFreq','oddball_sequence') #n501
@@ -94,7 +98,7 @@ exp2.add_session('11-41-39','cpre','preFM_Down','oddball_sequence') #n501
 exp2.add_session('11-48-05','dpre','preFM_Up','oddball_sequence') #n501
 
 #saline "0.15mL" subq flank- 15min
-exp2.add_session('11-54-28','aduring','','')
+exp2.add_session('11-54-28','','salineInjection','')
 
 exp2.add_session('12-10-03','asaline','salinePureTones','am_tuning_curve') #n321
 exp2.add_session('12-18-03','asaline','salineHighFreq','oddball_sequence') #n501
@@ -103,7 +107,7 @@ exp2.add_session('12-29-09','csaline','salineFM_Down','oddball_sequence') #n501
 exp2.add_session('12-35-32','dsaline','salineFM_Up','oddball_sequence') #n501
 
 #doi "0.15mL" subq flank 15min
-exp2.add_session('12-42-18','bduring','','')
+exp2.add_session('12-42-18','','doiInjection','')
 
 exp2.add_session('12-58-23','adoi','doiPureTones','am_tuning_curve') #n321
 exp2.add_session('13-06-14','adoi','doiHighFreq','oddball_sequence') #n501
@@ -121,7 +125,7 @@ experiments.append(exp3)
 
 # Experiment Notes:
 #  10:10 Start
-#  : Done
+#  Forgot to write time for Done
 # 
 
 exp3.maxDepth = 3000

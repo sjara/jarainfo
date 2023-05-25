@@ -13,7 +13,7 @@ experiments = []
 # 2023-03-22
 # DOI & Saline
 
-exp0 = celldatabase.Experiment(subject, '2023-03-22', brainArea='AC_right', probe='NPv1-9691', recordingTrack='implant_DiI', info=['facesPosterior', 'soundLeft']) #reference = (see sites)
+exp0 = celldatabase.Experiment(subject, '2023-03-22', brainArea='AC_right', probe='NPv1-9691', recordingTrack='implant_DiI', info=['facesPosterior', 'soundLeft']) #reference = ext
 experiments.append(exp0)
 
 # Experiment Notes:
@@ -23,7 +23,7 @@ experiments.append(exp0)
 
 exp0.maxDepth = 3000
 
-exp0.add_site(3000) # reference: tip
+exp0.add_site(3000) 
 exp0.add_session('13-51-20','apre','prePureTones','am_tuning_curve') #n321
 exp0.add_session('13-59-56','apre','preHighFreq','oddball_sequence') #n501
 exp0.add_session('14-05-37','bpre','preLowFreq','oddball_sequence') #n506
@@ -45,8 +45,10 @@ exp0.add_session('15-11-39','bduring','','')
 exp0.add_session('15-26-56','adoi','doiPureTones','am_tuning_curve') #n321
 exp0.add_session('15-34-56','adoi','doiHighFreq','oddball_sequence') #n501
 exp0.add_session('15-40-31','bdoi','doiLowFreq','oddball_sequence') #n501
-exp0.add_session('15-46-07','cdoi','doiFM_Down','oddball_sequence') #n501 may be extra ephys trials at the end
+exp0.add_session('15-46-07','cdoi','doiFM_Down','oddball_sequence') #n501 see note below about potential extra ephys trials
 exp0.add_session('15-53-21','ddoi','doiFM_Up','oddball_sequence') #n501
+# For session '15-46-07', started the next session without starting a new ephys folder. 
+# Some of the new session trials were sent to ephys. Session was stopped and restarted with new ephys folder. 
 
 
 # 2023-05-11
