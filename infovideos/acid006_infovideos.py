@@ -276,5 +276,5 @@ videos.add_session('2023-05-25', 'doiFM_Up',
                    'acid006_oddball_sequence_20230525ddoi', cameraParams)
                    
 videos.add_session('2023-05-25', 'doiSpontaneous',
-                   'acid006_doiSpontaneous.mkv',
+                   'acid006_20230525_doiSpontaneous.mkv',
                    '', cameraParams)                                                

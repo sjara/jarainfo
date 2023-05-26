@@ -137,7 +137,7 @@ experiments.append(exp3)
 
 # Experiment Notes:
 #  12:11 start
-#  : done
+#  14:35 done
 
 exp3.maxDepth = 3000
 
