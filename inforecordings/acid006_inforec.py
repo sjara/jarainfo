@@ -168,3 +168,46 @@ exp3.add_session('14-17-40','ddoi','doiFM_Up','oddball_sequence') #n501
 
 #doi spontaneous recording 10min
 exp3.add_session('14-23-52','','doiSpontaneous','')
+
+
+# 2023-05-30
+# DOI & Saline
+
+exp4 = celldatabase.Experiment(subject, '2023-05-30', brainArea='AC_right', probe='NPv1-9691', recordingTrack='implant_DiI', info=['facesPosterior', 'soundLeft']) #reference = tip
+experiments.append(exp4)
+
+# Experiment Notes:
+#  13:01 start
+#  15:20 done
+
+exp4.maxDepth = 3000
+
+exp4.add_site(3000)
+exp4.add_session('13-01-38','apre','prePureTones','am_tuning_curve') #n321
+exp4.add_session('13-09-28','apre','preHighFreq','oddball_sequence') #n501
+exp4.add_session('13-14-56','bpre','preLowFreq','oddball_sequence') #n501
+exp4.add_session('13-20-25','cpre','preFM_Down','oddball_sequence') #n501
+exp4.add_session('13-26-43','dpre','preFM_Up','oddball_sequence') #n501
+
+#saline "0.14mL" subq flank- 15min
+exp4.add_session('13-32-56','','salineInjection','')
+
+exp4.add_session('13-49-00','asaline','salinePureTones','am_tuning_curve') #n329
+exp4.add_session('13-56-59','asaline','salineHighFreq','oddball_sequence') #n501
+exp4.add_session('14-02-26','bsaline','salineLowFreq','oddball_sequence') #n501
+exp4.add_session('14-07-54','csaline','salineFM_Down','oddball_sequence') #n501
+exp4.add_session('14-14-14','dsaline','salineFM_Up','oddball_sequence') #n501
+
+#doi "0.14mL" subq flank 15min
+exp4.add_session('14-20-27','','doiInjection','')
+
+exp4.add_session('14-36-36','adoi','doiPureTones','am_tuning_curve') #n321
+exp4.add_session('14-44-23','adoi','doiHighFreq','oddball_sequence') #n501
+exp4.add_session('14-49-49','bdoi','doiLowFreq','oddball_sequence') #n501
+exp4.add_session('14-55-17','cdoi','doiFM_Down','oddball_sequence') #n501 see below info 
+exp4.add_session('15-01-44','ddoi','doiFM_Up','oddball_sequence') #n501
+
+#doi spontaneous recording 10min
+exp4.add_session('15-08-04','','doiSpontaneous','')
+
+#14-55-17: saw error message in tkparadigms at end of session. "recv(42) failed: Connection reset by peer (104)"
