@@ -28,7 +28,7 @@ exp0.add_session('12-23-01','cpre','preFM_Down','oddball_sequence') #n501
 exp0.add_session('12-29-24','dpre','preFM_Up','oddball_sequence') #n501
 
 #saline "0.11mL" subq flank- 15min
-exp4.add_session('12-35-54','','salineInjection','')
+exp0.add_session('12-35-54','','salineInjection','')
 
 exp0.add_session('12-51-12','asaline','salinePureTones','am_tuning_curve') #n321
 exp0.add_session('12-59-17','asaline','salineHighFreq','oddball_sequence') #n501
@@ -37,7 +37,7 @@ exp0.add_session('13-10-23','csaline','salineFM_Down','oddball_sequence') #n501
 exp0.add_session('13-16-46','dsaline','salineFM_Up','oddball_sequence') #n501
 
 #doi "0.11mL" subq flank 15min
-exp4.add_session('13-23-02','','doiInjection','')
+exp0.add_session('13-23-02','','doiInjection','')
 
 exp0.add_session('13-38-26','adoi','doiPureTones','am_tuning_curve') #n321
 exp0.add_session('13-46-14','adoi','doiHighFreq','oddball_sequence') #n501
@@ -46,7 +46,7 @@ exp0.add_session('13-57-12','cdoi','doiFM_Down','oddball_sequence') #n501
 exp0.add_session('14-03-30','ddoi','doiFM_Up','oddball_sequence') #n501
 
 #doi spontaneous recording 10min
-exp4.add_session('14-09-44','','doiSpontaneous','')
+exp0.add_session('14-09-44','','doiSpontaneous','')
 
 
 
