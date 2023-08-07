@@ -8,7 +8,7 @@ cameraParams = videoinfo.cameraParams['IR_webcam_640x480_30fps_VP9']
 
 # ----------------------
 
-# 2023-06-14
+# 2023-08-04
 
 videos.add_session('2023-08-04', 'prePureTones',
                    'acid009_am_tuning_curve_20230804_01pre.mkv',
