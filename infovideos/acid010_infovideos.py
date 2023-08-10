@@ -86,6 +86,7 @@ videos.add_session('2023-08-07', 'doiSpontaneous',
                    'acid010_20230807_doiSpontaneous.mkv','', cameraParams)
                    
 
+# EVERY SESSION AFTER HERE HAS A 1-2 SECOND MANUAL SYNC LIGHT BEFORE AND AFTER THE TRIALS.
 # 2023-08-09
 
 videos.add_session('2023-08-09', 'prePureTones',
