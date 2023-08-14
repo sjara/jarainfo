@@ -134,7 +134,7 @@ exp2.add_session('13-07-39','','doiSpontaneous','')
 
 # 2023-08-14
 
-exp3 = celldatabase.Experiment(subject, '2023-08-10', brainArea='AC_left', probe='NPv1-2641', recordingTrack='implant_DiD', info=['facesPosterior', 'soundRight']) #reference = tip
+exp3 = celldatabase.Experiment(subject, '2023-08-14', brainArea='AC_left', probe='NPv1-2641', recordingTrack='implant_DiD', info=['facesPosterior', 'soundRight']) #reference = tip
 experiments.append(exp3)
 
 # Experiment Notes:
