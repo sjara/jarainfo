@@ -100,7 +100,7 @@ experiments.append(exp2)
 # Experiment Notes:
 #  11:20 in booth
 #  11:22 started recording
-#  : done
+#  13:40 done
 
 exp2.maxDepth = 3000
 

@@ -241,4 +241,83 @@ videos.add_session('2023-08-10', 'doiFM_Up',
 #DOI Spontaneous                   
 videos.add_session('2023-08-10', 'doiSpontaneous',
                    'acid009_20230810_doiSpontaneous.mkv','', cameraParams)
-                                                                                                                                                                                                                    
+                                                                                   
+   
+                                                                                   
+# 2023-08-14
+
+videos.add_session('2023-08-14', 'prePureTones',
+                   'acid009_am_tuning_curve_20230814_01pre.mkv',
+                   'acid009_am_tuning_curve_20230814apre.h5', cameraParams) 
+
+videos.add_session('2023-08-14', 'preHighFreq',
+                   'acid009_oddball_sequence_20230814_01pre.mkv',
+                   'acid009_oddball_sequence_20230814apre', cameraParams) 
+
+videos.add_session('2023-08-14', 'preLowFreq',
+                   'acid009_oddball_sequence_20230814_02pre.mkv',
+                   'acid009_oddball_sequence_20230814bpre', cameraParams)
+
+videos.add_session('2023-08-14', 'preFM_Down',
+                   'acid009_oddball_sequence_20230814_03pre.mkv',
+                   'acid009_oddball_sequence_20230814cpre', cameraParams)
+                   
+videos.add_session('2023-08-14', 'preFM_Up',
+                   'acid009_oddball_sequence_20230814_04pre.mkv',
+                   'acid009_oddball_sequence_20230814dpre', cameraParams)
+# Saline
+videos.add_session('2023-08-14', 'salineInjection',
+                   'acid009_20230814_salineInjection.mkv',
+                   '', cameraParams)
+                     
+
+videos.add_session('2023-08-14', 'salinePureTones',
+                   'acid009_am_tuning_curve_20230814_01saline.mkv',
+                   'acid009_am_tuning_curve_20230814asaline.h5', cameraParams) 
+
+videos.add_session('2023-08-14', 'salineHighFreq',
+                   'acid009_oddball_sequence_20230814_01saline.mkv',
+                   'acid009_oddball_sequence_20230814asaline', cameraParams) 
+
+videos.add_session('2023-08-14', 'salineLowFreq',
+                   'acid009_oddball_sequence_20230814_02saline.mkv',
+                   'acid009_oddball_sequence_20230814bsaline', cameraParams)
+
+videos.add_session('2023-08-14', 'salineFM_Down',
+                   'acid009_oddball_sequence_20230814_03saline.mkv',
+                   'acid009_oddball_sequence_20230814csaline', cameraParams)
+                   
+videos.add_session('2023-08-14', 'salineFM_Up',
+                   'acid009_oddball_sequence_20230814_04saline.mkv',
+                   'acid009_oddball_sequence_20230814dsaline', cameraParams)
+                   
+# DOI
+videos.add_session('2023-08-14', 'doiInjection',
+                   'acid009_20230814_doiInjection.mkv',
+                   '', cameraParams)
+                        
+
+videos.add_session('2023-08-14', 'doiPureTones',
+                   'acid009_am_tuning_curve_20230814_01doi.mkv',
+                   'acid009_am_tuning_curve_20230814adoi.h5', cameraParams) 
+
+videos.add_session('2023-08-14', 'doiHighFreq',
+                   'acid009_oddball_sequence_20230814_01doi.mkv',
+                   'acid009_oddball_sequence_20230814adoi', cameraParams) 
+
+videos.add_session('2023-08-14', 'doiLowFreq',
+                   'acid009_oddball_sequence_20230814_02doi.mkv',
+                   'acid009_oddball_sequence_20230814bdoi', cameraParams)
+
+videos.add_session('2023-08-14', 'doiFM_Down',
+                   'acid009_oddball_sequence_20230814_03doi.mkv',
+                   'acid009_oddball_sequence_20230814cdoi', cameraParams)
+                   
+videos.add_session('2023-08-14', 'doiFM_Up',
+                   'acid009_oddball_sequence_20230814_04doi.mkv',
+                   'acid009_oddball_sequence_20230814ddoi', cameraParams)                   
+
+#DOI Spontaneous                   
+videos.add_session('2023-08-14', 'doiSpontaneous',
+                   'acid009_20230814_doiSpontaneous.mkv','', cameraParams)
+                                                                                                                                                                                                           

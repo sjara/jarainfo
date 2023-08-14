@@ -130,3 +130,44 @@ exp2.add_session('13-01-16','ddoi','doiFM_Up','oddball_sequence') #n501
 
 #doi spontaneous recording 10min
 exp2.add_session('13-07-39','','doiSpontaneous','')
+
+
+# 2023-08-14
+
+exp3 = celldatabase.Experiment(subject, '2023-08-10', brainArea='AC_left', probe='NPv1-2641', recordingTrack='implant_DiD', info=['facesPosterior', 'soundRight']) #reference = tip
+experiments.append(exp3)
+
+# Experiment Notes:
+#  13:56 in booth
+#  13:57 started recording
+#  16:15 done
+
+exp3.maxDepth = 3000
+
+exp3.add_site(3000) 
+exp3.add_session('13-57-47','apre','prePureTones','am_tuning_curve') #n321
+exp3.add_session('14-05-41','apre','preHighFreq','oddball_sequence') #n501
+exp3.add_session('14-11-18','bpre','preLowFreq','oddball_sequence') #n501
+exp3.add_session('14-16-57','cpre','preFM_Down','oddball_sequence') #n501
+exp3.add_session('14-23-26','dpre','preFM_Up','oddball_sequence') #n501
+
+#saline "0.11mL" subq flank- 15min
+exp3.add_session('14-29-49','','salineInjection','')
+
+exp3.add_session('14-45-14','asaline','salinePureTones','am_tuning_curve') #n321
+exp3.add_session('14-53-12','asaline','salineHighFreq','oddball_sequence') #n501
+exp3.add_session('14-58-51','bsaline','salineLowFreq','oddball_sequence') #n501
+exp3.add_session('15-04-36','csaline','salineFM_Down','oddball_sequence') #n502
+exp3.add_session('15-11-15','dsaline','salineFM_Up','oddball_sequence') #n501
+
+#doi "0.11mL" subq flank 15min
+exp3.add_session('15-17-39','','doiInjection','')
+
+exp3.add_session('15-33-09','adoi','doiPureTones','am_tuning_curve') #n328
+exp3.add_session('15-41-21','adoi','doiHighFreq','oddball_sequence') #n501
+exp3.add_session('15-46-57','bdoi','doiLowFreq','oddball_sequence') #n501
+exp3.add_session('15-52-37','cdoi','doiFM_Down','oddball_sequence') #n501
+exp3.add_session('15-59-06','ddoi','doiFM_Up','oddball_sequence') #n501
+
+#doi spontaneous recording 10min
+exp3.add_session('16-05-33','','doiSpontaneous','')
