@@ -162,4 +162,81 @@ videos.add_session('2023-08-09', 'doiFM_Up',
 
 #DOI Spontaneous                   
 videos.add_session('2023-08-09', 'doiSpontaneous',
-                   'acid010_20230809_doiSpontaneous.mkv','', cameraParams)                                                                                       
+                   'acid010_20230809_doiSpontaneous.mkv','', cameraParams)
+                   
+
+# 2023-08-14
+
+videos.add_session('2023-08-14', 'prePureTones',
+                   'acid010_am_tuning_curve_20230814_01pre.mkv',
+                   'acid010_am_tuning_curve_20230814apre.h5', cameraParams) 
+
+videos.add_session('2023-08-14', 'preHighFreq',
+                   'acid010_oddball_sequence_20230814_01pre.mkv',
+                   'acid010_oddball_sequence_20230814apre', cameraParams) 
+
+videos.add_session('2023-08-14', 'preLowFreq',
+                   'acid010_oddball_sequence_20230814_02pre.mkv',
+                   'acid010_oddball_sequence_20230814bpre', cameraParams)
+
+videos.add_session('2023-08-14', 'preFM_Down',
+                   'acid010_oddball_sequence_20230814_03pre.mkv',
+                   'acid010_oddball_sequence_20230814cpre', cameraParams)
+                   
+videos.add_session('2023-08-14', 'preFM_Up',
+                   'acid010_oddball_sequence_20230814_04pre.mkv',
+                   'acid010_oddball_sequence_20230814dpre', cameraParams)
+# Saline
+videos.add_session('2023-08-14', 'salineInjection',
+                   'acid010_20230814_salineInjection.mkv',
+                   '', cameraParams)
+                     
+
+videos.add_session('2023-08-14', 'salinePureTones',
+                   'acid010_am_tuning_curve_20230814_01saline.mkv',
+                   'acid010_am_tuning_curve_20230814asaline.h5', cameraParams) 
+
+videos.add_session('2023-08-14', 'salineHighFreq',
+                   'acid010_oddball_sequence_20230814_01saline.mkv',
+                   'acid010_oddball_sequence_20230814asaline', cameraParams) 
+
+videos.add_session('2023-08-14', 'salineLowFreq',
+                   'acid010_oddball_sequence_20230814_02saline.mkv',
+                   'acid010_oddball_sequence_20230814bsaline', cameraParams)
+
+videos.add_session('2023-08-14', 'salineFM_Down',
+                   'acid010_oddball_sequence_20230814_03saline.mkv',
+                   'acid010_oddball_sequence_20230814csaline', cameraParams)
+                   
+videos.add_session('2023-08-14', 'salineFM_Up',
+                   'acid010_oddball_sequence_20230814_04saline.mkv',
+                   'acid010_oddball_sequence_20230814dsaline', cameraParams)
+                   
+# DOI
+videos.add_session('2023-08-14', 'doiInjection',
+                   'acid010_20230814_doiInjection.mkv',
+                   '', cameraParams)
+                        
+
+videos.add_session('2023-08-14', 'doiPureTones',
+                   'acid010_am_tuning_curve_20230814_01doi.mkv',
+                   'acid010_am_tuning_curve_20230814adoi.h5', cameraParams) 
+
+videos.add_session('2023-08-14', 'doiHighFreq',
+                   'acid010_oddball_sequence_20230814_01doi.mkv',
+                   'acid010_oddball_sequence_20230814adoi', cameraParams) 
+
+videos.add_session('2023-08-14', 'doiLowFreq',
+                   'acid010_oddball_sequence_20230814_02doi.mkv',
+                   'acid010_oddball_sequence_20230814bdoi', cameraParams)
+
+videos.add_session('2023-08-14', 'doiFM_Down',
+                   'acid010_oddball_sequence_20230814_03doi.mkv',
+                   'acid010_oddball_sequence_20230814cdoi', cameraParams)
+                   
+videos.add_session('2023-08-14', 'doiFM_Up',
+                   'acid010_oddball_sequence_20230814_04doi.mkv',
+                   'acid010_oddball_sequence_20230814ddoi', cameraParams)                   
+
+#DOI Spontaneous                   
+videos.add_session('2023-08-14', 'doiSpontaneous',                   'acid010_20230814_doiSpontaneous.mkv','', cameraParams)                                                                                                                                                             
