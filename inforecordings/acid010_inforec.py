@@ -142,7 +142,7 @@ experiments.append(exp3)
 # Experiment Notes:
 #  14:33 in booth
 #  14:35 started recording
-#  : done
+#  17:05 done
 
 exp3.maxDepth = 3000
 
@@ -173,3 +173,44 @@ exp3.add_session('16-49-18','ddoi','doiFM_Up','oddball_sequence') #n501
 
 #doi spontaneous recording 10min
 exp3.add_session('16-55-42','','doiSpontaneous','')
+
+
+#2023-08-22
+
+exp4 = celldatabase.Experiment(subject, '2023-08-22', brainArea='AC_left', probe='NPv1-2642', recordingTrack='implant_DiD', info=['facesPosterior', 'soundRight']) #reference = tip
+experiments.append(exp4)
+
+# Experiment Notes:
+#  12:42 in booth
+#  12:43 started recording
+#  15:00 done
+
+exp4.maxDepth = 3000
+
+exp4.add_site(3000) 
+exp4.add_session('12-43-04','apre','prePureTones','am_tuning_curve') #n321
+exp4.add_session('12-51-07','apre','preHighFreq','oddball_sequence') #n501
+exp4.add_session('12-56-45','bpre','preLowFreq','oddball_sequence') #n501
+exp4.add_session('13-02-22','cpre','preFM_Down','oddball_sequence') #n501
+exp4.add_session('13-08-53','dpre','preFM_Up','oddball_sequence') #n501
+
+#saline "0.12mL" subq flank- 15min
+exp4.add_session('13-15-15','','salineInjection','')
+
+exp4.add_session('13-30-35','asaline','salinePureTones','am_tuning_curve') #n321
+exp4.add_session('13-38-32','asaline','salineHighFreq','oddball_sequence') #n501
+exp4.add_session('13-44-08','bsaline','salineLowFreq','oddball_sequence') #n501
+exp4.add_session('13-49-46','csaline','salineFM_Down','oddball_sequence') #n501
+exp4.add_session('13-56-14','dsaline','salineFM_Up','oddball_sequence') #n501
+
+#doi "0.12mL" subq flank 15min
+exp4.add_session('14-02-43','','doiInjection','')
+
+exp4.add_session('14-18-01','adoi','doiPureTones','am_tuning_curve') #n321
+exp4.add_session('14-25-57','adoi','doiHighFreq','oddball_sequence') #n501
+exp4.add_session('14-31-34','bdoi','doiLowFreq','oddball_sequence') #n501
+exp4.add_session('14-37-16','cdoi','doiFM_Down','oddball_sequence') #n501
+exp4.add_session('14-43-45','ddoi','doiFM_Up','oddball_sequence') #n501
+
+#doi spontaneous recording 10min
+exp4.add_session('14-50-08','','doiSpontaneous','')
