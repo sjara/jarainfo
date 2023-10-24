@@ -10,7 +10,7 @@ experiments = []
 
 # 2023-08-07
 
-exp0 = celldatabase.Experiment(subject, '2023-08-07', brainArea='AC_left', probe='NPv1-2642', recordingTrack='implant_DiD', info=['facesPosterior', 'soundRight']) #reference = tip
+exp0 = celldatabase.Experiment(subject, '2023-08-07', brainArea='AC_left', probe='NPv1-2642', recordingTrack='implant_DiI', info=['facesPosterior', 'soundRight']) #reference = tip
 experiments.append(exp0)
 
 # Experiment Notes:
@@ -20,7 +20,7 @@ experiments.append(exp0)
 
 exp0.maxDepth = 3000
 
-exp0.add_site(3000) 
+exp0.add_site(3000)
 exp0.add_session('10-53-44','apre','prePureTones','am_tuning_curve') #n321
 exp0.add_session('11-01-30','apre','preHighFreq','oddball_sequence') #n501
 exp0.add_session('11-07-12','bpre','preLowFreq','oddball_sequence') #n501
@@ -52,7 +52,7 @@ exp0.add_session('13-02-36','','doiSpontaneous','')
 
 # 2023-08-09
 
-exp1 = celldatabase.Experiment(subject, '2023-08-09', brainArea='AC_left', probe='NPv1-2642', recordingTrack='implant_DiD', info=['facesPosterior', 'soundRight']) #reference = tip
+exp1 = celldatabase.Experiment(subject, '2023-08-09', brainArea='AC_left', probe='NPv1-2642', recordingTrack='implant_DiI', info=['facesPosterior', 'soundRight']) #reference = tip
 experiments.append(exp1)
 
 # Experiment Notes:
@@ -62,7 +62,7 @@ experiments.append(exp1)
 
 exp1.maxDepth = 3000
 
-exp1.add_site(3000) 
+exp1.add_site(3000)
 exp1.add_session('11-28-08','apre','prePureTones','am_tuning_curve') #n321
 exp1.add_session('11-35-57','apre','preHighFreq','oddball_sequence') #n501
 exp1.add_session('11-41-31','bpre','preLowFreq','oddball_sequence') #n501
@@ -94,7 +94,7 @@ exp1.add_session('13-35-19','','doiSpontaneous','')
 
 # 2023-08-14
 
-exp2 = celldatabase.Experiment(subject, '2023-08-14', brainArea='AC_left', probe='NPv1-2642', recordingTrack='implant_DiD', info=['facesPosterior', 'soundRight']) #reference = tip
+exp2 = celldatabase.Experiment(subject, '2023-08-14', brainArea='AC_left', probe='NPv1-2642', recordingTrack='implant_DiI', info=['facesPosterior', 'soundRight']) #reference = tip
 experiments.append(exp2)
 
 # Experiment Notes:
@@ -104,7 +104,7 @@ experiments.append(exp2)
 
 exp2.maxDepth = 3000
 
-exp2.add_site(3000) 
+exp2.add_site(3000)
 exp2.add_session('11-22-21','apre','prePureTones','am_tuning_curve') #n321
 exp2.add_session('11-30-20','apre','preHighFreq','oddball_sequence') #n501
 exp2.add_session('11-35-59','bpre','preLowFreq','oddball_sequence') #n501
@@ -136,7 +136,7 @@ exp2.add_session('13-30-07','','doiSpontaneous','')
 
 # 2023-08-17
 
-exp3 = celldatabase.Experiment(subject, '2023-08-17', brainArea='AC_left', probe='NPv1-2642', recordingTrack='implant_DiD', info=['facesPosterior', 'soundRight']) #reference = tip
+exp3 = celldatabase.Experiment(subject, '2023-08-17', brainArea='AC_left', probe='NPv1-2642', recordingTrack='implant_DiI', info=['facesPosterior', 'soundRight']) #reference = tip
 experiments.append(exp3)
 
 # Experiment Notes:
@@ -146,7 +146,7 @@ experiments.append(exp3)
 
 exp3.maxDepth = 3000
 
-exp3.add_site(3000) 
+exp3.add_site(3000)
 exp3.add_session('14-46-16','apre','prePureTones','am_tuning_curve') #n321
 exp3.add_session('14-54-49','apre','preHighFreq','oddball_sequence') #n501
 exp3.add_session('15-00-26','bpre','preLowFreq','oddball_sequence') #n501
@@ -177,7 +177,7 @@ exp3.add_session('16-55-42','','doiSpontaneous','')
 
 #2023-08-22
 
-exp4 = celldatabase.Experiment(subject, '2023-08-22', brainArea='AC_left', probe='NPv1-2642', recordingTrack='implant_DiD', info=['facesPosterior', 'soundRight']) #reference = tip
+exp4 = celldatabase.Experiment(subject, '2023-08-22', brainArea='AC_left', probe='NPv1-2642', recordingTrack='implant_DiI', info=['facesPosterior', 'soundRight']) #reference = tip
 experiments.append(exp4)
 
 # Experiment Notes:
@@ -187,7 +187,7 @@ experiments.append(exp4)
 
 exp4.maxDepth = 3000
 
-exp4.add_site(3000) 
+exp4.add_site(3000)
 exp4.add_session('12-43-04','apre','prePureTones','am_tuning_curve') #n321
 exp4.add_session('12-51-07','apre','preHighFreq','oddball_sequence') #n501
 exp4.add_session('12-56-45','bpre','preLowFreq','oddball_sequence') #n501
