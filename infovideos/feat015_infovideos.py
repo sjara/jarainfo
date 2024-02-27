@@ -14,4 +14,14 @@ videos.add_session('2024-02-23', 'pureTones',
                    
 videos.add_session('2024-02-23', 'AM',
                    'feat015_am_tuning_curve_20240223_02.mkv',
-                   'feat015_am_tuning_curve_20240223b.h5', cameraParams)                    
+                   'feat015_am_tuning_curve_20240223b.h5', cameraParams)   
+                   
+#2024-02-27
+
+videos.add_session('2024-02-27', 'pureTones',
+                   'feat015_am_tuning_curve_20240227_01.mkv',
+                   'feat015_am_tuning_curve_20240227a.h5', cameraParams) 
+                   
+videos.add_session('2024-02-27', 'AM',
+                   'feat015_am_tuning_curve_20240227_02.mkv',
+                   'feat015_am_tuning_curve_20240227b.h5', cameraParams)                                       
