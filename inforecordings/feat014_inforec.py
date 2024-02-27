@@ -1,0 +1,77 @@
+from jaratoolbox import celldatabase
+
+subject = 'feat014'
+experiments = []
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+
+# Test experiment using dummy probe
+# exp0 = celldatabase.Experiment(subject, '2024-02-19', brainArea='left_AC', probe='NPv1-DUMMY', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundRight']) # Reference = tip.
+
+# 11:20 in booth
+# 11:31 in brain
+# 11:36 reached max depth
+# 11:56 started recording
+# 13:09 done
+
+# exp0.add_site(1000)
+# exp0.maxDepth = 1000
+# exp0.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
+# exp0.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
+
+
+# mistake, recorded from left_AC with sound from left instead of right
+exp1 = celldatabase.Experiment(subject, '2024-02-22', brainArea='left_AC', probe='NPv1-4542', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundLeft']) # Reference = tip.
+experiments.append(exp1)
+
+# 16:30 in booth
+# 16:40 in brain
+# 16:49 reached max depth
+# 17:10 started recording pureTones
+# 17:18 done
+# 17:25 starting AM
+# 17:34 done
+
+exp1.add_site(1000)
+exp1.maxDepth = 1000
+exp1.add_session('17-10-12', 'a', 'pureTones', 'am_tuning_curve')
+exp1.add_session('17-25-38', 'b', 'AM', 'am_tuning_curve')
+
+
+exp2 = celldatabase.Experiment(subject, '2024-02-xx', brainArea='left_AC', probe='NPv1-4542', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundRight']) # Reference = tip.
+# Check sound location with Craniotomy
+experiments.append(exp2)
+
+#  in booth
+#   in brain
+#  reached max depth
+#  started recording pureTones
+#  done
+#  starting AM
+#  done
+
+exp2.add_site(1000)
+exp2.maxDepth = 1000
+exp2.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
+exp2.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
+
+
+exp3 = celldatabase.Experiment(subject, '2024-02-xx', brainArea='left_AC', probe='NPv1-4542', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundRight']) # Reference = tip.
+# Check sound location with Craniotomy
+experiments.append(exp3)
+
+#  in booth
+#  in brain
+#  reached max depth
+#  started recording pureTones
+#  done
+#  starting AM
+#  done
+
+exp3.add_site(1000)
+exp3.maxDepth = 1000
+exp3.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
+exp3.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
