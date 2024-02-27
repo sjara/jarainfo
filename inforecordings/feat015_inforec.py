@@ -18,6 +18,6 @@ exp0 = celldatabase.Experiment(subject, '2024-02-23', brainArea='AC_right', prob
 # 1:37 15 minutes for brain to settle
 
 exp0.add_site(1100)
-exp0.maxDepth = 1000
+exp0.maxDepth = 1100
 exp0.add_session('13-38-29', 'a', 'pureTones', 'am_tuning_curve')
 exp0.add_session('13-51-22', 'b', 'AM', 'am_tuning_curve')
