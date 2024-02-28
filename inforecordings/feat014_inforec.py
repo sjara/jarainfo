@@ -41,25 +41,26 @@ exp1.add_session('17-10-12', 'a', 'pureTones', 'am_tuning_curve')
 exp1.add_session('17-25-38', 'b', 'AM', 'am_tuning_curve')
 
 
-exp2 = celldatabase.Experiment(subject, '2024-02-xx', brainArea='left_AC', probe='NPv1-4542', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundRight']) # Reference = tip.
+exp2 = celldatabase.Experiment(subject, '2024-02-28', brainArea='right_AC', probe='NPv1-4542', recordingTrack='posteriorlateral_DiD', info=['facesAnterior', 'soundLeft']) # Reference = tip.
 # Check sound location with Craniotomy
+# top electrode selected #384
 experiments.append(exp2)
 
-#  in booth
-#   in brain
-#  reached max depth
-#  started recording pureTones
-#  done
-#  starting AM
-#  done
+# 12:20 in booth
+# 12:25 in brain
+# 12:30 reached max depth
+# 12:42 started recording pureTones
+# 12:52 done
+# 12:54 starting AM
+# 13:01 done
 
-exp2.add_site(1000)
-exp2.maxDepth = 1000
-exp2.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
-exp2.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
+exp2.add_site(3000)
+exp2.maxDepth = 3000
+exp2.add_session('12-41-38', 'a', 'pureTones', 'am_tuning_curve')
+exp2.add_session('12-54-04', 'b', 'AM', 'am_tuning_curve')
 
 
-exp3 = celldatabase.Experiment(subject, '2024-02-xx', brainArea='left_AC', probe='NPv1-4542', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundRight']) # Reference = tip.
+exp3 = celldatabase.Experiment(subject, '2024-02-xx', brainArea='right_AC', probe='NPv1-4542', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundLeft']) # Reference = tip.
 # Check sound location with Craniotomy
 experiments.append(exp3)
 
@@ -75,3 +76,5 @@ exp3.add_site(1000)
 exp3.maxDepth = 1000
 exp3.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
 exp3.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
+
+
