@@ -36,5 +36,5 @@ exp1 = celldatabase.Experiment(subject, '2024-02-27', brainArea='AC_right', prob
 
 exp1.add_site(2900)
 exp1.maxDepth = 2900
-exp0.add_session('12-19-12', 'a', 'pureTones', 'am_tuning_curve')
-exp0.add_session('12-31-30', 'b', 'AM', 'am_tuning_curve')
+exp1.add_session('12-19-12', 'a', 'pureTones', 'am_tuning_curve')
+exp1.add_session('12-31-30', 'b', 'AM', 'am_tuning_curve')
