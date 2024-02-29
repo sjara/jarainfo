@@ -38,3 +38,16 @@ exp1.add_site(2900)
 exp1.maxDepth = 2900
 exp1.add_session('12-19-12', 'a', 'pureTones', 'am_tuning_curve')
 exp1.add_session('12-31-30', 'b', 'AM', 'am_tuning_curve')
+
+exp2 = celldatabase.Experiment(subject, '2024-02-28', brainArea='AC_right', probe='NPv1-4542', recordingTrack='posteriorlateral_Dio', info=['facesPosterior', 'soundLeft'])
+# Reference electrode is the tip.
+# Dio dye used - electrode inserted anterior and to the left of the craniotomy
+#  probe to pia 6:00pm
+#  probe in brain and added saline
+#  6:30pm reached target depth
+#  6:35pm 15 minutes for brain to settle
+
+exp2.add_site(1700)
+exp2.maxDepth = 1700
+exp2.add_session('18-48-54', 'a', 'pureTones', 'am_tuning_curve')
+exp2.add_session('18-59-42', 'b', 'AM', 'am_tuning_curve')
