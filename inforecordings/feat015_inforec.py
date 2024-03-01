@@ -9,7 +9,7 @@ experiments = []
 
 exp0 = celldatabase.Experiment(subject, '2024-02-23', brainArea='AC_right', probe='NPv1-4542', recordingTrack='posteriorlateral_na', info=['facesAnterior', 'soundLeft'])
 # Reference electrode is the tip.
-
+experiments.append(exp0)
 # 12:52 sylgard removed added saline
 # 1:02 attached headstage
 # 1:06 probe to pia
@@ -28,6 +28,7 @@ exp0.add_session('13-51-22', 'b', 'AM', 'am_tuning_curve')
 
 exp1 = celldatabase.Experiment(subject, '2024-02-27', brainArea='AC_right', probe='NPv1-4542', recordingTrack='posteriorlateral_Dil', info=['facesPosterior', 'soundLeft'])
 # Reference electrode is the tip.
+experiments.append(exp1)
 # Dil dye used - electrode inserted posterior and to the left of the craniotomy
 # Removed dura 11:30am
 # 11:50am probe to pia
@@ -46,6 +47,7 @@ exp1.add_session('12-31-30', 'b', 'AM', 'am_tuning_curve')
 
 exp2 = celldatabase.Experiment(subject, '2024-02-28', brainArea='AC_right', probe='NPv1-4542', recordingTrack='anteriorlateral_DiO', info=['facesPosterior', 'soundLeft'])
 # Reference electrode is the tip.
+experiments.append(exp2)
 # DiO dye used - electrode inserted anterior and to the left of the craniotomy
 #  probe to pia 6:00pm
 #  probe in brain and added saline
@@ -62,8 +64,9 @@ exp2.add_session('18-59-42', 'b', 'AM', 'am_tuning_curve')
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
 exp3 = celldatabase.Experiment(subject, '2024-03-01', brainArea='AC_right', probe='NPv1-4542', recordingTrack='posteriorMedial_DiD', info=['facesPosterior', 'soundLeft'])
-
 # Reference electrode is the tip.
+experiments.append(exp3)
+
 # DiD dye used - electrode inserted posterior and middle of the craniotomy
 #  11:44am probe to pia 
 #  11:50am probe in brain and added saline 
