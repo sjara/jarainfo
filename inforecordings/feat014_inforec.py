@@ -78,9 +78,44 @@ exp3.add_session('13-10-04', 'a', 'pureTones', 'am_tuning_curve')
 exp3.add_session('13-20-37', 'b', 'AM', 'am_tuning_curve')
 
 
-exp4 = celldatabase.Experiment(subject, '2024-02-xx', brainArea='right_AC', probe='NPv1-4542', recordingTrack='posteriorlateral_DiD', info=['facesAnterior', 'soundLeft']) # Reference = tip.
+exp4 = celldatabase.Experiment(subject, '2024-03-04', brainArea='right_AC', probe='NPv1-4542', recordingTrack='posteriorlateral_DiD', info=['facesAnterior', 'soundLeft']) # Reference = tip.
 # Check sound location with Craniotomy
 experiments.append(exp4)
+
+# 13:00 in booth
+# 13:30 in brain
+# 13:36 reached max depth
+# 13:56 started recording pureTones
+# 14:04 done
+# 14:05 starting AM
+# 14:12 done
+
+exp4.add_site(3000)
+exp4.maxDepth = 3000
+exp4.add_session('13-55-55', 'a', 'pureTones', 'am_tuning_curve')
+exp4.add_session('14-04-43', 'b', 'AM', 'am_tuning_curve')
+
+
+exp5 = celldatabase.Experiment(subject, '2024-03-06', brainArea='right_AC', probe='NPv1-4542', recordingTrack='posteriorlateral_DiD', info=['facesAnterior', 'soundLeft']) # Reference = tip.
+# Check sound location with Craniotomy
+experiments.append(exp5)
+
+# 11:40 in booth
+# 11:48 in brain
+# 11:59 reached max depth
+# 12:16 started recording pureTones
+# 12:24 done
+# 12:24 starting AM
+# 12:33 done
+
+exp5.add_site(3000)
+exp5.maxDepth = 3000
+exp5.add_session('12-16-32', 'a', 'pureTones', 'am_tuning_curve')
+exp5.add_session('12-24-46', 'b', 'AM', 'am_tuning_curve')
+
+exp6 = celldatabase.Experiment(subject, '2024-03-xx', brainArea='right_AC', probe='NPv1-4542', recordingTrack='posteriorlateral_DiD', info=['facesAnterior', 'soundLeft']) # Reference = tip.
+# Check sound location with Craniotomy
+experiments.append(exp6)
 
 #  in booth
 #  in brain
@@ -90,9 +125,8 @@ experiments.append(exp4)
 #  starting AM
 #  done
 
-exp4.add_site(1000)
-exp4.maxDepth = 1000
-exp4.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
-exp4.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
-
+exp6.add_site(3000)
+exp6.maxDepth = 3000
+exp6.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
+exp6.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
 
