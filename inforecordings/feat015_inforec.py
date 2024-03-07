@@ -81,4 +81,20 @@ exp3.add_session('12-33-34', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
+exp4 = celldatabase.Experiment(subject, '2024-03-06', brainArea='AC_right', probe='NPv1-4542', recordingTrack='leftMedial_Dio', info=['facesPosterior', 'soundLeft'])
+# Reference electrode is the tip.
+experiments.append(exp4)
+
+# 4:22pm started pure tones 
+# 4:58pm done and mouse in cage
+
+exp4.add_site(3000)
+exp4.maxDepth = 3000
+exp4.add_session('16-20-44', 'a', 'pureTones', 'am_tuning_curve')
+exp4.add_session('16-31-52', 'b', 'AM', 'am_tuning_curve')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
 
