@@ -72,7 +72,7 @@ experiments.append(exp3)
 # 13:20 starting AM
 # 13:29 done
 
-exp3.add_site(=3000)
+exp3.add_site(3000)
 exp3.maxDepth = 3000
 exp3.add_session('13-10-04', 'a', 'pureTones', 'am_tuning_curve')
 exp3.add_session('13-20-37', 'b', 'AM', 'am_tuning_curve')
