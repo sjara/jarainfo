@@ -26,7 +26,7 @@ exp0.add_session('13-51-22', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp1 = celldatabase.Experiment(subject, '2024-02-27', brainArea='AC_right', probe='NPv1-4542', recordingTrack='posteriorlateral_Dil', info=['facesPosterior', 'soundLeft'])
+exp1 = celldatabase.Experiment(subject, '2024-02-27', brainArea='AC_right', probe='NPv1-4542', recordingTrack='posteriorMedial_Dil', info=['facesPosterior', 'soundLeft'])
 # Reference electrode is the tip.
 experiments.append(exp1)
 # Dil dye used - electrode inserted posterior and to the left of the craniotomy
@@ -45,7 +45,7 @@ exp1.add_session('12-31-30', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp2 = celldatabase.Experiment(subject, '2024-02-28', brainArea='AC_right', probe='NPv1-4542', recordingTrack='anteriorlateral_DiO', info=['facesPosterior', 'soundLeft'])
+exp2 = celldatabase.Experiment(subject, '2024-02-28', brainArea='AC_right', probe='NPv1-4542', recordingTrack='anteriorMedial_DiO', info=['facesPosterior', 'soundLeft'])
 # Reference electrode is the tip.
 experiments.append(exp2)
 # DiO dye used - electrode inserted anterior and to the left of the craniotomy
@@ -63,7 +63,7 @@ exp2.add_session('18-59-42', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp3 = celldatabase.Experiment(subject, '2024-03-01', brainArea='AC_right', probe='NPv1-4542', recordingTrack='posteriorMedial_DiD', info=['facesPosterior', 'soundLeft'])
+exp3 = celldatabase.Experiment(subject, '2024-03-01', brainArea='AC_right', probe='NPv1-4542', recordingTrack='posteriorCenter_DiD', info=['facesPosterior', 'soundLeft'])
 # Reference electrode is the tip.
 experiments.append(exp3)
 
@@ -81,7 +81,7 @@ exp3.add_session('12-33-34', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp4 = celldatabase.Experiment(subject, '2024-03-06', brainArea='AC_right', probe='NPv1-4542', recordingTrack='leftMedial_Dio', info=['facesPosterior', 'soundLeft'])
+exp4 = celldatabase.Experiment(subject, '2024-03-06', brainArea='AC_right', probe='NPv1-4542', recordingTrack='medialCenter_Dio', info=['facesPosterior', 'soundLeft'])
 # Reference electrode is the tip.
 experiments.append(exp4)
 
