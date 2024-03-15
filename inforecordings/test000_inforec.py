@@ -4,10 +4,36 @@ import importlib
 importlib.reload(celldatabase)
 
 
-subject = 'feat005'
+#subject = 'feat005'
+subject = 'test000'
 experiments = []
 
+# -- Recorded with config neuropix_NP1.0_only_NeuropixPXI --
+exp0 = celldatabase.Experiment(subject, '2024-03-15', brainArea='', probe = 'NPv1-4542', recordingTrack='', info=['', 'soundLeft']) #reference = tip
+experiments.append(exp0)
+exp0.add_site(0)
+exp0.maxDepth = 0
+exp0.add_session('16-07-01','a','AM','am_tuning_curve')
 
+
+# -- Recorded with config neuropix_NP1.0_NeuropixPXI_NIDAQmx_twoRecNodes --
+exp1 = celldatabase.Experiment(subject, '2024-03-15', brainArea='', probe = 'NPv1-4542', recordingTrack='', info=['', 'soundLeft']) #reference = tip
+experiments.append(exp1)
+exp1.add_site(1)
+exp1.maxDepth = 1
+exp1.add_session('16-21-32','b','AM','am_tuning_curve')
+
+
+# -- Recorded with config neuropix_NP1.0_NeuropixPXI_NIDAQmx_oneRecNode --
+exp1 = celldatabase.Experiment(subject, '2024-03-15', brainArea='', probe = 'NPv1-4542', recordingTrack='', info=['', 'soundLeft']) #reference = tip
+experiments.append(exp1)
+exp1.add_site(2)
+exp1.maxDepth = 2
+exp1.add_session('16-34-00','c','AM','am_tuning_curve')
+
+
+
+'''
 exp0 = celldatabase.Experiment(subject, '2022-02-07', brainArea='AC_left', probe = 'NPv1-2761', recordingTrack='anterolateralDiI', info=['anterolateralDiI', 'soundRight']) #reference = external
 experiments.append(exp0)
 
@@ -85,6 +111,7 @@ exp7.add_session('14-25-31','a','AM','am_tuning_curve')
 exp7.add_session('14-34-22','b','pureTones','am_tuning_curve')
 exp7.add_session('14-51-25','a','FTVOTBorders','2afc_speech')
 
+'''
 
 
 '''
