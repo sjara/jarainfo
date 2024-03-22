@@ -7,6 +7,21 @@ experiments = []
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
+#expX = celldatabase.Experiment(subject, '2024-xx-xx', brainArea='AC_right', probe='NPv1-4542', recordingTrack='medialxxx_DYE', info=['facesxx', 'soundLeft'])
+# Reference electrode is the tip.
+#experiments.append(expx)
+
+
+#expx.add_site(3000)
+#expx.maxDepth = 3000
+#expx.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
+#expx.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
+#expx.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
 exp0 = celldatabase.Experiment(subject, '2024-02-23', brainArea='AC_right', probe='NPv1-4542', recordingTrack='posteriorlateral_na', info=['facesAnterior', 'soundLeft'])
 # Reference electrode is the tip.
 experiments.append(exp0)
@@ -97,4 +112,47 @@ exp4.add_session('16-31-52', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
+
+exp5 = celldatabase.Experiment(subject, '2024-03-20', brainArea='AC_right', probe='NPv1-4542', recordingTrack='lateralAnterior_Dil', info=['facesPosterior', 'soundLeft'])
+# Reference electrode is the tip.
+experiments.append(exp5)
+#10:30am set 20 timer for brain to settle 
+#probe manipulator got stuck at 2413.3 and couldn't go further down
+# night mode flickered in and out. Covered one of the camera lights - 3 originally were uncovered, and this appeared to fix the issue for the time being.
+ #pure tones started at 11:05am - disovered there was something wrong with the left speaker - this recording is NULL
+ # pure tones started at 12:16pm - 352 trials
+ # AM started at 12:26pm - 250 trials
+# Natural sounds started 12:38pm
+# NOTE: the behavior file will report that the sound was presented to the right side but it was presented LEFT. This is because we had to switch out the left speaker cable for the right. 
+ # 1:10pm done
+ 
+exp5.add_site(2413)
+exp5.maxDepth = 2413
+exp5.add_session('12-15-53', 'a', 'pureTones', 'am_tuning_curve')
+exp5.add_session('12-26-13', 'b', 'AM', 'am_tuning_curve')
+exp5.add_session('12-37-25', 'a', 'naturalSound', 'natural_sound_detection')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+exp6 = celldatabase.Experiment(subject, '2024-03-21', brainArea='AC_right', probe='NPv1-4542', recordingTrack='centerCenter_DiO', info=['facesPosterior', 'soundLeft'])
+# Reference electrode is the tip.
+experiments.append(exp6)
+
+# Minor dura removal 
+# 11:45am pure tones done
+# 11:55am AM tones done
+# 12:22pm natural sounds done
+# 
+
+exp6.add_site(3000)
+exp6.maxDepth = 3000
+expx.add_session('11-36-34', 'a', 'pureTones', 'am_tuning_curve')
+expx.add_session('11-47-33', 'b', 'AM', 'am_tuning_curve')
+expx.add_session('11-58-36', 'a', 'naturalSound', 'natural_sound_detection')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
