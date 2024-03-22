@@ -19,6 +19,19 @@ videos.add_session('2024-03-21', 'naturalSound',
                    'feat016_natural_sound_detection_20240321a.h5', cameraParams) 
 
 
+# 2024-03-22
+
+videos.add_session('2024-03-22', 'pureTones',
+                   'feat016_am_tuning_curve_20240322_01.mkv',
+                   'feat016_am_tuning_curve_20240322a.h5', cameraParams) 
+videos.add_session('2024-03-22', 'AM',
+                   'feat016_am_tuning_curve_20240322_02.mkv',
+                   'feat016_am_tuning_curve_20240322b.h5', cameraParams) 
+videos.add_session('2024-03-22', 'naturalSound',
+                   'feat016_natural_sound_detection_20240322_01.mkv',
+                   'feat016_natural_sound_detection_20240322a.h5', cameraParams) 
+                   
+     
 # 2024-03-
 
 videos.add_session('2024-03-xx', 'pureTones',
@@ -29,6 +42,4 @@ videos.add_session('2024-03-xx', 'AM',
                    'feat016_am_tuning_curve_202403xxb.h5', cameraParams) 
 videos.add_session('2024-03-xx', 'naturalSound',
                    'feat016_natural_sound_detection_202403xx_01.mkv',
-                   'feat016_natural_sound_detection_202403xxa.h5', cameraParams) 
-                   
-                   
+                   'feat016_natural_sound_detection_202403xxa.h5', cameraParams)               
