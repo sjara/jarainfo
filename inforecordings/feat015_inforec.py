@@ -147,9 +147,9 @@ experiments.append(exp6)
 
 exp6.add_site(3000)
 exp6.maxDepth = 3000
-expx.add_session('11-36-34', 'a', 'pureTones', 'am_tuning_curve')
-expx.add_session('11-47-33', 'b', 'AM', 'am_tuning_curve')
-expx.add_session('11-58-36', 'a', 'naturalSound', 'natural_sound_detection')
+exp6.add_session('11-36-34', 'a', 'pureTones', 'am_tuning_curve')
+exp6.add_session('11-47-33', 'b', 'AM', 'am_tuning_curve')
+exp6.add_session('11-58-36', 'a', 'naturalSound', 'natural_sound_detection')
 
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
