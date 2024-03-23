@@ -144,7 +144,6 @@ experiments.append(exp6)
 # 11:45am pure tones done
 # 11:55am AM tones done
 # 12:22pm natural sounds done
-# 
 
 exp6.add_site(3000)
 exp6.maxDepth = 3000
@@ -155,4 +154,25 @@ expx.add_session('11-58-36', 'a', 'naturalSound', 'natural_sound_detection')
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+exp7 = celldatabase.Experiment(subject, '2024-03-22', brainArea='AC_right', probe='NPv1-4542', recordingTrack='anteriorCenter_DiD', info=['facesanterior', 'soundLeft'])
+
+# Reference electrode is the tip.
+experiments.append(exp7)
+# minor dura removal
+# 3:38pm reached target depth and let brain settle for 15 min
+# Brain looks a little worse for wear - today will be the last day I record with this mouse
+# pure tones start 4:00pm
+# AM start 4:12pm
+
+exp7.add_site(3000)
+exp7.maxDepth = 3000
+exp7.add_session('16-01-05', 'a', 'pureTones', 'am_tuning_curve')
+exp7.add_session('16-12-22', 'b', 'AM', 'am_tuning_curve')
+exp7.add_session('16-27-30', 'a', 'naturalSound', 'natural_sound_detection')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
 
