@@ -88,4 +88,20 @@ videos.add_session('2024-03-21', 'AM',
                    
 videos.add_session('2024-03-21', 'naturalSounds',
                    'feat015_natural_sound_detection_20240321_01.mkv',
-                   'feat015_natural_sound_detection_20240321a.h5', cameraParams)                                                           
+                   'feat015_natural_sound_detection_20240321a.h5', cameraParams) 
+                   
+#2024-03-22 
+#Night mode continues to flicker in and out - pressed in the sensor cover to fix
+
+videos.add_session('2024-03-22', 'pureTones',
+                   'feat015_am_tuning_curve_20240322_01.mkv',
+                   'feat015_am_tuning_curve_20240322a.h5', cameraParams) 
+                   
+videos.add_session('2024-03-22', 'AM',
+                   'feat015_am_tuning_curve_20240322_02.mkv',
+                   'feat015_am_tuning_curve_20240322b.h5', cameraParams)   
+                   
+videos.add_session('2024-03-22', 'naturalSounds',
+                   'feat015_natural_sound_detection_20240322_01.mkv',
+                   'feat015_natural_sound_detection_20240322a.h5', cameraParams) 
+                                                                                                
