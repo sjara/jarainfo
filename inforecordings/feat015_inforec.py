@@ -157,6 +157,8 @@ exp6.add_session('11-58-36', 'a', 'naturalSound', 'natural_sound_detection')
 
 exp7 = celldatabase.Experiment(subject, '2024-03-22', brainArea='AC_right', probe='NPv1-4542', recordingTrack='anteriorCenter_DiD', info=['facesanterior', 'soundLeft'])
 
+# NOTE: The sound was mistakenly presented to both sides of the mouse rather than contralateral to the recording site.
+
 # Reference electrode is the tip.
 experiments.append(exp7)
 # minor dura removal
