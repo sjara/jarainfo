@@ -7,7 +7,7 @@ experiments = []
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-#expX = celldatabase.Experiment(subject, '2024-xx-xx', brainArea='AC_right', probe='NPv1-4542', recordingTrack='medialxxx_DYE', info=['facesxx', 'soundxxx'])
+#expX = celldatabase.Experiment(subject, '2024-xx-xx', brainArea='AC_xxx', probe='NPv1-4542', recordingTrack='medialxxx_DYE', info=['facesxx', 'soundxxx'])
 # Reference electrode is the tip.
 #experiments.append(expx)
 
@@ -42,7 +42,7 @@ exp0.add_session('15-25-02', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp1 = celldatabase.Experiment(subject, '2024-03-26', brainArea='AC_left', probe='NPv1-4542', recordingTrack='anteriorMedial_DiL', info=['facesAnterior', 'soundRight'])
+exp1 = celldatabase.Experiment(subject, '2024-03-26', brainArea='AC_left', probe='NPv1-4542', recordingTrack='anteriorLateral_DiL', info=['facesAnterior', 'soundRight'])
 # Reference electrode is the tip.
 experiments.append(exp1)
 # Target depth reached 2:04pm - waited 20 minutes for brain to settle
@@ -56,6 +56,26 @@ exp1.maxDepth = 3000
 exp1.add_session('14-23-56', 'a', 'pureTones', 'am_tuning_curve')
 exp1.add_session('14-35-57', 'b', 'AM', 'am_tuning_curve')
 exp1.add_session('14-46-38', 'a', 'naturalSound', 'natural_sound_detection')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+exp2 = celldatabase.Experiment(subject, '2024-03-27', brainArea='AC_left', probe='NPv1-4542', recordingTrack='AnteriorMedial_DiD', info=['facesMedial', 'soundRight'])
+# Reference electrode is the tip.
+experiments.append(exp2)
+
+# 11:18am reached target depth - brain left to settle for twenty minutes
+# 11:41am start pure tones
+# 11:51am started AM
+# 12:01pm started natural sounds 
+
+
+exp2.add_site(3000)
+exp2.maxDepth = 3000
+exp2.add_session('11-41-02', 'a', 'pureTones', 'am_tuning_curve')
+exp2.add_session('11-50-26', 'b', 'AM', 'am_tuning_curve')
+exp2.add_session('12-00-31', 'a', 'naturalSound', 'natural_sound_detection')
 
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
