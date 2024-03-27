@@ -38,7 +38,7 @@ videos.add_session('2024-03-26', 'naturalSounds',
 
 videos.add_session('2024-03-27', 'pureTones',
                    'feat017_am_tuning_curve_20240327_01.mkv',
-                   'feat017_am_tuning_curve_20240326a.h5', cameraParams) 
+                   'feat017_am_tuning_curve_20240327a.h5', cameraParams) 
                    
 videos.add_session('2024-03-27', 'AM',
                    'feat017_am_tuning_curve_20240327_02.mkv',
