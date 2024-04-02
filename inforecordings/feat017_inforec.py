@@ -132,8 +132,8 @@ experiments.append(exp5)
 # Done - mouse in cage 
 
 
-expx.add_site(3050)
-expx.maxDepth 3050
+expx.add_site(3200)
+expx.maxDepth 3200
 expx.add_session('10-26-02', 'a', 'pureTones', 'am_tuning_curve')
 expx.add_session('10-35-25', 'b', 'AM', 'am_tuning_curve')
 expx.add_session('10-45-32', 'a', 'naturalSound', 'natural_sound_detection')
