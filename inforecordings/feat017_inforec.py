@@ -132,11 +132,11 @@ experiments.append(exp5)
 # Done - mouse in cage 
 
 
-expx.add_site(3200)
-expx.maxDepth 3200
-expx.add_session('10-26-02', 'a', 'pureTones', 'am_tuning_curve')
-expx.add_session('10-35-25', 'b', 'AM', 'am_tuning_curve')
-expx.add_session('10-45-32', 'a', 'naturalSound', 'natural_sound_detection')
+exp5.add_site(3200)
+exp5.maxDepth 3200
+exp5.add_session('10-26-02', 'a', 'pureTones', 'am_tuning_curve')
+exp5.add_session('10-35-25', 'b', 'AM', 'am_tuning_curve')
+exp5.add_session('10-45-32', 'a', 'naturalSound', 'natural_sound_detection')
 
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
