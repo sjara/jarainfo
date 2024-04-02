@@ -133,7 +133,7 @@ experiments.append(exp5)
 
 
 exp5.add_site(3200)
-exp5.maxDepth 3200
+exp5.maxDepth = 3200
 exp5.add_session('10-26-02', 'a', 'pureTones', 'am_tuning_curve')
 exp5.add_session('10-35-25', 'b', 'AM', 'am_tuning_curve')
 exp5.add_session('10-45-32', 'a', 'naturalSound', 'natural_sound_detection')
