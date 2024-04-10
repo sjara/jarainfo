@@ -89,5 +89,91 @@ videos.add_session('2024-04-02', 'AM',
 videos.add_session('2024-04-02', 'naturalSounds',
                    'feat017_natural_sound_detection_20240402_01.mkv',
                    'feat017_natural_sound_detection_20240402a.h5', cameraParams) 
+                   
+#2024-04-03
+
+videos.add_session('2024-04-03', 'pureTones',
+                   'feat017_am_tuning_curve_20240403_01.mkv',
+                   'feat017_am_tuning_curve_20240403a.h5', cameraParams) 
+                   
+videos.add_session('2024-04-03', 'AM',
+                   'feat017_am_tuning_curve_20240403_02.mkv',
+                   'feat017_am_tuning_curve_202400403b.h5', cameraParams)  
+                   
+videos.add_session('2024-04-03', 'naturalSounds',
+                   'feat017_natural_sound_detection_20240403_01.mkv',
+                   'feat017_natural_sound_detection_20240403a.h5', cameraParams) 
+                   
+#2024-04-04
+
+videos.add_session('2024-04-04', 'pureTones',
+                   'feat017_am_tuning_curve_20240404_01.mkv',
+                   'feat017_am_tuning_curve_20240404a.h5', cameraParams) 
+                   
+videos.add_session('2024-04-04', 'AM',
+                   'feat017_am_tuning_curve_20240404_02.mkv',
+                   'feat017_am_tuning_curve_202400404b.h5', cameraParams)  
+                   
+videos.add_session('2024-04-04', 'naturalSounds',
+                   'feat017_natural_sound_detection_20240404_01.mkv',
+                   'feat017_natural_sound_detection_20240404a.h5', cameraParams) 
+                   
+#2024-04-05
+
+videos.add_session('2024-04-05', 'pureTones',
+                   'feat017_am_tuning_curve_20240405_01.mkv',
+                   'feat017_am_tuning_curve_20240405a.h5', cameraParams) 
+                   
+videos.add_session('2024-04-05', 'AM',
+                   'feat017_am_tuning_curve_20240405_02.mkv',
+                   'feat017_am_tuning_curve_202400405b.h5', cameraParams)  
+                   
+videos.add_session('2024-04-05', 'naturalSounds',
+                   'feat017_natural_sound_detection_20240405_01.mkv',
+                   'feat017_natural_sound_detection_20240405a.h5', cameraParams) 
+                   
+#2024-04-08
+
+videos.add_session('2024-04-08', 'pureTones',
+                   'feat017_am_tuning_curve_20240408_01.mkv',
+                   'feat017_am_tuning_curve_20240408a.h5', cameraParams) 
+                   
+videos.add_session('2024-04-08', 'AM',
+                   'feat017_am_tuning_curve_20240408_02.mkv',
+                   'feat017_am_tuning_curve_202400408b.h5', cameraParams)  
+                   
+videos.add_session('2024-04-08', 'naturalSounds',
+                   'feat017_natural_sound_detection_20240408_01.mkv',
+                   'feat017_natural_sound_detection_20240408a.h5', cameraParams) 
+                   
+#2024-04-09
+
+videos.add_session('2024-04-09', 'pureTones',
+                   'feat017_am_tuning_curve_20240409_01.mkv',
+                   'feat017_am_tuning_curve_20240409a.h5', cameraParams) 
+                   
+videos.add_session('2024-04-09', 'AM',
+                   'feat017_am_tuning_curve_20240409_02.mkv',
+                   'feat017_am_tuning_curve_202400409b.h5', cameraParams)  
+                   
+videos.add_session('2024-04-09', 'naturalSounds',
+                   'feat017_natural_sound_detection_20240409_01.mkv',
+                   'feat017_natural_sound_detection_20240409a.h5', cameraParams) 
+                   
+#2024-04-10
+
+videos.add_session('2024-04-10', 'pureTones',
+                   'feat017_am_tuning_curve_20240410_01.mkv',
+                   'feat017_am_tuning_curve_20240410a.h5', cameraParams) 
+#NOTE: I saw the camera switch from night to day mode around 180 trials - pushed sensor cover down and this seemed to fix it
+                   
+videos.add_session('2024-04-10', 'AM',
+                   'feat017_am_tuning_curve_20240410_02.mkv',
+                   'feat017_am_tuning_curve_202400410b.h5', cameraParams)  
+                   
+videos.add_session('2024-04-10', 'naturalSounds',
+                   'feat017_natural_sound_detection_20240410_01.mkv',
+                   'feat017_natural_sound_detection_20240410a.h5', cameraParams) 
+
 
 
