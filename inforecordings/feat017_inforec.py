@@ -7,7 +7,7 @@ experiments = []
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-#expX = celldatabase.Experiment(subject, '2024-xx-xx', brainArea='AC_xxx', probe='NPv1-4542', recordingTrack='medialxxx_DYE', info=['facesxx', 'soundxxx'])
+#expX = celldatabase.Experiment(subject, '2024-xx-xx', brainArea='AC_xxx', probe='NPv1-2141', recordingTrack='medialxxx_DYE', info=['facesxx', 'soundxxx'])
 # Reference electrode is the tip.
 #experiments.append(expx)
 
@@ -192,6 +192,7 @@ experiments.append(exp8)
 # Start AM 11:17am
 # Start natural sounds 11:26am
 # Done - sylgard in well 12:00pm
+# NOTE: After the recording was finished, we realized the data drive ran out of space during the natural sounds session. Meaning we can't use the natural sounds for this experiment. 
 
 
 exp8.add_site(3000)
@@ -203,3 +204,65 @@ exp8.add_session('11-26-26', 'a', 'naturalSound', 'natural_sound_detection')
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+exp9 = celldatabase.Experiment(subject, '2024-04-09', brainArea='AC_right', probe='NPv1-2141', recordingTrack='lateralCenter_DiO', info=['facesLateral', 'soundLeft'])
+# Reference electrode is the tip.
+# Had some troubleshooting with probe 4542 and had to switch it out - brain left to settle at 3:57pm
+# Start pure tones at 4:17pm
+# Start AM at 4:26pm
+# Start natural sounds at 4:35pm
+
+experiments.append(exp9)
+
+exp9.add_site(3000)
+exp9.maxDepth = 3000
+exp9.add_session('16-16-47', 'a', 'pureTones', 'am_tuning_curve')
+exp9.add_session('16-26-10', 'b', 'AM', 'am_tuning_curve')
+exp9.add_session('16-35-07', 'a', 'naturalSound', 'natural_sound_detection')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+exp10 = celldatabase.Experiment(subject, '2024-04-09', brainArea='AC_right', probe='NPv1-2141', recordingTrack='posteriorLateral_DiI', info=['facesMedial', 'soundLeft'])
+
+# Reference electrode is the tip.
+# Reached target depth at 10:40am - left brain to settle for 30 min
+# Started pure tones at 11:09am
+# Started AM at 11:18am
+# Started natural sounds at 11:27am
+
+
+experiments.append(exp10)
+
+
+exp10.add_site(3005)
+exp10.maxDepth = 3005
+exp10.add_session('11-09-23', 'a', 'pureTones', 'am_tuning_curve')
+exp10.add_session('11-18-36', 'b', 'AM', 'am_tuning_curve')
+exp10.add_session('11-27-50', 'a', 'naturalSound', 'natural_sound_detection')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+exp11 = celldatabase.Experiment(subject, '2024-04-10', brainArea='AC_right', probe='NPv1-2141', recordingTrack='anteriorCetner_DiI', info=['facesLateral', 'soundLeft'])
+# Reference electrode is the tip.
+
+experiments.append(exp11)
+# Camera continues to randomly switch between day and night mode - pushing the cover sensor down seems to help 
+# Started pure tones 10:37am after letting brain settle for 15 min
+# Start AM 10:48am
+# Start natural sounds 10:58am
+
+
+exp11.add_site(3000)
+exp11.maxDepth = 3000
+exp11.add_session('10-37-28', 'a', 'pureTones', 'am_tuning_curve')
+exp11.add_session('10-48-29', 'b', 'AM', 'am_tuning_curve')
+exp11.add_session('10-58-06', 'a', 'naturalSound', 'natural_sound_detection')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
