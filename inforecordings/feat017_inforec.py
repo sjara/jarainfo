@@ -205,7 +205,7 @@ exp8.add_session('11-26-26', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp9 = celldatabase.Experiment(subject, '2024-04-09', brainArea='AC_right', probe='NPv1-2141', recordingTrack='lateralCenter_DiO', info=['facesLateral', 'soundLeft'])
+exp9 = celldatabase.Experiment(subject, '2024-04-08', brainArea='AC_right', probe='NPv1-2141', recordingTrack='lateralCenter_DiO', info=['facesLateral', 'soundLeft'])
 # Reference electrode is the tip.
 # Had some troubleshooting with probe 4542 and had to switch it out - brain left to settle at 3:57pm
 # Start pure tones at 4:17pm
@@ -261,6 +261,23 @@ exp11.maxDepth = 3000
 exp11.add_session('10-37-28', 'a', 'pureTones', 'am_tuning_curve')
 exp11.add_session('10-48-29', 'b', 'AM', 'am_tuning_curve')
 exp11.add_session('10-58-06', 'a', 'naturalSound', 'natural_sound_detection')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+exp12 = celldatabase.Experiment(subject, '2024-04-11', brainArea='AC_right', probe='NPv1-2141', recordingTrack='centerCenter_DiD', info=['facesAnterior', 'soundLeft'])
+# Reference electrode is the tip.
+experiments.append(exp12)
+# Start pure tones at 10:53am
+# Start AM at 11:03am
+# Start natural sounds at 11:13am
+
+exp12.add_site(3000)
+exp12.maxDepth = 3000
+exp12.add_session('10-53-21', 'a', 'pureTones', 'am_tuning_curve')
+exp12.add_session('11-03-07', 'b', 'AM', 'am_tuning_curve')
+exp12.add_session('11-13-58', 'a', 'naturalSound', 'natural_sound_detection')
 
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
