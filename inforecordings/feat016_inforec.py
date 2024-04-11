@@ -153,9 +153,51 @@ exp6.add_session('14-07-39', 'b', 'AM', 'am_tuning_curve')
 exp6.add_session('14-18-43', 'a', 'naturalSound', 'natural_sound_detection')
 
 
-#exp7 = celldatabase.Experiment(subject, '2024-04-xx', brainArea='right_AC', probe='NPv1-xxxx', recordingTrack='posteriorlateral_DiI', info=['facesAnterior', 'soundLeft']) # Reference = tip.
+exp7 = celldatabase.Experiment(subject, '2024-04-10', brainArea='right_AC', probe='NPv1-2141', recordingTrack='posteriorlateral_DiI', info=['facesAnterior', 'soundLeft']) # Reference = tip.
 # Check sound location with Craniotomy
-#experiments.append(exp7)
+experiments.append(exp7)
+
+# 15:47 in booth
+# 16:15 in brain
+# 16:25 reached max depth
+# 16:46 started recording pureTones
+# 16:54 done
+# 16:55 starting AM
+# 17:02 done
+# 17:03 started natural sounds
+# 17:24 done
+
+exp7.add_site(3000)
+exp7.maxDepth = 3000
+exp7.add_session('16-46-04', 'a', 'pureTones', 'am_tuning_curve')
+exp7.add_session('16-55-05', 'b', 'AM', 'am_tuning_curve')
+exp7.add_session('17-03-11', 'a', 'naturalSound', 'natural_sound_detection')
+
+
+exp8 = celldatabase.Experiment(subject, '2024-04-11', brainArea='right_AC', probe='NPv1-2141', recordingTrack='APcentermedial_DiD', info=['facesAnterior', 'soundLeft']) # Reference = tip.
+# Check sound location with Craniotomy
+experiments.append(exp8)
+
+# 13:18 in booth
+# 13:42 in brain
+# 13:50 reached max depth
+# 14:14 started recording pureTones
+# 14:22 done
+# 14:22 starting AM
+# 14:30 done
+# 14:32 started natural sounds
+# 14:53 done
+
+exp8.add_site(3000)
+exp8.maxDepth = 3000
+exp8.add_session('14-14-16', 'a', 'pureTones', 'am_tuning_curve')
+exp8.add_session('14-22-56', 'b', 'AM', 'am_tuning_curve')
+exp8.add_session('14-32-22', 'a', 'naturalSound', 'natural_sound_detection')
+
+
+#exp9 = celldatabase.Experiment(subject, '2024-04-xx', brainArea='right_AC', probe='NPv1-xxxx', recordingTrack='posteriorlateral_DiI', info=['facesAnterior', 'soundLeft']) # Reference = tip.
+# Check sound location with Craniotomy
+#experiments.append(exp9)
 
 #  in booth
 #  in brain
@@ -167,8 +209,11 @@ exp6.add_session('14-18-43', 'a', 'naturalSound', 'natural_sound_detection')
 #  started natural sounds
 #  done
 
-#exp7.add_site(3000)
-#exp7.maxDepth = 3000
-#exp7.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
-#exp7.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
-#exp7.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
+#exp9.add_site(3000)
+#exp9.maxDepth = 3000
+#exp9.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
+#exp9.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
+#exp9.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
+
+
+
