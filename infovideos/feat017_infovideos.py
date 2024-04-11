@@ -175,5 +175,17 @@ videos.add_session('2024-04-10', 'naturalSounds',
                    'feat017_natural_sound_detection_20240410_01.mkv',
                    'feat017_natural_sound_detection_20240410a.h5', cameraParams) 
 
+#2024-04-11
 
+videos.add_session('2024-04-11', 'pureTones',
+                   'feat017_am_tuning_curve_20240411_01.mkv',
+                   'feat017_am_tuning_curve_20240411a.h5', cameraParams) 
+                   
+videos.add_session('2024-04-11', 'AM',
+                   'feat017_am_tuning_curve_20240411_02.mkv',
+                   'feat017_am_tuning_curve_202400411b.h5', cameraParams)  
+                   
+videos.add_session('2024-04-11', 'naturalSounds',
+                   'feat017_natural_sound_detection_20240411_01.mkv',
+                   'feat017_natural_sound_detection_20240411a.h5', cameraParams) 
 
