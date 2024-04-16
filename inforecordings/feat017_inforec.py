@@ -283,3 +283,61 @@ exp12.add_session('11-13-58', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
+exp13 = celldatabase.Experiment(subject, '2024-04-12', brainArea='AC_Right', probe='NPv1-2141', recordingTrack='PosteriorCenter_DiO', info=['facesPosterior', 'soundLeft'])
+# Reference electrode is the tip.
+experiments.append(exp13)
+# 10:20 reached target depth and left brain to settle for 15 min
+# Start pure tones at 10:44am
+# Start AM at 10:53am
+# Start natural sounds at 11:03am
+
+exp13.add_site(3000)
+exp13.maxDepth = 3000
+exp13.add_session('10-44-14', 'a', 'pureTones', 'am_tuning_curve')
+exp13.add_session('10-53-32', 'b', 'AM', 'am_tuning_curve')
+exp13.add_session('11-03-41', 'a', 'naturalSound', 'natural_sound_detection')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+exp14 = celldatabase.Experiment(subject, '2024-04-15', brainArea='AC_Right', probe='NPv1-2141', recordingTrack='anteriorMedial_DiO', info=['facesLateral', 'soundLeft'])
+# Reference electrode is the tip.
+experiments.append(exp14)
+# Inserted probe anterior-medial as much as possible but the medial side of the well was very close to the probe and I was worried there may be damage to the probe, so the probe is a bit closer to the center of craniotomy. 
+# Some bleeding and dura removal
+# Brain left to settle for 20 min at 10:06am
+# Start pure tones at 10:27am
+# Start AM at 10:36am
+# Start natural sounds at 10:45am
+
+exp14.add_site(3000)
+exp14.maxDepth = 3000
+exp14.add_session('10-27-00', 'a', 'pureTones', 'am_tuning_curve')
+exp14.add_session('10-36-55', 'b', 'AM', 'am_tuning_curve')
+exp14.add_session('10-45-54', 'a', 'naturalSound', 'natural_sound_detection')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+exp15 = celldatabase.Experiment(subject, '2024-04-16', brainArea='AC_Right', probe='NPv1-2141', recordingTrack='medialCenter_DiI', info=['facesMedial', 'soundLeft'])
+# Reference electrode is the tip.
+experiments.append(exp15)
+# Reached target depth at 10:15am - left brain to settle for 30 min
+# Probe inserted medial-center and a bit anterior since the medial-posterior side of the well is in the way of the probe 
+# Lots of bleeding when removing dura today
+# Start pure tones 10:45am
+# Start AM at 10:54am
+# Start natural sounds 11:03am
+
+
+expx.add_site(3000)
+expx.maxDepth = 3000
+expx.add_session('10-45-07', 'a', 'pureTones', 'am_tuning_curve')
+expx.add_session('10-54-51', 'b', 'AM', 'am_tuning_curve')
+expx.add_session('11-03-08', 'a', 'naturalSound', 'natural_sound_detection')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
