@@ -332,11 +332,11 @@ experiments.append(exp15)
 # Start natural sounds 11:03am
 
 
-expx.add_site(3000)
-expx.maxDepth = 3000
-expx.add_session('10-45-07', 'a', 'pureTones', 'am_tuning_curve')
-expx.add_session('10-54-51', 'b', 'AM', 'am_tuning_curve')
-expx.add_session('11-03-08', 'a', 'naturalSound', 'natural_sound_detection')
+exp15.add_site(3000)
+exp15.maxDepth = 3000
+exp15.add_session('10-45-07', 'a', 'pureTones', 'am_tuning_curve')
+exp15.add_session('10-54-51', 'b', 'AM', 'am_tuning_curve')
+exp15.add_session('11-03-08', 'a', 'naturalSound', 'natural_sound_detection')
 
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
