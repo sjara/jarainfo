@@ -188,4 +188,47 @@ videos.add_session('2024-04-11', 'AM',
 videos.add_session('2024-04-11', 'naturalSounds',
                    'feat017_natural_sound_detection_20240411_01.mkv',
                    'feat017_natural_sound_detection_20240411a.h5', cameraParams) 
+#2024-04-12
+
+videos.add_session('2024-04-12', 'pureTones',
+                   'feat017_am_tuning_curve_20240412_01.mkv',
+                   'feat017_am_tuning_curve_20240412a.h5', cameraParams) 
+                   
+videos.add_session('2024-04-12', 'AM',
+                   'feat017_am_tuning_curve_20240412_02.mkv',
+                   'feat017_am_tuning_curve_202400412b.h5', cameraParams)  
+                   
+videos.add_session('2024-04-12', 'naturalSounds',
+                   'feat017_natural_sound_detection_20240412_01.mkv',
+                   'feat017_natural_sound_detection_20240412a.h5', cameraParams) 
+                   
+#2024-04-15
+
+videos.add_session('2024-04-15', 'pureTones',
+                   'feat017_am_tuning_curve_20240415_01.mkv',
+                   'feat017_am_tuning_curve_20240415a.h5', cameraParams) 
+                   
+videos.add_session('2024-04-15', 'AM',
+                   'feat017_am_tuning_curve_20240415_02.mkv',
+                   'feat017_am_tuning_curve_202400415b.h5', cameraParams)  
+                   
+videos.add_session('2024-04-15', 'naturalSounds',
+                   'feat017_natural_sound_detection_20240415_01.mkv',
+                   'feat017_natural_sound_detection_20240415a.h5', cameraParams) 
+                   
+#2024-04-16
+
+videos.add_session('2024-04-16', 'pureTones',
+                   'feat017_am_tuning_curve_20240416_01.mkv',
+                   'feat017_am_tuning_curve_20240416a.h5', cameraParams) 
+                   
+videos.add_session('2024-04-16', 'AM',
+                   'feat017_am_tuning_curve_20240416_02.mkv',
+                   'feat017_am_tuning_curve_202400416b.h5', cameraParams)  
+                   
+videos.add_session('2024-04-16', 'naturalSounds',
+                   'feat017_natural_sound_detection_20240416_01.mkv',
+                   'feat017_natural_sound_detection_20240416a.h5', cameraParams) 
+
+
 
