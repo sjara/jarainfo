@@ -182,11 +182,10 @@ exp7.add_session('11-17-22', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-
-exp8 = celldatabase.Experiment(subject, '2024-04-05', brainArea='AC_Right', probe='NPv1-4542', recordingTrack='anteriorLateral_DiD', info=['facesLateral', 'soundLeft'])
+#exp8 = celldatabase.Experiment(subject, '2024-04-05', brainArea='AC_Right', probe='NPv1-4542', recordingTrack='anteriorLateral_DiD', info=['facesLateral', 'soundLeft'])
 # Reference electrode is the tip.
 
-experiments.append(exp8)
+#experiments.append(exp8)
 # Reached target depth at 10:45am - left brain to settle for 20 min
 # Start pure tones 11:06am
 # Start AM 11:17am
@@ -195,11 +194,11 @@ experiments.append(exp8)
 # NOTE: After the recording was finished, we realized the data drive ran out of space during the natural sounds session. Meaning we can't use the natural sounds for this experiment. 
 
 
-exp8.add_site(3000)
-exp8.maxDepth = 3000
-exp8.add_session('11-06-17', 'a', 'pureTones', 'am_tuning_curve')
-exp8.add_session('11-17-06', 'b', 'AM', 'am_tuning_curve')
-exp8.add_session('11-26-26', 'a', 'naturalSound', 'natural_sound_detection')
+#exp8.add_site(3000)
+#exp8.maxDepth = 3000
+#exp8.add_session('11-06-17', 'a', 'pureTones', 'am_tuning_curve')
+#exp8.add_session('11-17-06', 'b', 'AM', 'am_tuning_curve')
+#exp8.add_session('11-26-26', 'a', 'naturalSound', 'natural_sound_detection')
 
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
