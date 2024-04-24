@@ -111,7 +111,7 @@ exp4.add_session('15-50-05', 'b', 'AM', 'am_tuning_curve')
 exp4.add_session('15-58-13', 'a', 'naturalSound', 'natural_sound_detection')
 
 
-exp5 = celldatabase.Experiment(subject, '2024-03-08', brainArea='right_AC', probe='NPv1-4542', recordingTrack='anteriorlateral_DiD', info=['facesAnterior', 'soundLeft']) # Reference = tip.
+exp5 = celldatabase.Experiment(subject, '2024-04-08', brainArea='right_AC', probe='NPv1-4542', recordingTrack='anteriorlateral_DiD', info=['facesAnterior', 'soundLeft']) # Reference = tip.
 # Check sound location with Craniotomy
 experiments.append(exp5)
 
