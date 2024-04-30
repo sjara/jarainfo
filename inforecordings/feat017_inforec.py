@@ -42,7 +42,7 @@ exp0.add_session('15-25-02', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp1 = celldatabase.Experiment(subject, '2024-03-26', brainArea='AC_left', probe='NPv1-4542', recordingTrack='anteriorLateral_DiL', info=['facesAnterior', 'soundRight'])
+exp1 = celldatabase.Experiment(subject, '2024-03-26', brainArea='AC_left', probe='NPv1-4542', recordingTrack='anteriorLateral_DiI', info=['facesAnterior', 'soundRight'])
 # Reference electrode is the tip.
 experiments.append(exp1)
 # Target depth reached 2:04pm - waited 20 minutes for brain to settle
@@ -245,7 +245,7 @@ exp10.add_session('11-27-50', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp11 = celldatabase.Experiment(subject, '2024-04-10', brainArea='AC_right', probe='NPv1-2141', recordingTrack='anteriorCetner_DiI', info=['facesLateral', 'soundLeft'])
+exp11 = celldatabase.Experiment(subject, '2024-04-10', brainArea='AC_right', probe='NPv1-2141', recordingTrack='anteriorCenter_DiI', info=['facesLateral', 'soundLeft'])
 # Reference electrode is the tip.
 
 experiments.append(exp11)
