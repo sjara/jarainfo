@@ -67,7 +67,45 @@ exp1.add_session('12-14-11', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
+exp2 = celldatabase.Experiment(subject, '2024-06-10', brainArea='AC_left', probe='NPv1-4662', recordingTrack='centerLateral_DiI', info=['facesLateral', 'soundRight'])
 
+# Reference electrode is the tip.
+
+experiments.append(exp2)
+# 3:00pm mouse in booth
+# 3:08pm zeroed out at pia
+# 3:18pm reached target depth - brain left to settle for 15 minutes 
+# Began recording at 3:35pm
+# Done at 4:23pm - sylgard in place and drying at 4:28pm
+
+
+exp2.add_site(3000)
+exp2.maxDepth = 3000
+exp2.add_session('15-35-43', 'a', 'pureTones', 'am_tuning_curve')
+exp2.add_session('15-46-48', 'a', 'naturalSound', 'natural_sound_detection')
+exp2.add_session('16-16-14', 'b', 'AM', 'am_tuning_curve')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+exp3 = celldatabase.Experiment(subject, '2024-06-11', brainArea='AC_left', probe='NPv1-4662', recordingTrack='posteriorLateral_DiD', info=['facesLateral', 'soundRight'])
+# Reference electrode is the tip.
+experiments.append(exp3)
+# In booth 9:30am
+# Pia 9:50am
+# Reached target depth at 9:59am no dura removal today, yay! - left brain to settle for 20 minutes
+# Done at 11:06am, waiting for sylgard to dry
+
+exp3.add_site(3000)
+exp3.maxDepth = 3000
+exp3.add_session('10-19-49', 'a', 'pureTones', 'am_tuning_curve')
+exp3.add_session('10-29-50', 'a', 'naturalSound', 'natural_sound_detection')
+exp3.add_session('10-59-31', 'b', 'AM', 'am_tuning_curve')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
 
 
