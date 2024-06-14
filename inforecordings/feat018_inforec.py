@@ -7,7 +7,7 @@ experiments = []
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-#expX = celldatabase.Experiment(subject, '2024-06-xx', brainArea='AC_xxx', probe='NPv1-4662', recordingTrack='medialxxx_DYE', info=['facesxx', 'soundxxx'])
+#expX = celldatabase.Experiment(subject, '2024-06-xx', brainArea='AC_right', probe='NPv1-4432', recordingTrack='anteriorxxx_DYE', info=['facesxx', 'soundLeft'])
 # Reference electrode is the tip.
 #experiments.append(expx)
 
@@ -17,6 +17,8 @@ experiments = []
 #expx.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
 #expx.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
 #expx.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
+
+# LEFT HEMISPHERE
 
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
@@ -107,5 +109,68 @@ exp3.add_session('10-59-31', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
+exp4 = celldatabase.Experiment(subject, '2024-06-12', brainArea='AC_left', probe='NPv1-4662', recordingTrack='centerCenter_DiD', info=['facesMedial', 'soundRight'])
+
+# Reference electrode is the tip.
+# Penetration location is in the middle of the craniotomy and slightly medial.
+
+experiments.append(exp4)
+# In booth at 9:55am
+# Reached pia 10:10am - reached target depth at 10:18am - left brain to settle for 20 min
+# Done at 11:26am - probe in tergazyme at 11:30 - sylgard drying 
+
+
+exp4.add_site(3000)
+exp4.maxDepth = 3000
+exp4.add_session('10-38-59', 'a', 'pureTones', 'am_tuning_curve')
+exp4.add_session('10-48-30', 'a', 'naturalSound', 'natural_sound_detection')
+exp4.add_session('11-19-22', 'b', 'AM', 'am_tuning_curve')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+
+#exp5 = celldatabase.Experiment(subject, '2024-06-13', brainArea='AC_left', probe='NPv1-4662', recordingTrack='posteriorMedial_DiI', info=['facesMedial', 'soundRight'])
+# Reference electrode is the tip.
+#experiments.append(exp5)
+# Probe troubleshooting at 10:30am - probe had several noisy channels, not typical of normal channel noise. Ran probe self tests and probe failed noise test - NP manual notes that this test is not indicitive of probe health so decided to continue with recording. 
+# In booth at 11am and removed dura
+# 11:20am pia
+# 11:28am reached target depth
+# Left brain to settle for 20 minutes - after grounding the probe, the channel noise got better
+# #Probe stopped working in the middle of natural sound presentation - had to stop the session and the recorded data can not be used
+
+#exp5.add_site(3000)
+#exp5.maxDepth = 3000
+#exp5.add_session('11-49-32', 'a', 'pureTones', 'am_tuning_curve')
+#exp5.add_session('11-58-49', 'a', 'naturalSound', 'natural_sound_detection')
+#exp5.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
+
+
+# RIGHT HEMISPHERE 
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+exp6 = celldatabase.Experiment(subject, '2024-06-14', brainArea='AC_right', probe='NPv1-4432', recordingTrack='anteriorLateral_DiI', info=['facesLateral', 'soundLeft'])
+# Reference electrode is the tip.
+experiments.append(exp6)
+# In booth 10:30am - dura removal to 10:50am
+# Reached pia at 10:50am and target depth at 10:59am. Left brain to settle for 20 minutes
+# Began recording at 11:20am
+# Done at 12:11am
+
+
+exp6.add_site(3000)
+exp6.maxDepth = 3000
+exp6.add_session('11-20-22', 'a', 'pureTones', 'am_tuning_curve')
+exp6.add_session('11-29-39', 'a', 'naturalSound', 'natural_sound_detection')
+exp6.add_session('11-58-34', 'b', 'AM', 'am_tuning_curve')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
 
