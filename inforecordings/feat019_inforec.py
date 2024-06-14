@@ -48,8 +48,30 @@ exp1.add_session('15-44-15', 'a', 'naturalSound', 'natural_sound_detection')
 exp1.add_session('16-12-36', 'b', 'AM', 'am_tuning_curve')
 
 
-#exp2 = celldatabase.Experiment(subject, '2024-06-xx', brainArea='left_AC', probe='NPv1-4432', recordingTrack='anteriorlateral_DiD', info=['facesMedial', 'soundRight']) # Reference = tip.
-#experiments.append(exp2)
+exp2 = celldatabase.Experiment(subject, '2024-06-14', brainArea='left_AC', probe='NPv1-4432', recordingTrack='posteriorlateral_DiI', info=['facesMedial', 'soundRight']) # Reference = tip.
+experiments.append(exp2)
+# Originally attempted anteriorlateral_DiD penetration however the well restricts the area and the edge of the skull is much more medial than anticipated. The craniotomy looks as if it was larger than it is.
+# Because of the edge of the craniotomy being closer, posteriorlateral_DiI penetration is more medial than planned
+
+# 13:45 in booth
+# 14:20 in brain
+# 14:28 reached max depth
+# 14:59 started recording pureTones
+# 15:08 done
+# 15:09 starting AM
+# 15:35 done
+# 15:37 started natural sounds
+# 15:44 done
+
+exp2.add_site(3000)
+exp2.maxDepth = 3000
+exp2.add_session('14-59-35', 'a', 'pureTones', 'am_tuning_curve')
+exp2.add_session('15-08-55', 'a', 'naturalSound', 'natural_sound_detection')
+exp2.add_session('15-36-34', 'b', 'AM', 'am_tuning_curve')
+
+
+#exp3 = celldatabase.Experiment(subject, '2024-06-xx', brainArea='left_AC', probe='NPv1-4432', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundRight']) # Reference = tip.
+#experiments.append(exp3)
 
 #  in booth
 #  in brain
@@ -61,10 +83,11 @@ exp1.add_session('16-12-36', 'b', 'AM', 'am_tuning_curve')
 #  started natural sounds
 #  done
 
-#exp2.add_site(3000)
-#exp2.maxDepth = 3000
-#exp2.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
-#exp2.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
-#exp2.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
+#exp3.add_site(3000)
+#exp3.maxDepth = 3000
+#exp3.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
+#exp3.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
+#exp3.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
+
 
 
