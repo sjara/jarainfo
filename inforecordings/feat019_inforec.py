@@ -36,9 +36,9 @@ experiments.append(exp1)
 # 15:10 reached max depth
 # 15:35 started recording pureTones
 # 15:34 done
-# 15:44 starting AM
+# 15:44 starting natural sounds
 # 16:11 done
-# 16:12 started natural sounds
+# 16:12 started AM
 # 16:20 done
 
 exp1.add_site(3000)
@@ -58,10 +58,9 @@ experiments.append(exp2)
 # 14:28 reached max depth
 # 14:59 started recording pureTones
 # 15:08 done
-# 15:09 starting AM
+# 15:09 starting natural sounds
 # 15:35 done
-# 15:37 started natural sounds
-# 15:44 done
+# 15:37 started AM
 
 exp2.add_site(3000)
 exp2.maxDepth = 3000
@@ -70,8 +69,28 @@ exp2.add_session('15-08-55', 'a', 'naturalSound', 'natural_sound_detection')
 exp2.add_session('15-36-34', 'b', 'AM', 'am_tuning_curve')
 
 
-#exp3 = celldatabase.Experiment(subject, '2024-06-xx', brainArea='left_AC', probe='NPv1-4432', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundRight']) # Reference = tip.
-#experiments.append(exp3)
+exp3 = celldatabase.Experiment(subject, '2024-06-17', brainArea='right_AC', probe='NPv1-4432', recordingTrack='anteriormedial_DiI', info=['facesLateral', 'soundLeft']) # Reference = tip.
+experiments.append(exp3)
+
+# 10:00 in booth
+# 10:12 in brain
+# 10:20 reached max depth
+# 10:44 started recording pureTones
+# 10:51 done
+# 10:52 starting natural sounds
+# 11:18 done
+# 11:20 started AM
+# 11:27 done
+
+exp3.add_site(3000)
+exp3.maxDepth = 3000
+exp3.add_session('10-43-44', 'a', 'pureTones', 'am_tuning_curve')
+exp3.add_session('10-52-16', 'a', 'naturalSound', 'natural_sound_detection')
+exp3.add_session('11-20-19', 'b', 'AM', 'am_tuning_curve')
+
+
+#exp4 = celldatabase.Experiment(subject, '2024-06-xx', brainArea='left_AC', probe='NPv1-4432', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundRight']) # Reference = tip.
+#experiments.append(exp4)
 
 #  in booth
 #  in brain
@@ -83,11 +102,11 @@ exp2.add_session('15-36-34', 'b', 'AM', 'am_tuning_curve')
 #  started natural sounds
 #  done
 
-#exp3.add_site(3000)
-#exp3.maxDepth = 3000
-#exp3.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
-#exp3.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
-#exp3.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
+#exp4.add_site(3000)
+#exp4.maxDepth = 3000
+#exp4.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
+#exp4.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
+#exp4.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
 
 
 
