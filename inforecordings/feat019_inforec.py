@@ -89,8 +89,29 @@ exp3.add_session('10-52-16', 'a', 'naturalSound', 'natural_sound_detection')
 exp3.add_session('11-20-19', 'b', 'AM', 'am_tuning_curve')
 
 
-#exp4 = celldatabase.Experiment(subject, '2024-06-xx', brainArea='left_AC', probe='NPv1-4432', recordingTrack='posteriorlateral_DiD', info=['facesMedial', 'soundRight']) # Reference = tip.
-#experiments.append(exp4)
+exp4 = celldatabase.Experiment(subject, '2024-06-18', brainArea='right_AC', probe='NPv1-4432', recordingTrack='posteriormedial_DiD', info=['facesLateral', 'soundLeft']) # Reference = tip.
+experiments.append(exp4)
+
+# 10:15 in booth
+# 10:23 in brain
+# 10:32 reached max depth
+# 10:52 started recording pureTones
+# 11:00 done
+# 11:01 starting AM
+# 11:28 done
+# 11:29 started natural sounds 
+# am_tuning.py crashed upon attempting to start so the sound began a few seconds after th other recordings were started
+# 11:36 done
+
+exp4.add_site(3000)
+exp4.maxDepth = 3000
+exp4.add_session('10-52-07', 'a', 'pureTones', 'am_tuning_curve')
+exp4.add_session('11-01-22', 'a', 'naturalSound', 'natural_sound_detection')
+exp4.add_session('11-28-57', 'b', 'AM', 'am_tuning_curve')
+
+
+#exp5 = celldatabase.Experiment(subject, '2024-06-xx', brainArea='right_AC', probe='NPv1-4432', recordingTrack='posteriorlateral_DiO', info=['facesLateral', 'soundLeft']) # Reference = tip.
+#experiments.append(exp5)
 
 #  in booth
 #  in brain
@@ -102,11 +123,11 @@ exp3.add_session('11-20-19', 'b', 'AM', 'am_tuning_curve')
 #  started natural sounds
 #  done
 
-#exp4.add_site(3000)
-#exp4.maxDepth = 3000
-#exp4.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
-#exp4.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
-#exp4.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
+#exp5.add_site(3000)
+#exp5.maxDepth = 3000
+#exp5.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
+#exp5.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
+#exp5.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
 
 
 
