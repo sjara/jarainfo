@@ -231,7 +231,7 @@ exp9.add_session('13-51-35', 'b', 'AM', 'am_tuning_curve')
 
 exp10 = celldatabase.Experiment(subject, '2024-06-26', brainArea='AC_right', probe='NPv1-4272', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundLeft'])
 # Reference electrode is the tip.
-experiments.append(expx10)
+experiments.append(exp10)
 
 # Dura removal 10:30-10:50am
 # Pia 10:58am
