@@ -225,5 +225,26 @@ exp9.add_session('13-13-37', 'a', 'pureTones', 'am_tuning_curve')
 exp9.add_session('13-23-05', 'a', 'naturalSound', 'natural_sound_detection')
 exp9.add_session('13-51-35', 'b', 'AM', 'am_tuning_curve')
 
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+exp10 = celldatabase.Experiment(subject, '2024-06-26', brainArea='AC_right', probe='NPv1-4272', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundLeft'])
+# Reference electrode is the tip.
+experiments.append(expx10)
+
+# Dura removal 10:30-10:50am
+# Pia 10:58am
+# Reached target depth 11:06am and left brain to settle for 15 min.
+# Began recording at 11:21am
+# Done at 12:07pm 
+
+
+exp10.add_site(3000)
+exp10.maxDepth = 3000
+exp10.add_session('11-21-48', 'a', 'pureTones', 'am_tuning_curve')
+exp10.add_session('11-31-07', 'a', 'naturalSound', 'natural_sound_detection')
+exp10.add_session('12-00-28', 'b', 'AM', 'am_tuning_curve')
+
 
 
