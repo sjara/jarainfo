@@ -130,22 +130,36 @@ exp5.add_session('11-08-27', 'a', 'naturalSound', 'natural_sound_detection')
 exp5.add_session('11-36-20', 'b', 'AM', 'am_tuning_curve')
 
 
-#exp6 = celldatabase.Experiment(subject, '2024-06-xx', brainArea='right_AC', probe='NPv1-4432', recordingTrack='posteriorlateral_DiO', info=['facesLateral', 'soundLeft']) # Reference = tip.
-#experiments.append(exp6)
+exp6 = celldatabase.Experiment(subject, '2024-06-27', brainArea='left_AC', probe='NPv1-4272', recordingTrack='anteriorCenter_DiD', info=['facesMedial', 'soundRight']) # Reference = tip.
+experiments.append(exp6)
 
-#  in booth
-#  in brain
+# Pia 2:34pm
+# 2:43pm reached max depth - left brain to settle for 15 min. 
+# Began session at 3:00pm
+# This area of the brain doesn't look very active. Ran probe self test and it failed signal but passed all others. NP manual says that the first two self tests can be ignored, so I continued with the session.
+# 3:46pm done
+
+exp6.add_site(3000)
+exp6.maxDepth = 3000
+exp6.add_session('15-00-15', 'a', 'pureTones', 'am_tuning_curve')
+exp6.add_session('15-10-12', 'a', 'naturalSound', 'natural_sound_detection')
+exp6.add_session('15-39-17', 'b', 'AM', 'am_tuning_curve')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+#expX = celldatabase.Experiment(subject, '2024-06-xx', brainArea='right_AC', probe='NPv1-4432', recordingTrack='posteriorlateral_DiO', info=['facesLateral', 'soundLeft']) # Reference = tip.
+#experiments.append(expX)
+
+# Pia 
 #  reached max depth
-#  started recording pureTones
-#  done
-#  starting AM
-#  done
-#  started natural sounds
+# Began recording 
 #  done
 
-#exp6.add_site(3000)
-#exp6.maxDepth = 3000
-#exp6.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
-#exp6.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
-#exp6.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
+#expX.add_site(3000)
+#expX.maxDepth = 3000
+#expX.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
+#expX.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
+#expX.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
 
