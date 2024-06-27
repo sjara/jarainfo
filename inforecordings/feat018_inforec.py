@@ -262,6 +262,6 @@ experiments.append(exp11)
 exp11.add_site(3000)
 exp11.maxDepth = 3000
 exp11.add_session('11-21-37', 'a', 'pureTones', 'am_tuning_curve')
-exp11.add_session('11-31-39', 'a', 'naturalSound', 'natural_sound_detection')
+exp11.add_session('11-31-19', 'a', 'naturalSound', 'natural_sound_detection')
 exp11.add_session('11-59-49', 'b', 'AM', 'am_tuning_curve')
 
