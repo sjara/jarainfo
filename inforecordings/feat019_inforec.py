@@ -149,7 +149,29 @@ exp6.add_session('15-39-17', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-#expX = celldatabase.Experiment(subject, '2024-06-xx', brainArea='right_AC', probe='NPv1-4432', recordingTrack='posteriorlateral_DiO', info=['facesLateral', 'soundLeft']) # Reference = tip.
+exp7 = celldatabase.Experiment(subject, '2024-06-28', brainArea='left_AC', probe='NPv1-4272', recordingTrack='centerCenter_DiO', info=['facesMedial', 'soundRight']) 
+
+# Reference = tip.
+
+experiments.append(exp7)
+# In booth 10:00am
+# Reached pia at 10:07am
+# Reached max depth at 10:15am - left brain to settle for 15 min.
+# Began recording at 10:33am
+# Done at 11:18am
+
+exp7.add_site(3000)
+exp7.maxDepth = 3000
+exp7.add_session('10-33-29', 'a', 'pureTones', 'am_tuning_curve')
+exp7.add_session('10-42-36', 'a', 'naturalSound', 'natural_sound_detection')
+exp7.add_session('11-11-15', 'b', 'AM', 'am_tuning_curve')
+
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+#expX = celldatabase.Experiment(subject, '2024-06-xx', brainArea='right_AC', probe='NPv1-4272', recordingTrack='posteriorlateral_DiO', info=['facesLateral', 'soundLeft']) # Reference = tip.
 #experiments.append(expX)
 
 # Pia 
