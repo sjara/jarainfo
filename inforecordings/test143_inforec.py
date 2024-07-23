@@ -15,8 +15,8 @@ exp0.add_session('17-14-07','a','AM','am_tuning_curve')
 # Reference = 2:tip
 # Electrode preset = All Shanks 1-96
 
-exp0.add_site(3000-720)
-exp0.add_session('17-14-07','b','AM','am_tuning_curve')
+# exp0.add_site(3000-720)
+# exp0.add_session('17-14-07','b','AM','am_tuning_curve')
 # Reference = 2:tip
 # Electrode preset = All Shanks 97-192
 # We forgot to press pluse in openephys, it got recorded as experiment2
