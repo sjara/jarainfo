@@ -46,7 +46,7 @@ exp1.add_session('16-27-43','a','AM','am_tuning_curve')
 exp1.add_session('16-39-03','b','pureTones','am_tuning_curve')
 exp1.add_session('16-50-44','a','naturalSound','natural_sound_detection')
 
-exp1.add_site(3000-720)
+exp1.add_site(2280)
 # Reference = 2:tip
 # Electrode preset = All Shanks 97-192
 exp1.add_session('17-22-34','c','AM','am_tuning_curve')
