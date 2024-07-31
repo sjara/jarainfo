@@ -108,3 +108,50 @@ exp2.maxDepth = 4000
 # 14:25 finished recording
 # 14:30 probe out of brain
 
+exp3 = celldatabase.Experiment(subject, '2024-07-31', brainArea='right_pStr', probe = 'NPv2-0282', recordingTrack='medial_DiI', info=['facesMedial', 'soundLeft'])
+experiments.append(exp3)
+
+exp3.add_site(4000)
+# Reference = 2:tip
+# Electrode preset = All Shanks 1-96
+exp3.add_session('12-06-01','a','AM','am_tuning_curve')
+exp3.add_session('12-13-41','b','pureTones','am_tuning_curve')
+exp3.add_session('12-23-41','a','naturalSound','natural_sound_detection')
+
+exp3.add_site(3280)
+# Reference = 2:tip
+# Electrode preset = All Shanks 97-192
+exp3.add_session('12-52-03','c','AM','am_tuning_curve')
+exp3.add_session('13-00-01','d','pureTones','am_tuning_curve')
+exp3.add_session('13-09-04','b','naturalSound','natural_sound_detection')
+
+exp3.add_site(2560)
+# Reference = 2:tip
+# Electrode preset = All Shanks 193-288
+exp3.add_session('13-37-05','e','AM','am_tuning_curve')
+exp3.add_session('13-48-00','f','pureTones','am_tuning_curve')
+exp3.add_session('13-56-47','c','naturalSound','natural_sound_detection')
+
+exp3.add_site(1840)
+# Reference = 2:tip
+# Electrode preset = All Shanks 289-384
+exp3.add_session('14-24-14','g','AM','am_tuning_curve')
+
+exp3.add_site(1120)
+# Reference = 2:tip
+# Electrode preset = All Shanks 385-480
+exp3.add_session('14-31-58','h','AM','am_tuning_curve')
+exp3.maxDepth = 4000
+
+# 9:18 painting the probe
+# 9:26 animal in the rig
+# 9:29 sylgard off
+# 10:34 finish haircut so it doesn't interfere with recording
+# 10:54 inserting the probe in the brain
+# 11:23 probe started bending at 1580
+# 11:43 removing dura and scar tissue
+# 11:47 probe in the brain
+# 12:02 ground wire in the well
+# 12:06 started recording
+# 14:40 probe out of brain
+
