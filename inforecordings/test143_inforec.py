@@ -188,15 +188,12 @@ exp4.add_site(1120)
 exp4.add_session('18-32-09','h','AM','am_tuning_curve')
 exp4.maxDepth = 4000
 
-# 9:18 painting the probe
-# 9:26 animal in the rig
-# 9:29 sylgard off
-# 10:34 finish haircut so it doesn't interfere with recording
-# 10:54 inserting the probe in the brain
-# 11:23 probe started bending at 1580
-# 11:43 removing dura and scar tissue
-# 11:47 probe in the brain
-# 12:02 ground wire in the well
-# 12:06 started recording
-# 14:40 probe out of brain
+# 15:07 painting the probe
+# 15:10 animal in the rig
+# 15:12 sylgard off
+# 15:15 inserting the probe in the brain
+# 15:30 probe in the brain
+# 15:33 ground wire in the well
+# 16:04 started recording
+# 18:44 probe out of brain
 
