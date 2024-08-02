@@ -152,6 +152,51 @@ exp3.maxDepth = 4000
 # 11:43 removing dura and scar tissue
 # 11:47 probe in the brain
 # 12:02 ground wire in the well
+
+exp4 = celldatabase.Experiment(subject, '2024-08-01', brainArea='right_pStr', probe = 'NPv2-0282', recordingTrack='lateral_DiD', info=['facesLateral', 'soundLeft'])
+experiments.append(exp4)
+
+exp4.add_site(4000)
+# Reference = 2:tip
+# Electrode preset = All Shanks 1-96
+exp4.add_session('16-04-27','a','AM','am_tuning_curve')
+exp4.add_session('16-12-43','b','pureTones','am_tuning_curve')
+exp4.add_session('16-21-20','a','naturalSound','natural_sound_detection')
+
+exp4.add_site(3280)
+# Reference = 2:tip
+# Electrode preset = All Shanks 97-192
+exp4.add_session('16-49-58','c','AM','am_tuning_curve')
+exp4.add_session('17-03-07','d','pureTones','am_tuning_curve')
+exp4.add_session('17-11-36','b','naturalSound','natural_sound_detection')
+
+exp4.add_site(2560)
+# Reference = 2:tip
+# Electrode preset = All Shanks 193-288
+exp4.add_session('17-39-49','e','AM','am_tuning_curve')
+exp4.add_session('17-47-20','f','pureTones','am_tuning_curve')
+exp4.add_session('17-55-59','c','naturalSound','natural_sound_detection')
+
+exp4.add_site(1840)
+# Reference = 2:tip
+# Electrode preset = All Shanks 289-384
+exp4.add_session('18-24-20','g','AM','am_tuning_curve')
+
+exp4.add_site(1120)
+# Reference = 2:tip
+# Electrode preset = All Shanks 385-480
+exp4.add_session('18-32-09','h','AM','am_tuning_curve')
+exp4.maxDepth = 4000
+
+# 9:18 painting the probe
+# 9:26 animal in the rig
+# 9:29 sylgard off
+# 10:34 finish haircut so it doesn't interfere with recording
+# 10:54 inserting the probe in the brain
+# 11:23 probe started bending at 1580
+# 11:43 removing dura and scar tissue
+# 11:47 probe in the brain
+# 12:02 ground wire in the well
 # 12:06 started recording
 # 14:40 probe out of brain
 
