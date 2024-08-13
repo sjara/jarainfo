@@ -7,7 +7,7 @@ experiments = []
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-#expX = celldatabase.Experiment(subject, '2024-xx-xx', brainArea='AC_xxx', probe='NPv1-2141', recordingTrack='medialxxx_DYE', info=['facesxx', 'soundxxx'])
+#expX = celldatabase.Experiment(subject, '2024-xx-xx', brainArea='xxx_AC', probe='NPv1-2141', recordingTrack='medialxxx_DYE', info=['facesxx', 'soundxxx'])
 # Reference electrode is the tip.
 #experiments.append(expx)
 
@@ -22,7 +22,7 @@ experiments = []
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp0 = celldatabase.Experiment(subject, '2024-03-25', brainArea='AC_left', probe='NPv1-4542', recordingTrack='anteriorCenter_DiO', info=['facesPosterior', 'soundRight'])
+exp0 = celldatabase.Experiment(subject, '2024-03-25', brainArea='left_AC', probe='NPv1-4542', recordingTrack='anteriorCenter_DiO', info=['facesPosterior', 'soundRight'])
 
 # Reference electrode is the tip.
 experiments.append(exp0)
@@ -42,7 +42,7 @@ exp0.add_session('15-25-02', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp1 = celldatabase.Experiment(subject, '2024-03-26', brainArea='AC_left', probe='NPv1-4542', recordingTrack='anteriorLateral_DiI', info=['facesAnterior', 'soundRight'])
+exp1 = celldatabase.Experiment(subject, '2024-03-26', brainArea='left_AC', probe='NPv1-4542', recordingTrack='anteriorLateral_DiI', info=['facesAnterior', 'soundRight'])
 # Reference electrode is the tip.
 experiments.append(exp1)
 # Target depth reached 2:04pm - waited 20 minutes for brain to settle
@@ -61,7 +61,7 @@ exp1.add_session('14-46-38', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp2 = celldatabase.Experiment(subject, '2024-03-27', brainArea='AC_left', probe='NPv1-4542', recordingTrack='AnteriorMedial_DiD', info=['facesMedial', 'soundRight'])
+exp2 = celldatabase.Experiment(subject, '2024-03-27', brainArea='left_AC', probe='NPv1-4542', recordingTrack='anteriorMedial_DiD', info=['facesMedial', 'soundRight'])
 # Reference electrode is the tip.
 experiments.append(exp2)
 
@@ -81,7 +81,7 @@ exp2.add_session('12-00-31', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp3 = celldatabase.Experiment(subject, '2024-03-29', brainArea='AC_left', probe='NPv1-4542', recordingTrack='posteriorLateral_DiO', info=['facesMedial', 'soundRight'])
+exp3 = celldatabase.Experiment(subject, '2024-03-29', brainArea='left_AC', probe='NPv1-4542', recordingTrack='posteriorLateral_DiO', info=['facesMedial', 'soundRight'])
 # Reference electrode is the tip.
 experiments.append(exp3)
 # Some troubleshooting with the lights today - whiskers were oversaturated and we had to cover another camera led
@@ -100,7 +100,7 @@ exp3.add_session('11-48-21', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp4 = celldatabase.Experiment(subject, '2024-04-01', brainArea='AC_Left', probe='NPv1-4542', recordingTrack='medialCenter_DiI', info=['facesPosterior' 'soundRight'])
+exp4 = celldatabase.Experiment(subject, '2024-04-01', brainArea='left_AC', probe='NPv1-4542', recordingTrack='centerMedial_DiI', info=['facesPosterior' 'soundRight'])
 # Reference electrode is the tip.
 experiments.append(exp4)
 # Some troubleshooting with the video contrast again today - covered all leds on the camera to get rid of issues with contrast
@@ -121,7 +121,7 @@ exp4.add_session('16-04-55', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp5 = celldatabase.Experiment(subject, '2024-04-02', brainArea='AC_left', probe='NPv1-4542', recordingTrack='posteriorMedial_DiO', info=['facesPosterior', 'soundRight'])
+exp5 = celldatabase.Experiment(subject, '2024-04-02', brainArea='left_AC', probe='NPv1-4542', recordingTrack='posteriorMedial_DiO', info=['facesPosterior', 'soundRight'])
 # Reference electrode is the tip.
 experiments.append(exp5)
 
@@ -142,7 +142,7 @@ exp5.add_session('10-45-32', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp6 = celldatabase.Experiment(subject, '2024-04-03', brainArea='AC_left', probe='NPv1-4542', recordingTrack='posteriorCenter_DiI', info=['facesPosterior', 'soundRight'])
+exp6 = celldatabase.Experiment(subject, '2024-04-03', brainArea='left_AC', probe='NPv1-4542', recordingTrack='posteriorCenter_DiI', info=['facesPosterior', 'soundRight'])
 # Reference electrode is the tip.
 experiments.append(exp6)
 # Reached target depth at 10:30am - left brain to settle for 20 minutes 
@@ -161,7 +161,7 @@ exp6.add_session('11-10-44', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp7 = celldatabase.Experiment(subject, '2024-04-04', brainArea='AC_left', probe='NPv1-4542', recordingTrack='centerCenter_DiD', info=['facesPosterior', 'soundRight'])
+exp7 = celldatabase.Experiment(subject, '2024-04-04', brainArea='left_AC', probe='NPv1-4542', recordingTrack='centerCenter_DiD', info=['facesPosterior', 'soundRight'])
 # Reference electrode is the tip.
 # Recording track center-center but favors lateral
 experiments.append(exp7)
@@ -182,7 +182,7 @@ exp7.add_session('11-17-22', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-#exp8 = celldatabase.Experiment(subject, '2024-04-05', brainArea='AC_Right', probe='NPv1-4542', recordingTrack='anteriorLateral_DiD', info=['facesLateral', 'soundLeft'])
+#exp8 = celldatabase.Experiment(subject, '2024-04-05', brainArea='right_AC', probe='NPv1-4542', recordingTrack='anteriorLateral_DiD', info=['facesLateral', 'soundLeft'])
 # Reference electrode is the tip.
 
 #experiments.append(exp8)
@@ -204,7 +204,7 @@ exp7.add_session('11-17-22', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp9 = celldatabase.Experiment(subject, '2024-04-08', brainArea='AC_right', probe='NPv1-2141', recordingTrack='lateralCenter_DiO', info=['facesLateral', 'soundLeft'])
+exp9 = celldatabase.Experiment(subject, '2024-04-08', brainArea='right_AC', probe='NPv1-2141', recordingTrack='centerLateral_DiO', info=['facesLateral', 'soundLeft'])
 # Reference electrode is the tip.
 # Had some troubleshooting with probe 4542 and had to switch it out - brain left to settle at 3:57pm
 # Start pure tones at 4:17pm
@@ -223,7 +223,7 @@ exp9.add_session('16-35-07', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp10 = celldatabase.Experiment(subject, '2024-04-09', brainArea='AC_right', probe='NPv1-2141', recordingTrack='posteriorLateral_DiI', info=['facesMedial', 'soundLeft'])
+exp10 = celldatabase.Experiment(subject, '2024-04-09', brainArea='right_AC', probe='NPv1-2141', recordingTrack='posteriorLateral_DiI', info=['facesMedial', 'soundLeft'])
 
 # Reference electrode is the tip.
 # Reached target depth at 10:40am - left brain to settle for 30 min
@@ -245,7 +245,7 @@ exp10.add_session('11-27-50', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp11 = celldatabase.Experiment(subject, '2024-04-10', brainArea='AC_right', probe='NPv1-2141', recordingTrack='anteriorCenter_DiI', info=['facesLateral', 'soundLeft'])
+exp11 = celldatabase.Experiment(subject, '2024-04-10', brainArea='right_AC', probe='NPv1-2141', recordingTrack='anteriorCenter_DiI', info=['facesLateral', 'soundLeft'])
 # Reference electrode is the tip.
 
 experiments.append(exp11)
@@ -265,7 +265,7 @@ exp11.add_session('10-58-06', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp12 = celldatabase.Experiment(subject, '2024-04-11', brainArea='AC_right', probe='NPv1-2141', recordingTrack='centerCenter_DiD', info=['facesAnterior', 'soundLeft'])
+exp12 = celldatabase.Experiment(subject, '2024-04-11', brainArea='right_AC', probe='NPv1-2141', recordingTrack='centerCenter_DiD', info=['facesAnterior', 'soundLeft'])
 # Reference electrode is the tip.
 experiments.append(exp12)
 # Start pure tones at 10:53am
@@ -282,7 +282,7 @@ exp12.add_session('11-13-58', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp13 = celldatabase.Experiment(subject, '2024-04-12', brainArea='AC_Right', probe='NPv1-2141', recordingTrack='PosteriorCenter_DiO', info=['facesPosterior', 'soundLeft'])
+exp13 = celldatabase.Experiment(subject, '2024-04-12', brainArea='right_AC', probe='NPv1-2141', recordingTrack='posteriorCenter_DiO', info=['facesPosterior', 'soundLeft'])
 # Reference electrode is the tip.
 experiments.append(exp13)
 # 10:20 reached target depth and left brain to settle for 15 min
@@ -300,7 +300,7 @@ exp13.add_session('11-03-41', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp14 = celldatabase.Experiment(subject, '2024-04-15', brainArea='AC_Right', probe='NPv1-2141', recordingTrack='anteriorMedial_DiO', info=['facesLateral', 'soundLeft'])
+exp14 = celldatabase.Experiment(subject, '2024-04-15', brainArea='right_AC', probe='NPv1-2141', recordingTrack='anteriorMedial_DiO', info=['facesLateral', 'soundLeft'])
 # Reference electrode is the tip.
 experiments.append(exp14)
 # Inserted probe anterior-medial as much as possible but the medial side of the well was very close to the probe and I was worried there may be damage to the probe, so the probe is a bit closer to the center of craniotomy. 
@@ -320,7 +320,7 @@ exp14.add_session('10-45-54', 'a', 'naturalSound', 'natural_sound_detection')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp15 = celldatabase.Experiment(subject, '2024-04-16', brainArea='AC_Right', probe='NPv1-2141', recordingTrack='medialCenter_DiI', info=['facesMedial', 'soundLeft'])
+exp15 = celldatabase.Experiment(subject, '2024-04-16', brainArea='right_AC', probe='NPv1-2141', recordingTrack='centerMedial_DiI', info=['facesMedial', 'soundLeft'])
 # Reference electrode is the tip.
 experiments.append(exp15)
 # Reached target depth at 10:15am - left brain to settle for 30 min
