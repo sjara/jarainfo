@@ -7,7 +7,7 @@ experiments = []
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp0 = celldatabase.Experiment(subject, '2024-06-12', brainArea='left_AC', probe='NPv1-4662', recordingTrack='anteriormedial_DiI', info=['facesMedial', 'soundRight']) # Reference = tip.
+exp0 = celldatabase.Experiment(subject, '2024-06-12', brainArea='left_AC', probe='NPv1-4662', recordingTrack='anteriorMedial_DiI', info=['facesMedial', 'soundRight']) # Reference = tip.
 experiments.append(exp0)
 
 # 14:00 in booth
@@ -27,7 +27,7 @@ exp0.add_session('14-56-59', 'a', 'naturalSound', 'natural_sound_detection')
 exp0.add_session('15-24-35', 'b', 'AM', 'am_tuning_curve')
 
 
-exp1 = celldatabase.Experiment(subject, '2024-06-13', brainArea='left_AC', probe='NPv1-4432', recordingTrack='posteriormedial_DiD', info=['facesMedial', 'soundRight']) # Reference = tip.
+exp1 = celldatabase.Experiment(subject, '2024-06-13', brainArea='left_AC', probe='NPv1-4432', recordingTrack='posteriorMedial_DiD', info=['facesMedial', 'soundRight']) # Reference = tip.
 experiments.append(exp1)
 # moved the penetration slightly anterior as probe would not penetrate at most posterior position
 
@@ -48,7 +48,7 @@ exp1.add_session('15-44-15', 'a', 'naturalSound', 'natural_sound_detection')
 exp1.add_session('16-12-36', 'b', 'AM', 'am_tuning_curve')
 
 
-exp2 = celldatabase.Experiment(subject, '2024-06-14', brainArea='left_AC', probe='NPv1-4432', recordingTrack='posteriorlateral_DiI', info=['facesMedial', 'soundRight']) # Reference = tip.
+exp2 = celldatabase.Experiment(subject, '2024-06-14', brainArea='left_AC', probe='NPv1-4432', recordingTrack='posteriorLateral_DiI', info=['facesMedial', 'soundRight']) # Reference = tip.
 experiments.append(exp2)
 # Originally attempted anteriorlateral_DiD penetration however the well restricts the area and the edge of the skull is much more medial than anticipated. The craniotomy looks as if it was larger than it is.
 # Because of the edge of the craniotomy being closer, posteriorlateral_DiI penetration is more medial than planned
@@ -69,7 +69,7 @@ exp2.add_session('15-08-55', 'a', 'naturalSound', 'natural_sound_detection')
 exp2.add_session('15-36-34', 'b', 'AM', 'am_tuning_curve')
 
 
-exp3 = celldatabase.Experiment(subject, '2024-06-17', brainArea='right_AC', probe='NPv1-4432', recordingTrack='anteriormedial_DiI', info=['facesLateral', 'soundLeft']) # Reference = tip.
+exp3 = celldatabase.Experiment(subject, '2024-06-17', brainArea='right_AC', probe='NPv1-4432', recordingTrack='anteriorMedial_DiI', info=['facesLateral', 'soundLeft']) # Reference = tip.
 experiments.append(exp3)
 
 # 10:00 in booth
@@ -89,7 +89,7 @@ exp3.add_session('10-52-16', 'a', 'naturalSound', 'natural_sound_detection')
 exp3.add_session('11-20-19', 'b', 'AM', 'am_tuning_curve')
 
 
-exp4 = celldatabase.Experiment(subject, '2024-06-18', brainArea='right_AC', probe='NPv1-4432', recordingTrack='posteriormedial_DiD', info=['facesLateral', 'soundLeft']) # Reference = tip.
+exp4 = celldatabase.Experiment(subject, '2024-06-18', brainArea='right_AC', probe='NPv1-4432', recordingTrack='posteriorMedial_DiD', info=['facesLateral', 'soundLeft']) # Reference = tip.
 experiments.append(exp4)
 
 # 10:15 in booth
@@ -110,7 +110,7 @@ exp4.add_session('11-01-22', 'a', 'naturalSound', 'natural_sound_detection')
 exp4.add_session('11-28-57', 'b', 'AM', 'am_tuning_curve')
 
 
-exp5 = celldatabase.Experiment(subject, '2024-06-19', brainArea='right_AC', probe='NPv1-4432', recordingTrack='APcenterlateral_DiO', info=['facesLateral', 'soundLeft']) # Reference = tip.
+exp5 = celldatabase.Experiment(subject, '2024-06-19', brainArea='right_AC', probe='NPv1-4432', recordingTrack='centerLateral_DiO', info=['facesLateral', 'soundLeft']) # Reference = tip.
 experiments.append(exp5)
 
 # 10:18 in booth
@@ -171,7 +171,7 @@ exp7.add_session('11-11-15', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-#expX = celldatabase.Experiment(subject, '2024-06-xx', brainArea='right_AC', probe='NPv1-4272', recordingTrack='posteriorlateral_DiO', info=['facesLateral', 'soundLeft']) # Reference = tip.
+#expX = celldatabase.Experiment(subject, '2024-06-xx', brainArea='right_AC', probe='NPv1-4272', recordingTrack='posteriorLateral_DiO', info=['facesLateral', 'soundLeft']) # Reference = tip.
 #experiments.append(expX)
 
 # Pia 
