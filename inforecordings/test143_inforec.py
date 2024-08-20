@@ -36,7 +36,7 @@ exp0.maxDepth = 3000
 # 18:45 finished recording
 # 18:51 probe out of brain
 
-exp1 = celldatabase.Experiment(subject, '2024-07-26', brainArea='left_pStr', probe = 'NPv2-0282', recordingTrack='posteriorcoronal_DiI', info=['facesanterior', 'soundRight'])
+exp1 = celldatabase.Experiment(subject, '2024-07-26', brainArea='left_pStr', probe = 'NPv2-0282', recordingTrack='posteriorlateral_DiI', info=['facesanterior', 'soundRight'])
 experiments.append(exp1)
 
 exp1.add_site(3000)
@@ -108,7 +108,7 @@ exp2.maxDepth = 4000
 # 14:25 finished recording
 # 14:30 probe out of brain
 
-exp3 = celldatabase.Experiment(subject, '2024-07-31', brainArea='right_pStr', probe = 'NPv2-0282', recordingTrack='medial_DiI', info=['facesMedial', 'soundLeft'])
+exp3 = celldatabase.Experiment(subject, '2024-07-31', brainArea='right_pStr', probe = 'NPv2-0282', recordingTrack='posteriormedial_DiI', info=['facesMedial', 'soundLeft'])
 experiments.append(exp3)
 
 exp3.add_site(4000)
@@ -153,7 +153,7 @@ exp3.maxDepth = 4000
 # 11:47 probe in the brain
 # 12:02 ground wire in the well
 
-exp4 = celldatabase.Experiment(subject, '2024-08-01', brainArea='right_pStr', probe = 'NPv2-0282', recordingTrack='lateral_DiD', info=['facesLateral', 'soundLeft'])
+exp4 = celldatabase.Experiment(subject, '2024-08-01', brainArea='right_pStr', probe = 'NPv2-0282', recordingTrack='anteriorlateral_DiD', info=['facesLateral', 'soundLeft'])
 experiments.append(exp4)
 
 exp4.add_site(4000)
