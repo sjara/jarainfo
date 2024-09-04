@@ -38,7 +38,8 @@ experiments.append(exp1)
 exp1.add_site(4501)
 # Reference = 2:tip
 # Electrode preset = All Shanks 1-96
-# the sync light was on for the whole experiment. 
+# the sync light was on for the whole experiment.
+# The probe was inserted 4000 but not many spikes were observed so we moved it more lateral. 
 exp1.add_session('16-55-48','e','AM','am_tuning_curve')
 exp1.add_session('17-05-20','f','pureTones','am_tuning_curve')
 exp1.add_session('17-21-40','b','naturalSound','natural_sound_detection')
