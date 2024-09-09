@@ -101,7 +101,7 @@ exp3.add_site(4000)
 # the sync light was on for the whole experiment. 
 exp3.add_session('11-05-55','a','AM','am_tuning_curve')
 exp3.add_session('11-13-34','b','pureTones','am_tuning_curve')
-exp3.add_session('13-43-43','a','naturalSound','natural_sound_detection')
+exp3.add_session('11-22-23','a','naturalSound','natural_sound_detection')
 
 exp3.add_site(3280)
 # Reference = 2:tip
