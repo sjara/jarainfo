@@ -109,7 +109,7 @@ exp3.add_session('10-59-31', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp4 = celldatabase.Experiment(subject, '2024-06-12', brainArea='left_AC', probe='NPv1-4662', recordingTrack='centerCenter_DiD', info=['facesMedial', 'soundRight'])
+exp4 = celldatabase.Experiment(subject, '2024-06-12', brainArea='left_AC', probe='NPv1-4662', recordingTrack='centerMedial_DiD', info=['facesMedial', 'soundRight'])
 
 # Reference electrode is the tip.
 # Penetration location is in the middle of the craniotomy and slightly medial.
@@ -229,7 +229,7 @@ exp9.add_session('13-51-35', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp10 = celldatabase.Experiment(subject, '2024-06-26', brainArea='right_AC', probe='NPv1-4272', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundLeft'])
+exp10 = celldatabase.Experiment(subject, '2024-06-26', brainArea='right_AC', probe='NPv1-4272', recordingTrack='centerMedial_DiI', info=['facesLateral', 'soundLeft'])
 # Reference electrode is the tip.
 experiments.append(exp10)
 
@@ -250,7 +250,7 @@ exp10.add_session('12-00-28', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp11 = celldatabase.Experiment(subject, '2024-06-27', brainArea='right_AC', probe='NPv1-4432', recordingTrack='posteriorCenter_DiD', info=['facesLateral', 'soundLeft'])
+exp11 = celldatabase.Experiment(subject, '2024-06-27', brainArea='right_AC', probe='NPv1-4432', recordingTrack='posteriorMedial_DiD', info=['facesLateral', 'soundLeft'])
 # Reference electrode is the tip.
 experiments.append(exp11)
 # Reached pia 10:55am
