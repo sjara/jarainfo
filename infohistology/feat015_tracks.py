@@ -16,6 +16,7 @@ tracks = [
      {'subject':'feat015', 'brainArea':'right_AC', 'histImage':'p1-D3-01', 'recordingTrack':'anteriorLateral_DiI', 'shank':1, 'atlasZ':233}, 
      
       {'subject':'feat015', 'brainArea':'right_AC', 'histImage':'p1-C6-01', 'recordingTrack':'centerCenter_DiO', 'shank':1, 'atlasZ':224}, 
+      # Note that this penetration is difficult to see. 
       
        {'subject':'feat015', 'brainArea':'right_AC', 'histImage':'p1-D3-01', 'recordingTrack':'anteriorCenter_DiD', 'shank':1, 'atlasZ':233}, 
        
