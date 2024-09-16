@@ -5,11 +5,12 @@ tracks = [
 # {'subject':'feat017', 'brainArea':'xxx_AC', 'histImage':'xx-xx-xx', 'recordingTrack':'xX_DiX', 'shank':1, 'atlasZ':xxx}, 
 
  {'subject':'feat017', 'brainArea':'left_AC', 'histImage':'p1-A2-01', 'recordingTrack':'posteriorMedial_DiO', 'shank':1, 'atlasZ':147}, 
+ #Note that this is a very faint penetration and also out of the AC 
 
  {'subject':'feat017', 'brainArea':'left_AC', 'histImage':'p1-A4-01', 'recordingTrack':'posteriorLateral_DiO', 'shank':1, 'atlasZ':159}, 
 
  {'subject':'feat017', 'brainArea':'left_AC', 'histImage':'p1-A2-01', 'recordingTrack':'posteriorCenter_DiI', 'shank':1, 'atlasZ':147}, 
- #faint penetration 
+ #Note that this is a very faint penetration and also out of the AC 
 
  {'subject':'feat017', 'brainArea':'left_AC', 'histImage':'p1-B1-01', 'recordingTrack':'centerCenter_DiD', 'shank':1, 'atlasZ':168}, 
 
