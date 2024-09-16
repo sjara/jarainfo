@@ -110,7 +110,7 @@ exp4.add_session('11-01-22', 'a', 'naturalSound', 'natural_sound_detection')
 exp4.add_session('11-28-57', 'b', 'AM', 'am_tuning_curve')
 
 
-exp5 = celldatabase.Experiment(subject, '2024-06-19', brainArea='right_AC', probe='NPv1-4432', recordingTrack='centerLateral_DiO', info=['facesLateral', 'soundLeft']) # Reference = tip.
+exp5 = celldatabase.Experiment(subject, '2024-06-19', brainArea='right_AC', probe='NPv1-4432', recordingTrack='centerCenter_DiO', info=['facesLateral', 'soundLeft']) # Reference = tip.
 experiments.append(exp5)
 
 # 10:18 in booth
