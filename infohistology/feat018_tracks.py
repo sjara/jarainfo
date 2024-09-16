@@ -6,7 +6,8 @@ tracks = [
 
 {'subject':'feat018', 'brainArea':'left_AC', 'histImage':'p1-B3-01', 'recordingTrack':'posteriorLateral_DiD', 'shank':1, 'atlasZ':187}, 
 
-{'subject':'feat018', 'brainArea':'left_AC', 'histImage':'p1-B4-01', 'recordingTrack':'posteriorMedial_DiI', 'shank':1, 'atlasZ':189}, 
+#{'subject':'feat018', 'brainArea':'left_AC', 'histImage':'p1-B4-01', 'recordingTrack':'posteriorMedial_DiI', 'shank':1, 'atlasZ':189}, 
+#This session can't be used in since the probe failed in the middle of the recording.
 
 {'subject':'feat018', 'brainArea':'left_AC', 'histImage':'p1-C1-01', 'recordingTrack':'centerLateral_DiI', 'shank':1, 'atlasZ':199}, 
 
