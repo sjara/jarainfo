@@ -14,6 +14,8 @@ tracks = [
      {'subject':'feat016', 'brainArea':'left_AC', 'histImage':'p1-C2-01', 'recordingTrack':'posteriorLateral_DiI', 'shank':1, 'atlasZ':199}, 
      
      {'subject':'feat016', 'brainArea':'left_AC', 'histImage':'p1-C5-01', 'recordingTrack':'anteriorMedial_DiI', 'shank':1, 'atlasZ':212}, 
+
+#Note in the annotated histology image, 2 left penetrations are on top of each other     
      
  #right hemisphere   
   {'subject':'feat016', 'brainArea':'right_AC', 'histImage':'p1-B6-02', 'recordingTrack':'posteriorMedial_DiO', 'shank':1, 'atlasZ':194}, 
