@@ -13,10 +13,12 @@ experiments.append(exp0)
 exp0.add_site(3780)
 # Reference = 2:tip
 # Electrode preset = All Shanks 97-192
-# Open ephys crashed for the first time at "16-28-10"  
+
+# Open ephys crashed for the first time at "16-28-10" 
+ 
 # exp0.add_session('16-31-09','_bad1','AM','am_tuning_curve')
 # 395 trials into it but the open ephys crashed.
-# the ephys crashed  times and the first correct session is the "16-31-09".
+# the ephys crashed  times at "16-31-09".
 
 exp0.add_session('16-50-11','a','optoTuningAM','am_tuning_curve')
 # 403 trials were presented in "16-50-11". 
