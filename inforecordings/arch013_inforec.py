@@ -74,32 +74,32 @@ exp1.maxDepth = 4500
 # 18:42 finished recording
 # 18:55 probe out of brain
 
-exp2 = celldatabase.Experiment(subject, '2024-10-29', brainArea='left_pStr', probe = 'NPv2-0282', recordingTrack='centerCateral_DiO', info=['facesMedial', 'soundRight'])
+exp2 = celldatabase.Experiment(subject, '2024-10-29', brainArea='left_pStr', probe = 'NPv2-0282', recordingTrack='centerLateral_DiD', info=['facesMedial', 'soundRight'])
 experiments.append(exp2)
 
 exp2.add_site(4500)
 # Reference = 2:tip
 # Electrode preset = All Shanks 1-96 
 
-exp2.add_session('','a','optoTuningAM','am_tuning_curve')  # went to 460 trials 
-exp2.add_session('','a','optoNaturalCategories','natural_sound_detection')
-exp2.add_session('','b','optoTuningFreq','am_tuning_curve')
-exp2.add_session('','b','optoNaturalInstances','natural_sound_detection')
+exp2.add_session('15-43-43','a','optoTuningAM','am_tuning_curve')  
+exp2.add_session('15-57-43','a','optoNaturalCategories','natural_sound_detection')
+exp2.add_session('16-24-34','b','optoTuningFreq','am_tuning_curve')
+exp2.add_session('16-41-01','b','optoNaturalInstances','natural_sound_detection')
 
 exp2.add_site(3780)
 # Reference = 2:tip
 # Electrode preset = All Shanks 97-192
-exp2.add_session('','c','optoTuningAM','am_tuning_curve')  
-exp2.add_session('','c','optoNaturalCategories','natural_sound_detection')
-exp2.add_session('','d','optoTuningFreq','am_tuning_curve')
-exp2.add_session('','d','optoNaturalInstances','natural_sound_detection')
+exp2.add_session('17-05-11','c','optoTuningAM','am_tuning_curve')  
+exp2.add_session('17-19-08','c','optoNaturalCategories','natural_sound_detection')
+exp2.add_session('17-46-15','d','optoTuningFreq','am_tuning_curve')
+exp2.add_session('18-01-51','d','optoNaturalInstances','natural_sound_detection')
 
 exp2.maxDepth = 4500
-# 9:55 animal in the rig
-# 9:58 sylgard off
+# 13:17 animal in the rig
+# 13:22 sylgard off
 # 13:40 ground wire in the well
-# 15:32 probe in the brain
-# 15:50 started recording with shanks 1-96
-# 17:31 recording with shanks 97-192
+# 15:40 probe in the brain
+# 15:43 started recording with shanks 1-96
+# 17:05 recording with shanks 97-192
 # 18:42 finished recording
 # 18:55 probe out of brain
