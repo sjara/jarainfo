@@ -103,3 +103,39 @@ exp2.maxDepth = 4500
 # 17:05 recording with shanks 97-192
 # 18:42 finished recording
 # 18:55 probe out of brain
+
+exp3 = celldatabase.Experiment(subject, '2024-11-01', brainArea='left_pStr', probe = 'NPv2-0282', recordingTrack='centerCentral_DiD', info=['facesAnterior', 'soundRight'])
+experiments.append(exp3)
+
+exp3.add_site(4500)
+# Reference = 2:tip
+# Electrode preset = All Shanks 1-96 
+
+exp3.add_session('10-15-29','a','optoTuningAM','am_tuning_curve')  
+exp3.add_session('10-33-25','a','optoNaturalCategories','natural_sound_detection')
+exp3.add_session('11-01-13','b','optoTuningFreq','am_tuning_curve')
+exp3.add_session('11-23-21','b','optoNaturalInstances','natural_sound_detection')
+
+exp3.add_site(3780)
+# Reference = 2:tip
+# Electrode preset = All Shanks 97-192
+exp3.add_session('11-48-17','c','optoTuningAM','am_tuning_curve')  
+exp3.add_session('12-05-47','c','optoNaturalCategories','natural_sound_detection')
+exp3.add_session('12-32-55','d','optoTuningFreq','am_tuning_curve')
+exp3.add_session('12-52-08','d','optoNaturalInstances','natural_sound_detection')
+
+exp3.add_site(3060)
+# Reference = 2:tip
+# Electrode preset = All Shanks 193-288
+exp3.add_session('13-17-29','e','optoTuningAM','am_tuning_curve')  # went to 638
+
+exp3.maxDepth = 4500
+
+# 9:31 animal in the rig
+# 9:35 sylgard off
+# 9:38 ground wire in the well
+# 9:51 probe in the brain
+# 10:15 started recording with shanks 1-96
+# 11:46 recording with shanks 97-192
+# 18:42 finished recording
+# 18:55 probe out of brain
