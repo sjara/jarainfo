@@ -3,7 +3,7 @@ import importlib
 importlib.reload(celldatabase)
 
 
-subject = 'arch013'
+subject = 'arch019'
 experiments = []
 
 exp0 = celldatabase.Experiment(subject, '2024-11-19', brainArea='right_pStr', probe = 'NPv2-0282', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundLeft'])
