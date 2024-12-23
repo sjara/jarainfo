@@ -107,20 +107,51 @@ exp3.add_site(4500)
 # Reference = 2:tip
 # Electrode preset = All Shanks 1-96 
 
-exp3.add_session('10-41-53','a','optoTuningAM','am_tuning_curve')  
-exp3.add_session('10-55-57','a','optoNaturalCategories','natural_sound_detection')
-exp3.add_session('11-25-54','b','optoTuningFreq','am_tuning_curve')
-exp3.add_session('11-41-11','b','optoNaturalInstances','natural_sound_detection') # went to 272
+exp3.add_session('12-26-49','a','optoTuningAM','am_tuning_curve')  
+exp3.add_session('12-40-22','a','optoNaturalCategories','natural_sound_detection')
+exp3.add_session('13-07-41','b','optoTuningFreq','am_tuning_curve')
+exp3.add_session('13-22-56','b','optoNaturalInstances','natural_sound_detection') # went to 272
 
 exp3.add_site(3780)
 # Reference = 2:tip
 # Electrode preset = All Shanks 97-192
-exp3.add_session('13-12-51','c','optoTuningAM','am_tuning_curve') # went to 1190 
-exp3.add_session('13-27-22','c','optoNaturalCategories','natural_sound_detection')
-exp3.add_session('13-54-41','d','optoTuningFreq','am_tuning_curve')
-exp3.add_session('14-11-01','d','optoNaturalInstances','natural_sound_detection')
+exp3.add_session('13-47-09','c','optoTuningAM','am_tuning_curve') # went to 1190 
+exp3.add_session('14-02-46','c','optoNaturalCategories','natural_sound_detection')
+exp3.add_session('14-29-53','d','optoTuningFreq','am_tuning_curve')
+exp3.add_session('14-45-03','d','optoNaturalInstances','natural_sound_detection')
 
 exp3.maxDepth = 4500
+
+# 11:22 animal in the rig
+# 11:33 sylgard off
+# 11:42 ground wire in the well
+# 12:09 probe in the brain
+# 12:26 started recording with shanks 1-96
+# 13:47 recording with shanks 97-192
+# 14:45 finished recording
+# 14:58 probe out of brain
+
+exp4 = celldatabase.Experiment(subject, '2024-12-18', brainArea='left_pStr', probe = 'NPv2-0312', recordingTrack='centerCenter_DiI', info=['facesMedial', 'soundRight'])
+experiments.append(exp4)
+
+exp4.add_site(4500)
+# Reference = 2:tip
+# Electrode preset = All Shanks 1-96 
+
+exp4.add_session('10-41-53','a','optoTuningAM','am_tuning_curve')  
+exp4.add_session('10-55-57','a','optoNaturalCategories','natural_sound_detection')
+exp4.add_session('11-25-54','b','optoTuningFreq','am_tuning_curve')
+exp4.add_session('11-41-11','b','optoNaturalInstances','natural_sound_detection') # went to 272
+
+exp4.add_site(3780)
+# Reference = 2:tip
+# Electrode preset = All Shanks 97-192
+exp4.add_session('13-12-51','c','optoTuningAM','am_tuning_curve') # went to 1190 
+exp4.add_session('13-27-22','c','optoNaturalCategories','natural_sound_detection')
+exp4.add_session('13-54-41','d','optoTuningFreq','am_tuning_curve')
+exp4.add_session('14-11-01','d','optoNaturalInstances','natural_sound_detection')
+
+exp4.maxDepth = 4500
 
 # 10:12 animal in the rig
 # 10:13 sylgard off
