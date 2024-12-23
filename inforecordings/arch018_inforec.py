@@ -100,7 +100,7 @@ exp2.maxDepth = 4500
 # 14:12 finished recording
 # 14:18 probe out of brain
 
-exp3 = celldatabase.Experiment(subject, '2024-12-11', brainArea='left_pStr', probe = 'NPv2-0312', recordingTrack='centerCenter_DiD', info=['facesMedial', 'soundRight'])
+exp3 = celldatabase.Experiment(subject, '2024-12-17', brainArea='left_pStr', probe = 'NPv2-0312', recordingTrack='centerCenter_DiD', info=['facesMedial', 'soundRight'])
 experiments.append(exp3)
 
 exp3.add_site(4500)
