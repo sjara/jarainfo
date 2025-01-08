@@ -29,7 +29,7 @@ exp0 = celldatabase.Experiment(subject, '2024-12-11', brainArea='right_AC', prob
 # Reference electrode is the 1: Tip.
 # Electrodes 97-192 active
 # Went down in the brain 1500 microns
-# Used an angle of 64 degrees with respect to the horizontal axis and a 60 degree rotational angle - this was done accidentally
+# Used an angle of 64 degrees with respect to the horizontal axis and a 60 degree azimuth angle - this was done accidentally
 # Attempting to hit AUDp
 
 experiments.append(exp0)
@@ -50,7 +50,7 @@ exp1 = celldatabase.Experiment(subject, '2024-12-12', brainArea='right_AC', prob
 # Reference electrode is the 4: Tip.
 # Electrodes 1-96 active
 # Went down in the brain 1500 microns
-# Used an angle of 40 degrees with respect to the horizontal axis and a 60 degree rotational angle
+# Used an angle of 40 degrees with respect to the horizontal axis and a 60 degree azimuth angle
 # Left brain to settle for 15 min.
 # Attempting to hit AUDd
 
@@ -73,7 +73,7 @@ exp2 = celldatabase.Experiment(subject, '2024-12-18', brainArea='right_AC', prob
 # Electrodes 97-192 active
 # Went down in the brain 1500 microns
 # The head bar holder was adjusted further left in the rig in order to be able to record from the side of the mouse at a 85 degree azmiuth angle. 
-# Used an angle of 52 degrees with respect to the horizontal axis and a 90 degree rotational angle
+# Used an angle of 52 degrees with respect to the horizontal axis and a 90 degree azimuth angle
 # Left brain to settle for 15 min.
 # Still looks pretty noisy after ground wire was implanted.
 # For third recording with AM, mouse eye was covered in a white film. Washed it out with saline before proceding with the recording. 
@@ -99,6 +99,7 @@ exp3 = celldatabase.Experiment(subject, '2024-12-19', brainArea='right_AC', prob
 # Adjusted wheel and head plate holder further down in order for the manipulator arm to reach higher up in the craniotomy, where as during the recording before, the manipulator could not reach unless the angle of the arm was adjusted with respect to the horizontal axis. 
 # Full range of motion for the up and down axis on maniuplator arm - currently z - is ~5094 microns
 # The larger post used before was 38 mm - switched to smaller one that was 25 mm. Probe and manipulator is able to reach all places in craniotomy now
+# Recorded with an angle of 32.5 with respect to the horizontal axis; 90 degree azimuth angle
 # Electrodes 97-192 active
 # Went down 2500 microns
 # This is the first session with grounded head plate and adjusted head plate holder and wheel 
@@ -124,6 +125,7 @@ exp4 = celldatabase.Experiment(subject, '2024-12-20', brainArea='right_AC', prob
 # Reference electrode is the 1: Tip.
 # Electrodes 1-96 active
 # Went down in the brain 2900 microns
+# Recorded with an angle of 32.5 with respect to the horizontal axis; 90 degree azimuth angle
 # Minor dura removal 
 # Channel 268 displayed the best sound responsive neurons
 
@@ -142,6 +144,7 @@ exp4.add_session('16-29-03', 'a', 'pureTones', 'am_tuning_curve')
 exp5 = celldatabase.Experiment(subject, '2024-12-20', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerCenter_noDye', info=['facesVentral', 'soundLeft'])
 
 # Removed Dura-Gel and performed test with saline in well
+# Recorded with an angle of 32.5 with respect to the horizontal axis; 90 degree azimuth angle
 # Reference electrode is the 1: Tip.
 # Shank A Bank 4 all 
 # Went down in the brain 2900 microns
