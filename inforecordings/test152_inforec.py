@@ -67,7 +67,7 @@ exp1.add_session('17-52-25', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp2 = celldatabase.Experiment(subject, '2024-12-18', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerLateral_DiI', info=['facesVentral', 'soundLeft'])
+exp2 = celldatabase.Experiment(subject, '2024-12-18', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerLateral_DiI', info=['facesLateral', 'soundLeft'])
 
 # Reference electrode is the 1: Tip.
 # Electrodes 97-192 active
@@ -92,7 +92,7 @@ exp2.add_session('13-08-57', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp3 = celldatabase.Experiment(subject, '2024-12-19', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerLateral_DiD', info=['facesDorsal', 'soundLeft'])
+exp3 = celldatabase.Experiment(subject, '2024-12-19', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerLateral_DiD', info=['facesMedial', 'soundLeft'])
 
 # Note that this recording was more medial than the previous one.
 # Reference electrode is the 1: Tip.
@@ -119,7 +119,7 @@ exp3.add_session('15-47-21', 'b', 'AM', 'am_tuning_curve')
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
 
-exp4 = celldatabase.Experiment(subject, '2024-12-20', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerCenter_noDye', info=['facesVentral', 'soundLeft'])
+exp4 = celldatabase.Experiment(subject, '2024-12-20', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerCenter_noDye', info=['facesLateral', 'soundLeft'])
 
 # Removed Dura-Gel and performed test with saline in well
 # Reference electrode is the 1: Tip.
@@ -141,7 +141,7 @@ exp4.add_session('16-29-03', 'a', 'pureTones', 'am_tuning_curve')
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
 
-exp5 = celldatabase.Experiment(subject, '2024-12-20', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerCenter_noDye', info=['facesVentral', 'soundLeft'])
+exp5 = celldatabase.Experiment(subject, '2024-12-20', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerCenter_noDye', info=['facesLateral', 'soundLeft'])
 
 # Removed Dura-Gel and performed test with saline in well
 # Recorded with an angle of 32.5 with respect to the horizontal axis; 90 degree azimuth angle
