@@ -134,7 +134,7 @@ experiments.append(exp4)
 
 exp4.add_site(2900)
 exp4.maxDepth = 2900
-exp4.add_session('16-29-03', 'a', 'pureTones', 'am_tuning_curve')
+exp4.add_session('16-29-03', 'a', 'AM', 'am_tuning_curve')
 
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
@@ -155,5 +155,5 @@ experiments.append(exp5)
 
 exp5.add_site(2899)
 exp5.maxDepth = 2900
-exp5.add_session('16-39-44 'a', 'pureTones', 'am_tuning_curve')
+exp5.add_session('16-39-44', 'a', 'AM', 'am_tuning_curve')
 
