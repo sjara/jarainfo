@@ -5,7 +5,7 @@ subject = 'inpi003'
 experiments=[]
 
 exp0 = celldatabase.Experiment(subject, '2025-03-10', 'right_AC', 
-                               'centerCenter_DiI','NPv2-3813',
+                               'centerCenter_DiI',probe='NPv2-3813',
                                info = ['faceRight','soundLeft'])
 # Animal in rig at 15:25
 
