@@ -148,5 +148,89 @@ exp4.add_session('18-31-24', 'b', 'optoTuningAM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
+exp5 = celldatabase.Experiment(subject, '2025-03-12', brainArea='right_AC', probe='NPv2-3544', recordingTrack='anteriorMedial_DiD', info=['facesAnterior', 'soundLeft'])
+
+# Dura removal - used saline for this recording
+# Reference electrode is 1:tip.
+# Left brain to settle for 15 minutes
+# Used an 75 degree angle for the optical fiber with respect to the horizontal plane
+# Optic fiber is 1000um deep
+# Shank 1 Bank A active 
+# Laser: 10mW
+# It was a lot easier to record today without Dura-Gel - seems like it is easier to see where we are without it 
+ 
+experiments.append(exp5)
+
+exp5.add_site(2500)
+exp5.maxDepth = 2500
+exp5.add_session('12-52-17', 'a', 'optoTuningFreq', 'am_tuning_curve')
+exp5.add_session('12-59-59', 'b', 'optoTuningAM', 'am_tuning_curve')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+exp6 = celldatabase.Experiment(subject, '2025-03-12', brainArea='right_AC', probe='NPv2-3544', recordingTrack='anteriorMedial_DiD', info=['facesAnterior', 'soundLeft'])
+
+# Dura removal - used saline for this recording
+# Reference electrode is 1:tip.
+# Left brain to settle for 15 minutes
+# Used an 75 degree angle for the optical fiber with respect to the horizontal plane
+# Optic fiber is 1000um deep
+# Shank 2 Bank A active 
+# Laser: 10mW
+ 
+experiments.append(exp6)
+
+exp6.add_site(2500)
+exp6.maxDepth = 2501
+exp6.add_session('13-09-06', 'a', 'optoTuningFreq', 'am_tuning_curve')
+exp6.add_session('13-16-28', 'b', 'optoTuningAM', 'am_tuning_curve')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+exp7 = celldatabase.Experiment(subject, '2025-03-12', brainArea='right_AC', probe='NPv2-3544', recordingTrack='anteriorMedial_DiD', info=['facesAnterior', 'soundLeft'])
+
+# Dura removal - used saline for this recording
+# Reference electrode is 1:tip.
+# Left brain to settle for 15 minutes
+# Used an 75 degree angle for the optical fiber with respect to the horizontal plane
+# Optic fiber is 1000um deep
+# Shank 3 Bank A active 
+# Laser: 10mW
+ 
+experiments.append(exp7)
+
+exp7.add_site(2500)
+exp7.maxDepth = 2502
+exp7.add_session('13-26-05', 'a', 'optoTuningFreq', 'am_tuning_curve')
+exp7.add_session('13-33-50', 'b', 'optoTuningAM', 'am_tuning_curve')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+exp8 = celldatabase.Experiment(subject, '2025-03-12', brainArea='right_AC', probe='NPv2-3544', recordingTrack='anteriorMedial_DiD', info=['facesAnterior', 'soundLeft'])
+
+# Dura removal - used saline for this recording
+# Reference electrode is 1:tip.
+# Left brain to settle for 15 minutes
+# Used an 75 degree angle for the optical fiber with respect to the horizontal plane
+# Optic fiber is 1000um deep
+# Shank 4 Bank A active 
+# Laser: 10mW
+ 
+experiments.append(exp58
+
+exp8.add_site(2500)
+exp8.maxDepth = 2503
+exp8.add_session('13-44-24', 'a', 'optoTuningFreq', 'am_tuning_curve')
+exp8.add_session('13-51-53', 'b', 'optoTuningAM', 'am_tuning_curve')
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
 
