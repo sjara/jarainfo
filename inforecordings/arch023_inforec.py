@@ -163,8 +163,8 @@ experiments.append(exp5)
 
 exp5.add_site(2500)
 exp5.maxDepth = 2500
-exp5.add_session('12-52-17', 'a', 'optoTuningFreq', 'am_tuning_curve')
-exp5.add_session('12-59-59', 'b', 'optoTuningAM', 'am_tuning_curve')
+exp5.add_session('12-52-17', 'a', 'optoTuningAM', 'am_tuning_curve')
+exp5.add_session('12-59-59', 'b', 'optoTuningFreq', 'am_tuning_curve')
 
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
@@ -184,8 +184,8 @@ experiments.append(exp6)
 
 exp6.add_site(2500)
 exp6.maxDepth = 2501
-exp6.add_session('13-09-06', 'a', 'optoTuningFreq', 'am_tuning_curve')
-exp6.add_session('13-16-28', 'b', 'optoTuningAM', 'am_tuning_curve')
+exp6.add_session('13-09-06', 'a', 'optoTuningAM', 'am_tuning_curve')
+exp6.add_session('13-16-28', 'b', 'optoTuningFreq', 'am_tuning_curve')
 
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
@@ -205,8 +205,8 @@ experiments.append(exp7)
 
 exp7.add_site(2500)
 exp7.maxDepth = 2502
-exp7.add_session('13-26-05', 'a', 'optoTuningFreq', 'am_tuning_curve')
-exp7.add_session('13-33-50', 'b', 'optoTuningAM', 'am_tuning_curve')
+exp7.add_session('13-26-05', 'a', 'optoTuningAM', 'am_tuning_curve')
+exp7.add_session('13-33-50', 'b', 'optoTuningFreq', 'am_tuning_curve')
 
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
@@ -222,12 +222,12 @@ exp8 = celldatabase.Experiment(subject, '2025-03-12', brainArea='right_AC', prob
 # Shank 4 Bank A active 
 # Laser: 10mW
  
-experiments.append(exp58
+experiments.append(exp8)
 
 exp8.add_site(2500)
 exp8.maxDepth = 2503
-exp8.add_session('13-44-24', 'a', 'optoTuningFreq', 'am_tuning_curve')
-exp8.add_session('13-51-53', 'b', 'optoTuningAM', 'am_tuning_curve')
+exp8.add_session('13-44-24', 'a', 'optoTuningAM', 'am_tuning_curve')
+exp8.add_session('13-51-53', 'b', 'optoTuningFreq', 'am_tuning_curve')
 
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
