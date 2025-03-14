@@ -88,7 +88,7 @@ exp2 = celldatabase.Experiment(subject, '2025-03-06', brainArea='right_AC', prob
  
 experiments.append(exp2)
 
-exp2.add_site(2500)
+exp2.add_site(2501)
 exp2.maxDepth = 2501
 exp2.add_session('16-24-26', 'a', 'optoTuningFreq', 'am_tuning_curve')
 exp2.add_session('16-33-31', 'a', 'optoNaturalCategorie', 'natural_sound_detection')
@@ -113,7 +113,7 @@ exp3 = celldatabase.Experiment(subject, '2025-03-06', brainArea='right_AC', prob
  
 experiments.append(exp3)
 
-exp3.add_site(2500)
+exp3.add_site(2502)
 exp3.maxDepth = 2502
 exp3.add_session('17-09-05', 'a', 'optoTuningFreq', 'am_tuning_curve')
 exp3.add_session('17-18-06', 'a', 'optoNaturalCategorie', 'natural_sound_detection')
@@ -137,7 +137,7 @@ exp4 = celldatabase.Experiment(subject, '2025-03-06', brainArea='right_AC', prob
  
 experiments.append(exp4)
 
-exp4.add_site(2500)
+exp4.add_site(2503)
 exp4.maxDepth = 2503
 exp4.add_session('17-54-26', 'a', 'optoTuningFreq', 'am_tuning_curve')
 exp4.add_session('18-03-39', 'a', 'optoNaturalCategorie', 'natural_sound_detection')
@@ -182,7 +182,7 @@ exp6 = celldatabase.Experiment(subject, '2025-03-12', brainArea='right_AC', prob
  
 experiments.append(exp6)
 
-exp6.add_site(2500)
+exp6.add_site(2501)
 exp6.maxDepth = 2501
 exp6.add_session('13-09-06', 'a', 'optoTuningAM', 'am_tuning_curve')
 exp6.add_session('13-16-28', 'b', 'optoTuningFreq', 'am_tuning_curve')
@@ -203,7 +203,7 @@ exp7 = celldatabase.Experiment(subject, '2025-03-12', brainArea='right_AC', prob
  
 experiments.append(exp7)
 
-exp7.add_site(2500)
+exp7.add_site(2502)
 exp7.maxDepth = 2502
 exp7.add_session('13-26-05', 'a', 'optoTuningAM', 'am_tuning_curve')
 exp7.add_session('13-33-50', 'b', 'optoTuningFreq', 'am_tuning_curve')
@@ -224,7 +224,7 @@ exp8 = celldatabase.Experiment(subject, '2025-03-12', brainArea='right_AC', prob
  
 experiments.append(exp8)
 
-exp8.add_site(2500)
+exp8.add_site(2503)
 exp8.maxDepth = 2503
 exp8.add_session('13-44-24', 'a', 'optoTuningAM', 'am_tuning_curve')
 exp8.add_session('13-51-53', 'b', 'optoTuningFreq', 'am_tuning_curve')
