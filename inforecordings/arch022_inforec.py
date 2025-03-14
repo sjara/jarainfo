@@ -37,3 +37,31 @@ exp0.maxDepth = 3500
 # 15:06- started optonatural categories for shank 1-96.
 # 16:38 probe out of brain
 # exp 0 finish
+
+
+exp1 = celldatabase.Experiment(subject, '2025-03-14', brainArea='left_pStr', probe = 'NPv2-1134', recordingTrack='centerCenter_DiI', info=['facesMedial', 'soundRight'])
+experiments.append(exp0)
+
+exp1.add_site(3500)
+
+# Reference = 1:tip
+# Electrode preset = All Shanks 1-96 
+
+exp1.add_session('11-36-56','a','optoTuningAM','am_tuning_curve')  
+exp1.add_session('11-52-36','a','optoNaturalCategories','natural_sound_detection')
+exp1.add_session('12-20-43','b','optoTuningFreq','am_tuning_curve')
+exp1.add_session('12-38-36','b','optoNaturalInstances','natural_sound_detection')
+
+exp1.add_site(2780)
+
+# Reference = 1:tip
+# Electrode preset = All Shanks 97-192
+exp1.add_session('13-05-29','c','optoTuningAM','am_tuning_curve') 
+exp1.add_session('13-21-00','c','optoNaturalCategories','natural_sound_detection')
+exp1.add_session('13-49-55','d','optoTuningFreq','am_tuning_curve')
+exp1.add_session('14-13-25','d','optoNaturalInstances','natural_sound_detection')
+
+exp1.maxDepth = 3500
+
+
+#exp finish
