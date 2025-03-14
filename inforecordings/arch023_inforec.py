@@ -133,7 +133,7 @@ exp4 = celldatabase.Experiment(subject, '2025-03-06', brainArea='right_AC', prob
 # Optic fiber is 1000um deep
 # Shank 4 Bank A active 
 # This shank is fairly noisy as well but I can see spikes on some channels
-# Laser: 10mW
+# Laser: 10mW 
  
 experiments.append(exp4)
 
