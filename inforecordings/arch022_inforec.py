@@ -57,11 +57,41 @@ exp1.add_site(2780)
 # Reference = 1:tip
 # Electrode preset = All Shanks 97-192
 exp1.add_session('13-05-29','c','optoTuningAM','am_tuning_curve') 
-exp1.add_session('13-21-00','c','optoNaturalCategories','natural_sound_detection')
+exp1.add_session('13-21-00','c','optoNaturalCategories','natural_sound_detection') 
 exp1.add_session('13-49-55','d','optoTuningFreq','am_tuning_curve')
 exp1.add_session('14-13-25','d','optoNaturalInstances','natural_sound_detection')
 
 exp1.maxDepth = 3500
+
+#exp finish
+
+
+#exp start
+
+exp2 = celldatabase.Experiment(subject, '2025-03-17', brainArea='left_pStr', probe = 'NPv2-1134', recordingTrack='centerCenter_Nodye', info=['facesMedial', 'soundRight'])
+experiments.append(exp2)
+
+exp2.add_site(3500)
+
+# Reference = 2:tip
+# Electrode preset = All Shanks 1-96 
+
+exp2.add_session('15-05-50','a','optoTuningAM','am_tuning_curve')  
+exp2.add_session('16-37-52','a','optoNaturalCategories','natural_sound_detection')
+#behavior data unsaved (video and ephys data saved)for 13-21-00 , at 15-46, this will be re-recorded again at 16-37-52. Therefore, an extra file is created for this.
+exp2.add_session('15-48-17','b','optoTuningFreq','am_tuning_curve')
+exp2.add_session('16-06-46','b','optoNaturalInstances','natural_sound_detection')
+
+exp2.add_site(2780)
+
+# Reference = 1:tip
+# Electrode preset = All Shanks 97-192
+exp2.add_session('17-07-12','c','optoTuningAM','am_tuning_curve') 
+exp2.add_session('17-22-24','c','optoNaturalCategories','natural_sound_detection')
+exp2.add_session('17-50-19','d','optoTuningFreq','am_tuning_curve')
+exp1.add_session('18-07-07','d','optoNaturalInstances','natural_sound_detection')
+
+exp2.maxDepth = 3500
 
 
 #exp finish
