@@ -34,11 +34,20 @@ exp0.add_session('16-51-00','h','AM','am_tuning_curve')
 experiments.append(exp0)
 
 # all shanks, 193-288, tip#2 reference
-exp0.add_site(4000, date = '2025-03-17')
-exp0.add_session('16-19-44','a','Freq','am_tuning_curve')
-exp0.add_session('16-28-03','b','AM','am_tuning_curve')
-exp0.add_session('16-35-57','a','naturalSound','natural_souund_detection')
 
 
+exp1 = celldatabase.Experiment(subject, '2025-03-17', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-3813',
+                               info = ['faceRight','soundLeft'])
+
+# mouse in rig1 16:15
+
+exp1.add_site(4000)
+exp1.add_session('16-19-44','a','Freq','am_tuning_curve')
+exp1.add_session('16-28-03','b','AM','am_tuning_curve')
+exp1.add_session('16-35-57','a','naturalSound','natural_souund_detection')
+
+# mouse out at 17:15
+experiments.append(exp1)
 
 
