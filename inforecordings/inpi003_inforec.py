@@ -43,7 +43,7 @@ exp1 = celldatabase.Experiment(subject, '2025-03-17', 'right_AC',
 # mouse in rig1 16:15
 
 exp1.add_site(4000)
-exp1.add_session('16-19-44','a','Freq','am_tuning_curve')
+exp1.add_session('16-18-44','a','Freq','am_tuning_curve')
 exp1.add_session('16-28-03','b','AM','am_tuning_curve')
 exp1.add_session('16-35-57','a','naturalSound','natural_souund_detection')
 
