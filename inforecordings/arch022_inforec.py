@@ -66,7 +66,7 @@ exp1.maxDepth = 3500
 #exp finish
 
 
-#exp start
+#control exp start
 
 exp2 = celldatabase.Experiment(subject, '2025-03-17', brainArea='left_pStr', probe = 'NPv2-1134', recordingTrack='centerCenter_Nodye', info=['facesMedial', 'soundRight'])
 experiments.append(exp2)
