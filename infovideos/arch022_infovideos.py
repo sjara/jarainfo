@@ -86,7 +86,7 @@ videos.add_session('2025-03-14', 'optoTuningFreq',
                    
 videos.add_session('2025-03-14', 'optoNaturalInstances',
                    'arch022_natural_sound_detection_20250314_04.mkv',
-                   'arch022_natural_sound_detection_20250314d.h5',
+                   'arch022_natural_sound_detection_20250314d.h5', cameraParams)
                    
                    
  #======================================================================         
@@ -130,6 +130,9 @@ videos.add_session('2025-03-17', 'optoTuningFreq',
                    
 videos.add_session('2025-03-17', 'optoNaturalInstances',
                    'arch022_natural_sound_detection_20250317_04.mkv',
-                   'arch022_natural_sound_detection_20250317d.h5',       
+                   'arch022_natural_sound_detection_20250317d.h5', cameraParams)
+                   
+                   
+# exp finished.      
                    
                    
