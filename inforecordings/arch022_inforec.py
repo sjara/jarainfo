@@ -40,7 +40,7 @@ exp0.maxDepth = 3500
 
 
 exp1 = celldatabase.Experiment(subject, '2025-03-14', brainArea='left_pStr', probe = 'NPv2-1134', recordingTrack='centerCenter_DiI', info=['facesMedial', 'soundRight'])
-experiments.append(exp0)
+experiments.append(exp1)
 
 exp1.add_site(3500)
 
