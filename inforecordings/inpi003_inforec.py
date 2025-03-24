@@ -4,7 +4,7 @@ from jaratoolbox import celldatabase
 subject = 'inpi003'
 experiments=[]
 
-probe_tip = 4004
+probe_tip = 4004 # max depth is same for all experiments since the probe is implanted!
 
 exp0 = celldatabase.Experiment(subject, '2025-03-10', 'right_AC', 
                                'centerCenter_DiI',probe='NPv2-3813',
