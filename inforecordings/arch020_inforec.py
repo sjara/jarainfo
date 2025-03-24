@@ -1,0 +1,43 @@
+from jaratoolbox import celldatabase
+import importlib
+importlib.reload(celldatabase)
+
+
+subject = 'arch020'
+experiments = []
+
+#day 1- right hemisphere, recorded from 0.5mm medial from centre of craniotomy,shanks parallet to bregma lambda axis. Had opened left craniotomy, but the craniotomy was very posterior and was unable to see due to the wells. So, decided to record right first.
+exp0 = celldatabase.Experiment(subject, '2025-03-24', brainArea='right_pStr', probe = 'NPv2-1134', recordingTrack='centerCenter_DiD', info=['facesMedial', 'soundLeft'])
+experiments.append(exp0)
+
+exp0.add_site(3500)
+
+# Reference = 1:tip
+# Electrode preset = All Shanks 1-96 
+
+exp0.add_session('13-24-04','a','optoTuningAM','am_tuning_curve')  
+exp0.add_session('13-40-36','a','optoNaturalCategories','natural_sound_detection')
+exp0.add_session('14-10-43','b','optoTuningFreq','am_tuning_curve')
+exp0.add_session('14-28-12','b','optoNaturalInstances','natural_sound_detection')
+
+exp0.add_site(2780)
+# reference = 1:tip
+# Electrode preset = All Shanks 97-192
+exp0.add_session('14-56-45','c','optoTuningAM','am_tuning_curve') 
+exp0.add_session('15-11-44','c','optoNaturalCategories','natural_sound_detection')
+exp0.add_session('15-41-41','d','optoTuningFreq','am_tuning_curve')
+exp0.add_session('15-58-18','d','optoNaturalInstances','natural_sound_detection')
+
+exp0.maxDepth = 3500
+
+# probe in brain around 13:00 pm
+
+# exp 0 finish
+
+
+
+#control exp start
+
+
+
+#exp finish
