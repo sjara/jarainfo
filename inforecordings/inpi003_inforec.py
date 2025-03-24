@@ -4,11 +4,12 @@ from jaratoolbox import celldatabase
 subject = 'inpi003'
 experiments=[]
 
+probe_tip = 4004
 
 exp0 = celldatabase.Experiment(subject, '2025-03-10', 'right_AC', 
                                'centerCenter_DiI',probe='NPv2-3813',
                                info = ['faceRight','soundLeft'])
-exp0.maxDepth=4004
+exp0.maxDepth=probe_tip
 
 # Animal in rig at 15:25
 
@@ -43,7 +44,7 @@ exp1 = celldatabase.Experiment(subject, '2025-03-17', 'right_AC',
                                'centerCenter_DiI',probe='NPv2-3813',
                                info = ['faceRight','soundLeft'])
 
-exp1.maxDepth=2560
+exp1.maxDepth=probe_tip
 
 # mouse in rig1 16:15
 
