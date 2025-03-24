@@ -4,9 +4,12 @@ from jaratoolbox import celldatabase
 subject = 'inpi003'
 experiments=[]
 
+
 exp0 = celldatabase.Experiment(subject, '2025-03-10', 'right_AC', 
                                'centerCenter_DiI',probe='NPv2-3813',
                                info = ['faceRight','soundLeft'])
+exp0.maxDepth=4004
+
 # Animal in rig at 15:25
 
 # Shank 1 bank A  (tip#1)
@@ -40,13 +43,15 @@ exp1 = celldatabase.Experiment(subject, '2025-03-17', 'right_AC',
                                'centerCenter_DiI',probe='NPv2-3813',
                                info = ['faceRight','soundLeft'])
 
+exp1.maxDepth=2560
+
 # mouse in rig1 16:15
 
 # used 3rd bank of 96 electrodes, so deepest trode was 4000-2*720=2560um
 exp1.add_site(2560)
 exp1.add_session('16-18-44','a','Freq','am_tuning_curve')
 exp1.add_session('16-28-03','b','AM','am_tuning_curve')
-exp1.add_session('16-35-57','a','naturalSound','natural_souund_detection')
+exp1.add_session('16-35-57','a','naturalSound','natural_sound_detection')
 
 # mouse out at 17:15
 experiments.append(exp1)
