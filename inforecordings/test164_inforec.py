@@ -113,121 +113,56 @@ exp2.add_session('18-17-48', 'b', 'AM', 'am_tuning_curve')
 exp3 = celldatabase.Experiment(subject, '2025-02-20', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerLateral_DiD', info=['facesPosterior', 'soundLeft'])
 
 # Saline in well
-# Reference electrode is 1:tip
-# Shank 1 Bank A active
 # Left brain to settle for 20 minutes
 # Targeing VAF and A2
 # Used a 32.5 angle with respect to the horizontal plane
 # Used a 90 degree angle with respect to the azimuth plane
 # It was pretty challening to see when the probe penetrated the surface of the brain 
-
 experiments.append(exp3)
-
-exp3.add_site(2000)
 exp3.maxDepth = 2000
+
+# Shank 1 Bank A active
+# Reference electrode is 1:tip
+exp3.add_site(2000)
 exp3.add_session('11-58-01', 'a', 'pureTones', 'am_tuning_curve')
 exp3.add_session('12-07-42', 'b', 'AM', 'am_tuning_curve')
 
 
-# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
-#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
-# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
-
-exp4 = celldatabase.Experiment(subject, '2025-02-20', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerLateral_DiD', info=['facesPosterior', 'soundLeft'])
-
-# Saline in well
 # Reference electrode is 1:tip
 # Shank 2 Bank A active
-# Left brain to settle for 20 minutes
-# Targeing VAF and A2
-# Used a 32.5 angle with respect to the horizontal plane
-# Used a 90 degree angle with respect to the azimuth plane
-# It was pretty challening to see when the probe penetrated the surface of the brain 
-
-experiments.append(exp4)
-
-exp4.add_site(2000)
-exp4.maxDepth = 2000
-exp4.add_session('12-15-54', 'a', 'pureTones', 'am_tuning_curve')
-exp4.add_session('12-24-30', 'b', 'AM', 'am_tuning_curve')
+exp3.add_site(2001)
+exp3.add_session('12-15-54', 'a', 'pureTones', 'am_tuning_curve')
+exp3.add_session('12-24-30', 'b', 'AM', 'am_tuning_curve')
 
 
-# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
-#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
-# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
-
-exp5 = celldatabase.Experiment(subject, '2025-02-20', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerLateral_DiD', info=['facesPosterior', 'soundLeft'])
-
-# Saline in well
 # Reference electrode is 1:tip
 # Shank 3 Bank A active
-# Left brain to settle for 20 minutes
-# Targeing VAF and A2
-# Used a 32.5 angle with respect to the horizontal plane
-# Used a 90 degree angle with respect to the azimuth plane
-# It was pretty challening to see when the probe penetrated the surface of the brain 
-
-experiments.append(exp5)
-
-exp5.add_site(2000)
-exp5.maxDepth = 2000
-exp5.add_session('12-32-59', 'a', 'pureTones', 'am_tuning_curve')
-exp5.add_session('12-41-40', 'b', 'AM', 'am_tuning_curve')
+exp3.add_site(2002)
+exp3.add_session('12-32-59', 'a', 'pureTones', 'am_tuning_curve')
+exp3.add_session('12-41-40', 'b', 'AM', 'am_tuning_curve')
 
 
-# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
-#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
-# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
-
-exp6 = celldatabase.Experiment(subject, '2025-02-20', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerLateral_DiD', info=['facesPosterior', 'soundLeft'])
-
-# Saline in well
 # Reference electrode is 1:tip
 # Shank 4 Bank A active
-# Left brain to settle for 20 minutes
-# Targeing VAF and A2
-# Used a 32.5 angle with respect to the horizontal plane
-# Used a 90 degree angle with respect to the azimuth plane
-# It was pretty challening to see when the probe penetrated the surface of the brain # It was pretty challening to see when the probe penetrated the surface of the brain 
-
-experiments.append(exp6)
-
-exp6.add_site(2000)
-exp6.maxDepth = 2000
-exp6.add_session('12-49-40', 'a', 'pureTones', 'am_tuning_curve')
-exp6.add_session('12-58-43', 'b', 'AM', 'am_tuning_curve')
+exp3.add_site(2003)
+exp3.add_session('12-49-40', 'a', 'pureTones', 'am_tuning_curve')
+exp3.add_session('12-58-43', 'b', 'AM', 'am_tuning_curve')
 
 
-# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
-#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
-# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
-
-exp7 = celldatabase.Experiment(subject, '2025-02-20', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerLateral_DiD', info=['facesPosterior', 'soundLeft'])
-
-# Saline in well
 # Reference electrode is 1:tip
 # All shanks bank 97-192 active
-# Left brain to settle for 20 minutes
-# Targeing VAF and A2
-# Used a 32.5 angle with respect to the horizontal plane
-# Used a 90 degree angle with respect to the azimuth plane
-# It was pretty challening to see when the probe penetrated the surface of the brain # It was pretty challening to see when the probe penetrated the surface of the brain 
 # The longer the mouse was in the rig, the more his eye became closed and cloudy
-
-experiments.append(exp7)
-
-exp7.add_site(2000)
-exp7.maxDepth = 1440
-exp7.add_session('13-13-09', 'a', 'pureTones', 'am_tuning_curve')
-exp7.add_session('13-22-02', 'a', 'naturalSound', 'natural_sound_detection')
-exp7.add_session('13-49-23', 'b', 'AM', 'am_tuning_curve')
+exp3.add_site(2004)
+exp3.add_session('13-13-09', 'a', 'pureTones', 'am_tuning_curve')
+exp3.add_session('13-22-02', 'a', 'naturalSound', 'natural_sound_detection')
+exp3.add_session('13-49-23', 'b', 'AM', 'am_tuning_curve')
 
 
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-exp8 = celldatabase.Experiment(subject, '2025-02-21', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerCenter_DiO', info=['facesLateral', 'soundLeft'])
+exp4 = celldatabase.Experiment(subject, '2025-02-21', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerCenter_DiO', info=['facesLateral', 'soundLeft'])
 
 # Dura-Gel in well
 # Reference electrode is 1:tip
@@ -239,11 +174,11 @@ exp8 = celldatabase.Experiment(subject, '2025-02-21', brainArea='right_AC', prob
 # Used a 97 degree angle with respect to the azimuth plane
 # The Ephys gui froze around trial 140 if the natural sounds paradigm (not sure if this will affect the data) 
 
-experiments.append(exp8)
+experiments.append(exp4)
 
-exp8.add_site(1500)
-exp8.maxDepth = 720
-exp8.add_session('15-06-23', 'a', 'pureTones', 'am_tuning_curve')
-exp8.add_session('15-14-44', 'a', 'naturalSound', 'natural_sound_detection')
-exp8.add_session('15-47-20', 'b', 'AM', 'am_tuning_curve')
+exp4.add_site(1500)
+exp4.maxDepth = 720
+exp4.add_session('15-06-23', 'a', 'pureTones', 'am_tuning_curve')
+exp4.add_session('15-14-44', 'a', 'naturalSound', 'natural_sound_detection')
+exp4.add_session('15-47-20', 'b', 'AM', 'am_tuning_curve')
 
