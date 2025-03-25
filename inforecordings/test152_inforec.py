@@ -118,42 +118,24 @@ exp3.add_session('15-47-21', 'b', 'AM', 'am_tuning_curve')
 #    info (which contains [probeOrientation, soundSource, probeConfiguration]).
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
-
 exp4 = celldatabase.Experiment(subject, '2024-12-20', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerCenter_noDye', info=['facesLateral', 'soundLeft'])
 
 # Removed Dura-Gel and performed test with saline in well
 # Reference electrode is the 1: Tip.
-# Electrodes 1-96 active
 # Went down in the brain 2900 microns
 # Recorded with an angle of 32.5 with respect to the horizontal axis; 90 degree azimuth angle
 # Minor dura removal 
-# Channel 268 displayed the best sound responsive neurons
-
-
 experiments.append(exp4)
-
-exp4.add_site(2900)
 exp4.maxDepth = 2900
+
+# Channel 268 displayed the best sound responsive neurons
+# Electrodes 1-96 active
+exp4.add_site(2900)
 exp4.add_session('16-29-03', 'a', 'AM', 'am_tuning_curve')
 
-# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
-#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
-# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
-
-
-exp5 = celldatabase.Experiment(subject, '2024-12-20', brainArea='right_AC', probe='NPv2-1392', recordingTrack='centerCenter_noDye', info=['facesLateral', 'soundLeft'])
-
-# Removed Dura-Gel and performed test with saline in well
-# Recorded with an angle of 32.5 with respect to the horizontal axis; 90 degree azimuth angle
 # Reference electrode is the 1: Tip.
 # Shank A Bank 4 all 
-# Went down in the brain 2900 microns
+exp4.add_site(2901)
+exp4.add_session('16-39-44', 'a', 'AM', 'am_tuning_curve')
 
-
-
-experiments.append(exp5)
-
-exp5.add_site(2899)
-exp5.maxDepth = 2900
-exp5.add_session('16-39-44', 'a', 'AM', 'am_tuning_curve')
 
