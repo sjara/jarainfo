@@ -50,14 +50,44 @@ videos.add_session('2025-03-24', 'optoNaturalInstances',
 # 2025-03-25
 
 
-
-                   
- 
+videos.add_session('2025-03-25', 'optoTuningAM',
+                   'arch020_am_tuning_curve_20250325_01.mkv',
+                   'arch020_am_tuning_curve_20250325a.h5', cameraParams) 
                    
                 
                 
-
-
+videos.add_session('2025-03-25', 'optoNaturalCategories',
+                   'arch020_natural_sound_detection_20250325_01.mkv',
+                   'arch020_natural_sound_detection_20250325a.h5', cameraParams) 
+                  
+videos.add_session('2025-03-25', 'optoTuningFreq',
+                   'arch020_am_tuning_curve_20250325_02.mkv',
+                   'arch020_am_tuning_curve_20250325b.h5', cameraParams) 
+                   
+                  
+videos.add_session('2025-03-25', 'optoNaturalInstances',
+                   'arch020_natural_sound_detection_20250325_02.mkv',
+                   'arch020_natural_sound_detection_20250325b.h5', cameraParams) 
+                   
+                   
+videos.add_session('2025-03-25', 'optoTuningAM',
+                   'arch020_am_tuning_curve_20250325_03.mkv',
+                   'arch020_am_tuning_curve_20250325c.h5', cameraParams) 
+                    
+                   
+videos.add_session('2025-03-25', 'optoNaturalCategories',
+                   'arch020_natural_sound_detection_20250325_03.mkv',
+                   'arch020_natural_sound_detection_20250325c.h5', cameraParams) 
+                    
+videos.add_session('2025-03-25', 'optoTuningFreq',
+                   'arch020_am_tuning_curve_20250325_04.mkv',
+                   'arch020_am_tuning_curve_20250325d.h5', cameraParams) 
+                   
+                   
+videos.add_session('2025-03-25', 'optoNaturalInstances',
+                   'arch020_natural_sound_detection_20250325_04.mkv',
+                   'arch020_natural_sound_detection_20250325d.h5', cameraParams) 
+            
 # exp finished.      
                    
                    
