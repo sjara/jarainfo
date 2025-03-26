@@ -43,7 +43,6 @@ exp1.add_site(3500)
 
 # Reference = 1:tip
 # Electrode preset = All Shanks 1-96 
-
 exp1.add_session('12-48-53','a','optoTuningAM','am_tuning_curve')  
 #recorded 506 trials instead of 440.
 exp1.add_session('13-56-00','a','optoNaturalCategories','natural_sound_detection')
