@@ -57,7 +57,7 @@ exp1.add_site(2780)
 exp1.add_session('14-48-56','c','optoTuningAM','am_tuning_curve') 
 exp1.add_session('15-03-05','c','optoNaturalCategories','natural_sound_detection')
 exp1.add_session('15-32-03','d','optoTuningFreq','am_tuning_curve')
-exp1.add_session('15-58-18','d','optoNaturalInstances','natural_sound_detection')
+exp1.add_session('15-48-12','d','optoNaturalInstances','natural_sound_detection')
 
 exp1.maxDepth = 3500
 # exp1 finish
