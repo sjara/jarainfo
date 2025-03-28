@@ -89,5 +89,46 @@ videos.add_session('2025-03-25', 'optoNaturalInstances',
                    'arch020_natural_sound_detection_20250325d.h5', cameraParams) 
             
 # exp finished.      
+#============================================================================
+# 2025-03-27
+
+videos.add_session('2025-03-27', 'optoTuningAM',
+                   'arch020_am_tuning_curve_20250327_01.mkv',
+                   'arch020_am_tuning_curve_20250327a.h5', cameraParams) 
+                   
+                
+                
+videos.add_session('2025-03-27', 'optoNaturalCategories',
+                   'arch020_natural_sound_detection_20250327_01.mkv',
+                   'arch020_natural_sound_detection_20250327a.h5', cameraParams) 
+                  
+videos.add_session('2025-03-27', 'optoTuningFreq',
+                   'arch020_am_tuning_curve_20250327_02.mkv',
+                   'arch020_am_tuning_curve_20250327b.h5', cameraParams) 
+                   
+                  
+videos.add_session('2025-03-27', 'optoNaturalInstances',
+                   'arch020_natural_sound_detection_20250327_02.mkv',
+                   'arch020_natural_sound_detection_20250327b.h5', cameraParams) 
+                   
+                   
+videos.add_session('2025-03-27', 'optoTuningAM',
+                   'arch020_am_tuning_curve_20250327_03.mkv',
+                   'arch020_am_tuning_curve_20250327c.h5', cameraParams) 
+                    
+                   
+videos.add_session('2025-03-27', 'optoNaturalCategories',
+                   'arch020_natural_sound_detection_20250327_03.mkv',
+                   'arch020_natural_sound_detection_20250327c.h5', cameraParams) 
+                    
+videos.add_session('2025-03-27', 'optoTuningFreq',
+                   'arch020_am_tuning_curve_20250327_04.mkv',
+                   'arch020_am_tuning_curve_20250327d.h5', cameraParams) 
+                   
+                   
+videos.add_session('2025-03-27', 'optoNaturalInstances',
+                   'arch020_natural_sound_detection_20250327_04.mkv',
+                   'arch020_natural_sound_detection_20250327d.h5', cameraParams) 
+
                    
                    
