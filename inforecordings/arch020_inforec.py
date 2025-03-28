@@ -61,8 +61,36 @@ exp1.add_session('15-48-12','d','optoNaturalInstances','natural_sound_detection'
 
 exp1.maxDepth = 3500
 # exp1 finish
-#control exp start
 
+#========================================================================
+#control exp start
+#Same location as yesterday, 0.5mm medial to centre centre and parallel to Bregma-Lambda axis.
+exp2 = celldatabase.Experiment(subject, '2025-03-27', brainArea='right_pStr', probe = 'NPv2-1134', recordingTrack='centerCenter_NoDye', info=['facesMedial', 'soundLeft'])
+experiments.append(exp2)
+
+exp2.add_site(3500)
+
+# Reference = 1:tip
+# Electrode preset = All Shanks 1-96 
+
+exp2.add_session('12-24-00','a','optoTuningAM','am_tuning_curve')  
+exp2.add_session('12-39-54','a','optoNaturalCategories','natural_sound_detection')
+exp2.add_session('13-11-05','b','optoTuningFreq','am_tuning_curve')
+exp2.add_session('13-28-35','b','optoNaturalInstances','natural_sound_detection')
+
+exp2.add_site(2780)
+# reference = 1:tip
+# Electrode preset = All Shanks 97-192
+exp2.add_session('13-51-14','c','optoTuningAM','am_tuning_curve') 
+exp2.add_session('14-06-20','c','optoNaturalCategories','natural_sound_detection')
+exp2.add_session('15-41-41','d','optoTuningFreq','am_tuning_curve')
+exp2.add_session('15-58-18','d','optoNaturalInstances','natural_sound_detection')
+
+exp2.maxDepth = 3500
+
+
+
+# exp 2 finish
 
 
 #exp finish
