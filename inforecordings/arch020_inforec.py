@@ -83,8 +83,8 @@ exp2.add_site(2780)
 # Electrode preset = All Shanks 97-192
 exp2.add_session('13-51-14','c','optoTuningAM','am_tuning_curve') 
 exp2.add_session('14-06-20','c','optoNaturalCategories','natural_sound_detection')
-exp2.add_session('15-41-41','d','optoTuningFreq','am_tuning_curve')
-exp2.add_session('15-58-18','d','optoNaturalInstances','natural_sound_detection')
+exp2.add_session('14-33-50','d','optoTuningFreq','am_tuning_curve')
+exp2.add_session('14-52-51','d','optoNaturalInstances','natural_sound_detection')
 
 exp2.maxDepth = 3500
 
