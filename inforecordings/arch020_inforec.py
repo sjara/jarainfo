@@ -90,7 +90,64 @@ exp2.maxDepth = 3500
 
 
 
-# exp 2 finish
+# exp2 control finish
 
 
 #exp finish
+
+
+#========================================================================
+#exp3 start=Left hemisphere 1st penetration.
+#location: very centre of craniotomy- parallel to bregma lambda axis. 
+exp3 = celldatabase.Experiment(subject, '2025-03-31', brainArea='left_pStr', probe = 'NPv2-1134', recordingTrack='centerCenter_DiD', info=['facesMedial', 'soundRight'])
+experiments.append(exp3)
+
+exp3.add_site(3500)
+
+# Reference = 1:tip
+# Electrode preset = All Shanks 1-96 
+# optpNaturalCategories file was recorded at 12-36-21 successfully, but later only paradigm file was replaced with OptoNatural Instances, so repeated the second paradigm again.
+exp3.add_session('12-21-12','a','optoTuningAM','am_tuning_curve')  
+exp3.add_session('13-58-50','a','optoNaturalCategories','natural_sound_detection')
+# Recording this again, as this file got replaced with Opto natural instances. So, two files- 12-36-21, which is extra and repeated one is 13-58-50.
+exp3.add_session('13-03-14','b','optoTuningFreq','am_tuning_curve')
+# More than 950 trials were recorded as I was in lab meeting, therefore couldn't stop the recording.
+exp3.add_session('13-31-01','b','optoNaturalInstances','natural_sound_detection')
+# This file replaced the Optonatural categories file, so recording Optonatural categories again.
+
+exp3.add_site(2780)
+# reference = 1:tip
+# Electrode preset = All Shanks 97-192
+exp3.add_session('14-36-28','c','optoTuningAM','am_tuning_curve') 
+exp3.add_session('14-52-18','c','optoNaturalCategories','natural_sound_detection')
+exp3.add_session('15-19-11','d','optoTuningFreq','am_tuning_curve')
+exp3.add_session('15-37-10','d','optoNaturalInstances','natural_sound_detection')
+
+exp3.maxDepth = 3500
+
+
+
+# exp3 finish
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
