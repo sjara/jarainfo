@@ -132,7 +132,35 @@ exp3.maxDepth = 3500
 
 
 
+#========================================================================
+#exp4 start=Left hemisphere 2nd penetration.
+#location: very centre of craniotomy- parallel to bregma lambda axis. 
+exp4 = celldatabase.Experiment(subject, '2025-04-01', brainArea='left_pStr', probe = 'NPv2-1134', recordingTrack='centerCenter_DiI', info=['facesMedial', 'soundRight'])
+experiments.append(exp4)
+#went max depth 4000 as didn't see the depth, but pulled up the shanks again and recorded from 3500 and 2780.
 
+exp4.add_site(3500)
+
+# Reference = 1:tip
+# Electrode preset = All Shanks 1-96 
+exp4.add_session('11-11-06','a','optoTuningAM','am_tuning_curve')  
+exp4.add_session('11-26-57','a','optoNaturalCategories','natural_sound_detection')
+exp4.add_session('11-54-18','b','optoTuningFreq','am_tuning_curve')
+exp4.add_session('12-12-24','b','optoNaturalInstances','natural_sound_detection')
+
+exp4.add_site(2780)
+# reference = 1:tip
+# Electrode preset = All Shanks 97-192
+exp4.add_session('12-37-07','c','optoTuningAM','am_tuning_curve') 
+exp4.add_session('12-53-27','c','optoNaturalCategories','natural_sound_detection')
+exp4.add_session('13-20-40','d','optoTuningFreq','am_tuning_curve')
+exp4.add_session('13-36-37','d','optoNaturalInstances','natural_sound_detection')
+
+exp4.maxDepth = 3500
+
+
+
+# exp4 finish
 
 
 
