@@ -37,9 +37,8 @@ exp0.add_session('16-51-00','h','AM','am_tuning_curve')
 
 experiments.append(exp0)
 
+
 # all shanks, 193-288, tip#2 reference
-
-
 exp1 = celldatabase.Experiment(subject, '2025-03-17', 'right_AC', 
                                'centerCenter_DiI',probe='NPv2-3813',
                                info = ['faceRight','soundLeft'])
@@ -58,3 +57,23 @@ exp1.add_session('16-35-57','a','naturalSound','natural_sound_detection')
 experiments.append(exp1)
 
 
+
+
+# all shanks, 193-288, tip#1 reference
+exp2 = celldatabase.Experiment(subject, '2025-04-02', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-3813',
+                               info = ['faceRight','soundLeft'])
+
+exp2.maxDepth=probe_tip
+
+# mouse in rig1 at 11:45
+
+exp2.add_site(2560)
+exp2.add_session('12-17-11','','','') # weird artifacts from poor tether connection
+exp2.add_session('12-52-13','','','')
+exp2.add_session('13-23-12','a','Freq','am_tuning_curve')
+exp2.add_session('13-31-22','b','AM','am_tuning_curve')
+exp2.add_session('13-39-23','a','naturalSound','natural_sound_detection')
+
+# mouse out at 14:20
+experiments.append(exp2)
