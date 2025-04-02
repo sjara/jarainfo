@@ -69,7 +69,7 @@ exp2.maxDepth=probe_tip
 # mouse in rig1 at 11:45
 
 exp2.add_site(2560)
-exp2.add_session('12-17-11','','','') # weird artifacts from poor tether connection
+#exp2.add_session('12-17-11','','','') # weird artifacts from poor tether connection
 exp2.add_session('12-52-13','','','')
 exp2.add_session('13-23-12','a','Freq','am_tuning_curve')
 exp2.add_session('13-31-22','b','AM','am_tuning_curve')
