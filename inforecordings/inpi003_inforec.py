@@ -69,11 +69,39 @@ exp2.maxDepth=probe_tip
 # mouse in rig1 at 11:45
 
 exp2.add_site(2560)
-#exp2.add_session('12-17-11','','','') # weird artifacts from poor tether connection
-exp2.add_session('12-52-13','','','')
+#exp2.add_session('12-17-11','','Spont','') # weird artifacts from poor tether connection
+#exp2.add_session('12-52-13','','Spont','')
 exp2.add_session('13-23-12','a','Freq','am_tuning_curve')
 exp2.add_session('13-31-22','b','AM','am_tuning_curve')
 exp2.add_session('13-39-23','a','naturalSound','natural_sound_detection')
 
 # mouse out at 14:20
 experiments.append(exp2)
+
+
+
+# mouse in at 11:15, noticed chane in black spot, seems to be dried blood
+
+exp3 = celldatabase.Experiment(subject, '2025-04-09', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-3813',
+                               info = ['faceRight','soundLeft'])
+
+# using all shanks #385-480, 4000-2880 = 1120um
+exp3.add_site(1120)
+
+# tip#1 reference
+
+exp3.add_session('11-56-39','','Spont','')
+exp3.add_session('12-27-15','a','Freq','am_tuning_curve') # 330 trials
+exp3.add_session('12-35-59','b','AM','am_tuning_curve') # 224 trials
+exp3.add_session('12-43-46','a','naturalSound','natural_sound_detection') # 201 trials
+
+
+# mouse out at 13:15
+experiments.append(exp3)
+
+
+
+
+
+ 
