@@ -70,7 +70,7 @@ exp2.maxDepth=probe_tip
 
 exp2.add_site(2560)
 #exp2.add_session('12-17-11','','Spont','') # weird artifacts from poor tether connection
-#exp2.add_session('12-52-13','','Spont','')
+exp2.add_session('12-52-13','','Spont','')
 exp2.add_session('13-23-12','a','Freq','am_tuning_curve')
 exp2.add_session('13-31-22','b','AM','am_tuning_curve')
 exp2.add_session('13-39-23','a','naturalSound','natural_sound_detection')
@@ -86,6 +86,7 @@ exp3 = celldatabase.Experiment(subject, '2025-04-09', 'right_AC',
                                'centerCenter_DiI',probe='NPv2-3813',
                                info = ['faceRight','soundLeft'])
 
+exp3.maxDepth=probe_tip
 # using all shanks #385-480, 4000-2880 = 1120um
 exp3.add_site(1120)
 
