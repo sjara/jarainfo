@@ -64,3 +64,32 @@ exp1.maxDepth = 3600
 
 # exp 1 finish
 # =================================2025-04-11============================================
+#day 3- right hemisphere-Control experiment, recorded from centre of craniotomy,shanks parallet to bregma lambda axis. Centre of craniotomy.
+exp2 = celldatabase.Experiment(subject, '2025-04-14', brainArea='right_pStr', probe = 'NPv2-1134', recordingTrack='centerCenter_DiO', info=['facesLateral', 'soundLeft'])
+experiments.append(exp2)
+
+exp2.add_site(3500)
+
+# Reference = 4:tip
+# Electrode preset = All Shanks 1-96 
+
+exp2.add_session('11-32-37','a','optoTuningAM','am_tuning_curve')  
+exp2.add_session('11-47-08','a','optoNaturalCategories','natural_sound_detection')
+exp2.add_session('12-15-31','b','optoTuningFreq','am_tuning_curve')
+exp2.add_session('12-31-13','b','optoNaturalInstances','natural_sound_detection')
+
+exp2.add_site(2780)
+# reference = 4:tip
+# Electrode preset = All Shanks 97-192
+exp2.add_session('12-57-10','c','optoTuningAM','am_tuning_curve') 
+# 730 trials was recorded because I was i lab meeting.
+exp2.add_session('13-20-14','c','optoNaturalCategories','natural_sound_detection')
+exp2.add_session('13-51-13','d','optoTuningFreq','am_tuning_curve')
+exp2.add_session('14-07-06','d','optoNaturalInstances','natural_sound_detection')
+
+exp2.maxDepth = 3500
+
+
+
+# exp 2 finish
+# =================================2025-04-11============================================
