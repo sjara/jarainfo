@@ -87,4 +87,44 @@ videos.add_session('2025-04-11', 'optoNaturalInstances',
                    'arch024_natural_sound_detection_20250411d.h5', cameraParams) 
 
 #===================================================================
-#2025-04-12
+#2025-04-14
+videos.add_session('2025-04-14', 'optoTuningAM',
+                   'arch024_am_tuning_curve_20250414_01.mkv',
+                   'arch024_am_tuning_curve_20250414a.h5', cameraParams) 
+                   
+                
+                
+videos.add_session('2025-04-14', 'optoNaturalCategories',
+                   'arch024_natural_sound_detection_20250414_01.mkv',
+                   'arch024_natural_sound_detection_20250414a.h5', cameraParams) 
+                  
+videos.add_session('2025-04-14', 'optoTuningFreq',
+                   'arch024_am_tuning_curve_20250414_02.mkv',
+                   'arch024_am_tuning_curve_20250414b.h5', cameraParams) 
+                   
+                  
+videos.add_session('2025-04-14', 'optoNaturalInstances',
+                   'arch024_natural_sound_detection_20250414_02.mkv',
+                   'arch024_natural_sound_detection_20250414b.h5', cameraParams) 
+                   
+                   
+videos.add_session('2025-04-14', 'optoTuningAM',
+                   'arch024_am_tuning_curve_20250414_03.mkv',
+                   'arch024_am_tuning_curve_20250414c.h5', cameraParams) 
+                    
+                   
+videos.add_session('2025-04-14', 'optoNaturalCategories',
+                   'arch024_natural_sound_detection_20250414_03.mkv',
+                   'arch024_natural_sound_detection_20250414c.h5', cameraParams) 
+                    
+videos.add_session('2025-04-14', 'optoTuningFreq',
+                   'arch024_am_tuning_curve_20250414_04.mkv',
+                   'arch024_am_tuning_curve_20250414d.h5', cameraParams) 
+                   
+                   
+videos.add_session('2025-04-14', 'optoNaturalInstances',
+                   'arch024_natural_sound_detection_20250414_04.mkv',
+                   'arch024_natural_sound_detection_20250414d.h5', cameraParams) 
+
+#===================================================================
+# 2025-04-15
