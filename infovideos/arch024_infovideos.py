@@ -128,3 +128,40 @@ videos.add_session('2025-04-14', 'optoNaturalInstances',
 
 #===================================================================
 # 2025-04-15
+videos.add_session('2025-04-15', 'optoTuningAM',
+                   'arch024_am_tuning_curve_20250415_01.mkv',
+                   'arch024_am_tuning_curve_20250415a.h5', cameraParams) 
+                   
+                
+                
+videos.add_session('2025-04-15', 'optoNaturalCategories',
+                   'arch024_natural_sound_detection_20250415_01.mkv',
+                   'arch024_natural_sound_detection_20250415a.h5', cameraParams) 
+                  
+videos.add_session('2025-04-15', 'optoTuningFreq',
+                   'arch024_am_tuning_curve_20250415_02.mkv',
+                   'arch024_am_tuning_curve_20250415b.h5', cameraParams) 
+                   
+                  
+videos.add_session('2025-04-15', 'optoNaturalInstances',
+                   'arch024_natural_sound_detection_20250415_02.mkv',
+                   'arch024_natural_sound_detection_20250415b.h5', cameraParams) 
+                   
+                   
+videos.add_session('2025-04-15', 'optoTuningAM',
+                   'arch024_am_tuning_curve_20250415_03.mkv',
+                   'arch024_am_tuning_curve_20250415c.h5', cameraParams) 
+                    
+                   
+videos.add_session('2025-04-15', 'optoNaturalCategories',
+                   'arch024_natural_sound_detection_20250415_03.mkv',
+                   'arch024_natural_sound_detection_20250415c.h5', cameraParams) 
+                    
+videos.add_session('2025-04-15', 'optoTuningFreq',
+                   'arch024_am_tuning_curve_20250415_04.mkv',
+                   'arch024_am_tuning_curve_20250415d.h5', cameraParams) 
+                   
+                   
+videos.add_session('2025-04-15', 'optoNaturalInstances',
+                   'arch024_natural_sound_detection_20250415_04.mkv',
+                   'arch024_natural_sound_detection_20250415d.h5', cameraParams) 
