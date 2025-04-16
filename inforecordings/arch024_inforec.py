@@ -63,7 +63,7 @@ exp1.maxDepth = 3600
 
 
 # exp 1 finish
-# =================================2025-04-11============================================
+# =================================2025-04-14============================================
 #day 3- right hemisphere-Control experiment, recorded from centre of craniotomy,shanks parallet to bregma lambda axis. Centre of craniotomy.
 exp2 = celldatabase.Experiment(subject, '2025-04-14', brainArea='right_pStr', probe = 'NPv2-1134', recordingTrack='centerCenter_DiO', info=['facesLateral', 'soundLeft'])
 experiments.append(exp2)
@@ -92,7 +92,7 @@ exp2.maxDepth = 3500
 
 
 # exp 2 finish
-# =================================2025-04-11============================================
+# =================================2025-04-15============================================
 
 #day 4- left hemisphere-, recorded from centre of craniotomy,shanks parallet to bregma lambda axis. Centre of craniotomy.
 exp3 = celldatabase.Experiment(subject, '2025-04-15', brainArea='left_pStr', probe = 'NPv2-1134', recordingTrack='centerCenter_DiD', info=['facesMedial', 'soundRight'])
@@ -121,4 +121,32 @@ exp3.maxDepth = 3500
 
 
 # exp 3 finish
-# =================================2025-04-11============================================
+# =================================2025-04-16============================================
+#day 5- left hemisphere-, recorded from 0.3mm lateral from centre of craniotomy,shanks parallet to bregma lambda axis.
+exp4 = celldatabase.Experiment(subject, '2025-04-16', brainArea='left_pStr', probe = 'NPv2-1134', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundRight'])
+experiments.append(exp4)
+
+exp4.add_site(3500)
+
+# Reference = 4:tip
+# Electrode preset = All Shanks 1-96 
+
+exp4.add_session('10-57-38','a','optoTuningAM','am_tuning_curve')  
+exp4.add_session('11-12-51','a','optoNaturalCategories','natural_sound_detection')
+exp4.add_session('11-40-52','b','optoTuningFreq','am_tuning_curve')
+exp4.add_session('11-57-09','b','optoNaturalInstances','natural_sound_detection')
+
+exp4.add_site(2780)
+# reference = 4:tip
+# Electrode preset = All Shanks 97-192
+exp4.add_session('12-20-27','c','optoTuningAM','am_tuning_curve') 
+exp4.add_session('12-34-56','c','optoNaturalCategories','natural_sound_detection')
+exp4.add_session('13-02-44','d','optoTuningFreq','am_tuning_curve')
+exp4.add_session('13-18-59','d','optoNaturalInstances','natural_sound_detection')
+
+exp4.maxDepth = 3500
+
+
+
+# exp 4 finish
+# =================================2025-04-17============================================
