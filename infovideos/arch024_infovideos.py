@@ -205,3 +205,42 @@ videos.add_session('2025-04-16', 'optoTuningFreq',
 videos.add_session('2025-04-16', 'optoNaturalInstances',
                    'arch024_natural_sound_detection_20250416_04.mkv',
                    'arch024_natural_sound_detection_20250416d.h5', cameraParams) 
+#===================================================================
+# 2025-04-17
+videos.add_session('2025-04-17', 'optoTuningAM',
+                   'arch024_am_tuning_curve_20250417_01.mkv',
+                   'arch024_am_tuning_curve_20250417a.h5', cameraParams) 
+                   
+                
+                
+videos.add_session('2025-04-17', 'optoNaturalCategories',
+                   'arch024_natural_sound_detection_20250417_01.mkv',
+                   'arch024_natural_sound_detection_20250417a.h5', cameraParams) 
+                  
+videos.add_session('2025-04-17', 'optoTuningFreq',
+                   'arch024_am_tuning_curve_20250417_02.mkv',
+                   'arch024_am_tuning_curve_20250417b.h5', cameraParams) 
+                   
+                  
+videos.add_session('2025-04-17', 'optoNaturalInstances',
+                   'arch024_natural_sound_detection_20250417_02.mkv',
+                   'arch024_natural_sound_detection_20250417b.h5', cameraParams) 
+                   
+                   
+videos.add_session('2025-04-17', 'optoTuningAM',
+                   'arch024_am_tuning_curve_20250417_03.mkv',
+                   'arch024_am_tuning_curve_20250417c.h5', cameraParams) 
+                    
+                   
+videos.add_session('2025-04-17', 'optoNaturalCategories',
+                   'arch024_natural_sound_detection_20250417_03.mkv',
+                   'arch024_natural_sound_detection_20250417c.h5', cameraParams) 
+                    
+videos.add_session('2025-04-17', 'optoTuningFreq',
+                   'arch024_am_tuning_curve_20250417_04.mkv',
+                   'arch024_am_tuning_curve_20250417d.h5', cameraParams) 
+                   
+                   
+videos.add_session('2025-04-17', 'optoNaturalInstances',
+                   'arch024_natural_sound_detection_20250417_04.mkv',
+                   'arch024_natural_sound_detection_20250417d.h5', cameraParams) 
