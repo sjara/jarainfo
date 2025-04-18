@@ -162,7 +162,7 @@ exp5.add_site(3500)
 exp5.add_session('11-13-34','a','optoTuningAM','am_tuning_curve')  
 exp5.add_session('11-27-53','a','optoNaturalCategories','natural_sound_detection')
 exp5.add_session('11-57-44','b','optoTuningFreq','am_tuning_curve')
-exp5.add_session('11-57-09','b','optoNaturalInstances','natural_sound_detection')
+exp5.add_session('12-13-28','b','optoNaturalInstances','natural_sound_detection')
 
 exp5.add_site(2780)
 # reference = 1:tip # less noisy channels
