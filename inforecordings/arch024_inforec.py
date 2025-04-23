@@ -59,7 +59,7 @@ exp1.add_session('12-32-15','d','optoTuningFreq','am_tuning_curve')
 exp1.add_session('12-48-32','d','optoNaturalInstances','natural_sound_detection')
 
 exp1.maxDepth = 3600
-
+# went 3600um, but took out the probes to 3500um and recorded.
 
 
 # exp 1 finish
