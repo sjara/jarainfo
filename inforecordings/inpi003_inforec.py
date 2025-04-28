@@ -6,6 +6,8 @@ experiments=[]
 
 probe_tip = 4004 # max depth is same for all experiments since the probe is implanted!
 
+
+### 2025-03-10 Session ###
 exp0 = celldatabase.Experiment(subject, '2025-03-10', 'right_AC', 
                                'centerCenter_DiI',probe='NPv2-3813',
                                info = ['faceRight','soundLeft'])
@@ -39,7 +41,7 @@ exp0.add_session('16-51-00','h','AM','am_tuning_curve')
 
 experiments.append(exp0)
 
-
+### 2025-03-17 Session ###
 # all shanks, 193-288, tip#2 reference
 exp1 = celldatabase.Experiment(subject, '2025-03-17', 'right_AC', 
                                'centerCenter_DiI',probe='NPv2-3813',
@@ -61,7 +63,7 @@ experiments.append(exp1)
 
 
 
-
+### 2025-04-02 Session ###
 # all shanks, 193-288, tip#1 reference
 exp2 = celldatabase.Experiment(subject, '2025-04-02', 'right_AC', 
                                'centerCenter_DiI',probe='NPv2-3813',
@@ -82,7 +84,7 @@ exp2.add_session('13-39-23','a','naturalSound','natural_sound_detection')
 experiments.append(exp2)
 
 
-
+### 2025-04-09 Session ###
 # mouse in at 11:15, noticed change in black spot, seems to be dried blood
 
 exp3 = celldatabase.Experiment(subject, '2025-04-09', 'right_AC', 
@@ -105,7 +107,27 @@ exp3.add_session('12-43-46','a','naturalSound','natural_sound_detection') # 201 
 experiments.append(exp3)
 
 
+### 2025-04-28 session ###
+# mouse in at 14:45
+exp4 = celldatabase.Experiment(subject, '2025-04-28', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-3813',
+                               info = ['faceRight','soundLeft'])
 
 
+exp4.maxDepth = probe_tip
 
- 
+# using shank 1 bank B, same depth as 385-480 (but add 1 um to indicate shank)
+exp4.add_site(1121)
+
+# using external reference
+exp4.add_session('15-25-36','a','Freq','am_tuning_curve') # 322  trials
+exp4.add_session('15-33-55','b','AM','am_tuning_curve') # 222 trials
+
+# using tip of shank 1 as reference
+exp4.add_session('15-42-06','c','Freq','am_tuning_curve') # 331 trials
+exp4.add_session('15-50-41','d','AM','am_tuning_curve') # 224 trials
+exp4.add_session('15-58-13','a','naturalSound','natural_sound_detection') # 201 trials
+
+# mouse out at 16:27
+
+experiments.append(exp4)
