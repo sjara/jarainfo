@@ -133,9 +133,20 @@ exp4.add_session('15-58-13','a','naturalSound','natural_sound_detection') # 201 
 experiments.append(exp4)
 
 
-# Joe's experiment 2025-05-09
-# experiments.append(exp5)
+### Joe's experiment 2025-05-09 ###
 
-# 12-12-21, 'a', ild vs abv, sound_localization.py
-# 
+exp5 = celldatabase.Experiment(subject, '2025-05-09', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-3813',
+                               info = ['faceRight','soundLeft'])
+
+# all shanks 385-480, using tip#1 reference
+exp5.add_site(1120)
+
+# sound localization session
+exp5.add_session('12-12-21', 'a', 'ildVsAbv', 'sound_localization')
+
+
+experiments.append(exp5)
+
+
 
