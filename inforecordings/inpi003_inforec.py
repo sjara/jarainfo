@@ -147,11 +147,11 @@ exp5 = celldatabase.Experiment(subject, '2025-05-20', 'right_AC',
                                info = ['faceRight','soundLeft'])
                                
                                
-exp.5.maxDepth = probe_tip     
+exp5.maxDepth = probe_tip     
 exp5.add_site(1120)
                          
 #using tip 1 as reference, recording all shanks 385-480                             
-exp5.add_session('11-59-17','a','L2R3_L2R1_L1R2_L3R2','sound_localization') # 401 trials
+exp5.add_session('11-39-29','a','L2R3_L2R1_L1R2_L3R2','sound_localization') # 401 trials
 # mouse out at 12:17
 
 experiments.append(exp5)
