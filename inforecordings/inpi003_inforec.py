@@ -144,7 +144,7 @@ experiments.append(exp4)
 # mouse in at 11:59
 exp5 = celldatabase.Experiment(subject, '2025-05-20', 'right_AC', 
                                'centerCenter_DiI',probe='NPv2-3813',
-                               info = ['faceRight','soundLeft'])
+                               info = ['faceRight','soundBilateral'])
                                
                                
 exp5.maxDepth = probe_tip     
@@ -152,6 +152,26 @@ exp5.add_site(1120)
                          
 #using tip 1 as reference, recording all shanks 385-480                             
 exp5.add_session('11-39-29','a','L2R3_L2R1_L1R2_L3R2','sound_localization') # 401 trials
+
 # mouse out at 12:17
 
 experiments.append(exp5)
+
+### Joe's experiment 2025-06-02 ###
+# mouse in at 11:00
+exp6 = celldatabase.Experiment(subject, '2025-06-02', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-3813',
+                               info = ['faceRight','soundBilateral'])
+                               
+                               
+exp6.maxDepth = probe_tip     
+exp6.add_site(1120)
+                         
+#using tip 1 as reference, recording all shanks 385-480                             
+exp6.add_session('11-09-19','a','L2R3_L2R1_L1R2_L3R2','sound_localization') # 432 trials
+exp6.add_session('11-41-31','a','tuningFreq','am_tuning.py') # 337 trials
+
+# mouse out at 1152
+
+
+experiments.append(exp6)
