@@ -169,7 +169,7 @@ exp6.add_site(1120)
                          
 #using tip 1 as reference, recording all shanks 385-480                             
 exp6.add_session('11-09-19','a','L2R3_L2R1_L1R2_L3R2','sound_localization') # 432 trials
-exp6.add_session('11-41-31','a','tuningFreq','am_tuning') # 337 trials
+exp6.add_session('11-41-31','a','tuningFreq','am_tuning_curve') # 337 trials
 
 # mouse out at 1152
 
