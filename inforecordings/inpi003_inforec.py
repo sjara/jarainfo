@@ -198,7 +198,7 @@ exp7.add_session('15-32-30','c','AM','am_tuning_curve') # 241 trials, soundLeft
 exp7.add_session('15-41-24','d','AM','am_tuning_curve') # 239 trials, soundBilateral
 exp7.add_session('15-49-33','a','naturalSound','natural_sound_detection') # 201 trials, soundLeft
 exp7.add_session('16-16-12','b','naturalSound','natural_sound_detection') # 201 trials, soundBilateral
-exp7.add_session('16-43-29''','Spont','')
+exp7.add_session('16-43-29','','Spont','spontaneous_activity')
 
 
 experiments.append(exp7)
