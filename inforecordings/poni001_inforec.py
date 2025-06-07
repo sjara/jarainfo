@@ -36,6 +36,7 @@ exp0.add_session('14-36-14', 'd', 'Freq', 'am_tuning_curve')
 exp0.add_session('15-11-28','h','AM','am_tuning_curve')
 
 # bank 385-480 (tip #2)
+exp0.add_site(2360)
 exp0.add_session('15-22-13','i','Freq','am_tuning_curve')
 exp0.add_session('15-30-29','j','AM','am_tuning_curve')
 
