@@ -184,23 +184,30 @@ experiments.append(exp6)
 # mouse in at 1505
 exp7 = celldatabase.Experiment(subject, '2025-06-06', 'right_AC', 
                                'centerCenter_DiI',probe='NPv2-3813',
+                               info = ['faceRight','soundLeft'])
+
+exp8 = celldatabase.Experiment(subject, '2025-06-06', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-3813',
                                info = ['faceRight','soundBilateral'])
 
 exp7.maxDepth=probe_tip
+exp8.maxDepth=probe_tip
 # using all shanks #385-480, 4000-2880 = 1120um
 exp7.add_site(1120)
+exp8.add_site(1120)
 
 # tip#1 reference
 exp7.add_session('15-06-39','a','Freq','am_tuning_curve') # 334 trials, soundLeft
-exp7.add_session('15-15-30','b','Freq','am_tuning_curve') # 340 trials, soundBilateral
+exp8.add_session('15-15-30','b','Freq','am_tuning_curve') # 340 trials, soundBilateral
 #exp7.add_session('15-24-38','','AM','am_tuning_curve') # soundLeft, FORGOT TO SAVE BEHAVSESSION
 exp7.add_session('15-32-30','c','AM','am_tuning_curve') # 241 trials, soundLeft
-exp7.add_session('15-41-24','d','AM','am_tuning_curve') # 239 trials, soundBilateral
+exp8.add_session('15-41-24','d','AM','am_tuning_curve') # 239 trials, soundBilateral
 exp7.add_session('15-49-33','a','naturalSound','natural_sound_detection') # 201 trials, soundLeft
-exp7.add_session('16-16-12','b','naturalSound','natural_sound_detection') # 201 trials, soundBilateral
+exp8.add_session('16-16-12','b','naturalSound','natural_sound_detection') # 201 trials, soundBilateral
 exp7.add_session('16-43-29','','Spont','spontaneous_activity')
 
 
 experiments.append(exp7)
+experiments.append(exp8)
 
 # mouse out at 1755
