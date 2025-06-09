@@ -9,7 +9,7 @@ probe_tip = 2364 # max depth is same for all experiments since the probe is impl
 
 ### 2025-06-07 Session ###
 exp0 = celldatabase.Experiment(subject, '2025-06-07', 'right_AC', 
-                               'centerCenter_DiI',probe='NPv2-3082',
+                               'centerCenter_DiD',probe='NPv2-3082',
                                info = ['faceRight','soundLeft'])
 exp0.maxDepth=probe_tip
 
@@ -50,7 +50,7 @@ experiments.append(exp0)
 # mouse in at 1030
 
 exp1 = celldatabase.Experiment(subject, '2025-06-09', 'right_AC', 
-                               'centerCenter_DiI',probe='NPv2-3082',
+                               'centerCenter_DiD',probe='NPv2-3082',
                                info = ['faceRight','soundLeft'])
 exp1.maxDepth=probe_tip
 
