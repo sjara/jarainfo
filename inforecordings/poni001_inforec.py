@@ -43,3 +43,26 @@ exp0.add_session('15-11-28','h','AM','am_tuning_curve')
 # animal out of rig at 1547
 
 experiments.append(exp0)
+
+
+### 2025-06-09 Session ###
+
+# mouse in at 1030
+
+exp1 = celldatabase.Experiment(subject, '2025-06-09', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-3082',
+                               info = ['faceRight','soundLeft'])
+exp1.maxDepth=probe_tip
+
+
+# bank 1-192 of shanks 3 & 4, tip#3 reference
+exp1.add_site(2360)
+
+exp1.add_session('10-54-38','a','Freq','am_tuning_curve')
+exp1.add_session('11-02-53','b','AM','am_tuning_curve')
+exp1.add_session('11-10-08','a','naturalSound','natural_sound_detection')
+
+experiments.append(exp1)
+
+# mouse out at 1200
+
