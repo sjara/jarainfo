@@ -74,9 +74,10 @@ exp2 = celldatabase.Experiment(subject, '2025-06-10','right_AC',
                                info=['faceRight','soundBilateral'])
 
 exp2.add_site(2360)
+exp2.maxDepth=probe_tip
 
 # using headphones
-exp2.add_session('15-47-35','a','L2R3_L2R1_L1R2_L3R2','sound_localization') # with 3/17 sine&noise calibrations
+# exp2.add_session('15-47-35','a','L2R3_L2R1_L1R2_L3R2','sound_localization') # with 3/17 sine&noise calibrations
 exp2.add_session('16-07-57','b','L2R3_L2R1_L1R2_L3R2','sound_localization') # with 5/6 sine&noise calibrations
 
 # back to 3/17 sine&noise calibrations, using regular speakers
