@@ -1,4 +1,3 @@
-
 from jaratoolbox import celldatabase
 
 subject = 'poni001'
@@ -66,3 +65,25 @@ experiments.append(exp1)
 
 # mouse out at 1200
 
+### 2025-06-10 Experiment
+
+# mouse in at 1530
+
+exp2 = celldatabase.Experiment(subject, '2025-06-10','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundBilateral'])
+
+exp2.add_site(2360)
+
+# using headphones
+exp2.add_session('15-47-35','a','L2R3_L2R1_L1R2_L3R2','sound_localization') # with 3/17 sine&noise calibrations
+exp2.add_session('16-07-57','b','L2R3_L2R1_L1R2_L3R2','sound_localization') # with 5/6 sine&noise calibrations
+
+# back to 3/17 sine&noise calibrations, using regular speakers
+
+exp2.add_session('17-20-19','a','optoFreq','am_tuning_curve')
+exp2.add_session('17-39-32','b','optoAM','am_tuning_curve')
+
+# mouse out at 1800
+
+experiments.append(exp2)
