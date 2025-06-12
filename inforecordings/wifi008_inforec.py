@@ -99,6 +99,10 @@ exp2.add_session('14-54-33', 'b', 'AM', 'am_tuning_curve')
 exp3 = celldatabase.Experiment(subject, '2025-05-30', brainArea='right_AC', probe='NPv2-1134', recordingTrack='anteriorLateral_DiI', info=['facesPosterior', 'soundLeft'])
 
 # Reference electrode is 1:tip
+# All shanks active 1-96
+# 57.5 degrees with respect to the horizontal axis
+# 64 degrees with respect to the azimuth axis 
+# Mouse was very lethargic following the first recording of the day (the mouse was in the rig for ~5 hours due to troubleshooting and dura removal) and the vet suggested to have a short final recording before sac'ing the mouse. Therefore, we opted to only record 2 sessions. 
 
 experiments.append(exp3)
 
