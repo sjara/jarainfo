@@ -156,7 +156,7 @@ exp4.add_session('12-53-27','c','optoNaturalCategories','natural_sound_detection
 exp4.add_session('13-20-40','d','optoTuningFreq','am_tuning_curve')
 exp4.add_session('13-36-37','d','optoNaturalInstances','natural_sound_detection')
 
-exp4.maxDepth = 3500
+exp4.maxDepth = 4000
 
 
 
