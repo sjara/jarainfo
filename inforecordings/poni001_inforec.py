@@ -102,7 +102,7 @@ exp3 = celldatabase.Experiment(subject, '2025-06-13','right_AC',
 exp3.maxDepth=probe_tip
 exp3.add_site(2360)
 
-exp3.add_session('13-56-15','a','naturalOpto','natural_sound_detection')
+exp3.add_session('13-56-15','a','optoNaturalSound','natural_sound_detection')
 exp3.add_session('14-59-34','a','optoSoundLoc','sound_localization')
 
 
