@@ -88,3 +88,24 @@ exp2.add_session('17-39-32','b','optoAM','am_tuning_curve')
 # mouse out at 1800
 
 experiments.append(exp2)
+
+
+
+### 2025-06-13 session
+
+# mouse in at 1345
+
+exp3 = celldatabase.Experiment(subject, '2025-06-13','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundBilateral'])
+
+exp3.maxDepth=probe_tip
+exp3.add_site(2360)
+
+exp3.add_session('13-56-15','a','naturalOpto','natural_sound_detection')
+exp3.add_session('14-59-34','a','optoSoundLoc','sound_localization')
+
+
+experiments.append(exp3)
+
+# mosue out at 1540
