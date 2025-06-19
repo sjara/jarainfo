@@ -211,3 +211,39 @@ experiments.append(exp7)
 experiments.append(exp8)
 
 # mouse out at 1755
+
+
+### 2025-06-19 Session
+
+# mouse in 1445
+exp9 = celldatabase.Experiment(subject, '2025-06-18', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-3813',
+                               info = ['faceRight','soundLeft'])
+
+exp9.maxDepth=probe_tip
+
+# Shank 1 bank A  (tip#1)
+exp9.add_site(4001)
+exp9.add_session('15-39-58', 'a', 'Freq', 'am_tuning_curve')
+exp9.add_session('16-18-18', 'e','AM','am_tuning_curve') # used tip #2 this time (less noise)
+
+# Shank 2 bank A (tip#2)
+exp9.add_site(4002)
+exp9.add_session('15-49-44', 'b', 'Freq', 'am_tuning_curve')
+exp9.add_session('16-27-24','f','AM','am_tuning_curve')
+
+# Shank 3 bank A (tip#3)
+### NOTE: Weird noise in multiple groups of channels
+exp9.add_site(4003)
+exp9.add_session('15-59-17', 'c', 'Freq', 'am_tuning_curve')
+exp9.add_session('16-35-08','g','AM','am_tuning_curve')
+
+# Shank 4 bank A (tip#4)
+### NOTE: Weird noise in multiple groups of channels
+exp9.add_site(4004) 
+exp9.add_session('16-08-07', 'd', 'Freq', 'am_tuning_curve')
+exp9.add_session('16-46-00','h','AM','am_tuning_curve')
+
+experiments.append(exp9)
+
+# mouse out at 1708
