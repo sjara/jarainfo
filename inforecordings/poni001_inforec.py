@@ -109,3 +109,22 @@ exp3.add_session('14-59-34','a','optoSoundLoc','sound_localization')
 experiments.append(exp3)
 
 # mosue out at 1540
+
+
+### 2025-06-25 session
+
+# mouse in 1615
+
+exp4 = celldatabase.Experiment(subject,'2025-06-25','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundBilateral'])
+
+exp4.maxDepth=probe_tip
+exp4.add_site(2360)
+
+exp4.add_session('16-27-00','a','poniSpont','am_image_tuning')
+exp4.add_session('16-43-57','b','poniFreq','am_image_tuning')
+
+experiments.append(exp4)
+
+# mouse out 1800
