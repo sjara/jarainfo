@@ -148,3 +148,21 @@ exp5.add_session('14-59-47','c','poniSpont','am_image_tuning') # 320 trials, 4x4
 experiments.append(exp5)
 
 # mouse out 1530
+
+### 2025-07-18 session
+
+# mouse in 1520
+
+exp6 = celldatabase.Experiment(subject,'2025-07-18','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundBilateral'])
+exp6.maxDepth=probe_tip
+exp6.add_site(2360)
+# shanks 3&4 1-192, tip 3 reference, 100 Hz minidisplay refresh rate
+exp6.add_session('15-42-52','a','poniSpont4x4','am_image_tuning') # 
+exp6.add_session('16-17-46','b','poniFreq4x1','am_image_tuning') # 
+exp6.add_session('17-36-06','c','poniFreq4x4_C2R3_2x2','am_image_tuning') # 
+
+experiments.append(exp6)
+
+# moue out 1840
