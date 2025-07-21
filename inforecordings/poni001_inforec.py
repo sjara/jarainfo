@@ -122,8 +122,8 @@ exp4 = celldatabase.Experiment(subject,'2025-06-25','right_AC',
 exp4.maxDepth=probe_tip
 exp4.add_site(2360)
 # shanks 3&4 1-192, tip 3 reference, 50 Hz minidisplay refresh rate
-exp4.add_session('16-27-00','a','poniSpont','am_image_tuning')
-exp4.add_session('16-43-57','b','poniFreq','am_image_tuning')
+exp4.add_session('16-27-00','a','poniSpont_4x4','am_image_tuning')
+exp4.add_session('16-43-57','b','poniFreq_4x1','am_image_tuning')
 
 experiments.append(exp4)
 
@@ -141,9 +141,9 @@ exp5 = celldatabase.Experiment(subject,'2025-06-30','right_AC',
 exp5.maxDepth=probe_tip
 exp5.add_site(2360)
 # shanks 3&4 1-192, tip 3 reference, 100 Hz minidisplay refresh rate
-exp5.add_session('12-58-51','a','poniFreq4x1','am_image_tuning') # 1600 trials, 4x1
-exp5.add_session('13-59-56','b','poniFreq1x4','am_image_tuning') # 1600 trials, 1x4
-exp5.add_session('14-59-47','c','poniSpont','am_image_tuning') # 320 trials, 4x4
+exp5.add_session('12-58-51','a','poniFreq_4x1','am_image_tuning') # 1600 trials, 4x1
+exp5.add_session('13-59-56','b','poniFreq_1x4','am_image_tuning') # 1600 trials, 1x4
+exp5.add_session('14-59-47','c','poniSpont_4x4','am_image_tuning') # 320 trials, 4x4
 
 experiments.append(exp5)
 
@@ -159,9 +159,9 @@ exp6 = celldatabase.Experiment(subject,'2025-07-18','right_AC',
 exp6.maxDepth=probe_tip
 exp6.add_site(2360)
 # shanks 3&4 1-192, tip 3 reference, 100 Hz minidisplay refresh rate
-exp6.add_session('15-42-52','a','poniSpont4x4','am_image_tuning') # 
-exp6.add_session('16-17-46','b','poniFreq4x1','am_image_tuning') # 
-exp6.add_session('17-36-06','c','poniFreq4x4_C2R3_2x2','am_image_tuning') # 
+exp6.add_session('15-42-52','a','poniSpont_4x4','am_image_tuning') # 
+exp6.add_session('16-17-46','b','poniFreq_4x1','am_image_tuning') # 
+exp6.add_session('17-36-06','c','poniFreq_4x4_C2R3_2x2','am_image_tuning') # 
 
 experiments.append(exp6)
 
