@@ -141,8 +141,8 @@ exp5 = celldatabase.Experiment(subject,'2025-06-30','right_AC',
 exp5.maxDepth=probe_tip
 exp5.add_site(2360)
 # shanks 3&4 1-192, tip 3 reference, 100 Hz minidisplay refresh rate
-exp5.add_session('12-58-51','a','poniFreqC4R1','am_image_tuning') # 1600 trials, 4x1
-exp5.add_session('13-59-56','b','poniFreqC1R4','am_image_tuning') # 1600 trials, 1x4
+exp5.add_session('12-58-51','a','poniFreq4x1','am_image_tuning') # 1600 trials, 4x1
+exp5.add_session('13-59-56','b','poniFreq1x4','am_image_tuning') # 1600 trials, 1x4
 exp5.add_session('14-59-47','c','poniSpont','am_image_tuning') # 320 trials, 4x4
 
 experiments.append(exp5)
