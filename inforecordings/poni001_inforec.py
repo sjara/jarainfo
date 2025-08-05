@@ -166,3 +166,20 @@ exp6.add_session('17-36-06','c','poniFreq_4x4_C2R3_2x2','am_image_tuning') #
 experiments.append(exp6)
 
 # moue out 1840
+
+### 2025-08-05 session
+
+# mouse in 1400
+
+exp7 = celldatabase.Experiment(subject,'2025-08-05','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundLeft'])
+
+exp7.add_site(2360)
+# shanks 3&4 1-192, tip 3 reference
+exp7.add_session('14-04-09','a','AMtone','am_tuning_curve')
+
+
+experiments.append(exp7)
+
+# mouse out 1459
