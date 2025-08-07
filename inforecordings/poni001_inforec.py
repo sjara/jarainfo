@@ -174,7 +174,7 @@ experiments.append(exp6)
 exp7 = celldatabase.Experiment(subject,'2025-08-05','right_AC',
                                'centerCenter_DiD',probe='NPv2-3082',
                                info=['faceRight','soundLeft'])
-
+exp7.maxDepth=probe_tip
 exp7.add_site(2360)
 # shanks 3&4 1-192, tip 3 reference
 exp7.add_session('14-04-09','a','AMtone','am_tuning_curve')
