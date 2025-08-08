@@ -50,13 +50,13 @@ exp1.add_session('19-57-16','j','optoValidation','am_tuning_curve')
 exp1.add_site(4010) #1-96, tip2
 exp1.add_session('19-48-18','i','optoValidation','am_tuning_curve')
 
-exp1.add_site(4010- 720) #97-192 tip2
+exp1.add_site(3290) #97-192 tip2 (4010-720)
 exp1.add_session('20-08-00','k','optoValidation','am_tuning_curve')
 
-exp1.add_site(4010- 2*720) #193-288 tip2
+exp1.add_site(2570) #193-288 tip2 (4010-720*2)
 exp1.add_session('20-17-40','l','optoValidation','am_tuning_curve')
 
-exp1.add_site(4010- 3*720) #289-384 tip2
+exp1.add_site(1850) #289-384 tip2 (4010-720*3)
 exp1.add_session('20-27-43','m','optoValidation','am_tuning_curve')
 
 # mouse out 2040
