@@ -59,7 +59,7 @@ exp1.add_session('20-17-40','l','optoValidation','am_tuning_curve')
 exp1.add_site(4000- 3*720) #289-384 tip2
 exp1.add_session('20-27-43','m','optoValidation','am_tuning_curve')
 
-# mouse out 1840
+# mouse out 2040
 
 experiments.append(exp0)
 experiments.append(exp1)
