@@ -41,22 +41,22 @@ exp0.add_session('18-30-20','g','optoValidation','am_tuning_curve')
 exp1 = celldatabase.Experiment(subject, '2025-08-07', 'left_AC', 
                                'centerCenter_DiI',probe='NPv2-3082',
                                info = ['faceFront','soundBilateral'])
-exp1.maxDepth=4004 # Xpia=14000, Xfinal=18000
+exp1.maxDepth=4014 # Xpia=14000, Xfinal=18000
 
-exp1.add_site(4004) # shank 4 bank A tip 4
+exp1.add_site(4014) # shank 4 bank A tip 4
 exp1.add_session('19-36-04','h','tuningFreq','am_tuning_curve')
 exp1.add_session('19-57-16','j','optoValidation','am_tuning_curve')
 
-exp1.add_site(4000) #1-96, tip2
+exp1.add_site(4010) #1-96, tip2
 exp1.add_session('19-48-18','i','optoValidation','am_tuning_curve')
 
-exp1.add_site(4000- 720) #97-192 tip2
+exp1.add_site(4010- 720) #97-192 tip2
 exp1.add_session('20-08-00','k','optoValidation','am_tuning_curve')
 
-exp1.add_site(4000- 2*720) #193-288 tip2
+exp1.add_site(4010- 2*720) #193-288 tip2
 exp1.add_session('20-17-40','l','optoValidation','am_tuning_curve')
 
-exp1.add_site(4000- 3*720) #289-384 tip2
+exp1.add_site(4010- 3*720) #289-384 tip2
 exp1.add_session('20-27-43','m','optoValidation','am_tuning_curve')
 
 # mouse out 2040
