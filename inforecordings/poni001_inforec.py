@@ -194,14 +194,14 @@ exp8 = celldatabase.Experiment(subject,'2025-08-12','right_AC',
                                info=['faceRight','soundBilateral'])
 # mouse in 1212
 exp8.maxDepth=probe_tip
-#exp8.add_session('12-15-01','a','tuningFreq','am_tuning_curve') # soundLeft
-#exp8.add_session('12-23-13','b','tuningFreq','am_tuning_curve') # soundRight
-#exp8.add_session('12-35-59','c','tuningFreq','am_tuning_curve') # soundBilateral
+#exp8.add_session('12-15-01','a','tuningFreq_soundLeft','am_tuning_curve') # soundLeft
+#exp8.add_session('12-23-13','b','tuningFreq_soundRight','am_tuning_curve') # soundRight
+#exp8.add_session('12-35-59','c','tuningFreq_soundBilateral','am_tuning_curve') # soundBilateral
 # used wrong speakers ^ :(
 
-exp8.add_session('12-40-45','d','tuningFreq','am_tuning_curve') # soundLeft
-exp8.add_session('12-50-04','e','tuningFreq','am_tuning_curve') # soundRight
-exp8.add_session('12-59-15','f','tuningFreq','am_tuning_curve') # soundBilateral
+exp8.add_session('12-40-45','d','tuningFreq_soundLeft','am_tuning_curve') # soundLeft
+exp8.add_session('12-50-04','e','tuningFreq_soundRight','am_tuning_curve') # soundRight
+exp8.add_session('12-59-15','f','tuningFreq_soundBilateral','am_tuning_curve') # soundBilateral
 
 exp8.add_session('13-07-57','g','tuningAMtone','am_tuning_curve') # soundLeft
 
