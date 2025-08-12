@@ -183,3 +183,26 @@ exp7.add_session('14-04-09','a','AMtone','am_tuning_curve')
 experiments.append(exp7)
 
 # mouse out 1459
+
+
+
+### 2025-08-12 Recording Session ###
+
+
+exp8 = celldatabase.Experiment(subject,'2025-08-12','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundBilateral'])
+# mouse in 1212
+exp8.maxDepth=probe_tip
+#exp8.add_session('12-15-01','a','tuningFreq','am_tuning_curve') # soundLeft
+#exp8.add_session('12-23-13','b','tuningFreq','am_tuning_curve') # soundRight
+#exp8.add_session('12-35-59','c','tuningFreq','am_tuning_curve') # soundBilateral
+# used wrong speakers ^ :(
+
+exp8.add_session('12-40-45','d','tuningFreq','am_tuning_curve') # soundLeft
+exp8.add_session('12-50-04','e','tuningFreq','am_tuning_curve') # soundRight
+exp8.add_session('12-59-15','f','tuningFreq','am_tuning_curve') # soundBilateral
+
+exp8.add_session('13-07-57','g','tuningAMtone','am_tuning_curve') # soundLeft
+
+# mouse out 1400
