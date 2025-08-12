@@ -206,4 +206,6 @@ exp8.add_session('12-59-15','f','tuningFreq_soundBilateral','am_tuning_curve') #
 
 exp8.add_session('13-07-57','g','tuningAMtone','am_tuning_curve') # soundLeft
 
+experiments.append(exp8)
+
 # mouse out 1400
