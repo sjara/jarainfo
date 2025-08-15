@@ -138,10 +138,10 @@ exp4.add_session('15-34-54','o','optoAM','am_tuning_curve') # laser set to 9.76 
 exp4.add_session('15-49-16','p','optoAM','am_tuning_curve') # laser set to 4.31 (5 mW)
 
 exp4.add_site(121)
-exp4.add_session('16-04-30','q','tuningFreq','am_tuning-curve')
+exp4.add_session('16-04-30','q','tuningFreq','am_tuning_curve')
 
 exp4.add_site(124)
-exp4.add_session('16-05-29','r','tuningFreq','am_tuning-curve')
+exp4.add_session('16-05-29','r','tuningFreq','am_tuning_curve')
 
 experiments.append(exp3)
 experiments.append(exp4)
