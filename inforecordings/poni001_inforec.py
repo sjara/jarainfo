@@ -204,7 +204,7 @@ exp8.add_session('12-40-45','d','tuningFreq_soundLeft','am_tuning_curve') # soun
 exp8.add_session('12-50-04','e','tuningFreq_soundRight','am_tuning_curve') # soundRight
 exp8.add_session('12-59-15','f','tuningFreq_soundBilateral','am_tuning_curve') # soundBilateral
 
-exp8.add_session('13-07-57','g','tuningAMtone','am_tuning_curve') # soundLeft
+exp8.add_session('13-07-57','g','AMtone','am_tuning_curve') # soundLeft
 
 experiments.append(exp8)
 
