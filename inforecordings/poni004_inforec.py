@@ -141,7 +141,7 @@ exp4.add_site(121)
 exp4.add_session('16-04-30','q','tuningFreq','am_tuning-curve')
 
 exp4.add_site(124)
-exp4.add_session('16-05-29','q','tuningFreq','am_tuning-curve')
+exp4.add_session('16-05-29','r','tuningFreq','am_tuning-curve')
 
 experiments.append(exp3)
 experiments.append(exp4)
