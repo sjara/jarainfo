@@ -74,7 +74,7 @@ exp2 = celldatabase.Experiment(subject, '2025-08-14', 'left_AC',
                                info = ['faceLeft','soundBilateral'])
 
 
-exp2.maxDepth=2500  # Xpia=13200, Xfinal=15722
+exp2.maxDepth=2504  # Xpia=13200, Xfinal=15722
 # finished inserting probe at 13:00
 
 exp2.add_site(2501) # shank 1 bank A, tip 2
@@ -92,14 +92,14 @@ exp3 = celldatabase.Experiment(subject, '2025-08-14', 'left_AC',
 
 
 # advanced probe by additional 500 um to get all of shank4's bank A inside the brain
-exp3.maxDepth=2820  # Xpia=13200, Xfinal=16180
+exp3.maxDepth=2824  # Xpia=13200, Xfinal=16180
 
 exp3.add_site(2821) # shank 1 bank A, tip 2
 exp3.add_session('13-34-45','d','tuningFreq','am_tuning_curve') 
 
 
-exp2.add_site(2824) # shank 4 bank A, tip 2
-exp2.add_session('13-29-01','c','tuningFreq','am_tuning_curve')
+exp3.add_site(2824) # shank 4 bank A, tip 2
+exp3.add_session('13-29-01','c','tuningFreq','am_tuning_curve')
 
 
 exp4 = celldatabase.Experiment(subject, '2025-08-14', 'left_AC', 
@@ -107,7 +107,7 @@ exp4 = celldatabase.Experiment(subject, '2025-08-14', 'left_AC',
                                info = ['faceLeft','soundBilateral'])
 
 # advanced another 20 um to get a round number
-exp4.maxDepth=3000  # Xpia=13200, Xfinal=16200
+exp4.maxDepth=3004  # Xpia=13200, Xfinal=16200
 
 exp4.add_site(3001) # shank 1 bank A, tip 2
 exp4.add_session('13-41-10','e','tuningFreq','am_tuning_curve') 
@@ -143,7 +143,8 @@ exp4.add_session('16-04-30','q','tuningFreq','am_tuning-curve')
 exp4.add_site(124)
 exp4.add_session('16-05-29','q','tuningFreq','am_tuning-curve')
 
-
+experiments.append(exp3)
+experiments.append(exp4)
 ### mouse out 1632
 
 
