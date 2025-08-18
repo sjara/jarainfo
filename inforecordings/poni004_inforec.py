@@ -113,17 +113,17 @@ exp4.add_site(3001) # shank 1 bank A, tip 2
 exp4.add_session('13-41-10','e','tuningFreq','am_tuning_curve') 
 exp4.add_session('14-38-14','j','optoAM_10mW','am_tuning_curve')  # laser set to 9.76 (10 mW)
 
-# exp4.add_site(3002) # shank 2 bank A, tip2
-# exp4.add_session('14-24-59','i','optoAM_10mW','am_tuning_curve') # laser set to 9.76 (10 mW)
+exp4.add_site(3002) # shank 2 bank A, tip2
+exp4.add_session('14-24-59','i','optoAM_10mW','am_tuning_curve') # laser set to 9.76 (10 mW)
 
 
-# exp4.add_site(3003) # shank 3 bank A, tip 2
-# exp4.add_session('14-11-03','h','optoAM_10mW','am_tuning_curve') # laser set to 9.76 (10 mW)
+exp4.add_site(3003) # shank 3 bank A, tip 2
+exp4.add_session('14-11-03','h','optoAM_10mW','am_tuning_curve') # laser set to 9.76 (10 mW)
 
 
-# exp4.add_site(3004) # shank 4 bank A, tip 2
-# exp4.add_session('13-47-57','f','tuningFreq','am_tuning_curve')
-# exp4.add_session('13-57-39','g','optoAM_10mW','am_tuning_curve') # laser set to 9.76 (10 mW)
+exp4.add_site(3004) # shank 4 bank A, tip 2
+exp4.add_session('13-47-57','f','tuningFreq','am_tuning_curve')
+exp4.add_session('13-57-39','g','optoAM_10mW','am_tuning_curve') # laser set to 9.76 (10 mW)
 
 
 exp4.add_site(1564) # 193-288, tip 2
@@ -132,16 +132,16 @@ exp4.add_session('14-57-18','l','optoAM_10mW','am_tuning_curve') # laser set to 
 exp4.add_session('15-14-04','m','optoAM_5mW','am_tuning_curve') # laser set to 4.31 (5 mW)
 
 
-# exp4.add_site(2284) 
-# exp4.add_session('15-28-18','n','tuningFreq','am_tuning_curve') 
-# exp4.add_session('15-34-54','o','optoAM_10mW','am_tuning_curve') # laser set to 9.76 (10 mW)
-# exp4.add_session('15-49-16','p','optoAM_5mW','am_tuning_curve') # laser set to 4.31 (5 mW)
+exp4.add_site(2284) 
+exp4.add_session('15-28-18','n','tuningFreq','am_tuning_curve') 
+exp4.add_session('15-34-54','o','optoAM_10mW','am_tuning_curve') # laser set to 9.76 (10 mW)
+exp4.add_session('15-49-16','p','optoAM_5mW','am_tuning_curve') # laser set to 4.31 (5 mW)
 
-# exp4.add_site(121)
-# exp4.add_session('16-04-30','q','tuningFreq','am_tuning_curve') # for ID of pia on shank 1
+exp4.add_site(121)
+exp4.add_session('16-04-30','q','tuningFreq','am_tuning_curve') # for ID of pia on shank 1
 
-# exp4.add_site(124)
-# exp4.add_session('16-05-29','r','tuningFreq','am_tuning_curve') # for ID of pia on shank 4
+exp4.add_site(124)
+exp4.add_session('16-05-29','r','tuningFreq','am_tuning_curve') # for ID of pia on shank 4
 
 # experiments.append(exp2)
 # experiments.append(exp3)
@@ -155,7 +155,7 @@ experiments.append(exp4)
 # mouse in 1300
 
 
-exp5 = celldatabase.Experiment(subject, '2025-08-14', 'left_AC', 
+exp5 = celldatabase.Experiment(subject, '2025-08-15', 'left_AC', 
                                'centerCenter_DiI',probe='NPv2-3082',
                                info = ['faceFront','soundBilateral'])
 
