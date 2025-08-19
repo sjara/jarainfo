@@ -42,7 +42,7 @@ experiments.append(exp0)
 
 exp1 = celldatabase.Experiment(subject, '2025-08-19', 'left_AC', 
                                'centerCenter_DiI',probe='NPv2-5674',
-                               info = ['faceLeft','soundRight'])
+                               info = ['faceLeft','soundBilateral'])
 exp1.maxDepth=probe_tip
 
 exp1.add_site(2250)
