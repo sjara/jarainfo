@@ -46,12 +46,29 @@ exp1 = celldatabase.Experiment(subject, '2025-08-19', 'left_AC',
 exp1.maxDepth=probe_tip
 
 exp1.add_site(2250)
-exp1.add_session('13-36-11','a','BADoptoTuningAMtone','am_tone_tuning') # laser set to 10 mW (7.76)
-exp1.add_session('14-30-18','b','optoTuningAMtone','am_tone_tuning') # laser set to 10 mW (7.76)
+exp1.add_session('13-36-11','a','BADoptoAMtone','am_tuning_curve') # laser set to 10 mW (7.76)
+exp1.add_session('14-30-18','b','optoAMtone','am_tuning_curve') # laser set to 10 mW (7.76)
 
 experiments.append(exp1)
 
 # mouse out 1545
 
 
+### 2025-08-20 session
 
+# mouse in 1315
+
+exp2 = celldatabase.Experiment(subject, '2025-08-19', 'left_AC', 
+                               'centerCenter_DiI',probe='NPv2-5674',
+                               info = ['faceLeft','soundRight'])
+
+
+exp2.maxDepth=probe_tip
+
+exp2.add_site(2250)
+# recorded using left ear bud positioned next to right ear
+exp2.add_session('13-27-54','a','optoAMtone','am_tuning_curve') # laser set to 10 mW (7.76)
+
+experiments.append(exp2)
+
+# mouse out 1500
