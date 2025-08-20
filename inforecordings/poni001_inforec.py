@@ -209,3 +209,20 @@ exp8.add_session('13-07-57','g','AMtone','am_tuning_curve') # soundLeft
 experiments.append(exp8)
 
 # mouse out 1400
+
+
+### -- 2025-08-19 session ---
+
+# mouse in 1609
+
+exp9 = celldatabase.Experiment(subject,'2025-08-19','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundBilateral'])
+
+exp9.maxDepth=probe_tip
+exp9.add_site(2360)
+exp9.add_session('16-14-53','a','optoTuningAMtone','am_tone_tuning') # laser at 10 mW (7.76)
+
+experiments.append(exp9)
+
+# mouse out 1730
