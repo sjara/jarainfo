@@ -221,8 +221,23 @@ exp9 = celldatabase.Experiment(subject,'2025-08-19','right_AC',
 
 exp9.maxDepth=probe_tip
 exp9.add_site(2360)
-exp9.add_session('16-14-53','a','optoTuningAMtone','am_tone_tuning') # laser at 10 mW (7.76)
+exp9.add_session('16-14-53','a','optoAMtone','am_tuning_curve') # laser at 10 mW (7.76)
 
 experiments.append(exp9)
 
 # mouse out 1730
+
+### 2025-08-20 session
+
+# mouse in 1020
+
+exp10 = celldatabase.Experiment(subject,'2025-08-20','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundLeft'])
+
+exp10.maxDepth=probe_tip
+exp10.add_site(2360)
+exp10.add_session('10-34-29','a','optoAMtone','am_tuning_curve') # laser at 10 mW (7.76)
+
+experiments.append(exp10)
+# mouse out 1200
