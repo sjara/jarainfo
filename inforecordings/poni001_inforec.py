@@ -264,7 +264,7 @@ experiments.append(exp11)
 
 # mouse in 1310
 
-exp12 = = celldatabase.Experiment(subject,'2025-08-26','right_AC',
+exp12 = celldatabase.Experiment(subject,'2025-08-26','right_AC',
                                'centerCenter_DiD',probe='NPv2-3082',
                                info=['faceRight','soundLeft'])
 
