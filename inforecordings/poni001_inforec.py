@@ -194,7 +194,7 @@ exp8 = celldatabase.Experiment(subject,'2025-08-12','right_AC',
                                info=['faceRight','soundBilateral'])
 # mouse in 1212
 exp8.maxDepth=probe_tip
-exp8.add_site(2360)
+exp8.add_site(2360) # tip 3 reference
 #exp8.add_session('12-15-01','a','tuningFreq_soundLeft','am_tuning_curve') # soundLeft
 #exp8.add_session('12-23-13','b','tuningFreq_soundRight','am_tuning_curve') # soundRight
 #exp8.add_session('12-35-59','c','tuningFreq_soundBilateral','am_tuning_curve') # soundBilateral
@@ -220,7 +220,7 @@ exp9 = celldatabase.Experiment(subject,'2025-08-19','right_AC',
                                info=['faceRight','soundBilateral'])
 
 exp9.maxDepth=probe_tip
-exp9.add_site(2360)
+exp9.add_site(2360) # tip 3 reference
 exp9.add_session('16-14-53','a','optoAMtone','am_tuning_curve') # laser at 10 mW (7.76) 
 
 experiments.append(exp9)
@@ -236,7 +236,7 @@ exp10 = celldatabase.Experiment(subject,'2025-08-20','right_AC',
                                info=['faceRight','soundLeft'])
 
 exp10.maxDepth=probe_tip
-exp10.add_site(2360)
+exp10.add_site(2360) # tip 3 reference
 exp10.add_session('10-34-29','a','optoAMtone','am_tuning_curve') # laser at 10 mW (7.76)
 
 experiments.append(exp10)
@@ -252,9 +252,29 @@ exp11 = celldatabase.Experiment(subject,'2025-08-21','right_AC',
                                info=['faceRight','soundLeft'])
 
 exp11.maxDepth=probe_tip
-exp11.add_site(2360)
+exp11.add_site(2360) # tip 3 reference
 exp11.add_session('14-16-21','a','optoFreq','am_tuning_curve') # laser at 10 mW (7.76)
 exp11.add_session('14-50-14','b','optoAMtone','am_tuning_curve') # laser at 10 mW (7.76)
 
 experiments.append(exp11)
 # mouse out 1620
+
+
+### 2025-08-26 session
+
+# mouse in 1310
+
+exp12 = = celldatabase.Experiment(subject,'2025-08-26','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundLeft'])
+
+exp12.maxDepth=probe_tip
+exp12.add_site(2360) # tip 3 reference
+exp12.add_session('13-21-20','a','optoFreq','am_tuning_curve') # laser at 10 mW (7.76)
+exp12.add_session('14-08-57','b','optoAMtone','am_tuning_curve') # laser at 10 mW (7.76)
+
+
+experiments.append(exp12)
+
+# mouse out 1535
+
