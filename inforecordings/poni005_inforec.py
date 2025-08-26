@@ -82,9 +82,10 @@ exp3 = celldatabase.Experiment(subject,'2025-08-21','left_AC',
                                info = ['faceLeft','soundRight'])
 
 exp3.maxDepth=probe_tip
-exp3.add_site(2360)
+exp3.add_site(2250)
 exp3.add_session('16-25-49','a','optoFreq','am_tuning_curve') # laser at 10 mW (7.76)
 exp3.add_session('16-53-23','b','optoAMtone','am_tuning_curve') # laser at 10 mW (7.76)
 
 experiments.append(exp3)
 # mouse out 1820
+

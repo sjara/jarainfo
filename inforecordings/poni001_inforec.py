@@ -221,7 +221,7 @@ exp9 = celldatabase.Experiment(subject,'2025-08-19','right_AC',
 
 exp9.maxDepth=probe_tip
 exp9.add_site(2360)
-exp9.add_session('16-14-53','a','optoAMtone','am_tuning_curve') # laser at 10 mW (7.76)
+exp9.add_session('16-14-53','a','optoAMtone','am_tuning_curve') # laser at 10 mW (7.76) 
 
 experiments.append(exp9)
 
