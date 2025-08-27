@@ -278,3 +278,21 @@ experiments.append(exp12)
 
 # mouse out 1535
 
+
+### 2025-08-27 session
+
+# mouse in 1350
+
+exp13 = celldatabase.Experiment(subject,'2025-08-27','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundLeft'])
+
+exp13.maxDepth=probe_tip
+exp13.add_site(2360) # tip 3 reference
+exp13.add_session('14-20-18','a','poniAMtone_2x1','am_image_tuning') # miniDisplay at 100Hz, maximum output
+
+
+experiments.append(exp13)
+
+# mouse out 1615
+
