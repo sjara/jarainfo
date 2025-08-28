@@ -99,7 +99,7 @@ exp4 = celldatabase.Experiment(subject,'2025-08-28','left_AC',
 
 exp4.maxDepth=probe_tip
 exp4.add_site(2250) # tip #2
-exp4.add_session('14-38-14','a','poniAMtone','am_image_tuning') # minidisplay set to 100hz, maximum power
+exp4.add_session('14-38-13','a','poniAMtone','am_image_tuning') # minidisplay set to 100hz, maximum power
 
 experiments.append(exp4)
 # mouse out 1640
