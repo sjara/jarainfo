@@ -102,10 +102,214 @@ exp3 = celldatabase.Experiment(subject, '2025-06-13','right_AC',
 exp3.maxDepth=probe_tip
 exp3.add_site(2360)
 
-exp3.add_session('13-56-15','a','naturalOpto','natural_sound_detection')
+exp3.add_session('13-56-15','a','optoNaturalSound','natural_sound_detection')
 exp3.add_session('14-59-34','a','optoSoundLoc','sound_localization')
 
 
 experiments.append(exp3)
 
 # mosue out at 1540
+
+
+### 2025-06-25 session
+
+# mouse in 1615
+
+exp4 = celldatabase.Experiment(subject,'2025-06-25','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundBilateral'])
+
+exp4.maxDepth=probe_tip
+exp4.add_site(2360)
+# shanks 3&4 1-192, tip 3 reference, 50 Hz minidisplay refresh rate
+exp4.add_session('16-27-00','a','poniSpont_4x4','am_image_tuning')
+exp4.add_session('16-43-57','b','poniFreq_4x1','am_image_tuning')
+
+experiments.append(exp4)
+
+# mouse out 1800
+
+
+### 2025-06-30 session
+
+# mouse in 1230
+
+exp5 = celldatabase.Experiment(subject,'2025-06-30','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundBilateral'])
+
+exp5.maxDepth=probe_tip
+exp5.add_site(2360)
+# shanks 3&4 1-192, tip 3 reference, 100 Hz minidisplay refresh rate
+exp5.add_session('12-58-51','a','poniFreq_4x1','am_image_tuning') # 1600 trials, 4x1
+exp5.add_session('13-59-56','b','poniFreq_1x4','am_image_tuning') # 1600 trials, 1x4
+exp5.add_session('14-59-47','c','poniSpont_4x4','am_image_tuning') # 320 trials, 4x4
+
+experiments.append(exp5)
+
+# mouse out 1530
+
+### 2025-07-18 session
+
+# mouse in 1520
+
+exp6 = celldatabase.Experiment(subject,'2025-07-18','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundBilateral'])
+exp6.maxDepth=probe_tip
+exp6.add_site(2360)
+# shanks 3&4 1-192, tip 3 reference, 100 Hz minidisplay refresh rate
+exp6.add_session('15-42-52','a','poniSpont_4x4','am_image_tuning') # 
+exp6.add_session('16-17-46','b','poniFreq_4x1','am_image_tuning') # 
+exp6.add_session('17-36-06','c','poniFreq_4x4_C2R3_2x2','am_image_tuning') # 
+
+experiments.append(exp6)
+
+# moue out 1840
+
+### 2025-08-05 session
+
+# mouse in 1400
+
+exp7 = celldatabase.Experiment(subject,'2025-08-05','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundLeft'])
+exp7.maxDepth=probe_tip
+exp7.add_site(2360)
+# shanks 3&4 1-192, tip 3 reference
+exp7.add_session('14-04-09','a','AMtone','am_tuning_curve')
+
+
+experiments.append(exp7)
+
+# mouse out 1459
+
+
+
+### 2025-08-12 Recording Session ###
+
+
+exp8 = celldatabase.Experiment(subject,'2025-08-12','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundBilateral'])
+# mouse in 1212
+exp8.maxDepth=probe_tip
+exp8.add_site(2360) # tip 3 reference
+#exp8.add_session('12-15-01','a','tuningFreq_soundLeft','am_tuning_curve') # soundLeft
+#exp8.add_session('12-23-13','b','tuningFreq_soundRight','am_tuning_curve') # soundRight
+#exp8.add_session('12-35-59','c','tuningFreq_soundBilateral','am_tuning_curve') # soundBilateral
+# used wrong speakers ^ :(
+
+exp8.add_session('12-40-45','d','tuningFreq_soundLeft','am_tuning_curve') # soundLeft
+exp8.add_session('12-50-04','e','tuningFreq_soundRight','am_tuning_curve') # soundRight
+exp8.add_session('12-59-15','f','tuningFreq_soundBilateral','am_tuning_curve') # soundBilateral
+
+exp8.add_session('13-07-57','g','AMtone','am_tuning_curve') # soundLeft
+
+experiments.append(exp8)
+
+# mouse out 1400
+
+
+### -- 2025-08-19 session ---
+
+# mouse in 1609
+
+exp9 = celldatabase.Experiment(subject,'2025-08-19','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundBilateral'])
+
+exp9.maxDepth=probe_tip
+exp9.add_site(2360) # tip 3 reference
+exp9.add_session('16-14-53','a','optoAMtone','am_tuning_curve') # laser at 10 mW (7.76) 
+
+experiments.append(exp9)
+
+# mouse out 1730
+
+### 2025-08-20 session
+
+# mouse in 1020
+
+exp10 = celldatabase.Experiment(subject,'2025-08-20','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundLeft'])
+
+exp10.maxDepth=probe_tip
+exp10.add_site(2360) # tip 3 reference
+exp10.add_session('10-34-29','a','optoAMtone','am_tuning_curve') # laser at 10 mW (7.76)
+
+experiments.append(exp10)
+# mouse out 1200
+
+
+### 2025-08-21 session
+
+# mouse in 1320
+
+exp11 = celldatabase.Experiment(subject,'2025-08-21','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundLeft'])
+
+exp11.maxDepth=probe_tip
+exp11.add_site(2360) # tip 3 reference
+exp11.add_session('14-16-21','a','optoFreq','am_tuning_curve') # laser at 10 mW (7.76)
+exp11.add_session('14-50-14','b','optoAMtone','am_tuning_curve') # laser at 10 mW (7.76)
+
+experiments.append(exp11)
+# mouse out 1620
+
+
+### 2025-08-26 session
+
+# mouse in 1310
+
+exp12 = celldatabase.Experiment(subject,'2025-08-26','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundLeft'])
+
+exp12.maxDepth=probe_tip
+exp12.add_site(2360) # tip 3 reference
+exp12.add_session('13-21-20','a','optoFreq','am_tuning_curve') # laser at 10 mW (7.76)
+exp12.add_session('14-08-57','b','optoAMtone','am_tuning_curve') # laser at 10 mW (7.76)
+
+
+experiments.append(exp12)
+
+# mouse out 1535
+
+
+### 2025-08-27 session
+
+# mouse in 1350
+
+exp13 = celldatabase.Experiment(subject,'2025-08-27','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundLeft'])
+
+exp13.maxDepth=probe_tip
+exp13.add_site(2360) # tip 3 reference
+exp13.add_session('14-20-18','a','poniAMtone_2x1','am_image_tuning') # miniDisplay at 100Hz, maximum output
+
+
+experiments.append(exp13)
+
+# mouse out 1615
+
+### 2025-08-29 session
+
+# mouse in 1215
+
+exp14 = celldatabase.Experiment(subject,'2025-08-29','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundLeft'])
+
+exp14.maxDepth=probe_tip
+exp14.add_site(2360) # tip 3 reference
+exp14.add_session('12-35-32','a','poniAMtone_2x1','am_image_tuning') # miniDisplay at 100Hz, maximum output
+
+
+experiments.append(exp14)
+
+# mouse out 1440
+
