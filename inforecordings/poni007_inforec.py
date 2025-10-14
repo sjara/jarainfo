@@ -44,3 +44,27 @@ experiments.append(exp1)
 # mouse out 1420
 
 
+
+### 2025-10-14 Session ###
+exp2 = celldatabase.Experiment(subject, '2025-10-14', 'left_AC', 
+                               'centerCenter_DiI',probe='NPv2-5422',
+                               info = ['faceLeft','soundRight'])
+exp2.maxDepth=probe_tip
+
+# Animal in rig at 1205
+
+# using closed-field rig configuration, sound intensity set to 50 dB
+
+exp2.add_site(2300) # tip 3 ref
+exp2.add_session('12-17-57', 'a', 'AMtone', 'am_tuning_curve')  # 1600 trials
+
+exp2.add_site(1580) # tip 3 ref
+exp2.add_session('13-07-02', 'b', 'tuningFreq', 'am_tuning_curve') # 320 trials
+exp2.add_session('13-17-51', 'c', 'AMtone', 'am_tuning_curve') # 640 trials (only 4 & 64 Hz)
+
+experiments.append(exp2)
+
+
+# mouse out 1340
+
+
