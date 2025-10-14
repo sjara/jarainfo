@@ -56,7 +56,7 @@ exp2.maxDepth=probe_tip
 # using closed-field rig configuration, sound intensity set to 50 dB
 
 exp2.add_site(2300) # tip 3 ref
-exp2.add_session('12-17-57', 'a', 'AMtone', 'am_tuning_curve')  # 1600 trials
+exp2.add_session('12-17-59', 'a', 'AMtone', 'am_tuning_curve')  # 1600 trials
 
 exp2.add_site(1580) # tip 3 ref
 exp2.add_session('13-07-02', 'b', 'tuningFreq', 'am_tuning_curve') # 320 trials
