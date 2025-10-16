@@ -44,7 +44,7 @@ exp0.add_session('12-57-58', 'b', 'optoNaturalInstances', 'natural_sound_detecti
 
 
 #Bank 97-192
-exp1 = celldatabase.Experiment(subject, '2025-10-16', brainArea='right_AC', probe='NPv2-1134', recordingTrack='centerCenter', info=['facesMedial', 'soundLeft'])
+exp1 = celldatabase.Experiment(subject, '2025-10-16', brainArea='right_pStr', probe='NPv2-1134', recordingTrack='centerCenter', info=['facesMedial', 'soundLeft'])
 
 experiments.append(exp1)
 
