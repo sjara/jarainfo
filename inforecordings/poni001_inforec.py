@@ -313,3 +313,22 @@ experiments.append(exp14)
 
 # mouse out 1440
 
+
+#### 2025-10-17 session ###
+
+# mouse in 1420
+
+exp15 =  celldatabase.Experiment(subject,'2025-10-17','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundLeft','closed-field'])
+
+
+exp15.maxDepth=probe_tip
+exp15.add_site(2360)
+exp15.add_session('14-52-55','a','tuningFreq','am_tuning_curve') # 50 dB 
+exp15.add_session('15-01-28','b','tuningAM','am_tuning_curve')
+exp15.add_session('15-09-33','a','naturalSound','natural_sound_detection')
+
+# mouse out 1545
+
+experiments.append(exp15)
