@@ -50,7 +50,7 @@ experiments.append(exp1)
 
 # Reference electrode is 1:tip
 
-exp1.add_site(3500)
+exp1.add_site(2780)
 exp1.maxDepth = 3500
 exp1.add_session('13-28-22', 'c', 'optoTuningAM', 'am_tuning_curve')#440
 exp1.add_session('13-46-27', 'c', 'optoNaturalCategoriesnaturalSound', 'natural_sound_detection') #200
