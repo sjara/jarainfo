@@ -38,6 +38,6 @@ exp0.add_site(3502)
 exp0.maxDepth = 3502
 #exp0.add_session('13-26-44', 'a', 'pureTones', 'am_tuning_curve') #140 trials(No the correct amount of trials)
 #exp0.add_session('13-42-15', 'b', 'AM', 'am_tuning_curve') #I forgot to save the stimulus h5 file and no correct amount of trials
-exp0.add_session('13-56-04', 'c', 'pureTones', 'am_tuning_curve') #File with 320 trials - Good
-exp0.add_session('14-10-45', 'd', 'AM', 'am_tuning_curve') #File with 220 trials - Good
+exp0.add_session('13-56-04', 'c', 'optoTuningFreq', 'am_tuning_curve') #File with 320 trials - Good
+exp0.add_session('14-10-45', 'd', 'optoTuningAM', 'am_tuning_curve') #File with 220 trials - Good
 
