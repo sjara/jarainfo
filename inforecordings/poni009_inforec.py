@@ -10,7 +10,7 @@ probe_tip = 2604 # max depth is same for all experiments since the probe is impl
 ### 2025-10-17 Session ###
 exp0 = celldatabase.Experiment(subject, '2025-10-17', 'right_AC', 
                                'centerCenter_DiI',probe='NPv2-2911',
-                               info = ['faceRight','soundLeft'])
+                               info = ['faceRight','soundLeft','closed-field'])
 exp0.maxDepth=probe_tip
 
 # Animal in rig at 1230
@@ -43,6 +43,30 @@ experiments.append(exp0)
 
 
 # mouse out 1404
+
+
+### 2025-10-20 session ###
+
+# mouse in 1110
+
+exp1 = celldatabase.Experiment(subject, '2025-10-20', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-2911',
+                               info = ['faceRight','soundLeft','closed-field'])
+exp1.maxDepth=probe_tip
+
+exp1.add_site(2603) # shanks 3/4, tip 3 ref
+exp1.add_session('11-27-20','a','tuningFreq','am_tuning_curve') # 50 dB
+exp1.add_session('11-41-30','b','tuningFreq','am_tuning_curve') # 70 dB
+
+experiments.append(exp1)
+
+# mouse out 1150
+
+
+
+
+
+
 
 
 
