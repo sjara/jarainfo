@@ -58,9 +58,22 @@ exp1.add_site(2603) # shanks 3/4, tip 3 ref
 exp1.add_session('11-27-20','a','tuningFreq','am_tuning_curve') # 50 dB
 exp1.add_session('11-41-30','b','tuningFreq','am_tuning_curve') # 70 dB
 
-experiments.append(exp1)
+# experiments.append(exp1)
 
 # mouse out 1150
+
+
+# mouse in 1610
+
+
+exp1.add_site(1520) # all shanks, tip 2 ref
+exp1.add_session('16-11-05','c','tuningFreq','am_tuning_curve') # 50 dB
+exp1.add_session('16-18-58','d','tuningAM','am_tuning_curve') # 50 dB
+exp1.add_session('16-26-03','a','naturalSound','natural_sound_detection') # 50 dB
+
+experiments.append(exp1)
+
+# mouse out 1655
 
 
 
