@@ -129,14 +129,11 @@ exp5.add_session('13-40-57','a','naturalSound','natural_sound_detection') # 40 d
 exp5.add_session('14-07-45','c','tuningAMtone','am_tuning_curve') # 40 dB
 
 
-exp5.add_site(2253)
-exp5.add_session('15-00-47','tmp1','tuningFreq','am_tuning_curve')
+# exp5.add_site(2253)
+# exp5.add_session('15-00-37','tmp1','tuningFreq','am_tuning_curve')
 
-exp5.add_site(2253)
-exp5.add_session('15-00-47','tmp1','tuningFreq','am_tuning_curve')
-
-exp5.add_site(-633)
-exp5.add_session('15-02-37','tmp2','tuningFreq','am_tuning_curve')
+# exp5.add_site(-633)
+# exp5.add_session('15-02-37','tmp2','tuningFreq','am_tuning_curve')
 
 # mouse out 1510
 
