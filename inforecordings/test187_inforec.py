@@ -29,7 +29,7 @@ experiments.append(exp0)
 # Reference electrode is 3:tip
 # Targeting right pStr
 # Probe is located in the center of craniotomy facing the midline
-# We recorded from shanks 1,3 and 4 (1-96 electrodes) + elecrodes 97-191 of shank 4
+# We recorded from shanks 1,3 and 4 (1-96 electrodes) + electrodes 97-191 of shank 4
 # Left brain to ettle for a long time >2 hours
 # According to the software, shank 1 is at 3540 depth, shank 3 is at 3585 and shank 4 at 3615.
 # Depth is 3502.4  according to the manipulator
