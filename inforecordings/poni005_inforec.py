@@ -121,7 +121,7 @@ exp5.maxDepth=probe_tip
 
 
 # had lots of oscillatory (60Hz ish) noise when using tip2 reference, but seems much better using tip3
-exp5.add_site(2250) # tip #3 ref, 810-1530 on shanks 1&3, 810-2250 on shank 2
+exp5.add_site(2970) # tip #3 ref, 1530-2250 on shanks 1&3, 1530-2970 on shank 2
 exp5.add_session('13-24-39','a','tuningFreq','am_tuning_curve') # 40 dB
 exp5.add_session('13-32-57','b','tuningAM','am_tuning_curve') # 40 dB
 exp5.add_session('13-40-57','a','naturalSound','natural_sound_detection') # 40 dB
