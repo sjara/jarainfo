@@ -63,10 +63,11 @@ exp2 = celldatabase.Experiment(subject, '2025-08-20', 'left_AC',
                                info = ['faceLeft','soundRight'])
 
 
+
 exp2.maxDepth=probe_tip
 
 exp2.add_site(2250)
-# recorded using left ear bud positioned next to right ear
+# recorded using left ear bud positioned next to right ear (bdata says soundLeft but it is actually on the right!!!)
 exp2.add_session('13-27-54','a','optoAMtone','am_tuning_curve') # laser set to 10 mW (7.76)
 
 experiments.append(exp2)
@@ -81,6 +82,7 @@ exp3 = celldatabase.Experiment(subject,'2025-08-21','left_AC',
                                'centerCenter_DiI',probe='NPv2-5674',
                                info = ['faceLeft','soundRight'])
 
+# recorded using left ear bud positioned next to right ear (bdata says soundLeft but it is actually on the right!!!)
 exp3.maxDepth=probe_tip
 exp3.add_site(2250)
 exp3.add_session('16-25-49','a','optoFreq','am_tuning_curve') # laser at 10 mW (7.76)
@@ -97,9 +99,48 @@ exp4 = celldatabase.Experiment(subject,'2025-08-28','left_AC',
                                'centerCenter_DiI',probe='NPv2-5674',
                                info = ['faceLeft','soundRight'])
 
+# recorded using left ear bud positioned next to right ear (bdata says soundLeft but it is actually on the right!!!)
 exp4.maxDepth=probe_tip
 exp4.add_site(2250) # tip #2
-exp4.add_session('14-38-13','a','poniAMtone','am_image_tuning') # minidisplay set to 100hz, maximum power
+exp4.add_session('14-38-13','a','poniAMtone_2x1','am_image_tuning') # minidisplay set to 100hz, maximum power
 
 experiments.append(exp4)
 # mouse out 1640
+
+
+
+### 2025-10-24 session ###
+
+# mouse in 1310
+
+exp5 = celldatabase.Experiment(subject,'2025-10-24','left_AC',
+                               'centerCenter_DiI',probe='NPv2-5674',
+                               info = ['faceLeft','soundRight','closedField'])
+
+exp5.maxDepth=probe_tip
+
+
+# had lots of oscillatory (60Hz ish) noise when using tip2 reference, but seems much better using tip3
+exp5.add_site(2250) # tip #3 ref, 810-1530 on shanks 1&3, 810-2250 on shank 2
+exp5.add_session('13-24-39','a','tuningFreq','am_tuning_curve') # 40 dB
+exp5.add_session('13-32-57','b','tuningAM','am_tuning_curve') # 40 dB
+exp5.add_session('13-40-57','a','naturalSound','natural_sound_detection') # 40 dB
+
+exp5.add_session('14-07-45','c','tuningAMtone','am_tuning_curve') # 40 dB
+
+
+exp5.add_site(2253)
+exp5.add_session('15-00-47','tmp1','tuningFreq','am_tuning_curve')
+
+exp5.add_site(2253)
+exp5.add_session('15-00-47','tmp1','tuningFreq','am_tuning_curve')
+
+exp5.add_site(-633)
+exp5.add_session('15-02-37','tmp2','tuningFreq','am_tuning_curve')
+
+# mouse out 1510
+
+experiments.append(exp5)
+
+
+
