@@ -68,3 +68,21 @@ experiments.append(exp2)
 # mouse out 1340
 
 
+
+exp3 = celldatabase.Experiment(subject, '2025-10-24', 'left_AC', 
+                               'centerCenter_DiI',probe='NPv2-5422',
+                               info = ['faceLeft','soundRight', 'closedField'])
+exp3.maxDepth=probe_tip
+
+# Animal in rig at 1525
+
+exp3.add_site(1580) # tip 3 ref, sounds at 40 dB
+exp3.add_session('15-35-24', 'a', 'tuningFreq', 'am_tuning_curve') 
+exp3.add_session('15-43-50', 'b', 'tuningAM', 'am_tuning_curve') # accidentally hit start again before saving, one extra trial at end of bdata
+exp3.add_session('15-51-08', 'a', 'naturalSound', 'natural_sound_detection') 
+
+
+exp3.add_session('16-17-37', 'c', 'tuningAMtone', 'am_tuning_curve') 
+
+# mouse out 1710
+experiments.append(exp3)

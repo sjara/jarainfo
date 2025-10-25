@@ -29,15 +29,15 @@ experiments.append(exp0)
 # Reference electrode is 3:tip
 # Targeting right pStr
 # Probe is located in the center of craniotomy facing the midline
-# All shanks active 1-96, except the second shank (We selected more electrodes from shank 4 instead)
+# We recorded from shanks 1,3 and 4 (1-96 electrodes) + electrodes 97-192 of shank 4
 # Left brain to ettle for a long time >2 hours
-#According to the software, shank 1 is at 3540 depth, shank 3 is at 3585 and shank 4 at 3615.
-#Depth is 3502.4  according to the manipulator
+# According to the software, shank 1 is at 3540 depth, shank 3 is at 3585 and shank 4 at 3615.
+# Depth is 3502.4  according to the manipulator
 
 exp0.add_site(3502)
 exp0.maxDepth = 3502
 #exp0.add_session('13-26-44', 'a', 'pureTones', 'am_tuning_curve') #140 trials(No the correct amount of trials)
 #exp0.add_session('13-42-15', 'b', 'AM', 'am_tuning_curve') #I forgot to save the stimulus h5 file and no correct amount of trials
-exp0.add_session('13-56-04', 'c', 'pureTones', 'am_tuning_curve') #File with 320 trials - Good
-exp0.add_session('14-10-45', 'd', 'AM', 'am_tuning_curve') #File with 220 trials - Good
+exp0.add_session('13-56-04', 'c', 'optoTuningFreq', 'am_tuning_curve') #File with 320 trials - Good
+exp0.add_session('14-10-45', 'd', 'optoTuningAM', 'am_tuning_curve') #File with 220 trials - Good
 
