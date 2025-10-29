@@ -140,4 +140,29 @@ exp5.add_session('14-07-45','c','tuningAMtone','am_tuning_curve') # 40 dB
 experiments.append(exp5)
 
 
+### 2025-10-28 session ###
+
+# mouse in 1600
+
+exp6 = celldatabase.Experiment(subject,'2025-10-28','left_AC',
+                               'centerCenter_DiI',probe='NPv2-5674',
+                               info = ['faceLeft','soundRight','closedField'])
+
+exp6.maxDepth=probe_tip
+
+
+# had lots of oscillatory (60Hz ish) noise when using tip2 reference, but seems much better using tip3
+exp6.add_site(2250) # tip #3 ref, 810-1530 on shanks 1&2, 810-2250 on shank 3
+exp6.add_session('16-12-46','a','tuningFreq','am_tuning_curve') # 40 dB
+exp6.add_session('16-20-35','b','tuningAM','am_tuning_curve') # 40 dB
+exp6.add_session('16-28-02','a','naturalSound','natural_sound_detection') # 40 dB
+
+exp6.add_session('16-54-41','c','tuningAMtone','am_tuning_curve') # 40 dB
+
+
+# mouse out 1745
+
+experiments.append(exp6)
+
+
 
