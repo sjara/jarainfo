@@ -85,8 +85,8 @@ exp3 = celldatabase.Experiment(subject,'2025-08-21','left_AC',
 # recorded using left ear bud positioned next to right ear (bdata says soundLeft but it is actually on the right!!!)
 exp3.maxDepth=probe_tip
 exp3.add_site(2250)
-exp3.add_session('16-25-49','a','optoFreq','am_tuning_curve') # laser at 10 mW (7.76)
-exp3.add_session('16-53-23','b','optoAMtone','am_tuning_curve') # laser at 10 mW (7.76)
+exp3.add_session('16-25-49','a','optoTuningFreq','am_tuning_curve') # laser at 10 mW (7.76)
+exp3.add_session('16-53-23','b','optoTuningAMtone','am_tuning_curve') # laser at 10 mW (7.76)
 
 experiments.append(exp3)
 # mouse out 1820
@@ -164,5 +164,50 @@ exp6.add_session('16-54-41','c','tuningAMtone','am_tuning_curve') # 40 dB
 
 experiments.append(exp6)
 
+### 2025-10-28 session ###
+
+# mouse in 1600
+
+exp6 = celldatabase.Experiment(subject,'2025-10-28','left_AC',
+                               'centerCenter_DiI',probe='NPv2-5674',
+                               info = ['faceLeft','soundRight','closedField'])
+
+exp6.maxDepth=probe_tip
+
+
+# had lots of oscillatory (60Hz ish) noise when using tip2 reference, but seems much better using tip3
+exp6.add_site(2250) # tip #3 ref, 810-1530 on shanks 1&2, 810-2250 on shank 3
+exp6.add_session('16-12-46','a','tuningFreq','am_tuning_curve') # 40 dB
+exp6.add_session('16-20-35','b','tuningAM','am_tuning_curve') # 40 dB
+exp6.add_session('16-28-02','a','naturalSound','natural_sound_detection') # 40 dB
+
+exp6.add_session('16-54-41','c','tuningAMtone','am_tuning_curve') # 40 dB
+
+
+# mouse out 1745
+
+experiments.append(exp6)
+
+
+### 2025-10-29 session ###
+
+# mouse in 1045
+
+exp7 = celldatabase.Experiment(subject,'2025-10-29','left_AC',
+                               'centerCenter_DiI',probe='NPv2-5674',
+                               info = ['faceLeft','soundRight','closedField'])
+
+exp7.maxDepth=probe_tip
+
+
+# had lots of oscillatory (60Hz ish) noise when using tip2 reference, but seems much better using tip3
+exp7.add_site(2250) # tip #3 ref, 810-1530 on shanks 1&2, 810-2250 on shank 3
+exp7.add_session('11-03-03','a','optoTuningAMtone','am_tuning_curve') # 40 dB, 5 mW (3.58)
+exp7.add_session('12-12-28','b','optoTuningFreq','am_tuning_curve') # 40 dB, 5 mW (3.58)
+
+
+# mouse out 1240
+
+experiments.append(exp7)
 
 
