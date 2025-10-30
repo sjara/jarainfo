@@ -98,7 +98,7 @@ exp4.maxDepth=probe_tip
 # Animal in rig at 1540
 
 exp4.add_site(2300) # tip 3 ref, sounds at 40 dB
-exp4.add_session('15-57-30', 'a', 'tuningFreq', 'am_tuning_curve') # 10 mW (7.74)
+exp4.add_session('15-57-30', 'a', 'optoTuningAMtone', 'am_tuning_curve') # 10 mW (7.74)
 exp4.add_session('17-06-21', 'b', 'optoTuningFreq', 'am_tuning_curve') # 10 mW (7.74)
 
 
