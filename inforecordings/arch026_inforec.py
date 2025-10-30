@@ -40,9 +40,14 @@ experiments.append(exp0)
 
 exp0.add_site(3500)
 exp0.maxDepth = 3500
+# Shank 1 Bank A
 exp0.add_session('15-17-20', 'a', 'tuningFreq', 'am_tuning_curve') #40 trials Bank A, no video. Session to check LFP only
+
+# Shank 1 Bank B
 exp0.add_session('15-22-00', 'b', 'tuningFreq', 'am_tuning_curve') #40 trials Bank B, no video. Session to check LFP only
-exp0.add_session('15-37-07', 'c', 'optoTuningAM', 'am_tuning_curve') #400 trials
+
+# All shanks  1-96
+exp0.add_session('15-37-07', 'c', 'optoTuningAM', 'am_tuning_curve') #No enough trials (400 trials)
 exp0.add_session('15-52-23', 'd', 'optoTuningAM', 'am_tuning_curve') #440 trials
 exp0.add_session('16-08-28', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 trials OptoNaturalCategories
 exp0.add_session('16-38-18', 'e', 'optoTuningFreq', 'am_tuning_curve') #640 trials
