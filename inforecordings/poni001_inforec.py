@@ -350,5 +350,20 @@ experiments.append(exp16)
 
 #mouse out 1210
 
+### 2025-10-28 session
 
+# mouse in 1130
+
+exp17 = celldatabase.Experiment(subject,'2025-10-28','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundLeft','closed-field'])
+
+exp17.maxDepth = probe_tip
+exp17.add_site(2360) # tip 3 ref
+exp17.add_session('11-41-57','a','optoTuningFreq','am_tuning_curve') # 40 dB, 5mW laser (knob 3.58)
+exp17.add_session('12-08-53','b','optoTuningAMtone','am_tuning_curve') # 40 dB, 5mW laser (knob 3.58)
+
+# mouse out 1325
+
+experiments.append(exp17)
 
