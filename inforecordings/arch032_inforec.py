@@ -75,10 +75,10 @@ experiments.append(exp2)
 # Electrodes were facing medial (red towards the lateral)
 
 
-expx.add_site(4000)
-expx.maxDepth = 4000
-expx.add_session('18-05-06', 'a', 'optoTuningAM', 'am_tuning_curve')#440
-expx.add_session('18-21-33', 'a', 'optoNaturalCategoriesnaturalSound', 'natural_sound_detection')#200 #Added saline after this session
-expx.add_session('18-56-11', 'b', 'optoTuningFreq', 'am_tuning_curve') #640
+exp2.add_site(4000)
+exp2.maxDepth = 4000
+exp2.add_session('18-05-06', 'a', 'optoTuningAM', 'am_tuning_curve')#440
+exp2.add_session('18-21-33', 'a', 'optoNaturalCategoriesnaturalSound', 'natural_sound_detection')#200 #Added saline after this session
+exp2.add_session('18-56-11', 'b', 'optoTuningFreq', 'am_tuning_curve') #640
 #Added saline after this session
-exp1.add_session('19-18-00', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 
+exp2.add_session('19-18-00', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 
