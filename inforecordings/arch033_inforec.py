@@ -121,3 +121,12 @@ exp2.add_session('12-35-57', 'a', 'optoNaturalCategories', 'natural_sound_detect
 exp2.add_session('13-05-56', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp2.add_session('13-23-38', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
+#2025-10-31
+
+# Mouse in the rig at 10:31 am
+# Red part of the probe faces medial
+# Tried to penetrate at once and I could not. I went with the probe 1500 um but one shank could not penetrate
+# I re-coated the probe and tried slight different spots but those were not successful.
+
+
+
