@@ -53,3 +53,5 @@ exp0.add_session('16-08-28', 'a', 'optoNaturalCategories', 'natural_sound_detect
 exp0.add_session('16-38-18', 'e', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 #exp0.add_session('xx-xx-xx', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 trials OptoNaturalInstances. Sometihng weird happened and the ephys data for this session was not saved
 exp0.add_session('17-22-27', 'c', 'optoNaturalInstances', 'natural_sound_detection')  #160 trials OptoNaturalInstances.
+
+#October 28
