@@ -54,4 +54,28 @@ exp0.add_session('16-38-18', 'e', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 #exp0.add_session('xx-xx-xx', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 trials OptoNaturalInstances. Sometihng weird happened and the ephys data for this session was not saved
 exp0.add_session('17-22-27', 'c', 'optoNaturalInstances', 'natural_sound_detection')  #160 trials OptoNaturalInstances.
 
-#October 28
+# October 28th
+
+exp1 = celldatabase.Experiment(subject, '2025-10-28', brainArea='right_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundLeft'])
+
+experiments.append(exp1)
+
+# Reference electrode is 4:tip
+# I zero the manipulator when I touched the duragel, and I estimated that the thickness of the layer is about 1 mm, so ideally there is 3500 distance from the surface of the brain till the tip of the electrodes.
+
+exp1.add_site(4499.9)
+exp1.maxDepth = 4499.9
+#All shanks 1-96
+exp1.add_session('12-31-48', 'a', 'tuningFreq', 'am_tuning_curve') #Around 325 trials.
+
+# All shanks  1-96
+exp1.add_session('13-32-21', 'c', 'optoTuningAM', 'am_tuning_curve') #440
+exp1.add_session('13-54-04', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+exp1.add_session('13-08-49', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+exp1.add_session('14-26-50', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160
+
+# Shank 1 Bank A
+exp1.add_session('15-13-38', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+# Shank 1 Bank B
+exp1.add_session('15-16-28', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
