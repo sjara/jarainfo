@@ -63,8 +63,8 @@ experiments.append(exp1)
 # Reference electrode is 4:tip
 # I zero the manipulator when I touched the duragel, and I estimated that the thickness of the layer is about 1 mm, so ideally there is 3500 distance from the surface of the brain till the tip of the electrodes.
 
-exp1.add_site(4499.9)
-exp1.maxDepth = 4499.9
+exp1.add_site(45000)
+exp1.maxDepth = 45000
 #All shanks 1-96
 exp1.add_session('12-31-48', 'a', 'tuningFreq', 'am_tuning_curve') #Around 325 trials.
 
