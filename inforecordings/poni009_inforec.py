@@ -10,7 +10,7 @@ probe_tip = 2604 # max depth is same for all experiments since the probe is impl
 ### 2025-10-17 Session ###
 exp0 = celldatabase.Experiment(subject, '2025-10-17', 'right_AC', 
                                'centerCenter_DiI',probe='NPv2-2911',
-                               info = ['faceRight','soundLeft','closed-field'])
+                               info = ['faceRight','soundLeft','closedField'])
 exp0.maxDepth=probe_tip
 
 # Animal in rig at 1230
@@ -51,7 +51,7 @@ experiments.append(exp0)
 
 exp1 = celldatabase.Experiment(subject, '2025-10-20', 'right_AC', 
                                'centerCenter_DiI',probe='NPv2-2911',
-                               info = ['faceRight','soundLeft','closed-field'])
+                               info = ['faceRight','soundLeft','closedField'])
 exp1.maxDepth=probe_tip
 
 exp1.add_site(2603) # shanks 3/4, tip 3 ref
@@ -77,7 +77,49 @@ experiments.append(exp1)
 
 
 
+### 2025-10-31 session ###
 
+# mouse in 1425
+
+exp2 = celldatabase.Experiment(subject, '2025-10-31', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-2911',
+                               info = ['faceRight','soundLeft','closedField'])
+exp2.maxDepth=probe_tip
+
+
+exp2.add_site(1520) # all shanks (146-240), tip 2 ref
+exp2.add_session('14-44-48','a','tuningFreq','am_tuning_curve') # 40 dB
+exp2.add_session('14-52-51','b','tuningAM','am_tuning_curve') # 40 dB
+exp2.add_session('15-00-33','a','naturalSound','natural_sound_detection') # 40 dB
+
+exp2.add_session('15-27-11','c','tuningAMtone','am_tuning_curve') # 40 dB
+
+
+# mouse out 1620
+experiments.append(exp2)
+
+
+
+### 2025-11-04 session ###
+
+# mouse in 1135
+
+exp3 = celldatabase.Experiment(subject, '2025-11-04', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-2911',
+                               info = ['faceRight','soundLeft','closedField'])
+exp3.maxDepth=probe_tip
+
+
+exp3.add_site(1521) # 1520 shanks 1 and 2, 1160 shanks 3 and 4; tip 2 ref
+exp3.add_session('11-48-54','a','tuningFreq','am_tuning_curve') # 40 dB
+exp3.add_session('11-56-54','b','tuningAM','am_tuning_curve') # 40 dB
+exp3.add_session('12-10-13','a','naturalSound','natural_sound_detection') # 40 dB
+
+exp3.add_session('12-37-44','c','tuningAMtone','am_tuning_curve') # 40 dB
+
+
+# mouse out 1310
+experiments.append(exp3)
 
 
 
