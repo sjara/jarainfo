@@ -66,7 +66,7 @@ experiments.append(exp1)
 exp1.add_site(4500)
 exp1.maxDepth = 4500
 #All shanks 1-96
-exp1.add_session('12-31-48', 'a', 'tuningFreq', 'am_tuning_curve') #Around 325 trials.
+#exp1.add_session('12-31-48', 'a', 'tuningFreq', 'am_tuning_curve') #Around 325 trials.
 
 # All shanks  1-96
 exp1.add_session('13-32-21', 'c', 'optoTuningAM', 'am_tuning_curve') #440
