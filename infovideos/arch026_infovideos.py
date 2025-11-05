@@ -41,9 +41,9 @@ videos.add_session('2025-10-24', 'optoNaturalInstances',
 
 # 2025-10-28
 #session with about 325 trials
-videos.add_session('2025-10-28', 'tuningFreq',
-                   'arch026_am_tuning_curve_20251028_01.mkv',
-                   'arch026_am_tuning_curve_20251028a.h5', cameraParams)
+#videos.add_session('2025-10-28', 'tuningFreq',
+                   #'arch026_am_tuning_curve_20251028_01.mkv',
+                   #'arch026_am_tuning_curve_20251028a.h5', cameraParams)
 
 #session with 440  trials
 videos.add_session('2025-10-28', 'optoTuningAM',
