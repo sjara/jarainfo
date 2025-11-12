@@ -50,15 +50,15 @@ exp0.maxDepth = 3500
 
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
 exp0.add_session('14-56-11', 'a', 'optoTuningAM', 'am_tuning_curve') #440
-exp0.add_session('17-52-10', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
-exp0.add_session('18-20-59', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
-exp0.add_session('18-39-40', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+exp0.add_session('15-14-25', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+exp0.add_session('15-43-06', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+exp0.add_session('15-59-26', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
 # Shank 1 Bank A
-exp0.add_session('17-15-55', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
+exp0.add_session('16-22-38', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 1 Bank B
-exp0.add_session('17-26-03', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
+exp0.add_session('16-24-42', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 #2025-11-12
 exp1 = celldatabase.Experiment(subject, '2025-11-12', brainArea='left_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundRight'])
