@@ -141,3 +141,23 @@ exp6.add_session('14-42-09', 'b', 'optoTuningAMtone', 'am_tuning_curve') # 10 mW
 # mouse out 1555
 experiments.append(exp6)
 
+
+
+### 2025-11-11 session
+
+exp7 = celldatabase.Experiment(subject, '2025-11-11', 'left_AC', 
+                               'centerCenter_DiI',probe='NPv2-5422',
+                               info = ['faceLeft','soundRight', 'closedField'])
+exp7.maxDepth=probe_tip
+
+# Animal in rig at 1520
+
+# failed to get sync light in frame of the video :(
+
+exp7.add_site(1580) # tip 3 ref, sounds at 40 dB
+exp7.add_session('15-29-52', 'a', 'optoTuningAMtone', 'am_tuning_curve') # 10 mW (7.74)
+exp7.add_session('16-40-33', 'b', 'optoTuningFreq', 'am_tuning_curve') # 10 mW (7.74)
+
+
+# mouse out 1720
+experiments.append(exp7)
