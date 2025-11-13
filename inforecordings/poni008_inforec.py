@@ -25,5 +25,21 @@ exp0.add_session('14-28-42', 'a', 'naturalSound', 'natural_sound_detection') # 4
 experiments.append(exp0)
 
 
+### 2025-11-13 Session ###
+exp1 = celldatabase.Experiment(subject, '2025-11-13', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-2211',
+                               info = ['faceRight','soundLeft','closedField'])
+exp1.maxDepth=probe_tip
+
+# Animal in rig at 0910
+
+exp1.add_site(1530) # tip 1 ref
+exp1.add_session('09-33-53', 'a', 'tuningAMtone', 'am_tuning_curve') # 40 dB
+
+
+# mouse out 1025
+experiments.append(exp1)
+
+
 
 
