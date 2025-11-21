@@ -75,5 +75,23 @@ exp3.add_session('10-48-49', 'b', 'optoTuningFreq', 'am_tuning_curve') # 40 dB
 experiments.append(exp3)
 
 
+### 2025-11-21 Session ###
+exp4 = celldatabase.Experiment(subject, '2025-11-21', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-2211',
+                               info = ['faceRight','soundLeft','closedField'])
+exp4.maxDepth=probe_tip
+
+# Animal in rig at 1030
+
+exp4.add_site(1530) # tip 1 ref
+exp4.add_session('10-41-56', 'a', 'optoTuningAMtone', 'am_tuning_curve') # 40 dB
+exp4.add_session('11-51-39', 'b', 'optoTuningFreq', 'am_tuning_curve') # 40 dB
+
+# noticed squeaking from the wheel at the end, not sure if it was present throughout the session
+
+# mouse out 1232
+experiments.append(exp4)
+
+
 
 
