@@ -201,3 +201,23 @@ exp9.add_session('12-36-12', 'b', 'optoTuningFreq', 'am_tuning_curve') # 10 mW (
 
 #### screw for securing GRIN lens cover broke off, had to re-affix a new one. hopefully it holds 
 experiments.append(exp9)
+
+
+### 2025-11-21 session
+
+exp10 = celldatabase.Experiment(subject, '2025-11-21', 'left_AC', 
+                               'centerCenter_DiI',probe='NPv2-5422',
+                               info = ['faceLeft','soundRight', 'closedField'])
+exp10.maxDepth=probe_tip
+
+# Animal in rig at 1350
+
+
+exp10.add_site(2300) # tip 3 ref, sounds at 40 dB
+exp10.add_session('14-06-50', 'a', 'optoTuningAMtone', 'am_tuning_curve') # 10 mW (7.74)
+exp10.add_session('15-17-42', 'b', 'optoTuningFreq', 'am_tuning_curve') # 10 mW (7.74)
+
+
+# mouse out 1600
+
+experiments.append(exp10)
