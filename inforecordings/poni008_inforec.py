@@ -93,5 +93,24 @@ exp4.add_session('11-51-39', 'b', 'optoTuningFreq', 'am_tuning_curve') # 40 dB
 experiments.append(exp4)
 
 
+### 2025-12-02 Session ###
+exp5 = celldatabase.Experiment(subject, '2025-12-02', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-2211',
+                               info = ['faceRight','soundLeft','closedField'])
+exp5.maxDepth=probe_tip
+
+# Animal in rig at 1115
+
+exp5.add_site(1530) # tip 1 ref
+exp5.add_session('11-40-56', 'a', 'optoTuningAMtone', 'am_tuning_curve') # 40 dB
+exp5.add_session('12-51-51', 'b', 'optoTuningFreq', 'am_tuning_curve') # 40 dB
+
+
+# mouse out 1330
+
+# noticed the creaking again...I think the mouse is shifting the wheel over
+experiments.append(exp5)
+
+
 
 
