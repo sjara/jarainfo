@@ -421,3 +421,21 @@ exp20.add_session('11-18-45','b','optoTuningFreq','am_tuning_curve') #  10 mW (7
 # mouse out 1205
 
 experiments.append(exp20)
+
+
+### 2025-12-03 session
+
+# mouse in 1020
+
+exp21 = celldatabase.Experiment(subject,'2025-12-03','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundLeft','closedField'])
+
+exp21.maxDepth = probe_tip
+exp21.add_site(2360) # tip 3 ref, sounds at 40 db
+exp21.add_session('10-29-38','a','ctrlTuningAMtone','am_tuning_curve') #  10 mW (7.74)
+
+# noticed issue with left eye and significant grimacing, notified TeACS/Vet
+# mouse out 1150
+
+experiments.append(exp21)
