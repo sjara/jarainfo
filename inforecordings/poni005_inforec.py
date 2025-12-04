@@ -289,7 +289,7 @@ exp11.maxDepth=probe_tip
 
 exp11.add_site(2250) # tip #1 ref, 810-1530 on shanks 1&2, 810-2250 on shank 3
 exp11.add_session('14-34-31','a','optoShamAMtone','am_tuning_curve') # 40 dB, 10 mW (7.74)
-exp11.add_session('15-45-53','a','naturalSoundLocs','natural_sound_detection') # 40 dB
+exp11.add_session('15-45-53','a','naturalSoundLoc','natural_sound_detection') # 40 dB
 
 # mouse out 1705
 
