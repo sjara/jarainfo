@@ -433,7 +433,7 @@ exp21 = celldatabase.Experiment(subject,'2025-12-03','right_AC',
 
 exp21.maxDepth = probe_tip
 exp21.add_site(2360) # tip 3 ref, sounds at 40 db
-exp21.add_session('10-29-38','a','ctrlTuningAMtone','am_tuning_curve') #  10 mW (7.74) (aimed at fixture screw with GRIN lens covered)
+exp21.add_session('10-29-38','a','optoShamAMtone','am_tuning_curve') #  10 mW (7.74) (aimed at fixture screw with GRIN lens covered)
 
 # noticed issue with left eye and significant grimacing, notified TeACS/Vet
 # mouse out 1150
