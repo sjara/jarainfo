@@ -218,7 +218,7 @@ exp8.maxDepth=probe_tip
 
 
 exp8.add_site(1520) # all shanks (145-240), tip 2 ref
-exp8.add_session('16-32-39','a','optoTuningAMtone','am_tuning_curve') # 40 dB, 10 mW (7.74)
+exp8.add_session('16-32-39','a','optoShamAMtone','am_tuning_curve') # 40 dB, 10 mW (7.74)
 
 # mouse out 1745
 experiments.append(exp8)
