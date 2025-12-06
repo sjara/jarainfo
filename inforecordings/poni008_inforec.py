@@ -112,5 +112,22 @@ exp5.add_session('12-51-51', 'b', 'optoTuningFreq', 'am_tuning_curve') # 40 dB
 experiments.append(exp5)
 
 
+### 2025-12-02 Session ###
+exp6 = celldatabase.Experiment(subject, '2025-12-02', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-2211',
+                               info = ['faceRight','soundLeft','closedField'])
+exp6.maxDepth=probe_tip
+
+# Animal in rig at 1145
+
+exp6.add_site(1530) # tip 2 ref
+exp6.add_session('12-06-39', 'a', 'optoShamAMtone', 'am_tuning_curve') # 40 dB
+exp6.add_session('13-19-29', 'a', 'naturalSoundLoc', 'natural_sound_detection') # 40 dB
+
+
+# mouse out 
+
+experiments.append(exp6)
+
 
 
