@@ -112,8 +112,8 @@ exp5.add_session('12-51-51', 'b', 'optoTuningFreq', 'am_tuning_curve') # 40 dB
 experiments.append(exp5)
 
 
-### 2025-12-02 Session ###
-exp6 = celldatabase.Experiment(subject, '2025-12-02', 'right_AC', 
+### 2025-12-05 Session ###
+exp6 = celldatabase.Experiment(subject, '2025-12-05', 'right_AC', 
                                'centerCenter_DiI',probe='NPv2-2211',
                                info = ['faceRight','soundLeft','closedField'])
 exp6.maxDepth=probe_tip
