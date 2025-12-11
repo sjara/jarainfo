@@ -50,3 +50,46 @@ videos.add_session('2025-12-10', 'optoNaturalInstances',
                    'arch042_natural_sound_detection_20251210_04.mkv',
                    'arch042_natural_sound_detection_20251210b.h5', cameraParams)
 
+# 2025-12-11
+#session with 440  trials
+videos.add_session('2025-12-11', 'optoTuningAM',
+                   'arch042_am_tuning_curve_20251211_01.mkv',
+                   'arch042_am_tuning_curve_20251211a.h5', cameraParams)
+
+#session with 200 trials
+videos.add_session('2025-12-11', 'optoNaturalCategories',
+                   'arch042_natural_sound_detection_20251211_02.mkv',
+                   'arch042_natural_sound_detection_20251211a.h5', cameraParams)
+        
+ 
+#session with 640 trials
+videos.add_session('2025-12-11', 'optoTuningFreq',
+                   'arch042_am_tuning_curve_20251211_03.mkv',
+                   'arch042_am_tuning_curve_20251211b.h5', cameraParams)
+
+#session with 160 trials
+videos.add_session('2025-12-11', 'optoNaturalInstances',
+                   'arch042_natural_sound_detection_20251211_04.mkv',
+                   'arch042_natural_sound_detection_20251211b.h5', cameraParams)
+
+#Sessins with laser outside of the brain
+#session with 440  trials
+videos.add_session('2025-12-11', 'optoTuningAM',
+                   'arch042_am_tuning_curve_20251211_05.mkv',
+                   'arch042_am_tuning_curve_20251211e.h5', cameraParams)
+
+#session with 200 trials
+videos.add_session('2025-12-11', 'optoNaturalCategories',
+                   'arch042_natural_sound_detection_20251211_06.mkv',
+                   'arch042_natural_sound_detection_20251211c.h5', cameraParams)
+        
+ 
+#session with 640 trials
+videos.add_session('2025-12-11', 'optoTuningFreq',
+                   'arch042_am_tuning_curve_20251211_07.mkv',
+                   'arch042_am_tuning_curve_20251211f.h5', cameraParams)
+
+#session with 160 trials
+videos.add_session('2025-12-11', 'optoNaturalInstances',
+                   'arch042_natural_sound_detection_20251211_08.mkv',
+                   'arch042_natural_sound_detection_20251211d.h5', cameraParams)
