@@ -161,3 +161,105 @@ exp7.add_session('16-40-33', 'b', 'optoTuningFreq', 'am_tuning_curve') # 10 mW (
 
 # mouse out 1720
 experiments.append(exp7)
+
+
+### 2025-11-13 session
+
+exp8 = celldatabase.Experiment(subject, '2025-11-13', 'left_AC', 
+                               'centerCenter_DiI',probe='NPv2-5422',
+                               info = ['faceLeft','soundRight', 'closedField'])
+exp8.maxDepth=probe_tip
+
+# Animal in rig at 1340
+
+
+exp8.add_site(1580) # tip 3 ref, sounds at 40 dB
+exp8.add_session('13-56-06', 'a', 'optoTuningAMtone', 'am_tuning_curve') # 10 mW (7.74)
+exp8.add_session('15-14-57', 'b', 'optoTuningFreq', 'am_tuning_curve') # 10 mW (7.74)
+
+
+# mouse out 1552
+experiments.append(exp8)
+
+
+### 2025-11-18 session
+
+exp9 = celldatabase.Experiment(subject, '2025-11-18', 'left_AC', 
+                               'centerCenter_DiI',probe='NPv2-5422',
+                               info = ['faceLeft','soundRight', 'closedField'])
+exp9.maxDepth=probe_tip
+
+# Animal in rig at 1120
+
+
+exp9.add_site(2300) # tip 3 ref, sounds at 40 dB
+exp9.add_session('11-27-06', 'a', 'optoTuningAMtone', 'am_tuning_curve') # 10 mW (7.74)
+exp9.add_session('12-36-12', 'b', 'optoTuningFreq', 'am_tuning_curve') # 10 mW (7.74)
+
+
+# mouse out 1350
+
+#### screw for securing GRIN lens cover broke off, had to re-affix a new one. hopefully it holds 
+experiments.append(exp9)
+
+
+### 2025-11-21 session
+
+exp10 = celldatabase.Experiment(subject, '2025-11-21', 'left_AC', 
+                               'centerCenter_DiI',probe='NPv2-5422',
+                               info = ['faceLeft','soundRight', 'closedField'])
+exp10.maxDepth=probe_tip
+
+# Animal in rig at 1350
+
+
+exp10.add_site(2300) # tip 3 ref, sounds at 40 dB
+exp10.add_session('14-06-50', 'a', 'optoTuningAMtone', 'am_tuning_curve') # 10 mW (7.74)
+exp10.add_session('15-17-42', 'b', 'optoTuningFreq', 'am_tuning_curve') # 10 mW (7.74)
+
+
+# mouse out 1600
+
+experiments.append(exp10)
+
+
+
+### 2025-12-04 session
+
+exp11 = celldatabase.Experiment(subject, '2025-12-04', 'left_AC', 
+                               'centerCenter_DiI',probe='NPv2-5422',
+                               info = ['faceLeft','soundRight', 'closedField'])
+exp11.maxDepth=probe_tip
+
+# Animal in rig at 0940
+
+
+exp11.add_site(1580) # tip 2 ref, sounds at 40 dB
+exp11.add_session('09-42-55','a','naturalSoundLoc','natural_sound_detection')
+exp11.add_session('11-08-49', 'a', 'optoShamAMtone', 'am_tuning_curve') # 10 mW (7.74)
+
+
+# mouse out 1220
+
+experiments.append(exp11)
+
+
+
+### 2025-12-05 session
+
+exp12 = celldatabase.Experiment(subject, '2025-12-05', 'left_AC', 
+                               'centerCenter_DiI',probe='NPv2-5422',
+                               info = ['faceLeft','soundRight', 'closedField'])
+exp12.maxDepth=probe_tip
+
+# Animal in rig at 1520
+
+
+exp12.add_site(2300) # tip 2 ref, sounds at 40 dB
+exp12.add_session('15-34-27', 'a', 'optoShamAMtone', 'am_tuning_curve') # 10 mW (7.74)
+exp12.add_session('16-46-09','a','naturalSoundLoc','natural_sound_detection')
+
+
+# mouse out 1820
+
+experiments.append(exp12)

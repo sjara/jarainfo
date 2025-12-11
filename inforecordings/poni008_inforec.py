@@ -25,5 +25,109 @@ exp0.add_session('14-28-42', 'a', 'naturalSound', 'natural_sound_detection') # 4
 experiments.append(exp0)
 
 
+### 2025-11-13 Session ###
+exp1 = celldatabase.Experiment(subject, '2025-11-13', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-2211',
+                               info = ['faceRight','soundLeft','closedField'])
+exp1.maxDepth=probe_tip
+
+# Animal in rig at 0910
+
+exp1.add_site(1530) # tip 1 ref
+exp1.add_session('09-33-53', 'a', 'tuningAMtone', 'am_tuning_curve') # 40 dB
+
+
+# mouse out 1025
+experiments.append(exp1)
+
+
+### 2025-11-17 Session ###
+exp2 = celldatabase.Experiment(subject, '2025-11-17', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-2211',
+                               info = ['faceRight','soundLeft','closedField'])
+exp2.maxDepth=probe_tip
+
+# Animal in rig at 0945
+
+exp2.add_site(1530) # tip 1 ref
+exp2.add_session('09-56-20', 'a', 'optoTuningAMtone', 'am_tuning_curve') # 40 dB
+exp2.add_session('11-06-58', 'b', 'optoTuningFreq', 'am_tuning_curve') # 40 dB
+
+
+# mouse out 1150
+experiments.append(exp2)
+
+
+### 2025-11-19 Session ###
+exp3 = celldatabase.Experiment(subject, '2025-11-19', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-2211',
+                               info = ['faceRight','soundLeft','closedField'])
+exp3.maxDepth=probe_tip
+
+# Animal in rig at 0930
+
+exp3.add_site(1530) # tip 1 ref
+exp3.add_session('09-39-13', 'a', 'optoTuningAMtone', 'am_tuning_curve') # 40 dB
+exp3.add_session('10-48-49', 'b', 'optoTuningFreq', 'am_tuning_curve') # 40 dB
+
+
+# mouse out 1130
+experiments.append(exp3)
+
+
+### 2025-11-21 Session ###
+exp4 = celldatabase.Experiment(subject, '2025-11-21', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-2211',
+                               info = ['faceRight','soundLeft','closedField'])
+exp4.maxDepth=probe_tip
+
+# Animal in rig at 1030
+
+exp4.add_site(1530) # tip 1 ref
+exp4.add_session('10-41-56', 'a', 'optoTuningAMtone', 'am_tuning_curve') # 40 dB
+exp4.add_session('11-51-39', 'b', 'optoTuningFreq', 'am_tuning_curve') # 40 dB
+
+# noticed squeaking from the wheel at the end, not sure if it was present throughout the session
+
+# mouse out 1232
+experiments.append(exp4)
+
+
+### 2025-12-02 Session ###
+exp5 = celldatabase.Experiment(subject, '2025-12-02', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-2211',
+                               info = ['faceRight','soundLeft','closedField'])
+exp5.maxDepth=probe_tip
+
+# Animal in rig at 1115
+
+exp5.add_site(1530) # tip 1 ref
+exp5.add_session('11-40-56', 'a', 'optoTuningAMtone', 'am_tuning_curve') # 40 dB
+exp5.add_session('12-51-51', 'b', 'optoTuningFreq', 'am_tuning_curve') # 40 dB
+
+
+# mouse out 1330
+
+# noticed the creaking again...I think the mouse is shifting the wheel over
+experiments.append(exp5)
+
+
+### 2025-12-05 Session ###
+exp6 = celldatabase.Experiment(subject, '2025-12-05', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-2211',
+                               info = ['faceRight','soundLeft','closedField'])
+exp6.maxDepth=probe_tip
+
+# Animal in rig at 1145
+
+exp6.add_site(1530) # tip 2 ref
+exp6.add_session('12-06-39', 'a', 'optoShamAMtone', 'am_tuning_curve') # 40 dB
+exp6.add_session('13-19-29', 'a', 'naturalSoundLoc', 'natural_sound_detection') # 40 dB
+
+
+# mouse out 
+
+experiments.append(exp6)
+
 
 
