@@ -59,7 +59,7 @@ exp0.add_session('13-07-39', 'd', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 exp1 = celldatabase.Experiment(subject, '2025-12-14', brainArea='right_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundLeft'])
 
-experiments.append(exp0)
+experiments.append(exp1)
 
 # Mouse in the rig at 10:25 am
 # 14:25 took the mouse out
