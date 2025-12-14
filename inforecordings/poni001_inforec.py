@@ -439,3 +439,22 @@ exp21.add_session('10-29-38','a','optoShamAMtone','am_tuning_curve') #  10 mW (7
 # mouse out 1150
 
 experiments.append(exp21)
+
+
+
+### 2025-12-12 session
+
+# mouse in 1330
+
+exp22 = celldatabase.Experiment(subject,'2025-12-12','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundBinaural','closedField'])
+
+exp22.maxDepth = probe_tip
+exp22.add_site(2360) # tip 3 ref, sounds at 40 db
+exp22.add_session('13-38-53','a','naturalSoundLoc','natural_sound_detection') 
+
+# 
+# mouse out 1450
+
+experiments.append(exp22)

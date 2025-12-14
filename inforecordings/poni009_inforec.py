@@ -222,3 +222,24 @@ exp8.add_session('16-32-39','a','optoShamAMtone','am_tuning_curve') # 40 dB, 10 
 
 # mouse out 1745
 experiments.append(exp8)
+
+
+### 2025-12-12 session ###
+
+# mouse in 1520
+
+exp9 = celldatabase.Experiment(subject, '2025-12-12', 'right_AC', 
+                               'centerCenter_DiI',probe='NPv2-2911',
+                               info = ['faceRight','soundBinaural','closedField'])
+exp9.maxDepth=probe_tip
+
+
+exp9.add_site(1520) # all shanks (145-240), tip 2 ref
+exp9.add_session('15-25-26','a','naturalSoundLoc','natural_sound_detection') # 40 dB
+exp9.add_session('15-57-02','b','naturalSoundLoc','natural_sound_detection') # 40 dB
+
+# noticed the left ear tube had come out ~220 trials in, fixed it and started a new session
+##. to capture the remaining trials
+
+# mouse out 1715
+experiments.append(exp9)
