@@ -80,21 +80,21 @@ exp1.add_site(4000)
 exp1.maxDepth = 4000
 
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
-exp0.add_session('10-44-47', 'a', 'optoTuningAM', 'am_tuning_curve') #440
-exp0.add_session('11-16-21', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
-exp0.add_session('11-34-30', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
-exp0.add_session('12-03-28', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+exp1.add_session('10-44-47', 'a', 'optoTuningAM', 'am_tuning_curve') #440
+exp1.add_session('11-16-21', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+exp1.add_session('11-34-30', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+exp1.add_session('12-03-28', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
 #These recordings are with the laser shining outside of the brain.
-exp0.add_session('12-43-01', 'c', 'optoTuningAM', 'am_tuning_curve') #440
-exp0.add_session('12-58-01', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
-exp0.add_session('13-14-33', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
-exp0.add_session('13-42-24', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+exp1.add_session('12-43-01', 'c', 'optoTuningAM', 'am_tuning_curve') #440
+exp1.add_session('12-58-01', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+exp1.add_session('13-14-33', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+exp1.add_session('13-42-24', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
 #The following sessions recorded with laser on and tether attached to the right optic fiber.
 # Shank 1 Bank A 
-exp0.add_session('14-17-21', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+exp1.add_session('14-17-21', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 1 Bank B
-exp0.add_session('14-19-30', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
+exp1.add_session('14-19-30', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
