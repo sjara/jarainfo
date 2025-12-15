@@ -263,3 +263,22 @@ exp12.add_session('16-46-09','a','naturalSoundLoc','natural_sound_detection')
 # mouse out 1820
 
 experiments.append(exp12)
+
+
+### 2025-12-15 session
+
+exp13 = celldatabase.Experiment(subject, '2025-12-15', 'left_AC', 
+                               'centerCenter_DiI',probe='NPv2-5422',
+                               info = ['faceLeft','soundRight', 'closedField'])
+exp13.maxDepth=probe_tip
+
+# Animal in rig at 1210
+
+
+exp13.add_site(1520) # tip 2 ref, sounds at 40 dB
+exp13.add_session('12-18-15', 'a', 'tuningAMtone', 'am_tuning_curve') # 40 dB
+
+# ground wire was broken when I opened the cage, should still be fine for spiking activity
+# mouse out 1315
+
+experiments.append(exp13)
