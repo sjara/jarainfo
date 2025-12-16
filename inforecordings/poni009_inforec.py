@@ -235,7 +235,7 @@ exp9.maxDepth=probe_tip
 
 
 exp9.add_site(1520) # all shanks (145-240), tip 2 ref
-exp9.add_session('15-25-26','a','naturalSoundLoc','natural_sound_detection') # 40 dB
+# exp9.add_session('15-25-26','a','naturalSoundLoc','natural_sound_detection') # 40 dB
 exp9.add_session('15-57-02','b','naturalSoundLoc','natural_sound_detection') # 40 dB
 
 # noticed the left ear tube had come out ~220 trials in, fixed it and started a new session
