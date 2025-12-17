@@ -126,7 +126,7 @@ exp2.maxDepth = 4500
 exp2.add_session('16-01-07', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 1 Bank B
-exp2.add_session('16-06-06', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
+exp2.add_session('16-06-27', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
 exp2.add_session('16-10-11', 'a', 'optoTuningAM', 'am_tuning_curve') #440
