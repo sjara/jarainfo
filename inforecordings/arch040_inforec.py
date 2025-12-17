@@ -98,3 +98,46 @@ exp1.add_session('14-17-21', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 1 Bank B
 exp1.add_session('14-19-30', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
+
+
+exp2 = celldatabase.Experiment(subject, '2025-12-16', brainArea='left_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundRight'])
+
+experiments.append(exp1)
+
+# Mouse in the rig at 2:10 pm
+#  took the mouse out
+# Inserted the probe at 3:38, took me many attempts to penetrate.
+# Power of the laser 10 mW (Dial 5.17 / screen 39.4)
+# Red part of the probe faces Medial
+# Reference electrode is 1:tip
+# Targeting left pStr
+# Probe is located in the center of craniotomy
+# I zero the manipulator when I first touched dura-gel
+# I recorded 2 fast sessions to check whether we can tell air-dura-gel-brain apart by looking at the LFPs
+# The mouse have a ground wire.
+#The natural sounds categories does not have a recoeded video.
+
+
+
+exp2.add_site(4500) 
+exp2.maxDepth = 4500
+
+# Shank 1 Bank A 
+exp2.add_session('16-01-07', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+# Shank 1 Bank B
+exp2.add_session('16-06-06', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
+
+#Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
+exp2.add_session('16-10-11', 'a', 'optoTuningAM', 'am_tuning_curve') #440
+exp2.add_session('16-25-33', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+exp2.add_session('16-41-50', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+exp2.add_session('17-09-41', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+
+
+#The following sessions recorded with laser on and tether attached to the right optic fiber.
+#Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
+exp2.add_session('17-41-32', 'c', 'optoTuningAM', 'am_tuning_curve') #440
+exp2.add_session('17-57-46', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+exp2.add_session('18-14-27', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+exp2.add_session('18-42-54', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances

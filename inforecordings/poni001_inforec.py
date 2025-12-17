@@ -458,3 +458,22 @@ exp22.add_session('13-38-53','a','naturalSoundLoc','natural_sound_detection')
 # mouse out 1450
 
 experiments.append(exp22)
+
+
+### 2025-12-16 session
+
+# mouse in 1030
+
+exp23 = celldatabase.Experiment(subject,'2025-12-16','right_AC',
+                               'centerCenter_DiD',probe='NPv2-3082',
+                               info=['faceRight','soundBinaural','closedField'])
+
+exp23.maxDepth = probe_tip
+exp23.add_site(2360) # tip 3 ref
+exp23.add_session('10-45-53','a','naturalSoundLoc','natural_sound_detection')  # 40 dB
+exp23.add_session('12-04-27','b','naturalSoundLoc50dB','natural_sound_detection')  # 50 dB
+
+
+# mouse out 1320
+
+experiments.append(exp23)
