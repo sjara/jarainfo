@@ -63,7 +63,7 @@ exp1 = celldatabase.Experiment(subject, '2025-12-29', brainArea='right_pStr', pr
 experiments.append(exp1)
 
 # Mouse in the rig at 11:30am
-# 14:25 took the mouse out
+# 15:25 took the mouse out
 # Inserted the probe in the first attemp and super easy.
 # Power of the laser 10 mW (Dial 5.99 / screen 57.8)
 # Red part of the probe faces Medial
