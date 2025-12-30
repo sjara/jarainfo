@@ -99,3 +99,48 @@ exp1.add_session('13-18-41', 'c', 'optoTuningAM', 'am_tuning_curve') #440
 exp1.add_session('13-32-55', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp1.add_session('14-44-37', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp1.add_session('14-16-02', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+
+
+
+exp2 = celldatabase.Experiment(subject, '2025-12-30', brainArea='left_pStr', probe='NPv2-3082', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundRight'])
+
+experiments.append(exp2)
+
+# Mouse in the rig at 10:40am
+#Applied Vatericyn to the eye before recording with vet's recommendation. 
+# 15:25 took the mouse out
+# Inserted the probe in the first attemp and super easy.
+# Power of the laser 10 mW (Dial 4.9 / screen 35.4)
+# Red part of the probe faces Medial
+# Reference electrode is 3:tip
+# Targeting right pStr
+# Probe is located in the center of craniotomy
+# I zero the manipulator when I first touched dura-gel. 
+# I recorded 2 fast sessions to check whether we can tell air-dura-gel-brain apart by looking at the LFPs
+# The mouse have a ground wire.
+
+
+
+
+exp2.add_site(4530) 
+exp2.maxDepth = 4530
+
+
+# Shank 3 Bank A
+exp2.add_session('13-40-52', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+# Shank 3 Bank B
+exp2.add_session('13-43-00', 'f', 'tuningFreq', 'am_tuning_curve') #43 trial
+
+#Shanks 3 and 4. Manually selected channels 1-96 and 97-192.
+exp2.add_session('10-54-23', 'a', 'optoTuningAM', 'am_tuning_curve') #440
+exp2.add_session('11-09-46', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+exp2.add_session('11-26-01', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+exp2.add_session('11-54-08', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+
+#These sessions are recorded with the laset shining outside of the brain.
+#Shanks 3 and 4. Manually selected channels 1-96 and 97-192.
+exp2.add_session('12-18-14', 'c', 'optoTuningAM', 'am_tuning_curve') #440
+exp2.add_session('12-34-12', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+exp2.add_session('12-50-13', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+exp2.add_session('13-17-37', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
