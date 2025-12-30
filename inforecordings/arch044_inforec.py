@@ -102,16 +102,16 @@ exp1.add_session('14-16-02', 'd', 'optoNaturalInstances', 'natural_sound_detecti
 
 
 
-exp2 = celldatabase.Experiment(subject, '2025-12-30', brainArea='left_pStr', probe='NPv2-3082', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundRight'])
+exp2 = celldatabase.Experiment(subject, '2025-12-30', brainArea='left_pStr', probe='NPv2-3082', recordingTrack='centerCenter_DiI', info=['facesMedial', 'soundRight'])
 
 experiments.append(exp2)
 
 # Mouse in the rig at 10:40am
-#Applied Vatericyn to the eye before recording with vet's recommendation. 
-# 15:25 took the mouse out
+# Applied Vatericyn to the eye before recording with vet's recommendation. 
+# 2:00pm took the mouse out
 # Inserted the probe in the first attemp and super easy.
 # Power of the laser 10 mW (Dial 4.9 / screen 35.4)
-# Red part of the probe faces Medial
+# Red part of the probe faces Lateral
 # Reference electrode is 3:tip
 # Targeting right pStr
 # Probe is located in the center of craniotomy
