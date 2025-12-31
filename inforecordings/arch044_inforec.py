@@ -144,3 +144,40 @@ exp2.add_session('12-18-14', 'c', 'optoTuningAM', 'am_tuning_curve') #440
 exp2.add_session('12-34-12', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp2.add_session('12-50-13', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp2.add_session('13-17-37', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+
+
+
+exp3 = celldatabase.Experiment(subject, '2025-12-31', brainArea='left_pStr', probe='NPv2-3082', recordingTrack='centerCenter_DiD', info=['facesMedial', 'soundRight'])
+
+experiments.append(exp3)
+
+# Mouse in the rig at 10:30am 
+# 2:00pm took the mouse out
+# Inserted the probe in the first attemp and super easy.
+# Power of the laser 10 mW (Dial 4.9 / screen 34.6)
+# Red part of the probe faces Lateral
+# Reference electrode is 3:tip
+# Targeting right pStr
+# Probe is located in the center of craniotomy
+# I zero the manipulator when I first touched dura-gel. 
+# I recorded 2 fast sessions to check whether we can tell air-dura-gel-brain apart by looking at the LFPs
+# The mouse have a ground wire.
+
+
+
+
+exp3.add_site(4500) 
+exp3.maxDepth = 4500
+
+
+# Shank 3 Bank A
+exp3.add_session('10-42-16', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+# Shank 3 Bank B
+exp3.add_session('10-44-25', 'f', 'tuningFreq', 'am_tuning_curve') #43 trial
+
+#Shanks 3 and 4. Manually selected channels 1-96 and 97-192.
+exp3.add_session('10-47-09', 'a', 'optoTuningAM', 'am_tuning_curve') #440
+exp3.add_session('11-01-52', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+exp3.add_session('11-18-10', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+exp3.add_session('11-45-33', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
