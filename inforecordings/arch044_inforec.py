@@ -140,7 +140,7 @@ exp2.add_session('11-54-08', 'b', 'optoNaturalInstances', 'natural_sound_detecti
 
 #These sessions are recorded with the laset shining outside of the brain.
 #Shanks 3 and 4. Manually selected channels 1-96 and 97-192.
-exp2.add_session('12-18-14', 'c', 'optoTuningAM', 'am_tuning_curve') #440
+exp2.add_session('12-19-44', 'c', 'optoTuningAM', 'am_tuning_curve') #440
 exp2.add_session('12-34-12', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp2.add_session('12-50-13', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp2.add_session('13-17-37', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
