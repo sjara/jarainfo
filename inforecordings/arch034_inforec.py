@@ -97,36 +97,4 @@ exp1.add_session('13-20-21', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 
 #2025-11-20
-exp2 = celldatabase.Experiment(subject, '2025-11-12', brainArea='left_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundRight'])
-
-experiments.append(exp1)
-
-# Mouse in the rig at 1:30 pm
-# Probe in the right depth at 11:20 (First attempt)
-# Power of the laser 10 mW (Dial 5.25 / screen 40.1)
-# Red part of the probe faces medial
-# Started to record at 11:40
-# Reference electrode is 1:tip
-# Targeting left pStr
-# Probe is located in the center of craniotomy
-# I zero the manipulator when I first touched dura-gel (There was a very fine layer protecting the brain)
-# I recorded 2 fast sessions to check whether we can tell air-saline-dura-gel-brain apart by looking at the LFPs
-# Given that I am recording from 2 banks, I went 3700.2 um inside the brain to increase our chances to be in the pStr
-# The mouse doesn't have ground wire.
-# I added saline before starting to record every session
-
-
-exp1.add_site(3700) #3700.2
-exp1.maxDepth = 3700
-
-#Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
-exp1.add_session('11-41-24', 'a', 'optoTuningAM', 'am_tuning_curve') #Ideally we want to have 440 trials, but I recorded 461 trials
-exp1.add_session('12-00-26', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
-exp1.add_session('12-32-16', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
-exp1.add_session('12-51-54', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
-
-# Shank 1 Bank A
-exp1.add_session('13-17-29', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
-
-# Shank 1 Bank B
-exp1.add_session('13-20-21', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
+#Attempted to record but I could not penetrate.
