@@ -94,8 +94,12 @@ exp1.add_session('14-15-18', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
 # Shank 1 Bank B
 exp1.add_session('14-17-16', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+# FOR ANALYSIS PURPOSES ONLY, I WILL ADD A NEW SITE
+# BUT IT REALLY IS THE SAME PENETRATION AND RECORDING SITE
 #LASER TURNED ON BUT NOT GOING INSIDE THE BRAIN
 #I gave water to the mouse before starting the new sessions
+
+exp1.add_site(4001) 
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
 exp1.add_session('14-35-02', 'f', 'optoTuningAM', 'am_tuning_curve') #440 #I forgot to manually select the shanks
 exp1.add_session('14-46-32', 'g', 'optoTuningAM', 'am_tuning_curve') #440 
