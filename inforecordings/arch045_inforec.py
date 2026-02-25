@@ -21,7 +21,7 @@ experiments = []
 #expx.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
 
 
-exp0 = celldatabase.Experiment(subject, '2025-02-24', brainArea='right_pStr', probe='NPv2-3973', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundLeft'])
+exp0 = celldatabase.Experiment(subject, '2026-02-24', brainArea='right_pStr', probe='NPv2-3973', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundLeft'])
 
 experiments.append(exp0)
 
