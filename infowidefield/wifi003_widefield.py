@@ -7,7 +7,7 @@
 # sessionLabel: any string that describes the session.
 # imgType: imaging type. Either 'calcium' or 'intrinsic'.
 # LED: LED intensity setting. A number from 0-8, matching the position of the LED knob.
-# ISO: percentage of isoflurane. Default is None for no anesthesia.
+# Iso: percentage of isoflurane. Default is None for no anesthesia.
 # Oxy: oxygen flow rate. Default is None for no anesthesia.
 
 subject = 'wifi003'
@@ -29,14 +29,14 @@ sessions.append(newSession)
 # Example session: calcium + anesthesia
 newSession = {'subject':subject, 'date':'2025-04-03', 'time': '16:32:00',
               'sessionLabel': 'calcium_anesthetized', 'imgType':'calcium', 'LED':7,
-              'ISO':1.5, 'Oxy':1.25,
+              'Iso':1.5, 'Oxy':1.25,
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 
 # Example session: intrinsic
 newSession = {'subject':subject, 'date':'2025-04-03', 'time': '16:59:00',
               'sessionLabel': 'intrinsic_anesthetized', 'imgType':'intrinsic', 'LED':0.5,
-              'ISO':1.5, 'Oxy':1.25,
+              'Iso':1.5, 'Oxy':1.25,
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 '''
