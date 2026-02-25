@@ -8,6 +8,15 @@ importlib.reload(celldatabase)
 subject = 'test000'
 experiments = []
 
+# -- Data from feat018 for testing Kilosort --
+exp6 = celldatabase.Experiment(subject, '2024-06-14', brainArea='right_AC', probe='NPv1-4432', recordingTrack='anteriorLateral_DiI', info=['facesLateral', 'soundLeft'])
+# Reference electrode is the tip.
+experiments.append(exp6)
+exp6.add_site(3000)
+exp6.maxDepth = 3000
+exp6.add_session('11-20-22', 'a', 'pureTones', 'am_tuning_curve')
+
+'''
 # -- Recorded with config neuropix_NP1.0_only_NeuropixPXI --
 exp0 = celldatabase.Experiment(subject, '2024-03-15', brainArea='', probe = 'NPv1-4542', recordingTrack='', info=['', 'soundLeft']) #reference = tip
 experiments.append(exp0)
@@ -30,7 +39,7 @@ experiments.append(exp1)
 exp1.add_site(2)
 exp1.maxDepth = 2
 exp1.add_session('16-34-00','c','AM','am_tuning_curve')
-
+'''
 
 
 '''
