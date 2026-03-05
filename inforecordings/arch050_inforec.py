@@ -151,7 +151,6 @@ exp2.add_session('15-15-12', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 exp2.add_session('15-31-25', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
 
-#CHANGE THE ELECTRODES
 #I did not add saline to know the limit from the dura
 # Shank 1 Bank A
 exp2.add_session('15-54-00', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
@@ -160,3 +159,68 @@ exp2.add_session('15-54-00', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 exp2.add_session('15-56-16', 'f', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 exp2.maxDepth = 3600
+
+
+#2026-03-02
+exp3 = celldatabase.Experiment(subject, '2026-03-02', brainArea='left_pStr', probe='NPv2-3973', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundRight'])
+
+experiments.append(exp3)
+
+# Mouse in the rig at 11:44 am
+# Probe in the right depth at 12:43 am
+# Power of the laser 10 mW (Dial 5.14 / screen 38.8)
+# Red part of the probe faces medial
+# Reference electrode is 1:tip
+# Targeting left pStr
+# Probe is located in the center of caniotomy
+# I zero the manipulator when I first touched dura-gel. Layer of about 700 um.
+# Total depth from the dura-gel 4300 um. Depth inside the brain 3600 um
+# I recorded 2 fast sessions to check whether we can tell air-dura-gel-brain apart by looking at the LFPs
+# The mouse does not have ground wire.
+# I added saline before every session
+
+
+exp3.add_site(3600) 
+
+#All shanks -  1-96
+exp3.add_session('12-52-45', 'a', 'optoTuningAM', 'am_tuning_curve') #440
+exp3.add_session('13-07-59', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+exp3.add_session('13-35-45', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+exp3.add_session('13-52-49', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+
+#Gave water to the mice before starting the new sessions
+#CHANGE THE ELECTRODES
+
+exp3.add_site(2880) 
+#All shanks -  97-192
+exp3.add_session('14-18-00', 'c', 'optoTuningAM', 'am_tuning_curve') #440
+exp3.add_session('14-35-02', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+exp3.add_session('15-03-57', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+exp3.add_session('15-21-06', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+
+# Gave water to the mice before starting the new sessions
+# CONTROL SESSIONS
+# NO OPTIC FIBER CONNECTED
+# IT IS THE SAME SITE AS THE FIRST ONE. I JUST ADDED A NEW SITE FOR DATA ANALYSIS PURPOSES
+# Stimulus computer stopped working. I had to shut it down and turn it on again.
+# The left eye of the mouse looks in a very bad condition.
+# Because of that I did not add saline between sessions to try to finish as soon as possible.
+exp3.add_site(3601) 
+
+#All shanks -  1-96
+exp3.add_session('16-20-01', 'e', 'optoTuningAM', 'am_tuning_curve') #440
+exp3.add_session('16-34-57', 'f', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+
+# IT IS THE SAME SITE AS THE SECOND ONE. I JUST ADDED A NEW SITE FOR DATA ANALYSIS PURPOSES
+exp3.add_site(2881) 
+#All shanks -  97-192
+exp3.add_session('16-50-47', 'g', 'optoTuningAM', 'am_tuning_curve') #440
+exp3.add_session('17-04-38', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+
+# Shank 1 Bank A
+exp3.add_session('17-21-27', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+# Shank 1 Bank B
+exp3.add_session('17-23-19', 'j', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+exp3.maxDepth = 3600
