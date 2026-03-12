@@ -20,22 +20,19 @@ experiments = []
 #expx.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
 #expx.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
 
+#.................................................................................
 
 exp0 = celldatabase.Experiment(subject, '2026-02-24', brainArea='right_pStr', probe='NPv2-3973', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundLeft'])
 
 experiments.append(exp0)
+
 
 #Mouse in the rig at 11:57am
 #Probe inserted at 12:30pm
 #The data was very noisy I think because the ground wire fell, but not compeletely so it is probably touching the head bar creating a loop, I used the saline well wire.
 #Took the mouse out at 5:00 pm
 
-
-
-
 exp0.add_site(4000) 
-exp0.maxDepth = 4000
-
 
 # Shank 3 Bank A
 exp0.add_session('16-54-44', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
@@ -49,29 +46,28 @@ exp0.add_session('14-05-01', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 exp0.add_session('14-24-52', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp0.add_session('14-54-49', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
+exp0.add_site(3999) 
+# IT IS THE SAME SITE AS THE FIRST ONE. I JUST ADDED A NEW SITE FOR DATA ANALYSIS PURPOSES
 #Recoeding from all shanks, channels 97-192.
 exp0.add_session('15-27-33', 'c', 'optoTuningAM', 'am_tuning_curve') #440
 exp0.add_session('15-43-40', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp0.add_session('16-01-07', 'c', 'optoNaturalCategories', 'natural_sound_detection') #212 OptoNaturalCategories
 exp0.add_session('16-32-18', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
+exp0.maxDepth = 4000
+
+#...............................................................................................................
+
+exp1 = celldatabase.Experiment(subject, '2026-03-11', brainArea='Right_pStr', probe='NPv2-3813', recordingTrack='centerCenter_DiD', info=['facesMedial', 'soundLeft'])
+
+experiments.append(exp1)
+
+exp1.add_site(3700) 
+
 
 #Mouse in rig at 10:37am.
 #This mouse did not have a ground wire so I did the well grounding.
 #Took the mouse out at 13:20pm.
-
-exp1 = celldatabase.Experiment(subject, '2026-03-11', brainArea='Right_pStr', probe='NPv2-3973', recordingTrack='centerCenter_DiD', info=['facesMedial', 'soundLeft'])
-
-experiments.append(exp1)
-
-
-
-
-
-
-exp1.add_site(3700) 
-exp1.maxDepth = 3700
-
 
 # Shank 3 Bank A
 exp1.add_session('13-06-24', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
@@ -85,4 +81,5 @@ exp1.add_session('11-53-02', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 exp1.add_session('12-09-47', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp1.add_session('12-38-23', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-
+exp1.maxDepth = 3700
+#........................................................................................................
