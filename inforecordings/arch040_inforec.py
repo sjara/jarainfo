@@ -21,6 +21,8 @@ experiments = []
 #expx.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
 
 
+#.....................................................................................
+
 exp0 = celldatabase.Experiment(subject, '2025-12-09', brainArea='right_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundLeft'])
 
 experiments.append(exp0)
@@ -33,7 +35,7 @@ experiments.append(exp0)
 # Reference electrode is 1:tip
 # Targeting right pStr
 # Probe is located in the center of craniotomy
-# I zero the manipulator when I first touched dura-gel
+# I zeroed the manipulator when I first touched dura-gel
 # I recorded 2 fast sessions to check whether we can tell air-dura-gel-brain apart by looking at the LFPs
 # The mouse have a ground wire.
 #The natural sounds categories does not have a recoeded video.
@@ -56,28 +58,27 @@ exp0.add_session('13-03-20', 'c', 'tuningFreq', 'am_tuning_curve') #41 trials
 # Shank 2 Bank A
 exp0.add_session('13-07-39', 'd', 'tuningFreq', 'am_tuning_curve') #40 trial
 
+#........................................................................................
 
 exp1 = celldatabase.Experiment(subject, '2025-12-14', brainArea='right_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundLeft'])
 
 experiments.append(exp1)
 
-# Mouse in the rig at 10:25 am
-# 14:25 took the mouse out
+# Mouse in the rig at 10:25am
+# 14:45 took the mouse out
 # Inserted the probe in the first attempt (10:34am)
 # Power of the laser 10 mW (Dial 5.49 / screen 44.6)
 # Red part of the probe faces Medial
 # Reference electrode is 1:tip
 # Targeting right pStr
 # Probe is located in the center of craniotomy
-# I zero the manipulator when I first touched dura-gel
+# I zeroed the manipulator when I first touched dura-gel
 # I recorded 2 fast sessions to check whether we can tell air-dura-gel-brain apart by looking at the LFPs
-# The mouse have a ground wire.
-#The natural sounds categories does not have a recoeded video.
+
 
 
 
 exp1.add_site(4000) 
-exp1.maxDepth = 4000
 
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
 exp1.add_session('10-44-47', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -85,8 +86,12 @@ exp1.add_session('11-16-21', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 exp1.add_session('11-34-30', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp1.add_session('12-03-28', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
+
+exp1.add_site(3999) 
+
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
 #These recordings are with the laser shining outside of the brain.
+# IT IS THE SAME SITE AS THE FIRST ONE. I JUST ADDED A NEW SITE FOR DATA ANALYSIS PURPOSES.
 exp1.add_session('12-43-01', 'c', 'optoTuningAM', 'am_tuning_curve') #440
 exp1.add_session('12-58-01', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp1.add_session('13-14-33', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
@@ -99,6 +104,8 @@ exp1.add_session('14-17-21', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 # Shank 2 Bank A
 exp1.add_session('14-19-30', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
 
+exp1.maxDepth = 4000
+#......................................................................................................
 
 exp2 = celldatabase.Experiment(subject, '2025-12-16', brainArea='left_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundRight'])
 
@@ -120,8 +127,6 @@ experiments.append(exp2)
 
 
 exp2.add_site(4500) 
-exp2.maxDepth = 4500
-
 # Shank 1 Bank A 
 exp2.add_session('16-01-07', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
@@ -134,7 +139,8 @@ exp2.add_session('16-25-33', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 exp2.add_session('16-41-50', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp2.add_session('17-09-41', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-
+exp2.add_site(4499) 
+# IT IS THE SAME SITE AS THE FIRST ONE. I JUST ADDED A NEW SITE FOR DATA ANALYSIS PURPOSES.
 #The following sessions recorded with laser on and tether attached to the right optic fiber.
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
 exp2.add_session('17-41-32', 'c', 'optoTuningAM', 'am_tuning_curve') #440
@@ -142,7 +148,7 @@ exp2.add_session('17-57-46', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 exp2.add_session('18-14-27', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp2.add_session('18-42-54', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-
+exp2.maxDepth = 4500
 
 
 
