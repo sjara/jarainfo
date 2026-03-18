@@ -35,7 +35,7 @@ experiments.append(exp0)
 exp0.add_site(4000) 
 
 # Shank 3 Bank A
-#exp0.add_session('16-54-44', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+exp0.add_session('16-54-44', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 3 Bank B
 exp0.add_session('16-59-35', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
