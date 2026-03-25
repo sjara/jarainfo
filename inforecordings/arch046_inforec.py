@@ -81,4 +81,60 @@ exp0.add_session('15-02-02', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 #Pwnwtrated at 11:58am. 
 #I was not able to record today because I think the probe could not detect the head stage. I could see the probe being recognized in open ephys but i could not see any signals form any shanks, banks or channels. 
 
+#...............................................................................................
+#2026-03-22
+#Inserted the probe (2212um) using DiI in the center of the craniotomy, and could not go further because that was the limit of the manipulator, I should have put the probe more down.
+#The data was very noisy, I tried grounding many things in the rig and it did not make it any better.
+#Today, i was not able to record.
+
 #................................................................................................
+
+#2026-03-25
+#Mouse in the rig at 10:45 am.
+#The mouse does not have a ground wire, used the other well (right) as the refernce.
+#Red side of the probe is towards the center.
+#Insertion was super easy, the probe did not at all during insersion.
+#During the sessions in which laser shines outside the animals eye becomes cloudy.
+#Took the mouse out at 15:45 pm. 
+
+
+exp1 = celldatabase.Experiment(subject, '2026-03-25', brainArea='left_pStr', probe='NPv2-8253', recordingTrack='centerCenter_DiD, info=['facesLateral', 'soundRight'])
+
+experiments.append(exp1)
+
+
+
+exp1.add_site(3750) 
+exp1.maxDepth = 3750
+
+# Shank 1 Bank A
+exp1.add_session('14-18-10', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+# Shank 1 Bank B
+exp1.add_session('14-20-26', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
+
+#Recording from all shanks, channels 1-96.
+exp1.add_session('11-12-25', 'a', 'optoTuningAM', 'am_tuning_curve') #440
+exp1.add_session('11-27-24', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+exp1.add_session('11-43-58', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+exp1.add_session('12-11-42', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+
+exp1.add_site(3030)
+#Recoeding from all shanks, channels 97-192.
+exp1.add_session('12-48-20', 'c', 'optoTuningAM', 'am_tuning_curve') #440
+exp1.add_session('13-04-06', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+#Gave mouse water
+exp1.add_session('13-23-49', 'c', 'optoNaturalCategories', 'natural_sound_detection') #213 OptoNaturalCategories
+exp1.add_session('13-54-31', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+
+exp1.add_site(3749) 
+# IT IS THE SAME SITE AS THE FIRST ONE (4000). I JUST ADDED A NEW SITE FOR DATA ANALYSIS PURPOSES
+#Recording from all shanks, channels 1-9 with the laser shining outside of the brain. 
+exp1.add_session('14-26-23', 'e', 'optoTuningAM', 'am_tuning_curve') #440
+exp1.add_session('14-41-11', 'f', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+
+exp1.add_site(3029)
+# IT IS THE SAME SITE AS THE SECOND ONE (3280). I JUST ADDED A NEW SITE FOR DATA ANALYSIS PURPOSES
+#Recording from all shanks, channels 97-192, with the laser shining outside of the brain. 
+exp1.add_session('14-58-02', 'g', 'optoTuningAM', 'am_tuning_curve') #440
+exp1.add_session('15-12-29', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 trials
