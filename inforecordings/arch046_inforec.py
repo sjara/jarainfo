@@ -98,7 +98,7 @@ exp0.add_session('15-02-02', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 #Took the mouse out at 15:45 pm. 
 
 
-exp1 = celldatabase.Experiment(subject, '2026-03-25', brainArea='left_pStr', probe='NPv2-8253', recordingTrack='centerCenter_DiD, info=['facesLateral', 'soundRight'])
+exp1 = celldatabase.Experiment(subject, '2026-03-25', brainArea='left_pStr', probe='NPv2-8253', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundRight'])
 
 experiments.append(exp1)
 
