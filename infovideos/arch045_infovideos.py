@@ -72,5 +72,17 @@ videos.add_session('2026-03-11', 'optoNaturalInstances',
                    'arch045_natural_sound_detection_20260311b.h5', cameraParams)
 
 
+#....................................................................................................
+# 2026-04-14
+#session with 440  trial, recording from all shanks 1-96.
+videos.add_session('2026-02-24', 'optoTuningAM',
+                   'arch045_am_tuning_curve_20260414_01.mkv',
+                   'arch045_am_tuning_curve_20260414a.h5', cameraParams)
 
+ 
+#session with 640 trials
+videos.add_session('2026-02-24', 'optoTuningFreq',
+                   'arch045_am_tuning_curve_20260414_02.mkv',
+                   'arch045_am_tuning_curve_20260414b.h5', cameraParams)
 
+#....................................................................................................
