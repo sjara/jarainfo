@@ -1,3 +1,26 @@
+from jaratoolbox import celldatabase
+
+subject = 'arch047'
+experiments = []
+
+# Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+# Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
+
+#expX = celldatabase.Experiment(subject, '2025-05-xx', brainArea='right_AC', probe='NPv2-5422', recordingTrack='anteriorxxx_DYE', info=['facesxx', 'soundLeft'])
+
+# Reference electrode is 3:tip
+
+#experiments.append(expx)
+
+
+#expx.add_site(1500)
+#expx.maxDepth = 1500
+#expx.add_session('xx-xx-xx', 'a', 'pureTones', 'am_tuning_curve')
+#expx.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
+#expx.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
+
+
 exp0 = celldatabase.Experiment(subject, '2026-03-31', brainArea='left_pStr', probe='NPv2-8253', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundRight'])
 
 experiments.append(exp0)
