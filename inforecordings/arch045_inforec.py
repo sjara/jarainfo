@@ -83,3 +83,24 @@ exp1.add_session('12-38-23', 'b', 'optoNaturalInstances', 'natural_sound_detecti
 
 exp1.maxDepth = 3700
 #........................................................................................................
+exp2 = celldatabase.Experiment(subject, '2026-04-14', brainArea='left_pStr', probe='NPv2-8253', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundRight'])
+
+experiments.append(exp2)
+
+#I tried alot and exactly at this depth one of the shanks tended to bend, I believe it is touching the optic fiber, i still decided to record to sessions in case.
+
+
+
+exp2.add_site(2568) 
+
+# Shank 3 Bank A
+exp2.add_session('13-47-59', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+# Shank 3 Bank B
+exp2.add_session('13-50-07', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
+
+#Recording from all shanks, channels 1-96.
+exp2.add_session('13-14-00', 'a', 'optoTuningAM', 'am_tuning_curve') #440
+exp2.add_session('13-29-29', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+exp2.maxDepth = 2568
+#.....................................................................................................
