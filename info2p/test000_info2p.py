@@ -34,7 +34,7 @@ newSession = {'subject':subject, 'date':'20260101', 'session': '001',
 sessions.append(newSession)
 
 '''
-# -- Here is the info that gets saved in the .mat file by Scanbox --
+# --- Here is the info that gets saved in the .mat file by Scanbox ---
 In [2]: data2p.info
 Out[2]: 
 {'frame': array([   34,    42,    60, ..., 13733, 13750, 13757],
