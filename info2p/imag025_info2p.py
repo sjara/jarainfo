@@ -84,6 +84,7 @@ newSession = {'subject':subject, 'date':'20260403', 'session': '009',
               'laserPower': 47, 'wavelength': 920, 'nFrames': 35856, 
               'sessionLabel': 'AUDp_highFreq_spont', 'paradigm':'none'}
 sessions.append(newSession)
+# PMT0
 
 
 
