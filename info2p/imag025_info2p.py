@@ -85,6 +85,7 @@ newSession = {'subject':subject, 'date':'20260403', 'session': '009',
               'sessionLabel': 'AUDp_highFreq_spont', 'paradigm':'none'}
 sessions.append(newSession)
 # PMT0
+# PMT1
 
 newSession = {'subject':subject, 'date':'20260417', 'session': '000',
               'fps': 9.92, 'magnification': 1.4, 'depth': 179.91, 'angle': 44.77,
