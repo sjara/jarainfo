@@ -139,3 +139,10 @@ newSession = {'subject':subject, 'date':'20260402', 'session': '009',
               'sessionLabel': 'green_zStack_center_single_frame_save_PMT0_and_1', 'paradigm':'none'}
 sessions.append(newSession)
 
+newSession = {'subject':subject, 'date':'20260417', 'session': '000',
+              'fps': 9.96, 'magnification': 1.0, 'depth': 146, 'angle': 42.73,
+              'laserPower': 34, 'wavelength': 920, 'nFrames': 3000, 
+              'sessionLabel': 'green_AUDp_lowFreq_tuningFreq_save_PMT0_and_1', 'paradigm':'tuningFreq'}
+sessions.append(newSession)
+#PMT0 & 1
+

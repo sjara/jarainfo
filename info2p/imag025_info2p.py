@@ -102,26 +102,39 @@ sessions.append(newSession)
 # PMT0
 
 newSession = {'subject':subject, 'date':'20260417', 'session': '002',
-              'fps': 9.92, 'magnification': 1.4, 'depth': 235.29, 'angle': 44.77,
+              'fps': 9.92, 'magnification': 1.4, 'depth': 177.6, 'angle': 44.77,
               'laserPower': 42, 'wavelength': 920, 'nFrames': 6115, 
               'sessionLabel': 'AUDp_tuningFreq_green_antDors', 'paradigm':'tuningFreq'}
 sessions.append(newSession)
 # PMT0
 
 newSession = {'subject':subject, 'date':'20260417', 'session': '003',
-              'fps': 9.92, 'magnification': 1.4, 'depth': 235.29, 'angle': 44.77,
+              'fps': 9.92, 'magnification': 1.4, 'depth': 177.6, 'angle': 44.77,
               'laserPower': 42, 'wavelength': 920, 'nFrames': 6115, 
               'sessionLabel': 'AUDp_tuningAM_green_antDors', 'paradigm':'tuningAM'}
 sessions.append(newSession)
 # PMT0
 
 newSession = {'subject':subject, 'date':'20260417', 'session': '004',
-              'fps': 9.92, 'magnification': 1.4, 'depth': 235.29, 'angle': 44.77,
+              'fps': 9.92, 'magnification': 1.4, 'depth': 128.06, 'angle': 44.77,
               'laserPower': 42, 'wavelength': 920, 'nFrames': 6115, 
               'sessionLabel': 'AUDv_AAF_tuningFreq_green', 'paradigm':'tuningFreq'}
 sessions.append(newSession)
 # PMT0
 
+newSession = {'subject':subject, 'date':'20260417', 'session': '005',
+              'fps': 9.92, 'magnification': 1.4, 'depth': 128.06, 'angle': 44.77,
+              'laserPower': 42, 'wavelength': 920, 'nFrames': 6115, 
+              'sessionLabel': 'AUDv_AAF_tuningAM_green', 'paradigm':'tuningAM'}
+sessions.append(newSession)
+# PMT0
+
+newSession = {'subject':subject, 'date':'20260417', 'session': '006',
+              'fps': 9.92, 'magnification': 1.4, 'depth': 181.41, 'angle': 44.75,
+              'laserPower': 42, 'wavelength': 920, 'nFrames': 6115, 
+              'sessionLabel': 'AUDv_tuningAM_green_ventLat', 'paradigm':'tuningAM'}
+sessions.append(newSession)
+# PMT0
 
 
 
