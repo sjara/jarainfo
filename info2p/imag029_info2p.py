@@ -146,3 +146,66 @@ newSession = {'subject':subject, 'date':'20260417', 'session': '000',
 sessions.append(newSession)
 #PMT0 & 1
 
+newSession = {'subject':subject, 'date':'20260424', 'session': '000',
+              'fps': 19.96, 'magnification': 1.0, 'depth': 171.02, 'angle': 41.53,
+              'laserPower': 25, 'wavelength': 920, 'nFrames': 12230, 
+              'sessionLabel': 'green_AUDp_medFreq_tuningFreq_save_PMT0_and_1', 'paradigm':'am_tuning'}
+sessions.append(newSession)
+#PMT0 & 1
+
+newSession = {'subject':subject, 'date':'20260424', 'session': '001',
+              'fps': 9.96, 'magnification': 1.0, 'depth': 171.02, 'angle': 41.53,
+              'laserPower': 25, 'wavelength': 920, 'nFrames': 6115, 
+              'sessionLabel': 'green_AUDp_medFreq_tuningFreq_save_PMT0_and_1', 'paradigm':'am_tuning'}
+sessions.append(newSession)
+#PMT0 & 1
+
+newSession = {'subject':subject, 'date':'20260424', 'session': '002',
+              'fps': 9.96, 'magnification': 1.0, 'depth': 171.02, 'angle': 41.53,
+              'laserPower': 25, 'wavelength': 920, 'nFrames': 4263, 
+              'sessionLabel': 'green_AUDp_medFreq_tuningAM_save_PMT0_and_1', 'paradigm':'am_tuning'}
+sessions.append(newSession)
+#PMT0 & 1
+
+newSession = {'subject':subject, 'date':'20260424', 'session': '003',
+              'fps': 9.96, 'magnification': 1.0, 'depth': 171.02, 'angle': 41.53,
+              'laserPower': 38, 'wavelength': 920, 'nFrames': 500, 
+              'sessionLabel': 'red_AUDp_medFreq_anat_save_PMT1', 'paradigm':'none'}
+sessions.append(newSession)
+#PMT1
+
+newSession = {'subject':subject, 'date':'20260424', 'session': '004',
+              'fps': 9.96, 'magnification': 1.0, 'depth': 502.74, 'angle': 41.53,
+              'laserPower': 60, 'wavelength': 920, 'nFrames': 6115, 
+              'sessionLabel': 'green_AUDp_medFreq_tuningFreq_save_PMT0_and_1', 'paradigm':'am_tuning'}
+sessions.append(newSession)
+#PMT0 & 1
+
+newSession = {'subject':subject, 'date':'20260424', 'session': '005',
+              'fps': 9.96, 'magnification': 1.0, 'depth': 502.74, 'angle': 41.53,
+              'laserPower': 60, 'wavelength': 920, 'nFrames': 8526, 
+              'sessionLabel': 'green_AUDp_medFreq_tuningAM_save_PMT0_and_1', 'paradigm':'am_tuning'}
+sessions.append(newSession)
+#PMT0 & 1
+
+newSession = {'subject':subject, 'date':'20260424', 'session': '006',
+              'fps': 9.96, 'magnification': 2.4, 'depth': 466.55, 'angle': 41.53,
+              'laserPower': 65, 'wavelength': 920, 'nFrames': 8526, 
+              'sessionLabel': 'green_AUDp_highFreq_tuningAM_save_PMT0_and_1', 'paradigm':'am_tuning'}
+sessions.append(newSession)
+#PMT0 & 1
+
+newSession = {'subject':subject, 'date':'20260424', 'session': '007',
+              'fps': 9.96, 'magnification': 2.4, 'depth': 466.55, 'angle': 41.53,
+              'laserPower': 65, 'wavelength': 920, 'nFrames': 8526, 
+              'sessionLabel': 'green_AUDp_highFreq_tuningFreq_save_PMT0_and_1', 'paradigm':'am_tuning'}
+sessions.append(newSession)
+#PMT0 & 1
+
+newSession = {'subject':subject, 'date':'20260424', 'session': '008',
+              'fps': 9.96, 'magnification': 2.4, 'depth': 438.81, 'angle': 41.53,
+              'laserPower': 64, 'wavelength': 920, 'nFrames': 6115, 
+              'sessionLabel': 'green_AUDp_highFreq_tuningFreq_save_PMT0_and_1', 'paradigm':'am_tuning'}
+sessions.append(newSession)
+#PMT0 & 1
+
