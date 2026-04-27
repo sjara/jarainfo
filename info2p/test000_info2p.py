@@ -13,7 +13,8 @@ laserPower: percentage shown by Scanbox.
 wavelength: laser wavelength.
 nFrames: total number of frames collected.
 sessionLabel: short string describing the session.
-brainArea: aproximate brain area, e.g., 'low_freq_A1', 'AAF_A2'.
+brainArea: aproximate brain area, e.g., 'A1_lowFreq', 'AAF_A2'.
+pmt: either [0], [1], [0, 1] depending on which PMT was used for imaging.
 paradigm: name of taskontrol paradigm used during the session.
 
 NOTE: when you save the stimulus/behavior data via the taskontrol paradigm
@@ -29,12 +30,12 @@ sessions = []
 newSession = {'subject':subject, 'date':'20260101', 'session': '001',
               'fps': 15.49, 'magnification': 2.4, 'depth': 250, 'angle': 48.56,
               'laserPower': 56, 'wavelength': 920, 'nFrames': 200,
-              'brainArea': 'low_freq_AAF', 'sessionLabel': 'freq_tuning',
-              'paradigm':'am_tuning_curve'}
+              'brainArea': 'AAF_lowFreq', 'sessionLabel': 'freq_tuning',
+              'pmt': [0, 1], 'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 
 '''
-# Here is the info that gets saved in the .mat file by Scanbox
+# --- Here is the info that gets saved in the .mat file by Scanbox ---
 In [2]: data2p.info
 Out[2]: 
 {'frame': array([   34,    42,    60, ..., 13733, 13750, 13757],

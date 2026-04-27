@@ -86,3 +86,40 @@ videos.add_session('2026-02-24', 'optoTuningFreq',
                    'arch045_am_tuning_curve_20260414b.h5', cameraParams)
 
 #....................................................................................................
+# 2026-04-16
+#session with 440  trial, recording from all shanks 1-96.
+videos.add_session('2026-04-16', 'optoTuningAM',
+                   'arch045_am_tuning_curve_20260416_01.mkv',
+                   'arch045_am_tuning_curve_20260416a.h5', cameraParams)
+
+ 
+#session with 640 trials
+videos.add_session('2026-04-16', 'optoTuningFreq',
+                   'arch045_am_tuning_curve_20260416_02.mkv',
+                   'arch045_am_tuning_curve_20260416b.h5', cameraParams)
+
+#session with 200 trials
+videos.add_session('2026-04-16', 'optoNaturalCategories',
+                   'arch045_natural_sound_detection_20260416_03.mkv',
+                   'arch045_natural_sound_detection_20260416a.h5', cameraParams)
+        
+
+#session with 160 trials
+videos.add_session('2026-04-16', 'optoNaturalInstances',
+                   'arch045_natural_sound_detection_20260416_04.mkv',
+                   'arch045_natural_sound_detection_20260416b.h5', cameraParams)
+
+
+# 2026-04-16
+#session with 440  trial, recording from all shanks 97-192.
+videos.add_session('2026-04-16', 'optoTuningAM',
+                   'arch045_am_tuning_curve_20260416_05.mkv',
+                   'arch045_am_tuning_curve_20260416c.h5', cameraParams)
+
+ 
+#session with 640 trials
+videos.add_session('2026-04-16', 'optoTuningFreq',
+                   'arch045_am_tuning_curve_20260416_06.mkv',
+                   'arch045_am_tuning_curve_20260416d.h5', cameraParams)
+
+#...............................................................................
