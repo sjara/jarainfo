@@ -24,9 +24,85 @@ NOTE: when you save the stimulus/behavior data via the taskontrol paradigm
 subject = 'imag029'
 sessions = []
 
+newSession = {'subject':subject, 'date':'20260219', 'session': '000',
+              'fps': 15.49, 'magnification': 1.0, 'depth': 610, 'angle': 43.39,
+              'laserPower': 67, 'wavelength': 920, 'nFrames': 10000,
+              'brainArea': 'A1', 'sessionLabel': 'spont', 
+              'pmt': [0,1], 'paradigm':'none'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260219', 'session': '001',
+              'fps': 15.49, 'magnification': 1.0, 'depth': 610, 'angle': 43.39,
+              'laserPower': 38, 'wavelength': 920, 'nFrames': 10000,
+              'brainArea': 'A1', 'sessionLabel': 'spont', 
+              'pmt': [0,1], 'paradigm':'none'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260219', 'session': '002',
+              'fps': 15.49, 'magnification': 1.0, 'depth': 610, 'angle': 43.39,
+              'laserPower': 70, 'wavelength': 1040, 'nFrames': 2000,
+              'brainArea': 'A1', 'sessionLabel': 'tdt_anat', 
+              'pmt': [0,1], 'paradigm':'none'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260219', 'session': '003',
+              'fps': 15.49, 'magnification': 1.0, 'depth': 610, 'angle': 43.39,
+              'laserPower': 38, 'wavelength': 920, 'nFrames': 7320,
+              'brainArea': 'A1', 'sessionLabel': 'aborted_tuningAM', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260219', 'session': '004',
+              'fps': 15.49, 'magnification': 1.0, 'depth': 610, 'angle': 43.39,
+              'laserPower': 65, 'wavelength': 1040, 'nFrames': 7320,
+              'brainArea': 'A1', 'sessionLabel': 'tuningAM', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260220', 'session': '000',
+              'fps': 9.96, 'magnification': 1.0, 'depth': 500, 'angle': 37.89,
+              'laserPower': 49, 'wavelength': 920, 'nFrames': 6630,
+              'brainArea': 'A1', 'sessionLabel': 'tuningAM', 
+              'pmt': [0], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260220', 'session': '001',
+              'fps': 9.96, 'magnification': 1.0, 'depth': 500, 'angle': 37.89,
+              'laserPower': 49, 'wavelength': 920, 'nFrames': 9573,
+              'brainArea': 'A1', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260220', 'session': '002',
+              'fps': 9.96, 'magnification': 1.0, 'depth': 500, 'angle': 37.89,
+              'laserPower': 49, 'wavelength': 920, 'nFrames': 25235,
+              'brainArea': 'A1', 'sessionLabel': 'naturalSounds', 
+              'pmt': [0], 'paradigm':'natural_sound_detection'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260220', 'session': '003',
+              'fps': 9.96, 'magnification': 1.0, 'depth': 500, 'angle': 37.89,
+              'laserPower': 49, 'wavelength': 920, 'nFrames': 9573,
+              'brainArea': 'A1', 'sessionLabel': 'tuningFreqTrain', 
+              'pmt': [0], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260220', 'session': '004',
+              'fps': 9.96, 'magnification': 1.0, 'depth': 500, 'angle': 37.89,
+              'laserPower': 67, 'wavelength': 920, 'nFrames': 1000,
+              'brainArea': 'A1', 'sessionLabel': 'tdtAnat', 
+              'pmt': [1], 'paradigm':'none'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260220', 'session': '005',
+              'fps': 9.96, 'magnification': 1.0, 'depth': 500, 'angle': 37.89,
+              'laserPower': 67, 'wavelength': 1040, 'nFrames': 1000,
+              'brainArea': 'A1', 'sessionLabel': 'tdtAnat_zStack', 
+              'pmt': [1], 'paradigm':'none'}
+sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260227', 'session': '000',
-              'fps': 15.49, 'magnification': 1.0, 'depth': 500, 'angle': 42.93,
+              'fps': 9.96, 'magnification': 1.0, 'depth': 375, 'angle': 42.93,
               'laserPower': 65, 'wavelength': 920, 'nFrames': 1000,
               'brainArea': 'A1_midFreq', 'sessionLabel': 'GCamp8m_anat', 
               'pmt': [0], 'paradigm':'none'}
