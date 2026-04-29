@@ -237,7 +237,7 @@ sessions.append(newSession)
 newSession = {'subject':subject, 'date':'20260424', 'session': '000',
               'fps': 19.96, 'magnification': 1.0, 'depth': 171.02, 'angle': 41.53,
               'laserPower': 25, 'wavelength': 920, 'nFrames': 12230,
-              'brainArea': 'A1_medFreq', 'sessionLabel': 'tuningAM', 
+              'brainArea': 'A1_medFreq', 'sessionLabel': 'tuningFreq', 
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
@@ -251,8 +251,8 @@ sessions.append(newSession)
 newSession = {'subject':subject, 'date':'20260424', 'session': '002',
               'fps': 9.96, 'magnification': 1.0, 'depth': 171.02, 'angle': 41.53,
               'laserPower': 25, 'wavelength': 920, 'nFrames': 4263,
-              'brainArea': 'A1_medFreq', 'sessionLabel': 'natSounds', 
-              'pmt': [0,1], 'paradigm':'natural_sound_detection'}
+              'brainArea': 'A1_medFreq', 'sessionLabel': 'tuningAM', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260424', 'session': '003',
@@ -265,15 +265,15 @@ sessions.append(newSession)
 newSession = {'subject':subject, 'date':'20260424', 'session': '004',
               'fps': 9.96, 'magnification': 1.0, 'depth': 502.74, 'angle': 41.53,
               'laserPower': 60, 'wavelength': 920, 'nFrames': 6115,
-              'brainArea': 'A1_medFreq', 'sessionLabel': 'GCaMP8m_anat', 
-              'pmt': [0,1], 'paradigm':'none'}
+              'brainArea': 'A1_medFreq', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260424', 'session': '005',
               'fps': 9.96, 'magnification': 1.0, 'depth': 502.74, 'angle': 41.53,
               'laserPower': 60, 'wavelength': 920, 'nFrames': 8526,
-              'brainArea': 'A1_medFreq', 'sessionLabel': 'GCaMP8m_anat', 
-              'pmt': [0,1], 'paradigm':'none'}
+              'brainArea': 'A1_medFreq', 'sessionLabel': 'tuningAM', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260424', 'session': '006',
@@ -285,7 +285,7 @@ sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260424', 'session': '007',
               'fps': 9.96, 'magnification': 2.4, 'depth': 466.55, 'angle': 41.53,
-              'laserPower': 65, 'wavelength': 920, 'nFrames': 8526,
+              'laserPower': 65, 'wavelength': 920, 'nFrames': 6115,
               'brainArea': 'A1_highFreq', 'sessionLabel': 'tuningFreq', 
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
