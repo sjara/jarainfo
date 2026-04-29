@@ -27,31 +27,36 @@ sessions = []
 
 newSession = {'subject':subject, 'date':'20260227', 'session': '000',
               'fps': 15.49, 'magnification': 1.0, 'depth': 250, 'angle': 35.37,
-              'laserPower': 33, 'wavelength': 1040, 'nFrames': 1000, 
-              'sessionLabel': 'tdt_anat', 'paradigm':'none'}
+              'laserPower': 33, 'wavelength': 1040, 'nFrames': 1000,
+              'brainArea': 'A1', 'sessionLabel': 'tdt_anat', 
+              'pmt': [1], 'paradigm':'none'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260227', 'session': '001',
               'fps': 15.49, 'magnification': 1.0, 'depth': 250, 'angle': 35.37,
-              'laserPower': 54, 'wavelength': 980, 'nFrames': 1000, 
-              'sessionLabel': 'GCaMP_anat', 'paradigm':'none'}
+              'laserPower': 54, 'wavelength': 980, 'nFrames': 1000,
+              'brainArea': 'A1', 'sessionLabel': 'GCaMP8m_tdt_anat', 
+              'pmt': [0,1], 'paradigm':'none'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260227', 'session': '002',
               'fps': 15.49, 'magnification': 1.0, 'depth': 250, 'angle': 35.37,
-              'laserPower': 60, 'wavelength': 920, 'nFrames': 1000, 
-              'sessionLabel': 'freq_tuning', 'paradigm':'am_tuning_curve'}
+              'laserPower': 60, 'wavelength': 920, 'nFrames': 1000,
+              'brainArea': 'A1', 'sessionLabel': 'GCaMP8m_anat', 
+              'pmt': [0], 'paradigm':'none'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260227', 'session': '003',
               'fps': 15.49, 'magnification': 1.0, 'depth': 250, 'angle': 35.37,
-              'laserPower': 60, 'wavelength': 920, 'nFrames': 6630, 
-              'sessionLabel': 'tuningAM', 'paradigm':'tuningAM'}
+              'laserPower': 60, 'wavelength': 920, 'nFrames': 6630,
+              'brainArea': 'A1', 'sessionLabel': 'tuningAM', 
+              'pmt': [0], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260227', 'session': '004',
               'fps': 15.49, 'magnification': 1.0, 'depth': 250, 'angle': 35.37,
-              'laserPower': 60, 'wavelength': 920, 'nFrames': 9573, 
-              'sessionLabel': 'tuningFreq', 'paradigm':'tuningFreq'}
+              'laserPower': 60, 'wavelength': 920, 'nFrames': 9573,
+              'brainArea': 'A1', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
