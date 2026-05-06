@@ -143,7 +143,7 @@ newSession = {'subject':subject, 'date':'20260227', 'session': '005',
               'pmt': [0], 'paradigm':'natural_sound_detection'}
 sessions.append(newSession)
 
-newSession = {'subject':subject, 'date':'20260227', 'session': '006',                                                              ',
+newSession = {'subject':subject, 'date':'20260227', 'session': '006',                                                              
               'fps': 15.49, 'magnification': 1.0, 'depth': 500, 'angle': 42.93,
               'laserPower': 65, 'wavelength': 1040, 'nFrames': 10,
               'brainArea': 'A1_midFreq', 'sessionLabel': 'tdt_anat_zStack', 
