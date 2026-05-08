@@ -298,4 +298,11 @@ newSession = {'subject':subject, 'date':'20260424', 'session': '008',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
+newSession = {'subject':subject, 'date':'20260508', 'session': '000',
+              'fps': 9.96, 'magnification': 2.4, 'depth': 139, 'angle': 41.59,
+              'laserPower': 34, 'wavelength': 920, 'nFrames': 6115,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
 
