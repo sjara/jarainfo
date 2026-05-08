@@ -24,31 +24,31 @@ signalType = 'GCaMP8m'
 sessions = []
 
 
-newSession = {'subject':subject, 'date':'20260501', 'time': '093044', 'suffix':'EDV',
+newSession = {'subject':subject, 'date':'20260501', 'time': '110958', 'suffix':'EDV',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
               'LED':5, 'depth':200, 'frequencies':[3], 'intensities':[70,80],
               'paradigm':'am_tuning'}
 sessions.append(newSession)
 
-newSession = {'subject':subject, 'date':'20260501', 'time': '093044', 'suffix':'EDV',
+newSession = {'subject':subject, 'date':'20260501', 'time': '112348', 'suffix':'EDV',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
               'LED':5, 'depth':200, 'frequencies':[3], 'intensities':[60,70],
               'paradigm':'am_tuning'}
 sessions.append(newSession)
 
-newSession = {'subject':subject, 'date':'20260501', 'time': '093044', 'suffix':'EDV',
+newSession = {'subject':subject, 'date':'20260501', 'time': '113124', 'suffix':'EDV',
               'sessionLabel': 'lowtoneTrains', 'signalType':signalType, 
               'LED':5, 'depth':200, 'frequencies':[1], 'intensities':[70],
               'paradigm':'am_tuning'}
 sessions.append(newSession)
 
-newSession = {'subject':subject, 'date':'20260501', 'time': '093044', 'suffix':'EDV',
+newSession = {'subject':subject, 'date':'20260501', 'time': '114127', 'suffix':'EDV',
               'sessionLabel': 'midtoneTrains', 'signalType':signalType, 
               'LED':5, 'depth':200, 'frequencies':[1], 'intensities':[60],
               'paradigm':'am_tuning'}
 sessions.append(newSession)
 
-newSession = {'subject':subject, 'date':'20260501', 'time': '093044', 'suffix':'EDV',
+newSession = {'subject':subject, 'date':'20260501', 'time': '114805', 'suffix':'EDV',
               'sessionLabel': 'hightoneTrains', 'signalType':signalType, 
               'LED':5, 'depth':200, 'frequencies':[1], 'intensities':[70],
               'paradigm':'am_tuning'}
