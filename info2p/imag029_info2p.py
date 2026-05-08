@@ -305,4 +305,39 @@ newSession = {'subject':subject, 'date':'20260508', 'session': '000',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
+newSession = {'subject':subject, 'date':'20260508', 'session': '001',
+              'fps': 9.96, 'magnification': 2.4, 'depth': 461, 'angle': 41.59,
+              'laserPower': 78, 'wavelength': 920, 'nFrames': 6115,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260508', 'session': '002',
+              'fps': 19.92, 'magnification': 1.7, 'depth': 372, 'angle': 41.59,
+              'laserPower': 53, 'wavelength': 920, 'nFrames': 36690,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260508', 'session': '003',
+              'fps': 19.92, 'magnification': 1.7, 'depth': 451, 'angle': 41.59,
+              'laserPower': 74, 'wavelength': 920, 'nFrames': 36690,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260508', 'session': '004',
+              'fps': 19.92, 'magnification': 2.0, 'depth': 289, 'angle': 41.59,
+              'laserPower': 55, 'wavelength': 920, 'nFrames': 12230,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260508', 'session': '005',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 411, 'angle': 41.59,
+              'laserPower': 77, 'wavelength': 920, 'nFrames': 4263,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningAM', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
 

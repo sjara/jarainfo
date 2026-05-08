@@ -144,6 +144,40 @@ newSession = {'subject':subject, 'date':'20260417', 'session': '006',
               'pmt': [0], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
+newSession = {'subject':subject, 'date':'20260508', 'session': '000',
+              'fps': 19.92, 'magnification': 1.7, 'depth': 222.55, 'angle': 44.75,
+              'laserPower': 38, 'wavelength': 920, 'nFrames': 12230,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260508', 'session': '001',
+              'fps': 19.92, 'magnification': 1.7, 'depth': 222.55, 'angle': 44.75,
+              'laserPower': 38, 'wavelength': 920, 'nFrames': 8526,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningAM', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260508', 'session': '002',
+              'fps': 19.92, 'magnification': 1.7, 'depth': 222.55, 'angle': 44.75,
+              'laserPower': 38, 'wavelength': 920, 'nFrames': 19146,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'natSounds', 
+              'pmt': [0,1], 'paradigm':'natural_sound_detecction'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260508', 'session': '003',
+              'fps': 19.92, 'magnification': 1.7, 'depth': 186.93, 'angle': 44.75,
+              'laserPower': 43, 'wavelength': 920, 'nFrames': 12230,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260508', 'session': '004',
+              'fps': 19.92, 'magnification': 1.7, 'depth': 186.93, 'angle': 44.75,
+              'laserPower': 43, 'wavelength': 920, 'nFrames': 8526,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'tuningAM', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
 
 
 
