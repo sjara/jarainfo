@@ -137,3 +137,53 @@ exp3.add_site(2789)
 exp3.add_session('12-20-25', 'c', 'optoTuningAM', 'am_tuning_curve') #488
 exp3.add_session('12-36-33', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 #...................................................................................
+exp4 = celldatabase.Experiment(subject, '2026-04-19', brainArea='left_pStr', probe='NPv2-8253', recordingTrack='centerRight_DiI', info=['facesLateral', 'soundRight'])
+
+experiments.append(exp0)
+
+#Mouse in the rig at 10:15pm
+#I had to remove the dura-get to be able to penetrate. After removing the duragel penetrated easily.
+#The reference is tip 3.
+#Red part of the probe faces medial.
+#This mouse does not have a ground wire. I used the saline well for grounding.
+#The probe was fine when checked bbefore inseriting, Although it is very noisy when decided to record. I tried grounding as best as I could but the results where not satisfactory. I could see spikes so I decided to record anyways.
+#zeroed from the surface of the brain. 
+
+
+
+exp4.add_site(3600) 
+exp4.maxDepth = 3602
+
+# Shank 3 Bank A
+exp4.add_session('16-03-26', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+# Shank 3 Bank B
+exp4.add_session('16-05-22', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
+
+#Recording from all shanks, channels 97-192.
+exp4.add_session('12-03-14', 'a', 'optoTuningAM', 'am_tuning_curve') #440
+exp4.add_session('12-18-47', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+exp4.add_session('12-34-49', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+exp4.add_session('13-01-56', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+
+#gave water to the mouse
+exp4.add_site(2880) 
+# IT IS THE SAME SITE AS THE FIRST ONE. I JUST ADDED A NEW SITE FOR DATA ANALYSIS PURPOSES
+#Recoeding from all shanks, channels 1-96.
+exp4.add_session('13-28-55', 'c', 'optoTuningAM', 'am_tuning_curve') #440
+exp4.add_session('13-28-55', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+#The mouse's eye becoming cloudy. 
+exp4.add_session('13-59-45', 'c', 'optoNaturalCategories', 'natural_sound_detection') #203 OptoNaturalCategories
+exp4.add_session('14-27-44', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+
+exp4.add_site(3599) 
+#Recording from all shanks, channels 1-96.
+exp4.add_session('14-55-44', 'e', 'optoTuningAM', 'am_tuning_curve') #440
+#Vaterycin applied to the eyes. 
+exp4.add_session('15-13-41', 'f', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+
+#Gave mouse water
+exp4.add_site(2879) 
+#Recording from all shanks, channels 97-192.
+exp4.add_session('15-32-42', 'g', 'optoTuningAM', 'am_tuning_curve') #440
+exp4.add_session('15-46-56', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 trials
