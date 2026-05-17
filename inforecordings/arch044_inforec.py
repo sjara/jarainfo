@@ -43,10 +43,10 @@ exp0.maxDepth = 4720
 
 
 # Shank 3 Bank A
-exp0.add_session('12-29-25', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp0.add_session('12-29-25', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 3 Bank B
-exp0.add_session('12-32-18', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
+#exp0.add_session('12-32-18', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Shanks 3 and 4. Manually selected channels 1-96 and 97-192.
 exp0.add_session('12-38-17', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -80,10 +80,10 @@ exp1.maxDepth = 4700
 
 
 # Shank 3 Bank A
-exp1.add_session('11-48-21', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp1.add_session('11-48-21', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 3 Bank B
-exp1.add_session('11-50-23', 'f', 'tuningFreq', 'am_tuning_curve') #43 trial
+#exp1.add_session('11-50-23', 'f', 'tuningFreq', 'am_tuning_curve') #43 trial
 
 #Shanks 3 and 4. Manually selected channels 1-96 and 97-192.
 exp1.add_session('11-53-56', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -126,10 +126,10 @@ exp2.maxDepth = 4530
 
 
 # Shank 3 Bank A
-exp2.add_session('13-40-52', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp2.add_session('13-40-52', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 3 Bank B
-exp2.add_session('13-43-00', 'f', 'tuningFreq', 'am_tuning_curve') #43 trial
+#exp2.add_session('13-43-00', 'f', 'tuningFreq', 'am_tuning_curve') #43 trial
 
 #Shanks 3 and 4. Manually selected channels 1-96 and 97-192.
 exp2.add_session('10-54-23', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -168,10 +168,10 @@ exp3.maxDepth = 4500
 
 
 # Shank 3 Bank A
-exp3.add_session('10-42-16', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp3.add_session('10-42-16', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 3 Bank B
-exp3.add_session('10-44-25', 'f', 'tuningFreq', 'am_tuning_curve') #43 trial
+#exp3.add_session('10-44-25', 'f', 'tuningFreq', 'am_tuning_curve') #43 trial
 
 #Shanks 3 and 4. Manually selected channels 1-96 and 97-192.
 exp3.add_session('10-47-09', 'a', 'optoTuningAM', 'am_tuning_curve') #440

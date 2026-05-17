@@ -35,10 +35,10 @@ experiments.append(exp0)
 exp0.add_site(4000) 
 
 # Shank 3 Bank A
-exp0.add_session('16-54-44', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp0.add_session('16-54-44', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 3 Bank B
-exp0.add_session('16-59-35', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
+#exp0.add_session('16-59-35', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from all shanks, channels 1-96.
 exp0.add_session('13-44-52', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -70,10 +70,10 @@ exp1.add_site(3700)
 #Took the mouse out at 13:20pm.
 
 # Shank 3 Bank A
-exp1.add_session('13-06-24', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp1.add_session('13-06-24', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 3 Bank B
-exp1.add_session('13-08-47', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
+#exp1.add_session('13-08-47', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from 1 and 3, channels 1-96, and recording from shank 4 channels 1-192.(Not recording from shank 2).
 exp1.add_session('11-37-38', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -94,10 +94,10 @@ experiments.append(exp2)
 exp2.add_site(2568) 
 
 # Shank 3 Bank A
-exp2.add_session('13-47-59', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp2.add_session('13-47-59', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 3 Bank B
-exp2.add_session('13-50-07', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
+#exp2.add_session('13-50-07', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from all shanks, channels 1-96.
 exp2.add_session('13-14-00', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -120,10 +120,10 @@ exp3.add_site(3510)
 exp3.maxDepth = 3570
 
 # Shank 3 Bank A
-exp3.add_session('12-57-41', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp3.add_session('12-57-41', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 3 Bank B
-exp3.add_session('12-59-50', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
+#exp3.add_session('12-59-50', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from all shanks, channels 1-96.
 exp3.add_session('10-51-48', 'a', 'optoTuningAM', 'am_tuning_curve') #440
