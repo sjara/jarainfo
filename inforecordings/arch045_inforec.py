@@ -106,7 +106,7 @@ exp2.maxDepth = 2568
 #.....................................................................................................
 exp3 = celldatabase.Experiment(subject, '2026-04-16', brainArea='left_pStr', probe='NPv2-8253', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundRight'])
 
-experiments.append(exp0)
+experiments.append(exp3)
 
 #Mouse in the rig at 10:15pm
 #Penetrated easly.
@@ -139,7 +139,7 @@ exp3.add_session('12-36-33', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 #...................................................................................
 exp4 = celldatabase.Experiment(subject, '2026-04-19', brainArea='left_pStr', probe='NPv2-8253', recordingTrack='centerRight_DiI', info=['facesLateral', 'soundRight'])
 
-experiments.append(exp0)
+experiments.append(exp4)
 
 #Mouse in the rig at 10:15pm
 #I had to remove the dura-get to be able to penetrate. After removing the duragel penetrated easily.
