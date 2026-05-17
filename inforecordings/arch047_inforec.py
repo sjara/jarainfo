@@ -38,10 +38,10 @@ exp0.add_site(3700)
 exp0.maxDepth = 3700
 
 # Shank 1 Bank A
-exp0.add_session('18-46-03', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp0.add_session('18-46-03', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 1 Bank B
-exp0.add_session('18-48-18', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
+#exp0.add_session('18-48-18', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from all shanks, channels 1-96.
 exp0.add_session('14-40-53', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -86,10 +86,10 @@ exp1.add_site(3710)
 exp1.maxDepth = 3710
 
 # Shank 1 Bank A
-exp1.add_session('12-22-10', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp1.add_session('12-22-10', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 1 Bank B
-exp1.add_session('12-24-03', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
+#exp1.add_session('12-24-03', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from all shanks, channels 1-96.
 exp1.add_session('09-34-55', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -122,10 +122,10 @@ exp2.add_site(3700)
 exp2.maxDepth = 3700
 
 # Shank 3 Bank A
-exp2.add_session('15-18-07', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp2.add_session('15-18-07', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 3 Bank B
-exp2.add_session('15-20-14', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
+#exp2.add_session('15-20-14', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from all shanks, channels 1-96.
 exp2.add_session('11-00-26', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -170,10 +170,10 @@ exp3.add_site(3600)
 exp3.maxDepth = 3600
 
 # Shank 3 Bank A
-exp3.add_session('15-18-59', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp3.add_session('15-18-59', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 3 Bank B
-exp3.add_session('15-20-52', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
+#exp3.add_session('15-20-52', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from all shanks, channels 1-96.
 exp3.add_session('12-31-43', 'a', 'optoTuningAM', 'am_tuning_curve') #440

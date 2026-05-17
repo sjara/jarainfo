@@ -38,10 +38,10 @@ exp0.add_site(4000)
 exp0.maxDepth = 4000
 
 # Shank 1 Bank A
-exp0.add_session('13-59-15', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp0.add_session('13-59-15', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 1 Bank B
-exp0.add_session('14-02-09', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
+#exp0.add_session('14-02-09', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from all shanks, channels 1-96.
 exp0.add_session('11-05-29', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -108,10 +108,10 @@ exp1.add_site(3750)
 exp1.maxDepth = 3750
 
 # Shank 1 Bank A
-exp1.add_session('14-18-10', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp1.add_session('14-18-10', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 # Shank 1 Bank B
-exp1.add_session('14-20-26', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
+#exp1.add_session('14-20-26', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from all shanks, channels 1-96.
 exp1.add_session('11-12-25', 'a', 'optoTuningAM', 'am_tuning_curve') #440

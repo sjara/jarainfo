@@ -28,65 +28,219 @@ sessions = []
 newSession = {'subject':subject, 'date':'20260403', 'session': '000',
               'fps': 9.96, 'magnification': 1.2, 'depth': 193.17, 'angle': 42.97,
               'laserPower': 36, 'wavelength': 920, 'nFrames': 4263, 
-              'sessionLabel': 'AUD_all_tuningAM', 'paradigm':'tuningAM'}
+              'brainArea': 'AUD_all', 'sessionLabel': 'tuningAM', 
+              'pmt': [0], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260403', 'session': '001',
               'fps': 9.96, 'magnification': 1.2, 'depth': 193.17, 'angle': 42.97,
               'laserPower': 36, 'wavelength': 920, 'nFrames': 6115, 
-              'sessionLabel': 'AUD_all_tuningFreq', 'paradigm':'tuningFreq'}
+              'brainArea': 'AUD_all','sessionLabel': 'tuningFreq',
+              'pmt': [0], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260403', 'session': '002',
               'fps': 9.96, 'magnification': 1.2, 'depth': 214.2, 'angle': 42.87,
               'laserPower': 40, 'wavelength': 920, 'nFrames': 4263, 
-              'sessionLabel': 'AUDp_tuningAM', 'paradigm':'tuningAM'}
+              'brainArea': 'A1', 'sessionLabel': 'tuningAM',
+              'pmt': [0], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260403', 'session': '003',
               'fps': 9.96, 'magnification': 1.2, 'depth': 214.2, 'angle': 42.87,
-              'laserPower': 40, 'wavelength': 920, 'nFrames': 6115, 
-              'sessionLabel': 'AUDp_tuningFreq', 'paradigm':'tuningFreq'}
+              'laserPower': 40, 'wavelength': 920, 'nFrames': 6115,
+              'brainArea': 'A1', 'sessionLabel': 'tuningFreq',
+              'pmt': [0], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260403', 'session': '004',
               'fps': 9.96, 'magnification': 2.0, 'depth': 139.57, 'angle': 42.87,
               'laserPower': 45, 'wavelength': 920, 'nFrames': 4263, 
-              'sessionLabel': 'AUDv_tuningAM', 'paradigm':'tuningAM'}
+              'brainArea': 'AUDv', 'sessionLabel': 'tuningAM', 
+              'pmt': [0], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260403', 'session': '005',
               'fps': 9.96, 'magnification': 2.0, 'depth': 139.57, 'angle': 42.87,
               'laserPower': 45, 'wavelength': 920, 'nFrames': 4263, 
-              'sessionLabel': 'AUDv_tuningFreq', 'paradigm':'tuningFreq'}
+              'brainArea': 'AUDv', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260403', 'session': '006',
               'fps': 9.96, 'magnification': 1.4, 'depth': 192.32, 'angle': 42.87,
               'laserPower': 50, 'wavelength': 920, 'nFrames': 4263, 
-              'sessionLabel': 'AUDp_AAF_highFreq_tuningAM', 'paradigm':'tuningAM'}
+              'brainArea': 'A1_AAF_highFreq', 'sessionLabel': 'tuningAM', 
+              'pmt': [0], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260403', 'session': '007',
               'fps': 9.96, 'magnification': 1.4, 'depth': 192.32, 'angle': 42.87,
               'laserPower': 50, 'wavelength': 920, 'nFrames': 4263, 
-              'sessionLabel': 'AUDp_AAF_highFreq_tuningFreq', 'paradigm':'tuningFreq'}
+              'brainArea': 'A1_AAF_highFreq', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260403', 'session': '008',
               'fps': 9.96, 'magnification': 1.0, 'depth': 186.21, 'angle': 42.87,
               'laserPower': 47, 'wavelength': 920, 'nFrames': 17928, 
-              'sessionLabel': 'AUDp_highFreq_spont', 'paradigm':'none'}
+              'brainArea': 'A1_highFreq', 'sessionLabel': 'spont',
+              'pmt': [0], 'paradigm':'none'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260403', 'session': '009',
               'fps': 19.92, 'magnification': 1.0, 'depth': 186.21, 'angle': 42.87,
               'laserPower': 47, 'wavelength': 920, 'nFrames': 35856, 
-              'sessionLabel': 'AUDp_highFreq_spont', 'paradigm':'none'}
+              'brainArea': 'A1_highFreq', 'sessionLabel': 'spont', 
+              'pmt': [0], 'paradigm':'none'}
 sessions.append(newSession)
-# PMT0
-# PMT1
 
+newSession = {'subject':subject, 'date':'20260417', 'session': '000',
+              'fps': 9.92, 'magnification': 1.4, 'depth': 179.91, 'angle': 44.77,
+              'laserPower': 43, 'wavelength': 920, 'nFrames': 6115,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningFreq',
+              'pmt': [0,1], 'paradigm':'am_tuning'} 
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260417', 'session': '001',
+              'fps': 9.92, 'magnification': 1.4, 'depth': 179.91, 'angle': 44.77,
+              'laserPower': 43, 'wavelength': 920, 'nFrames': 6115,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260417', 'session': '002',
+              'fps': 9.92, 'magnification': 1.4, 'depth': 177.6, 'angle': 44.77,
+              'laserPower': 42, 'wavelength': 920, 'nFrames': 6115,
+              'brainArea': 'A1_highFreq', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260417', 'session': '003',
+              'fps': 9.92, 'magnification': 1.4, 'depth': 177.6, 'angle': 44.77,
+              'laserPower': 42, 'wavelength': 920, 'nFrames': 6115,
+              'brainArea': 'A1_highFreq', 'sessionLabel': 'tuningAM', 
+              'pmt': [0], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260417', 'session': '004',
+              'fps': 9.92, 'magnification': 1.4, 'depth': 128.06, 'angle': 44.77,
+              'laserPower': 42, 'wavelength': 920, 'nFrames': 6115,
+              'brainArea': 'AUDv_AAF', 'sessionLabel': 'tuningFreq',
+               'pmt': [0], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260417', 'session': '005',
+              'fps': 9.92, 'magnification': 1.4, 'depth': 128.06, 'angle': 44.77,
+              'laserPower': 42, 'wavelength': 920, 'nFrames': 6115,
+              'brainArea': 'AUDv_AAF', 'sessionLabel': 'tuningAM',
+               'pmt': [0], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260417', 'session': '006',
+              'fps': 9.92, 'magnification': 1.4, 'depth': 181.41, 'angle': 44.75,
+              'laserPower': 42, 'wavelength': 920, 'nFrames': 6115,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningAM', 
+              'pmt': [0], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260508', 'session': '000',
+              'fps': 19.92, 'magnification': 1.7, 'depth': 222.55, 'angle': 44.75,
+              'laserPower': 38, 'wavelength': 920, 'nFrames': 12230,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260508', 'session': '001',
+              'fps': 19.92, 'magnification': 1.7, 'depth': 222.55, 'angle': 44.75,
+              'laserPower': 38, 'wavelength': 920, 'nFrames': 8526,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningAM', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260508', 'session': '002',
+              'fps': 19.92, 'magnification': 1.7, 'depth': 222.55, 'angle': 44.75,
+              'laserPower': 38, 'wavelength': 920, 'nFrames': 19146,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'natSounds', 
+              'pmt': [0,1], 'paradigm':'natural_sound_detecction'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260508', 'session': '003',
+              'fps': 19.92, 'magnification': 1.7, 'depth': 186.93, 'angle': 44.75,
+              'laserPower': 43, 'wavelength': 920, 'nFrames': 12230,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260508', 'session': '004',
+              'fps': 19.92, 'magnification': 1.7, 'depth': 186.93, 'angle': 44.75,
+              'laserPower': 43, 'wavelength': 920, 'nFrames': 8526,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'tuningAM', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260513', 'session': '000',
+              'fps': 9.96, 'magnification': 1.7, 'depth': 186.29, 'angle': 44.75,
+              'laserPower': 33, 'wavelength': 920, 'nFrames': 6115,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260513', 'session': '001',
+              'fps': 9.96, 'magnification': 1.7, 'depth': 186.29, 'angle': 44.75,
+              'laserPower': 33, 'wavelength': 920, 'nFrames': 4263,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningAM', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260513', 'session': '002',
+              'fps': 9.96, 'magnification': 1.7, 'depth': 186.29, 'angle': 44.75,
+              'laserPower': 33, 'wavelength': 920, 'nFrames': 16000,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'natSounds', 
+              'pmt': [0,1], 'paradigm':'natural_sound_detection'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260513', 'session': '003',
+              'fps': 9.96, 'magnification': 1.7, 'depth': 500.69, 'angle': 44.75,
+              'laserPower': 51, 'wavelength': 920, 'nFrames': 6115,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260513', 'session': '004',
+              'fps': 9.96, 'magnification': 1.7, 'depth': 500.69, 'angle': 44.75,
+              'laserPower': 51, 'wavelength': 920, 'nFrames': 4263,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningAM', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260513', 'session': '005',
+              'fps': 9.96, 'magnification': 1.7, 'depth': 500.69, 'angle': 44.75,
+              'laserPower': 51, 'wavelength': 920, 'nFrames': 16000,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'natSounds', 
+              'pmt': [0,1], 'paradigm':'natural_sound_detection'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260513', 'session': '006',
+              'fps': 9.96, 'magnification': 1.7, 'depth': 193.8, 'angle': 44.75,
+              'laserPower': 34, 'wavelength': 920, 'nFrames': 6115,
+              'brainArea': 'AUDv', 'sessionLabel': 'tuningFreq', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260513', 'session': '007',
+              'fps': 9.96, 'magnification': 1.7, 'depth': 193.8, 'angle': 44.75,
+              'laserPower': 34, 'wavelength': 920, 'nFrames': 4263,
+              'brainArea': 'AUDv', 'sessionLabel': 'tuningAM', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260513', 'session': '008',
+              'fps': 9.96, 'magnification': 1.7, 'depth': 193.8, 'angle': 44.75,
+              'laserPower': 34, 'wavelength': 920, 'nFrames': 16000,
+              'brainArea': 'AUDv', 'sessionLabel': 'natSounds', 
+              'pmt': [0,1], 'paradigm':'natural_sound_detection'}
+sessions.append(newSession)
 
 
 
