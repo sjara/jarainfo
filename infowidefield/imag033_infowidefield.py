@@ -26,7 +26,7 @@ sessions = []
 
 newSession = {'subject':subject, 'date':'20260527', 'time': '143519', 'suffix':'wf',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
-              'LED'4:, 'depth':200, 'frequencies':[3,15.5,28], 'intensities':[70,80],
+              'LED':4, 'depth':200, 'frequencies':[3,15.5,28], 'intensities':[70,80],
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 
