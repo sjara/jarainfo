@@ -19,7 +19,7 @@ iso: percentage of isoflurane. Default is None for no anesthesia.
 oxy: oxygen flow rate. Default is None for no anesthesia.
 """
 
-subject = 'imag031'
+subject = 'imag034'
 signalType = 'GCaMP8m'
 sessions = []
 
@@ -30,34 +30,9 @@ newSession = {'subject':subject, 'date':'20260501', 'time': '093044', 'suffix':'
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 
-newSession = {'subject':subject, 'date':'20260501', 'time': '100142', 'suffix':'EDV',
+newSession = {'subject':subject, 'date':'20260522', 'time': '111636', 'suffix':'wf',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
-              'LED':5, 'depth':200, 'frequencies':[3], 'intensities':[60,70],
+              'LED':5, 'depth':200, 'frequencies':[3], 'intensities':[70,80],
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
-
-newSession = {'subject':subject, 'date':'20260501', 'time': '100910', 'suffix':'EDV',
-              'sessionLabel': 'lowtoneTrains', 'signalType':signalType, 
-              'LED':5, 'depth':200, 'frequencies':[1], 'intensities':[70],
-              'paradigm':'am_tuning_curve'}
-sessions.append(newSession)
-
-newSession = {'subject':subject, 'date':'20260501', 'time': '101726', 'suffix':'EDV',
-              'sessionLabel': 'midtoneTrains', 'signalType':signalType, 
-              'LED':5, 'depth':200, 'frequencies':[1], 'intensities':[60],
-              'paradigm':'am_tuning_curve'}
-sessions.append(newSession)
-
-newSession = {'subject':subject, 'date':'20260501', 'time': '102353', 'suffix':'EDV',
-              'sessionLabel': 'hightoneTrains', 'signalType':signalType, 
-              'LED':5, 'depth':200, 'frequencies':[1], 'intensities':[70],
-              'paradigm':'am_tuning_curve'}
-sessions.append(newSession)
-
-newSession = {'subject':subject, 'date':'20260521', 'time': '125855', 'suffix':'wf',
-              'sessionLabel': 'lowtoneTrains', 'signalType':signalType, 
-              'LED':5, 'depth':200, 'frequencies':[1], 'intensities':[70],
-              'paradigm':'am_tuning_curve'}
-sessions.append(newSession)
-
 
