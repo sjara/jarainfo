@@ -132,9 +132,30 @@ newSession = {'subject':subject, 'date':'20260305', 'time': '133532', 'suffix':'
 # I'm running out of time, so I'm going to grab a fast (3800 triggers total) mapping to 20 even though I doubt it'll be great...
 newSession = {'subject':subject, 'date':'20260305', 'time': '134212', 'suffix':'WG',
               'sessionLabel': '3freq_to20', 'signalType':signalType, 
-              'LED'8:, 'depth':127, 'frequencies':[3, 999, 20], 'intensities':[80],
+              'LED'8:, 'depth':127, 'frequencies':[3, 9, 20], 'intensities':[80],
               'paradigm':'am_tuning_curve'}
 # Figure out what the middle freq should be written as here****
 # Went to 100%.
+
+newSession = {'subject':subject, 'date':'20260527', 'time': '133626', 'suffix':'wf',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED'4:, 'depth':200, 'frequencies':[3,15.5,28], 'intensities':[70,80],
+              'paradigm':'am_tuning_curve'}
+
+newSession = {'subject':subject, 'date':'20260527', 'time': '140140', 'suffix':'wf',
+              'sessionLabel': 'lowtoneTrains70', 'signalType':signalType, 
+              'LED'4:, 'depth':200, 'frequencies':[3], 'intensities':[70],
+              'paradigm':'am_tuning_curve'}
+
+newSession = {'subject':subject, 'date':'20260527', 'time': '140832', 'suffix':'wf',
+              'sessionLabel': 'midtoneTrains70', 'signalType':signalType, 
+              'LED'4:, 'depth':200, 'frequencies':[15.5], 'intensities':[70],
+              'paradigm':'am_tuning_curve'}
+
+newSession = {'subject':subject, 'date':'20260527', 'time': '141427', 'suffix':'wf',
+              'sessionLabel': 'hightoneTrains80', 'signalType':signalType, 
+              'LED'4:, 'depth':200, 'frequencies':[28], 'intensities':[80],
+              'paradigm':'am_tuning_curve'}
+
 
 
