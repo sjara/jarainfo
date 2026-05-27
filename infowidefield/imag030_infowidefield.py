@@ -27,30 +27,35 @@ sessions = []
 newSession = {'subject':subject, 'date':'20260501', 'time': '110958', 'suffix':'EDV',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
               'LED':5, 'depth':200, 'frequencies':[3], 'intensities':[70,80],
-              'paradigm':'am_tuning'}
+              'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260501', 'time': '112348', 'suffix':'EDV',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
               'LED':5, 'depth':200, 'frequencies':[3], 'intensities':[60,70],
-              'paradigm':'am_tuning'}
-sessions.append(newSession)
+              'paradigm':'am_tuning_curve'}
 
 newSession = {'subject':subject, 'date':'20260501', 'time': '113124', 'suffix':'EDV',
               'sessionLabel': 'lowtoneTrains', 'signalType':signalType, 
               'LED':5, 'depth':200, 'frequencies':[1], 'intensities':[70],
-              'paradigm':'am_tuning'}
+              'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260501', 'time': '114127', 'suffix':'EDV',
               'sessionLabel': 'midtoneTrains', 'signalType':signalType, 
               'LED':5, 'depth':200, 'frequencies':[1], 'intensities':[60],
-              'paradigm':'am_tuning'}
+              'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20260501', 'time': '114805', 'suffix':'EDV',
               'sessionLabel': 'hightoneTrains', 'signalType':signalType, 
               'LED':5, 'depth':200, 'frequencies':[1], 'intensities':[70],
-              'paradigm':'am_tuning'}
+              'paradigm':'am_tuning_curve'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260521', 'time': '123042', 'suffix':'wf',
+              'sessionLabel': 'lowtoneTrains', 'signalType':signalType, 
+              'LED':4, 'depth':200, 'frequencies':[1], 'intensities':[70],
+              'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 
