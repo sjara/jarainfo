@@ -45,7 +45,7 @@ sessions = []
 # Look for low poles at 70 dB, 4/8 first
 newSession = {'subject':subject, 'date':'20260305', 'time': '120505', 'suffix':'WG',
               'sessionLabel': '3kHz_mapping', 'signalType':signalType, 
-              'LED':4:, 'depth':127, 'frequencies':[3], 'intensities':[70],
+              'LED':4, 'depth':127, 'frequencies':[3], 'intensities':[70],
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 # Went to 99%. Nothing in figure...??
