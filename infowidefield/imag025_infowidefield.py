@@ -45,7 +45,7 @@ sessions = []
 # Look for low poles at 70 dB, 4/8 first
 newSession = {'subject':subject, 'date':'20260305', 'time': '120505', 'suffix':'WG',
               'sessionLabel': '3kHz_mapping', 'signalType':signalType, 
-              'LED'4:, 'depth':127, 'frequencies':[3], 'intensities':[70],
+              'LED':4, 'depth':127, 'frequencies':[3], 'intensities':[70],
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 # Went to 99%. Nothing in figure...??
@@ -53,7 +53,7 @@ sessions.append(newSession)
 # low poles at 70, max LED?
 newSession = {'subject':subject, 'date':'20260305', 'time': '121122', 'suffix':'WG',
               'sessionLabel': '3kHz_mapping', 'signalType':signalType, 
-              'LED'8:, 'depth':127, 'frequencies':[3], 'intensities':[70],
+              'LED':8, 'depth':127, 'frequencies':[3], 'intensities':[70],
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 # Went to 99%. Phew, the low poles show up now. A1 and AAF are great, A2 may be hard to seperate from background -- may be worth trying to reduce LED 
@@ -61,14 +61,14 @@ sessions.append(newSession)
 # high poles at 70, max LED. 32 kHz first, then could try 28 if not.
 newSession = {'subject':subject, 'date':'20260305', 'time': '121823', 'suffix':'WG',
               'sessionLabel': '32kHz_mapping', 'signalType':signalType, 
-              'LED'8:, 'depth':127, 'frequencies':[32], 'intensities':[70],
+              'LED':8, 'depth':127, 'frequencies':[32], 'intensities':[70],
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 # Went to 95%***
 # Looks like nothing but I don't trust it with the 95%... Again:
 newSession = {'subject':subject, 'date':'20260305', 'time': '122435', 'suffix':'WG',
               'sessionLabel': '32kHz_mapping', 'signalType':signalType, 
-              'LED'8:, 'depth':127, 'frequencies':[32], 'intensities':[70],
+              'LED':8, 'depth':127, 'frequencies':[32], 'intensities':[70],
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 # Went to 100%. Got distracted writing an email, so the stimulus file went longer than needed. 
@@ -77,7 +77,7 @@ sessions.append(newSession)
 # 28 kHz at 70?
 newSession = {'subject':subject, 'date':'20260305', 'time': '123131', 'suffix':'WG',
               'sessionLabel': '28kHz_mapping', 'signalType':signalType, 
-              'LED'8:, 'depth':127, 'frequencies':[28], 'intensities':[70],
+              'LED':8, 'depth':127, 'frequencies':[28], 'intensities':[70],
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 # Went to 99%. Nothing good in figure.
@@ -85,7 +85,7 @@ sessions.append(newSession)
 # Ok, up to 80 dB. 32 first
 newSession = {'subject':subject, 'date':'20260305', 'time': '125139', 'suffix':'WG',
               'sessionLabel': '32kHz_mapping', 'signalType':signalType, 
-              'LED'8:, 'depth':127, 'frequencies':[32], 'intensities':[80],
+              'LED':8, 'depth':127, 'frequencies':[32], 'intensities':[80],
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 # Went to 100%. Nothing good.
@@ -93,7 +93,7 @@ sessions.append(newSession)
 # 28 kHz, 80 dB
 newSession = {'subject':subject, 'date':'20260305', 'time': '130916', 'suffix':'WG',
               'sessionLabel': '28kHz_mapping', 'signalType':signalType, 
-              'LED'8:, 'depth':127, 'frequencies':[28], 'intensities':[80],
+              'LED':8, 'depth':127, 'frequencies':[28], 'intensities':[80],
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 # Went to 99%. Kiiiinda something dorsal, but it's hard to say.
@@ -101,7 +101,7 @@ sessions.append(newSession)
 # 20 kHz?
 newSession = {'subject':subject, 'date':'20260305', 'time': '131548', 'suffix':'WG',
               'sessionLabel': '20kHz_mapping', 'signalType':signalType, 
-              'LED'8:, 'depth':127, 'frequencies':[20], 'intensities':[80],
+              'LED':8, 'depth':127, 'frequencies':[20], 'intensities':[80],
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 # Went to 100%. I can see signal! Lots of vessels lit up, though -- maybe I should focus a little deeper?
@@ -110,14 +110,14 @@ sessions.append(newSession)
 # Let's try 28 kHz one more time
 newSession = {'subject':subject, 'date':'20260305', 'time': '132337', 'suffix':'WG',
               'sessionLabel': '28kHz_mapping', 'signalType':signalType, 
-              'LED'8:, 'depth':127, 'frequencies':[28], 'intensities':[80],
+              'LED':8, 'depth':127, 'frequencies':[28], 'intensities':[80],
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 # Went to 97%*** Maybe because I was looking through a folder?
 # Nothing good but I don't trust the 97%... again:
 newSession = {'subject':subject, 'date':'20260305', 'time': '133015', 'suffix':'WG',
               'sessionLabel': '28kHz_mapping', 'signalType':signalType, 
-              'LED'8:, 'depth':127, 'frequencies':[28], 'intensities':[80],
+              'LED':8, 'depth':127, 'frequencies':[28], 'intensities':[80],
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 # Went to 99%. Nothing good.
@@ -125,36 +125,36 @@ sessions.append(newSession)
 # Reconfirm 20:
 newSession = {'subject':subject, 'date':'20260305', 'time': '133532', 'suffix':'WG',
               'sessionLabel': '20kHz_mapping', 'signalType':signalType, 
-              'LED'8:, 'depth':127, 'frequencies':[20], 'intensities':[80],
+              'LED':8, 'depth':127, 'frequencies':[20], 'intensities':[80],
               'paradigm':'am_tuning_curve'}
 # Went to 99%. Really vessely.
 
 # I'm running out of time, so I'm going to grab a fast (3800 triggers total) mapping to 20 even though I doubt it'll be great...
 newSession = {'subject':subject, 'date':'20260305', 'time': '134212', 'suffix':'WG',
               'sessionLabel': '3freq_to20', 'signalType':signalType, 
-              'LED'8:, 'depth':127, 'frequencies':[3, 9, 20], 'intensities':[80],
+              'LED':8, 'depth':127, 'frequencies':[3, 9, 20], 'intensities':[80],
               'paradigm':'am_tuning_curve'}
 # Figure out what the middle freq should be written as here****
 # Went to 100%.
 
 newSession = {'subject':subject, 'date':'20260527', 'time': '133626', 'suffix':'wf',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
-              'LED'4:, 'depth':200, 'frequencies':[3,15.5,28], 'intensities':[70,80],
+              'LED':4, 'depth':200, 'frequencies':[3,15.5,28], 'intensities':[70,80],
               'paradigm':'am_tuning_curve'}
 
 newSession = {'subject':subject, 'date':'20260527', 'time': '140140', 'suffix':'wf',
               'sessionLabel': 'lowtoneTrains70', 'signalType':signalType, 
-              'LED'4:, 'depth':200, 'frequencies':[3], 'intensities':[70],
+              'LED':4, 'depth':200, 'frequencies':[3], 'intensities':[70],
               'paradigm':'am_tuning_curve'}
 
 newSession = {'subject':subject, 'date':'20260527', 'time': '140832', 'suffix':'wf',
               'sessionLabel': 'midtoneTrains70', 'signalType':signalType, 
-              'LED'4:, 'depth':200, 'frequencies':[15.5], 'intensities':[70],
+              'LED':4, 'depth':200, 'frequencies':[15.5], 'intensities':[70],
               'paradigm':'am_tuning_curve'}
 
 newSession = {'subject':subject, 'date':'20260527', 'time': '141427', 'suffix':'wf',
               'sessionLabel': 'hightoneTrains80', 'signalType':signalType, 
-              'LED'4:, 'depth':200, 'frequencies':[28], 'intensities':[80],
+              'LED':4, 'depth':200, 'frequencies':[28], 'intensities':[80],
               'paradigm':'am_tuning_curve'}
 
 
