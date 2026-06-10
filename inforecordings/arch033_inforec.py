@@ -42,20 +42,22 @@ experiments.append(exp0)
 # I added saline before starting to record every session
 
 
-exp0.add_site(3500)
-exp0.maxDepth = 3500
-
+exp0.add_site(3501) #To differentiate from the recording from the 4 shanks I wrote "1" at the end
 # Shank 1 Bank A
 exp0.add_session('17-15-55', 'a', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp0.add_site(620) 
 # Shank 1 Bank B
 exp0.add_session('17-26-03', 'b', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp0.add_site(3500)
 # All shanks  1-96
 exp0.add_session('17-35-45', 'c', 'optoTuningAM', 'am_tuning_curve') #440
 exp0.add_session('17-52-10', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp0.add_session('18-20-59', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp0.add_session('18-39-40', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances 
+
+exp0.maxDepth = 3500
 
 #2025-10-29
 exp1 = celldatabase.Experiment(subject, '2025-10-29', brainArea='right_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiI', info=['facesMedial', 'soundLeft'])
@@ -77,22 +79,22 @@ experiments.append(exp1)
 # I removed some dura-gel in the corner of craniotomy and added saline to record
 # I added saline before starting to record every session
 
-
 exp1.add_site(3500)
-exp1.maxDepth = 3500
-
 # All shanks  1-96
 exp1.add_session('11-53-24', 'a', 'optoTuningAM', 'am_tuning_curve') #440
 exp1.add_session('12-11-01', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp1.add_session('12-40-51', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp1.add_session('12-58-43', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
+exp1.add_site(3501) #To differentiate from the recording from the 4 shanks I wrote "1" at the end
 # Shank 1 Bank A
 exp1.add_session('13-21-17', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp1.add_site(620)
 # Shank 1 Bank B
 exp1.add_session('13-23-49', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp1.maxDepth = 3500
 
 #2025-10-30
 exp2 = celldatabase.Experiment(subject, '2025-10-30', brainArea='right_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundLeft'])
@@ -113,13 +115,14 @@ experiments.append(exp2)
 # The mouse doesn't have ground wire.
 
 exp2.add_site(3500)
-exp2.maxDepth = 3500 #3500.1
 
 # All shanks  1-96
 exp2.add_session('12-18-56', 'a', 'optoTuningAM', 'am_tuning_curve') #440
 exp2.add_session('12-35-57', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp2.add_session('13-05-56', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp2.add_session('13-23-38', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+
+exp2.maxDepth = 3500 #3500.1
 
 #2025-10-31
 
