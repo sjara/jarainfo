@@ -46,19 +46,21 @@ experiments.append(exp0)
 
 
 exp0.add_site(3500) #3500.4
-exp0.maxDepth = 3500
-
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
 exp0.add_session('14-56-11', 'a', 'optoTuningAM', 'am_tuning_curve') #440
 exp0.add_session('15-14-25', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp0.add_session('15-43-06', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp0.add_session('15-59-26', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
+exp0.add_site(3501) #To differentiate from the recording from the 2 shanks I wrote "1" at the end
 # Shank 1 Bank A
 exp0.add_session('16-22-38', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp0.add_site(620) 
 # Shank 1 Bank B
 exp0.add_session('16-24-42', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+exp0.maxDepth = 3500
 
 #2025-11-12
 exp1 = celldatabase.Experiment(subject, '2025-11-12', brainArea='left_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundRight'])
@@ -80,8 +82,7 @@ experiments.append(exp1)
 # I added saline before starting to record every session
 
 
-exp1.add_site(3700) #3700.2
-exp1.maxDepth = 3700
+exp1.add_site(3700) #3700.2 
 
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
 exp1.add_session('11-41-24', 'a', 'optoTuningAM', 'am_tuning_curve') #Ideally we want to have 440 trials, but I recorded 461 trials
@@ -89,12 +90,15 @@ exp1.add_session('12-00-26', 'a', 'optoNaturalCategories', 'natural_sound_detect
 exp1.add_session('12-32-16', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp1.add_session('12-51-54', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
+exp1.add_site(3701) #3700.2 - To differentiate from the recording from the 2 shanks I wrote "1" at the end
 # Shank 1 Bank A
 exp1.add_session('13-17-29', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp1.add_site(820)
 # Shank 1 Bank B
 exp1.add_session('13-20-21', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp1.maxDepth = 3700
 
 #2025-11-20
 #Attempted to record but I could not penetrate.
