@@ -58,10 +58,11 @@ exp0.add_session('15-26-40', 'c', 'optoNaturalCategories', 'natural_sound_detect
 exp0.add_session('15-55-46', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp0.add_session('16-12-30', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-
+exp0.add_site(4001)  #To differentiate from the recording from the 4 shanks I wrote "1" at the end
 # Shank 1 Bank A
 exp0.add_session('16-34-35', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp0.add_site(1120) 
 # Shank 1 Bank B
 exp0.add_session('16-36-07', 'f', 'tuningFreq', 'am_tuning_curve') #40 trials
 
@@ -102,10 +103,11 @@ exp1.add_session('14-41-19', 'c', 'optoNaturalCategories', 'natural_sound_detect
 exp1.add_session('15-08-22', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp1.add_session('15-24-11', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-
+exp1.add_site(4401)  #To differentiate from the recording from the 4 shanks I wrote "1" at the end
 # Shank 1 Bank A
 exp1.add_session('15-46-40', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp1.add_site(1520)
 # Shank 1 Bank B
 exp1.add_session('15-49-04', 'f', 'tuningFreq', 'am_tuning_curve') #40 trials
 
@@ -140,7 +142,8 @@ exp2.add_session('12-26-53', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 exp2.add_session('12-42-52', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
 #Gave water to the mice before starting the new sessions
- 
+
+exp2.add_site(4501)  #There could be differences from the beginning of the session so I treated them as different sites and I wrote "1" at the end
 #All shanks -  1-96 (I forgot to change the set of electrodes and recorded from the same bank
 exp2.add_session('13-07-19', 'c', 'optoTuningAM', 'am_tuning_curve') #440
 exp2.add_session('13-22-31', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
@@ -148,7 +151,7 @@ exp2.add_session('13-50-10', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 exp2.add_session('14-07-28', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
 #All shanks -  1-96 #I recorded this session for the LFP and then figured out my mistake about the selection of electrodes
-exp2.add_session('14-29-33', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp2.add_session('14-29-33', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 #Gave water to the mice before starting the new sessions
 exp2.add_site(3780) 
@@ -158,9 +161,11 @@ exp2.add_session('14-53-22', 'e', 'optoNaturalCategories', 'natural_sound_detect
 exp2.add_session('15-20-36', 'g', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp2.add_session('15-36-23', 'f', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
+exp2.add_site(4502)  #To differentiate from the recording from the 4 shanks I wrote "2" at the end
 # Shank 1 Bank A
 exp2.add_session('15-58-26', 'h', 'tuningFreq', 'am_tuning_curve') #41 trials
 
+exp2.add_site(1620)
 # Shank 1 Bank B
 exp2.add_session('16-00-04', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
 
@@ -219,9 +224,11 @@ exp3.add_site(3481)
 exp3.add_session('15-48-39', 'g', 'optoTuningAM', 'am_tuning_curve') #440
 exp3.add_session('16-03-51', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 
+exp3.add_site(4202)  #To differentiate from the recording from the 4 shanks I wrote "2" at the end
 # Shank 1 Bank A
 exp3.add_session('16-19-40', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp3.add_site(1320)
 # Shank 1 Bank B
 exp3.add_session('16-22-44', 'j', 'tuningFreq', 'am_tuning_curve') #40 trials
 
