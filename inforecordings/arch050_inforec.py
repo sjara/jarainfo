@@ -43,7 +43,6 @@ experiments.append(exp0)
 # I recorded 2 fast sessions to check whether we can tell air-dura-gel-brain apart by looking at the LFPs
 # The mouse has ground wire.
 
-
 exp0.add_site(3700) 
 
 #All shanks -  1-96
@@ -55,16 +54,18 @@ exp0.add_session('13-14-27', 'b', 'optoNaturalInstances', 'natural_sound_detecti
 #Gave water to the mice before starting the new sessions
 
 exp0.add_site(2980) 
+
 #All shanks -  97-192
 exp0.add_session('13-43-28', 'c', 'optoTuningAM', 'am_tuning_curve') #440
 exp0.add_session('13-57-44', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp0.add_session('14-25-23', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp0.add_session('14-41-28', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-
+exp0.add_site(3701)  #To differentiate from the recording from the 4 shanks I wrote "1" at the end
 # Shank 2 Bank A
 exp0.add_session('15-04-18', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp0.add_site(820)
 # Shank 2 Bank B
 exp0.add_session('15-06-55', 'f', 'tuningFreq', 'am_tuning_curve') #40 trials
 
@@ -105,9 +106,11 @@ exp1.add_session('14-24-27', 'c', 'optoNaturalCategories', 'natural_sound_detect
 exp1.add_session('14-51-50', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp1.add_session('15-08-13', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
+exp1.add_site(3701)  #To differentiate from the recording from the 4 shanks I wrote "1" at the end
 # Shank 1 Bank A
 exp1.add_session('15-30-38', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp1.add_site(820) 
 # Shank 1 Bank B
 exp1.add_session('15-32-13', 'f', 'tuningFreq', 'am_tuning_curve') #40 trials
 
@@ -150,11 +153,12 @@ exp2.add_session('14-44-09', 'c', 'optoNaturalCategories', 'natural_sound_detect
 exp2.add_session('15-15-12', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp2.add_session('15-31-25', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-
+exp2.add_site(3601)  #To differentiate from the recording from the 4 shanks I wrote "1" at the end
 #I did not add saline to know the limit from the dura
 # Shank 1 Bank A
 exp2.add_session('15-54-00', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp2.add_site(720)
 # Shank 1 Bank B
 exp2.add_session('15-56-16', 'f', 'tuningFreq', 'am_tuning_curve') #40 trials
 
@@ -217,9 +221,11 @@ exp3.add_site(2881)
 exp3.add_session('16-50-47', 'g', 'optoTuningAM', 'am_tuning_curve') #440
 exp3.add_session('17-04-38', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 
+exp3.add_site(3602)  #To differentiate from the recording from the 4 shanks I wrote "2" at the end
 # Shank 1 Bank A
 exp3.add_session('17-21-27', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp3.add_site(720)
 # Shank 1 Bank B
 exp3.add_session('17-23-19', 'j', 'tuningFreq', 'am_tuning_curve') #40 trials
 
