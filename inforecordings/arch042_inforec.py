@@ -40,9 +40,7 @@ experiments.append(exp0)
 # The mouse has ground wire.
 # I added saline before starting to record every session
 
-
 exp0.add_site(3700) 
-exp0.maxDepth = 3700
 
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
 exp0.add_session('15-14-36', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -50,11 +48,15 @@ exp0.add_session('15-30-47', 'a', 'optoNaturalCategories', 'natural_sound_detect
 exp0.add_session('15-59-21', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp0.add_session('16-16-15', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
+exp0.add_site(3701)  #To differentiate from the recording from the 2 shanks I wrote "1" at the end
 # Shank 1 Bank A
 exp0.add_session('16-38-55', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp0.add_site(820)
 # Shank 1 Bank B
 exp0.add_session('16-41-13', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+exp0.maxDepth = 3700
 
 #2025-12-10
 exp1 = celldatabase.Experiment(subject, '2025-12-10', brainArea='right_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundLeft'])
@@ -73,9 +75,7 @@ experiments.append(exp1)
 # The mouse lost the ground wire.
 # I added saline before starting to record every session
 
-
 exp1.add_site(3700) 
-exp1.maxDepth = 3700
 
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
 exp1.add_session('11-47-19', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -83,12 +83,15 @@ exp1.add_session('12-03-34', 'a', 'optoNaturalCategories', 'natural_sound_detect
 exp1.add_session('12-32-47', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp1.add_session('12-50-15', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
+exp1.add_site(3701)  #To differentiate from the recording from the 2 shanks I wrote "1" at the end
 # Shank 1 Bank A. Reference 1:tip
 exp1.add_session('13-15-18', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp1.add_site(820)
 # Shank 1 Bank B
 exp1.add_session('13-17-45', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp1.maxDepth = 3700
 
 #2025-12-11
 exp2 = celldatabase.Experiment(subject, '2025-12-11', brainArea='left_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundRight'])
@@ -107,9 +110,7 @@ experiments.append(exp2)
 # The mouse lost the ground wire.
 # I added saline before starting to record every session
 
-
 exp2.add_site(3700) 
-exp2.maxDepth = 3700
 
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
 exp2.add_session('11-18-38', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -117,15 +118,19 @@ exp2.add_session('11-33-53', 'a', 'optoNaturalCategories', 'natural_sound_detect
 exp2.add_session('12-02-45', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp2.add_session('12-21-08', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-# Shank 1 Bank A. Reference 1:tip
-exp2.add_session('12-43-10', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
-
-# Shank 1 Bank B
-exp2.add_session('12-44-47', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
-
 #Recordings with no laser going in the brain
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
 exp2.add_session('13-21-08', 'e', 'optoTuningAM', 'am_tuning_curve') #440
 exp2.add_session('13-35-58', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp2.add_session('14-08-57', 'f', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp2.add_session('14-26-29', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+
+exp2.add_site(3701)  #To differentiate from the recording from the 2 shanks I wrote "1" at the end
+# Shank 1 Bank A. Reference 1:tip
+exp2.add_session('12-43-10', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+exp2.add_site(820)
+# Shank 1 Bank B
+exp2.add_session('12-44-47', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+exp2.maxDepth = 3700
