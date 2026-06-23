@@ -53,11 +53,11 @@ exp0.add_session('13-36-09', 'a', 'optoNaturalCategories', 'natural_sound_detect
 
 
 exp0.add_site(4498) #The tip is in the depth of 4500, I wrote 4498 because of having specific site for each. 
-Shank 1 Bank A
+#Shank 1 Bank A
 exp0.add_session('13-03-20', 'c', 'tuningFreq', 'am_tuning_curve') #41 trials
 
 exp0.add_site(1620)
-Shank 2 Bank A
+#Shank 2 Bank A
 exp0.add_session('13-07-39', 'd', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #........................................................................................
