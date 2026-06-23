@@ -101,7 +101,7 @@ exp1.add_session('13-42-24', 'd', 'optoNaturalInstances', 'natural_sound_detecti
 
 #The following sessions recorded with laser on and tether attached to the right optic fiber.
 exp1.add_site(3998) #The tip is in the depth of 4000, I wrote 3998 because of having specific site for each. 
-Shank 1 Bank A 
+#Shank 1 Bank A 
 exp1.add_session('14-17-21', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 exp1.add_site(1120)
@@ -150,11 +150,11 @@ exp2.add_session('18-42-54', 'd', 'optoNaturalInstances', 'natural_sound_detecti
 
 
 exp2.add_site(4498) ##The tip is in the depth of 4500, I wrote 4498 because of having specific site for each. 
-Shank 1 Bank A 
+#Shank 1 Bank A 
 exp2.add_session('16-01-07', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
 exp2.add_site(1620) 
-Shank 2 Bank A
+#Shank 2 Bank A
 exp2.add_session('16-06-27', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 
