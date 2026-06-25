@@ -81,6 +81,7 @@ experiments.append(exp1)
 
 
 exp1.add_site(4000) 
+exp1.maxDepth = 4000
 
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
 exp1.add_session('10-44-47', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -108,7 +109,7 @@ exp1.add_site(1120)
 # Shank 2 Bank A
 #exp1.add_session('14-19-30', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
 
-exp1.maxDepth = 4000
+
 #......................................................................................................
 
 exp2 = celldatabase.Experiment(subject, '2025-12-16', brainArea='left_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundRight'])
