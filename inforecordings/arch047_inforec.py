@@ -37,11 +37,6 @@ experiments.append(exp0)
 exp0.add_site(3700) 
 exp0.maxDepth = 3700
 
-# Shank 1 Bank A
-#exp0.add_session('18-46-03', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
-
-# Shank 1 Bank B
-#exp0.add_session('18-48-18', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from all shanks, channels 1-96.
 exp0.add_session('14-40-53', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -68,6 +63,15 @@ exp0.add_site(2979)
 #Recording from all shanks, channels 97-192, with the laser shining outside of the brain. 
 exp0.add_session('18-14-47', 'g', 'optoTuningAM', 'am_tuning_curve') #440
 exp0.add_session('18-29-33', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+
+
+exp0.add_site(3698) #The real depth is 3700, I wrote 3698 to separate different recordings. 
+# Shank 1 Bank A
+exp0.add_session('18-46-03', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+exp0.add_site(820) 
+# Shank 1 Bank B
+exp0.add_session('18-48-18', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 #...................................................................................................................
 
 exp1 = celldatabase.Experiment(subject, '2026-04-09', brainArea='left_pStr', probe='NPv2-8253', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundRight'])
@@ -85,11 +89,6 @@ experiments.append(exp1)
 exp1.add_site(3710) 
 exp1.maxDepth = 3710
 
-# Shank 1 Bank A
-#exp1.add_session('12-22-10', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
-
-# Shank 1 Bank B
-#exp1.add_session('12-24-03', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from all shanks, channels 1-96.
 exp1.add_session('09-34-55', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -104,6 +103,15 @@ exp1.add_session('11-10-30', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 #Gave water to the mouse. 
 exp1.add_session('11-28-10', 'c', 'optoNaturalCategories', 'natural_sound_detection') #212 OptoNaturalCategories
 exp1.add_session('11-55-46', 'd', 'optoNaturalInstances', 'natural_sound_detection') #200 OptoNaturalInstances
+
+
+exp1.add_site(3708) #The real depth is 3710, I wrote 3708 to separate different recordings. 
+# Shank 1 Bank A
+exp1.add_session('12-22-10', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+exp1.add_site(830) 
+# Shank 1 Bank B
+exp1.add_session('12-24-03', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 #....................................................................................................................
 
 exp2 = celldatabase.Experiment(subject, '2026-04-12', brainArea='right_pStr', probe='NPv2-8253', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundLeft'])
@@ -121,11 +129,6 @@ experiments.append(exp2)
 exp2.add_site(3700) 
 exp2.maxDepth = 3700
 
-# Shank 3 Bank A
-#exp2.add_session('15-18-07', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
-
-# Shank 3 Bank B
-#exp2.add_session('15-20-14', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from all shanks, channels 1-96.
 exp2.add_session('11-00-26', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -153,6 +156,15 @@ exp2.add_site(2979)
 #Recording from all shanks, channels 97-192, with the laser shining outside of the brain. 
 exp2.add_session('14-44-35', 'g', 'optoTuningAM', 'am_tuning_curve') #440
 exp2.add_session('14-59-17', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+
+
+exp2.add_site(3698) 
+# Shank 3 Bank A
+exp2.add_session('15-18-07', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+exp2.add_site(820) 
+# Shank 3 Bank B
+exp2.add_session('15-20-14', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 #......................................................................................................
 exp3 = celldatabase.Experiment(subject, '2026-04-13', brainArea='right_pStr', probe='NPv2-8253', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundLeft'])
 
@@ -169,11 +181,6 @@ experiments.append(exp3)
 exp3.add_site(3600) 
 exp3.maxDepth = 3600
 
-# Shank 3 Bank A
-#exp3.add_session('15-18-59', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
-
-# Shank 3 Bank B
-#exp3.add_session('15-20-52', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from all shanks, channels 1-96.
 exp3.add_session('12-31-43', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -200,3 +207,12 @@ exp3.add_site(2879)
 #Recording from all shanks, channels 97-192, with the laser shining outside of the brain. 
 exp3.add_session('15-58-49', 'g', 'optoTuningAM', 'am_tuning_curve') #440
 exp3.add_session('16-13-27', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+
+
+exp3.add_site(3598) 
+# Shank 3 Bank A
+exp3.add_session('15-18-59', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+exp3.add_site(720) 
+# Shank 3 Bank B
+exp3.add_session('15-20-52', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
