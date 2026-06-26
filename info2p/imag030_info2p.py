@@ -213,6 +213,20 @@ newSession = {'subject':subject, 'date':'20260618', 'session': '007',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
 
+newSession = {'subject':subject, 'date':'20260618', 'session': '008',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 208.78, 'angle': 39.62,
+              'laserPower': 66, 'wavelength': 920, 'nFrames': 4263,
+              'brainArea': 'A1_midFreq', 'sessionLabel': 'tuningAM', 
+              'pmt': [0,1], 'paradigm':'am_tuning'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260618', 'session': '009',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 208.78, 'angle': 39.62,
+              'laserPower': 66, 'wavelength': 920, 'nFrames': 16000,
+              'brainArea': 'A1_midFreq', 'sessionLabel': 'natSounds', 
+              'pmt': [0,1], 'paradigm':'natural_sound_detection'}
+sessions.append(newSession)
+
 
 
 

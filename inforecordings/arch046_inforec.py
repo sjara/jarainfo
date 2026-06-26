@@ -37,11 +37,6 @@ experiments.append(exp0)
 exp0.add_site(4000) 
 exp0.maxDepth = 4000
 
-# Shank 1 Bank A
-#exp0.add_session('13-59-15', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
-
-# Shank 1 Bank B
-#exp0.add_session('14-02-09', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from all shanks, channels 1-96.
 exp0.add_session('11-05-29', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -67,6 +62,15 @@ exp0.add_site(3279)
 #Recording from all shanks, channels 97-192, with the laser shining outside of the brain. 
 exp0.add_session('14-47-41', 'g', 'optoTuningAM', 'am_tuning_curve') #440
 exp0.add_session('15-02-02', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+
+
+exp0.add_site(3998) #The tip is in the depth of 4000, I wrote 3998 because of having specific site for each. 
+# Shank 1 Bank A
+exp0.add_session('13-59-15', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+exp0.add_site(1120) 
+# Shank 1 Bank B
+exp0.add_session('14-02-09', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 
 #...............................................................................................
@@ -107,11 +111,6 @@ experiments.append(exp1)
 exp1.add_site(3750) 
 exp1.maxDepth = 3750
 
-# Shank 1 Bank A
-#exp1.add_session('14-18-10', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
-
-# Shank 1 Bank B
-#exp1.add_session('14-20-26', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Recording from all shanks, channels 1-96.
 exp1.add_session('11-12-25', 'a', 'optoTuningAM', 'am_tuning_curve') #440
@@ -138,3 +137,12 @@ exp1.add_site(3029)
 #Recording from all shanks, channels 97-192, with the laser shining outside of the brain. 
 exp1.add_session('14-58-02', 'g', 'optoTuningAM', 'am_tuning_curve') #440
 exp1.add_session('15-12-29', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+
+
+exp1.add_site(3748) #The tip is in the depth of 3750, I wrote 3748 because of having specific site for each. 
+# Shank 1 Bank A
+exp1.add_session('14-18-10', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+exp1.add_site(870) 
+# Shank 1 Bank B
+exp1.add_session('14-20-26', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial

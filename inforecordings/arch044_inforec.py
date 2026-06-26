@@ -42,17 +42,23 @@ exp0.add_site(4720)
 exp0.maxDepth = 4720
 
 
-# Shank 3 Bank A
-#exp0.add_session('12-29-25', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
 
-# Shank 3 Bank B
-#exp0.add_session('12-32-18', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #Shanks 3 and 4. Manually selected channels 1-96 and 97-192.
 exp0.add_session('12-38-17', 'a', 'optoTuningAM', 'am_tuning_curve') #440
 exp0.add_session('12-53-21', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp0.add_session('13-09-27', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp0.add_session('13-36-34', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+
+
+
+exp0.add_site(4718) #The tip is in the depth of 4720, I wrote 4718 because of having specific site for each. 
+# Shank 3 Bank A
+exp0.add_session('12-29-25', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+exp0.add_site(1840)
+# Shank 3 Bank B
+#exp0.add_session('12-32-18', 'f', 'tuningFreq', 'am_tuning_curve') #40 trial
 
 #........................................................................................
 
@@ -79,12 +85,6 @@ exp1.add_site(4700)
 exp1.maxDepth = 4700
 
 
-# Shank 3 Bank A
-#exp1.add_session('11-48-21', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
-
-# Shank 3 Bank B
-#exp1.add_session('11-50-23', 'f', 'tuningFreq', 'am_tuning_curve') #43 trial
-
 #Shanks 3 and 4. Manually selected channels 1-96 and 97-192.
 exp1.add_session('11-53-56', 'a', 'optoTuningAM', 'am_tuning_curve') #440
 exp1.add_session('12-59-04', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
@@ -99,6 +99,14 @@ exp1.add_session('13-32-55', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 exp1.add_session('14-44-37', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp1.add_session('14-16-02', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
+
+exp1.add_site(4698) #The tip is in the depth of 4700, I wrote 4698 because of having specific site for each. 
+# Shank 3 Bank A
+exp1.add_session('11-48-21', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+exp1.add_site(1820) 
+# Shank 3 Bank B
+exp1.add_session('11-50-23', 'f', 'tuningFreq', 'am_tuning_curve') #43 trial
 #.....................................................................................
 
 exp2 = celldatabase.Experiment(subject, '2025-12-30', brainArea='left_pStr', probe='NPv2-3082', recordingTrack='centerCenter_DiI', info=['facesMedial', 'soundRight'])
@@ -125,12 +133,6 @@ exp2.add_site(4530)
 exp2.maxDepth = 4530
 
 
-# Shank 3 Bank A
-#exp2.add_session('13-40-52', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
-
-# Shank 3 Bank B
-#exp2.add_session('13-43-00', 'f', 'tuningFreq', 'am_tuning_curve') #43 trial
-
 #Shanks 3 and 4. Manually selected channels 1-96 and 97-192.
 exp2.add_session('10-54-23', 'a', 'optoTuningAM', 'am_tuning_curve') #440
 exp2.add_session('11-09-46', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
@@ -147,6 +149,13 @@ exp2.add_session('12-50-13', 'c', 'optoNaturalCategories', 'natural_sound_detect
 exp2.add_session('13-17-37', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
 
+exp2.add_site(4528) #The tip is in the depth of 4530, I wrote 4528 because of having specific site for each. 
+# Shank 3 Bank A
+exp2.add_session('13-40-52', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+exp2.add_site(1650) 
+# Shank 3 Bank B
+exp2.add_session('13-43-00', 'f', 'tuningFreq', 'am_tuning_curve') #43 trial
 #..........................................................................................
 
 exp3 = celldatabase.Experiment(subject, '2025-12-31', brainArea='left_pStr', probe='NPv2-3082', recordingTrack='centerCenter_DiD', info=['facesMedial', 'soundRight'])
@@ -167,14 +176,18 @@ exp3.add_site(4500)
 exp3.maxDepth = 4500
 
 
-# Shank 3 Bank A
-#exp3.add_session('10-42-16', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
-
-# Shank 3 Bank B
-#exp3.add_session('10-44-25', 'f', 'tuningFreq', 'am_tuning_curve') #43 trial
-
 #Shanks 3 and 4. Manually selected channels 1-96 and 97-192.
 exp3.add_session('10-47-09', 'a', 'optoTuningAM', 'am_tuning_curve') #440
 exp3.add_session('11-01-52', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp3.add_session('11-18-10', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp3.add_session('11-45-33', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+
+
+exp3.add_site(4498) #The tip is in the depth of 4500, I wrote 4498 because of having specific site for each. 
+# Shank 3 Bank A
+#exp3.add_session('10-42-16', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+
+
+exp3.add_site(1620) 
+# Shank 3 Bank B
+#exp3.add_session('10-44-25', 'f', 'tuningFreq', 'am_tuning_curve') #43 trial
