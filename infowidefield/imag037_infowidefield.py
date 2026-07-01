@@ -25,14 +25,14 @@ sessions = []
 
 
 newSession = {'subject':subject, 'date':'20260701', 'time': '112631', 'suffix':'EDV',
-              'sessionLabel': 'intensitytoneTrains', 'signalType':train, 
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
               'LED':4, 'depth':200, 'frequencies':[3,15.5,28], 'intensities':[70,65,75],
               'paradigm':'widefield_mapping'}
 sessions.append(newSession)
 #11400 fr, 285 trials, session 000
 
 newSession = {'subject':subject, 'date':'20260701', 'time': '113749', 'suffix':'EDV',
-              'sessionLabel': 'intensitytoneTrains', 'signalType':train, 
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
               'LED':4, 'depth':200, 'frequencies':[3,15.5,28], 'intensities':[80,75,85],
               'paradigm':'widefield_mapping'}
 sessions.append(newSession)
