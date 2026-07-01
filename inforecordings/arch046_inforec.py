@@ -31,6 +31,7 @@ experiments.append(exp0)
 #The reference is tip 1.
 #Took the mouse out at 3:40pm.
 #Mouse had noticable eye discharge at the end, I acalled the vet. 
+#I zeroed the manipulator when I first touched dura-gel.
 
 
 
@@ -100,6 +101,7 @@ exp0.add_session('14-02-09', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 #Insertion was super easy, the probe did not at all during insersion.
 #During the sessions in which laser shines outside the animals eye becomes cloudy.
 #Took the mouse out at 15:45 pm. 
+#I zeroed the manipulator when I first touched dura-gel.
 
 
 exp1 = celldatabase.Experiment(subject, '2026-03-25', brainArea='left_pStr', probe='NPv2-8253', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundRight'])
