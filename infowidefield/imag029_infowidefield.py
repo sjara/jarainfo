@@ -109,4 +109,18 @@ newSession = {'subject':subject, 'date':'20260308', 'time': '204040', 'suffix':'
 sessions.append(newSession)
 # Went to 100%.
 
+newSession = {'subject':subject, 'date':'20260701', 'time': '100532', 'suffix':'EDV',
+              'sessionLabel': '3freq_to28', 'signalType':train, 
+              'LED':2, 'depth':150, 'frequencies':[3, 15.5, 28], 'intensities':[70,65,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#11400 fr, 285 trials, session 000
+
+newSession = {'subject':subject, 'date':'20260701', 'time': '103112', 'suffix':'EDV',
+              'sessionLabel': '3freq_to28', 'signalType':train, 
+              'LED':2, 'depth':150, 'frequencies':[3, 15.5, 28], 'intensities':[80,75,85],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#11400 fr, 285 trials, session 001
+
 
