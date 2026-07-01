@@ -4,7 +4,7 @@ subject = 'arch045'
 experiments = []
 
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
-#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]). 
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
 #expX = celldatabase.Experiment(subject, '2025-05-xx', brainArea='right_AC', probe='NPv2-5422', recordingTrack='anteriorxxx_DYE', info=['facesxx', 'soundLeft'])
