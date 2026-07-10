@@ -72,12 +72,13 @@ newSession = {'subject':subject, 'date':'20260709', 'session': '005',
 sessions.append(newSession)
 #320 trials
 
-newSession = {'subject':subject, 'date':'20260709', 'session': '006',
-              'fps': 9.96, 'magnification': 1.7, 'depth': 201.4, 'angle': 37.52,
-              'laserPower': 45, 'wavelength': 920, 'nFrames': 5500,
-              'brainArea': 'AAF_medFreq', 'sessionLabel': 'AM_fading', 
-              'pmt': [0,1], 'paradigm':'sound_tuning'}
-sessions.append(newSession)
+#by mistake, the next session was not actually acquired - the focus button was pressed instead of grab.
+#newSession = {'subject':subject, 'date':'20260709', 'session': '006',
+#              'fps': 9.96, 'magnification': 1.7, 'depth': 201.4, 'angle': 37.52,
+#             'laserPower': 45, 'wavelength': 920, 'nFrames': 5500,
+#             'brainArea': 'AAF_medFreq', 'sessionLabel': 'AM_fading', 
+#              'pmt': [0,1], 'paradigm':'sound_tuning'}
+#sessions.append(newSession)
 #320 trials
 
 
