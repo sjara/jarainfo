@@ -4,7 +4,7 @@ subject = 'arch045'
 experiments = []
 
 # Experiment parameters: subject, date, brainArea, recordingTrack (penetrationLocationAndDye),
-#    info (which contains [probeOrientation, soundSource, probeConfiguration]).
+#    info (which contains [probeOrientation, soundSource, probeConfiguration]). 
 # Session parameters: sessionTime, behaviorFileSuffix, sessionType, paradigmName.
 
 #expX = celldatabase.Experiment(subject, '2025-05-xx', brainArea='right_AC', probe='NPv2-5422', recordingTrack='anteriorxxx_DYE', info=['facesxx', 'soundLeft'])
@@ -31,6 +31,7 @@ experiments.append(exp0)
 #Probe inserted at 12:30pm
 #The data was very noisy I think because the ground wire fell, but not compeletely so it is probably touching the head bar creating a loop, I used the saline well wire.
 #Took the mouse out at 5:00 pm
+#I zeroed the manipulator when I first touched dura-gel
 
 exp0.add_site(4000) 
 exp0.maxDepth = 4000
@@ -71,6 +72,7 @@ exp1.maxDepth = 3700
 #Mouse in rig at 10:37am.
 #This mouse did not have a ground wire so I did the well grounding.
 #Took the mouse out at 13:20pm.
+#I zeroed the manipulator when I first touched dura-gel
 
 
 #Recording from 1 and 3, channels 1-96, and recording from shank 4 channels 1-192.(Not recording from shank 2).
@@ -95,6 +97,7 @@ exp2 = celldatabase.Experiment(subject, '2026-04-14', brainArea='left_pStr', pro
 experiments.append(exp2)
 
 #I tried alot and exactly at this depth one of the shanks tended to bend, I believe it is touching the optic fiber, i still decided to record to sessions in case.
+#I zeroed the manipulator when I first touched dura-gel
 
 
 
@@ -124,7 +127,7 @@ experiments.append(exp3)
 #Penetrated easly.
 #The reference is tip 3.
 #Red part of the probe faces medial.
-#Took the mouse out at pm. 
+#I zeroed the manipulator when I first touched dura-gel.
 
 
 
@@ -162,7 +165,8 @@ experiments.append(exp4)
 #Red part of the probe faces medial.
 #This mouse does not have a ground wire. I used the saline well for grounding.
 #The probe was fine when checked bbefore inseriting, Although it is very noisy when decided to record. I tried grounding as best as I could but the results where not satisfactory. I could see spikes so I decided to record anyways.
-#zeroed from the surface of the brain. 
+#zeroed from the surface of the brain.
+#I zeroed the manipulator when I first touched dura-gel
 
 
 
