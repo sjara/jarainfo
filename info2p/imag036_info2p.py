@@ -67,7 +67,7 @@ sessions.append(newSession)
 newSession = {'subject':subject, 'date':'20260709', 'session': '005',
               'fps': 9.96, 'magnification': 1.7, 'depth': 91.08, 'angle': 37.52,
               'laserPower': 33, 'wavelength': 920, 'nFrames': 5500,
-              'brainArea': 'A2_highFreq', 'sessionLabel': 'AM_fading', 
+              'brainArea': 'A2_highFreq', 'sessionLabel': 'AMfading', 
               'pmt': [0,1], 'paradigm':'sound_tuning'}
 sessions.append(newSession)
 #320 trials

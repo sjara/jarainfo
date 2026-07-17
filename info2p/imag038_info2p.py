@@ -27,7 +27,7 @@ sessions = []
 newSession = {'subject':subject, 'date':'20260716', 'session': '000',
               'fps': 9.96, 'magnification': 2.0, 'depth': 138.08, 'angle': 42.57,
               'laserPower': 45, 'wavelength': 920, 'nFrames': 5500,
-              'brainArea': 'A1_medFreq', 'sessionLabel': 'AM_fading', 
+              'brainArea': 'A1_medFreq', 'sessionLabel': 'AMfading', 
               'pmt': [0,1], 'paradigm':'sound_tuning'}
 sessions.append(newSession)
 #320 trials
@@ -35,7 +35,7 @@ sessions.append(newSession)
 newSession = {'subject':subject, 'date':'20260716', 'session': '001',
               'fps': 9.96, 'magnification': 3.4, 'depth': 215.85, 'angle': 42.57,
               'laserPower': 54, 'wavelength': 920, 'nFrames': 5500,
-              'brainArea': 'A1_medFreq', 'sessionLabel': 'AM_fading', 
+              'brainArea': 'A1_medFreq', 'sessionLabel': 'AMfading', 
               'pmt': [0,1], 'paradigm':'sound_tuning'}
 sessions.append(newSession)
 #320 trials
@@ -43,7 +43,7 @@ sessions.append(newSession)
 newSession = {'subject':subject, 'date':'20260716', 'session': '002',
               'fps': 9.96, 'magnification': 2.0, 'depth': 152.36, 'angle': 42.57,
               'laserPower': 52, 'wavelength': 920, 'nFrames': 5500,
-              'brainArea': 'A2_medFreq', 'sessionLabel': 'AM_fading', 
+              'brainArea': 'A2_medFreq', 'sessionLabel': 'AMfading', 
               'pmt': [0,1], 'paradigm':'sound_tuning'}
 sessions.append(newSession)
 #320 trials
@@ -51,7 +51,7 @@ sessions.append(newSession)
 newSession = {'subject':subject, 'date':'20260716', 'session': '003',
               'fps': 9.96, 'magnification': 2.0, 'depth': 151.66, 'angle': 42.57,
               'laserPower': 47, 'wavelength': 920, 'nFrames': 5500,
-              'brainArea': 'AAF_highFreq', 'sessionLabel': 'AM_fading', 
+              'brainArea': 'AAF_highFreq', 'sessionLabel': 'AMfading', 
               'pmt': [0,1], 'paradigm':'sound_tuning'}
 sessions.append(newSession)
 #320 trials
