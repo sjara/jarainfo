@@ -31,6 +31,7 @@ experiments.append(exp0)
 #Took the mouse out at pm.
 #Red part of the probe faces medial.
 #Took the mouse out at 7:05pm. 
+#I zeroed the manipulator when I first touched dura-gel.
 
 
 
@@ -82,7 +83,8 @@ experiments.append(exp1)
 #Penetrated easily at one try. 
 #The reference is tip 1.
 #Red part of the probe faces medial.
-#Took the mouse out at 7:05pm. 
+#I zeroed the manipulator when I first touched dura-gel.
+
 
 
 
@@ -119,10 +121,10 @@ exp2 = celldatabase.Experiment(subject, '2026-04-12', brainArea='right_pStr', pr
 experiments.append(exp2)
 
 #Mouse in the rig at 10:40pm
-#Penetrated in the first try.
 #The reference is tip 3.
 #Red part of the probe faces medial.
-#Took the mouse out at 7:05pm. 
+#I zeroed the manipulator when I first touched dura-gel.
+
 
 
 
@@ -175,6 +177,7 @@ experiments.append(exp3)
 #The reference is tip 3.
 #Red part of the probe faces medial.
 #Took the mouse out at 16:40 pm.
+#I zeroed the manipulator when I first touched dura-gel.
 
 
 

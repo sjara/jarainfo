@@ -117,7 +117,6 @@ exp2 = celldatabase.Experiment(subject, '2025-12-16', brainArea='left_pStr', pro
 experiments.append(exp2)
 
 # Mouse in the rig at 2:10 pm
-#  took the mouse out
 # Inserted the probe at 3:38, took me many attempts to penetrate.
 # Power of the laser 10 mW (Dial 5.17 / screen 39.4)
 # Red part of the probe faces Medial
@@ -127,7 +126,6 @@ experiments.append(exp2)
 # I zero the manipulator when I first touched dura-gel
 # I recorded 2 fast sessions to check whether we can tell air-dura-gel-brain apart by looking at the LFPs
 # The mouse have a ground wire.
-#The natural sounds categories does not have a recoeded video.
 
 
 

@@ -51,9 +51,12 @@ exp0.add_session('12-41-58', 'a', 'optoNaturalCategories', 'natural_sound_detect
 exp0.add_session('13-10-57', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp0.add_session('13-28-35', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
+#LFP sessions
+exp0.add_site(3601)  #To differentiate from the recording with the 4 shanks I wrote "1" at the end
 # Shank 1 Bank A
 exp0.add_session('13-50-50', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp0.add_site(720)
 # Shank 1 Bank B
 exp0.add_session('13-54-03', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
 
@@ -119,11 +122,13 @@ exp1.add_session('15-23-58', 'g', 'optoTuningAM', 'am_tuning_curve') #440
 exp1.add_session('15-37-50', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 #CHANGE THE ELECTRODES
 
-
+#LFP sessions
+exp1.add_site(3601)  #To differentiate from the recording with the 4 shanks I wrote "1" at the end
 #CHANGE THE ELECTRODES
 # Shank 1 Bank A
 exp1.add_session('15-54-16', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp1.add_site(720)
 #CHANGE THE ELECTRODES
 # Shank 1 Bank B
 exp1.add_session('15-56-03', 'j', 'tuningFreq', 'am_tuning_curve') #40 trials
@@ -230,11 +235,13 @@ exp3.add_session('15-28-25', 'g', 'optoTuningAM', 'am_tuning_curve') #440
 exp3.add_session('15-43-22', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 #CHANGE THE ELECTRODES
 
-
+#LFP sessions
+exp3.add_site(3601)  #To differentiate from the recording with the 4 shanks I wrote "1" at the end
 #CHANGE THE ELECTRODES
 # Shank 1 Bank A
 exp3.add_session('15-59-21', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
 
+exp3.add_site(720)
 #CHANGE THE ELECTRODES
 # Shank 1 Bank B
 exp3.add_session('16-01-53', 'j', 'tuningFreq', 'am_tuning_curve') #40 trials

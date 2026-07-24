@@ -5,12 +5,12 @@ Metadata for widefield imaging sessions.
 subject: animal name.
 date: in ISO format (YYYYMMDD).
 time: in 24hr format (hhmmss).
-suffix: experimenter initials, e.g., 'SJ'.
+suffix: 'wf'
 sessionLabel: short string that describes the session, e.g., '3_freq_mapping', '28kHz_mapping'.
 signalType: imaging type, e.g, 'GCaMP6f', 'GCaMP8mSoma', 'intrinsic', 'flavoprotein', etc.
 LED: LED intensity setting. A number from 0-8, matching the position of the LED knob.
 depth: imaging depth from brain surface (in microns).
-cameraRotation: rotation of the camera in degrees (CCW). Default is 90, given our setup.
+cameraRotation: rotation (roll, not yaw or pitch) of the camera in degrees (CCW). Default is 90, given our setup.
 hemisphere: brain hemisphere imaged, either 'left' or 'right'.
 paradigm: name of the experimental paradigm used in the session.
 
@@ -26,9 +26,10 @@ signalType = 'GCaMP8m'
 cameraRotation = 90
 hemisphere = 'right'
 sessions = []
+suffix = 'wf'
 
 # Example session with multiple frequencies, single intensity
-newSession = {'subject':subject, 'date':'20240820', 'time': '161451', 'suffix':'SJ',
+newSession = {'subject':subject, 'date':'20240820', 'time': '161451', 'suffix':suffix,
               'sessionLabel': 'calcium_test', 'signalType':signalType, 
               'LED':7, 'depth':254, 'cameraRotation':cameraRotation, 'hemisphere':hemisphere,
               'frequencies':[3, 9.8, 32], 'intensities':[70],
@@ -36,11 +37,19 @@ newSession = {'subject':subject, 'date':'20240820', 'time': '161451', 'suffix':'
 sessions.append(newSession)
 
 # Example session with single frequency, multiple intensities
-newSession = {'subject':subject, 'date':'20240820', 'time': '163214', 'suffix':'SJ',
+newSession = {'subject':subject, 'date':'20240820', 'time': '163214', 'suffix':suffix,
               'sessionLabel': 'calcium_test', 'signalType':signalType, 
               'LED':7, 'depth':254, 'cameraRotation':cameraRotation, 'hemisphere':hemisphere,
               'frequencies':[32], 'intensities':[70, 80],
               'paradigm':'am_tuning_curve'}
+sessions.append(newSession)
+
+# Example session with multiple frequencies, one intensity each
+newSession = {'subject':subject, 'date':'20260721', 'time': '131224', 'suffix':suffix,
+              'sessionLabel': 'calcium_test', 'signalType':signalType, 
+              'LED':0, 'depth':254, 'cameraRotation':cameraRotation, 'hemisphere':hemisphere,
+              'frequencies':[3, 10, 32], 'intensities':[70, 65, 75],
+              'paradigm':'widefield_mapping'}
 sessions.append(newSession)
 
 '''
