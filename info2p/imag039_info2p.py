@@ -323,6 +323,16 @@ newSession = {'subject':subject, 'date':'20260729','session': '026',
 sessions.append(newSession)
 #220 trials
 
+newSession = {'subject':subject, 'date':'20260730','session': '000',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 181.06,'angle': 42.02,
+              'laserPower': 26, 'wavelength': 920, 'nFrames': 5500,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'AMfading',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#320 trials
+
+
+
 
 
 
