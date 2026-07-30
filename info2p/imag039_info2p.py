@@ -361,6 +361,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '004',
               'brainArea': 'A1_lowFreq', 'sessionLabel': 'tuningFreq',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#320 trials
 
 newSession = {'subject':subject, 'date':'20260730','session': '005',
               'fps': 9.96, 'magnification': 2.0, 'depth': 415.51, 'angle':42.00,
@@ -384,6 +385,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '007',
               'brainArea': 'A2_lowFreq', 'sessionLabel': 'tuningFreq',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#320 trials
 
 newSession = {'subject':subject, 'date':'20260730','session': '008',
               'fps': 9.96, 'magnification': 2.0, 'depth': 119.25, 'angle':42.00,
@@ -407,6 +409,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '010',
               'brainArea': 'A2_lowFreq', 'sessionLabel': 'tuningFreq',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#320 trials
 
 newSession = {'subject':subject, 'date':'20260730','session': '011',
               'fps': 9.96, 'magnification': 2.0, 'depth': 429.39, 'angle': 42.00,
@@ -414,6 +417,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '011',
               'brainArea': 'A2_lowFreq', 'sessionLabel': 'tuningAM',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#220 trials
 
 newSession = {'subject':subject, 'date':'20260730','session': '012',
               'fps': 9.96, 'magnification': 2.0, 'depth': 155.85,'angle': 42.02,
@@ -429,6 +433,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '013',
               'brainArea': 'A2_highFreq', 'sessionLabel': 'tuningFreq',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#320 trials
 
 newSession = {'subject':subject, 'date':'20260730','session': '014',
               'fps': 9.96, 'magnification': 2.0, 'depth': 155.85, 'angle': 42.02,
@@ -436,6 +441,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '014',
               'brainArea': 'A2_highFreq', 'sessionLabel': 'tuningAM',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#220 trials
 
 newSession = {'subject':subject, 'date':'20260730','session': '015',
               'fps': 9.96, 'magnification': 2.0, 'depth': 475.76,'angle': 42.02,
@@ -451,6 +457,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '016',
               'brainArea': 'A2_highFreq', 'sessionLabel': 'tuningFreq',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#320 trials
 
 newSession = {'subject':subject, 'date':'20260730','session': '017',
               'fps': 9.96, 'magnification': 2.0, 'depth': 475.76, 'angle': 42.02,
@@ -458,6 +465,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '017',
               'brainArea': 'A2_highFreq', 'sessionLabel': 'tuningAM',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#220 trials
 
 newSession = {'subject':subject, 'date':'20260730','session': '018',
               'fps': 9.96, 'magnification': 2.0, 'depth': 162.17,'angle': 42.02,
@@ -473,6 +481,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '019',
               'brainArea': 'AAF_lowFreq', 'sessionLabel': 'tuningFreq',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#320 trials
 
 newSession = {'subject':subject, 'date':'20260730','session': '020',
               'fps': 9.96, 'magnification': 2.0, 'depth': 162.17, 'angle': 42.02,
@@ -480,6 +489,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '020',
               'brainArea': 'AAF_lowFreq', 'sessionLabel': 'tuningAM',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#220 trials
 
 newSession = {'subject':subject, 'date':'20260730','session': '021',
               'fps': 9.96, 'magnification': 2.0, 'depth': 448.29,'angle': 42.02,
@@ -495,6 +505,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '022',
               'brainArea': 'AAF_lowFreq', 'sessionLabel': 'tuningFreq',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#320 trials
 
 newSession = {'subject':subject, 'date':'20260730','session': '023',
               'fps': 9.96, 'magnification': 2.0, 'depth': 448.29, 'angle': 42.02,
@@ -502,6 +513,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '023',
               'brainArea': 'AAF_lowFreq', 'sessionLabel': 'tuningAM',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#220 trials
 
 newSession = {'subject':subject, 'date':'20260730','session': '024',
               'fps': 9.96, 'magnification': 2.0, 'depth': 170.44,'angle': 42.02,
@@ -517,6 +529,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '025',
               'brainArea': 'AAF_highFreq', 'sessionLabel': 'tuningFreq',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#320 trials
 
 newSession = {'subject':subject, 'date':'20260730','session': '026',
               'fps': 9.96, 'magnification': 2.0, 'depth': 170.44, 'angle': 42.02,
@@ -524,6 +537,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '026',
               'brainArea': 'AAF_highFreq', 'sessionLabel': 'tuningAM',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#220 trials
 
 newSession = {'subject':subject, 'date':'20260730','session': '027',
               'fps': 9.96, 'magnification': 2.0, 'depth': 430.89,'angle': 42.02,
@@ -539,6 +553,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '028',
               'brainArea': 'AAF_highFreq', 'sessionLabel': 'tuningFreq',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#320 trials
 
 newSession = {'subject':subject, 'date':'20260730','session': '029',
               'fps': 9.96, 'magnification': 2.0, 'depth': 430.89, 'angle': 42.02,
@@ -546,6 +561,7 @@ newSession = {'subject':subject, 'date':'20260730','session': '029',
               'brainArea': 'AAF_highFreq', 'sessionLabel': 'tuningAM',
               'pmt': [0,1], 'paradigm':'am_tuning'}
 sessions.append(newSession)
+#220 trials
 
 
 
