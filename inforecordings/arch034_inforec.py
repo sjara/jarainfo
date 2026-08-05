@@ -61,14 +61,14 @@ exp0.add_session('15-59-26', 'b', 'optoNaturalInstances', 'natural_sound_detecti
 # Shank 1 Bank B
 #exp0.add_session('16-24-42', 'd', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-#exp0.maxDepth = 3500
+exp0.maxDepth = 3500
 
 #-------------------------------------------------------------------------------------------------------
 #We saw from the histology that this penetration landed in the medial border of the pStr (Didn't hit the pStr)
 #2025-11-12
-exp1 = celldatabase.Experiment(subject, '2025-11-12', brainArea='left_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundRight'])
+#exp1 = celldatabase.Experiment(subject, '2025-11-12', brainArea='left_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundRight'])
 
-experiments.append(exp1)
+#experiments.append(exp1)
 
 # Mouse in the rig at 10:10 am
 # Probe in the right depth at 11:20 (First attempt)
@@ -85,13 +85,13 @@ experiments.append(exp1)
 # I added saline before starting to record every session
 
 
-exp1.add_site(3700) #3700.2 
+#exp1.add_site(3700) #3700.2 
 
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
-exp1.add_session('11-41-24', 'a', 'optoTuningAM', 'am_tuning_curve') #Ideally we want to have 440 trials, but I recorded 461 trials
-exp1.add_session('12-00-26', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
-exp1.add_session('12-32-16', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
-exp1.add_session('12-51-54', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+#exp1.add_session('11-41-24', 'a', 'optoTuningAM', 'am_tuning_curve') #Ideally we want to have 440 trials, but I recorded 461 trials
+#exp1.add_session('12-00-26', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+#exp1.add_session('12-32-16', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+#exp1.add_session('12-51-54', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
 #LFP sessions
 #exp1.add_site(3701) #3700.2 - To differentiate from the recording from the 2 shanks I wrote "1" at the end
