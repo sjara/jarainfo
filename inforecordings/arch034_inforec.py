@@ -20,7 +20,7 @@ experiments = []
 #expx.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
 #expx.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
 
-
+#According to the histology, this penetration hit the pStr
 exp0 = celldatabase.Experiment(subject, '2025-11-10', brainArea='left_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiI', info=['facesMedial', 'soundRight'])
 
 experiments.append(exp0)
@@ -52,16 +52,19 @@ exp0.add_session('15-14-25', 'a', 'optoNaturalCategories', 'natural_sound_detect
 exp0.add_session('15-43-06', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp0.add_session('15-59-26', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-exp0.add_site(3501) #To differentiate from the recording from the 2 shanks I wrote "1" at the end
+#LFP sessions
+#exp0.add_site(3501) #To differentiate from the recording from the 2 shanks I wrote "1" at the end
 # Shank 1 Bank A
-exp0.add_session('16-22-38', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp0.add_session('16-22-38', 'c', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-exp0.add_site(620) 
+#exp0.add_site(620) 
 # Shank 1 Bank B
-exp0.add_session('16-24-42', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp0.add_session('16-24-42', 'd', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-exp0.maxDepth = 3500
+#exp0.maxDepth = 3500
 
+#-------------------------------------------------------------------------------------------------------
+#We saw from the histology that this penetration landed in the medial border of the pStr (Didn't hit the pStr)
 #2025-11-12
 exp1 = celldatabase.Experiment(subject, '2025-11-12', brainArea='left_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundRight'])
 
@@ -90,15 +93,17 @@ exp1.add_session('12-00-26', 'a', 'optoNaturalCategories', 'natural_sound_detect
 exp1.add_session('12-32-16', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp1.add_session('12-51-54', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-exp1.add_site(3701) #3700.2 - To differentiate from the recording from the 2 shanks I wrote "1" at the end
+#LFP sessions
+#exp1.add_site(3701) #3700.2 - To differentiate from the recording from the 2 shanks I wrote "1" at the end
 # Shank 1 Bank A
-exp1.add_session('13-17-29', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp1.add_session('13-17-29', 'c', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-exp1.add_site(820)
+#exp1.add_site(820)
 # Shank 1 Bank B
-exp1.add_session('13-20-21', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp1.add_session('13-20-21', 'd', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-exp1.maxDepth = 3700
+#exp1.maxDepth = 3700
+#-------------------------------------------------------------------------------------------------------
 
 #2025-11-20
 #Attempted to record but I could not penetrate.
