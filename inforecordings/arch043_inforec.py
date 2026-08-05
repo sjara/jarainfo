@@ -20,10 +20,12 @@ experiments = []
 #expx.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
 #expx.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
 
+#-------------------------------------------------------------------------------------------------------
+#We saw from the histology that this penetration was too medial (Didn't hit the pStr)
 #2025-12-15
-exp0 = celldatabase.Experiment(subject, '2025-12-15', brainArea='left_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundRight'])
+#exp0 = celldatabase.Experiment(subject, '2025-12-15', brainArea='left_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundRight'])
 
-experiments.append(exp0)
+#experiments.append(exp0)
 
 # Started habituation of the mouse at 12:45 pm
 # Left mice for periods of 8 minutes in the rig and put it back in the cage (I did this 3 times)
@@ -38,24 +40,28 @@ experiments.append(exp0)
 # I recorded 2 fast sessions to check whether we can tell air-dura-gel-brain apart by looking at the LFPs
 # The mouse has ground wire.
 
-exp0.add_site(4500) 
+#exp0.add_site(4500) 
 
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
-exp0.add_session('14-33-46', 'a', 'optoTuningAM', 'am_tuning_curve') #440
-exp0.add_session('14-48-36', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
-exp0.add_session('15-16-12', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
-exp0.add_session('15-32-44', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+#exp0.add_session('14-33-46', 'a', 'optoTuningAM', 'am_tuning_curve') #440
+#exp0.add_session('14-48-36', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+#exp0.add_session('15-16-12', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+#exp0.add_session('15-32-44', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-exp0.add_site(4501)  #To differentiate from the recording from the 2 shanks I wrote "1" at the end
+#LFP sessions
+#exp0.add_site(4501)  #To differentiate from the recording from the 2 shanks I wrote "1" at the end
 # Shank 1 Bank A
-exp0.add_session('15-57-46', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp0.add_session('15-57-46', 'c', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-exp0.add_site(1620)
+#exp0.add_site(1620)
 # Shank 1 Bank B
-exp0.add_session('16-00-58', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp0.add_session('16-00-58', 'd', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-exp0.maxDepth = 4500
+#exp0.maxDepth = 4500
+#-------------------------------------------------------------------------------------------------------
 
+#-------------------------------------------------------------------------------------------------------
+# 1 shank in the pStr
 #2025-12-18
 exp1 = celldatabase.Experiment(subject, '2025-12-18', brainArea='left_pStr', probe='NPv2-1134', recordingTrack='anteriorCenter_DiD', info=['facesLateral', 'soundRight'])
 
@@ -97,20 +103,23 @@ exp1.add_session('15-05-14', 'c', 'optoNaturalCategories', 'natural_sound_detect
 exp1.add_session('15-35-51', 'h', 'optoTuningFreq', 'am_tuning_curve') #643 trials
 exp1.add_session('15-53-01', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-exp1.add_site(4002)  #To differentiate from the experimental recording I wrote "2" at the end (This is not to be considered)
+#LFP sessions
+#exp1.add_site(4002)  #To differentiate from the experimental recording I wrote "2" at the end (This is not to be considered)
 # Shanks 1 and 2
-exp1.add_session('14-12-04', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials # I forgot to select the bank A
+#exp1.add_session('14-12-04', 'c', 'tuningFreqLFP', 'am_tuning_curve') #40 trials # I forgot to select the bank A
 
-exp1.add_site(4003)  #To differentiate from the recording from the 2 shanks I wrote "3" at the end
+#exp1.add_site(4003)  #To differentiate from the recording from the 2 shanks I wrote "3" at the end
 # Shank 1 Bank A
-exp1.add_session('14-15-18', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials 
+#exp1.add_session('14-15-18', 'd', 'tuningFreqLFP', 'am_tuning_curve') #40 trials 
 
-exp1.add_site(1120)
+#exp1.add_site(1120)
 # Shank 1 Bank B
-exp1.add_session('14-17-16', 'e', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp1.add_session('14-17-16', 'e', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
 exp1.maxDepth = 4000
 
+#-------------------------------------------------------------------------------------------------------
+# 1 shank in the pStr and the other one in the border
 #2025-12-19
 exp2 = celldatabase.Experiment(subject, '2025-12-19', brainArea='right_pStr', probe='NPv2-3082', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundLeft'])
 
@@ -141,12 +150,14 @@ exp2.add_session('13-17-32', 'a', 'optoNaturalCategories', 'natural_sound_detect
 exp2.add_session('13-46-22', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp2.add_session('14-03-07', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-exp2.add_site(4601)  #To differentiate from the recording from the 2 shanks I wrote "1" at the end
-# Shank 3 Bank A
-exp2.add_session('14-26-11', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
 
-exp2.add_site(1720) 
+#LFP sessions
+#exp2.add_site(4601)  #To differentiate from the recording from the 2 shanks I wrote "1" at the end
+# Shank 3 Bank A
+#exp2.add_session('14-26-11', 'c', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
+
+#exp2.add_site(1720) 
 # Shank 3 Bank B
-exp2.add_session('14-28-09', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp2.add_session('14-28-09', 'd', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
 exp2.maxDepth = 4600
