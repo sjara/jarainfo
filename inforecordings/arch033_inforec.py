@@ -98,7 +98,7 @@ exp1.add_session('12-58-43', 'b', 'optoNaturalInstances', 'natural_sound_detecti
 # Shank 1 Bank B
 #exp1.add_session('13-23-49', 'd', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-#exp1.maxDepth = 3500
+exp1.maxDepth = 3500
 
 #-------------------------------------------------------------------------------------------------------
 #We saw from the histology that this penetration landed in the medial border of the pStr (Didn't hit the pStr)
