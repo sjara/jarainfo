@@ -116,7 +116,7 @@ exp1.add_session('15-53-01', 'd', 'optoNaturalInstances', 'natural_sound_detecti
 # Shank 1 Bank B
 #exp1.add_session('14-17-16', 'e', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-exp1.maxDepth = 4000
+exp1.maxDepth = 4001
 
 #-------------------------------------------------------------------------------------------------------
 # 1 shank in the pStr and the other one in the border
@@ -141,7 +141,6 @@ experiments.append(exp2)
 # I recorded 2 fast sessions to check whether we can tell air-dura-gel-brain apart by looking at the LFPs
 # The mouse does not have ground wire, so I removed the layer of dura-gel in the corner to put the ground wire and add saline
 
-
 exp2.add_site(4600) 
 
 #Shanks 3 and 4. Manually selected channels 1-96 and 97-192.
@@ -149,7 +148,6 @@ exp2.add_session('13-01-43', 'a', 'optoTuningAM', 'am_tuning_curve') #440
 exp2.add_session('13-17-32', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
 exp2.add_session('13-46-22', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 exp2.add_session('14-03-07', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
-
 
 #LFP sessions
 #exp2.add_site(4601)  #To differentiate from the recording from the 2 shanks I wrote "1" at the end
