@@ -39,8 +39,6 @@ experiments.append(exp0)
 # The mouse have a ground wire.
 #The natural sounds categories does not have a recoeded video.
 
-
-
 exp0.add_site(4500) 
 exp0.maxDepth = 4500
 
@@ -75,9 +73,6 @@ exp0.add_session('13-36-09', 'a', 'optoNaturalCategories', 'natural_sound_detect
 # Probe is located in the center of craniotomy
 # I zeroed the manipulator when I first touched dura-gel
 # I recorded 2 fast sessions to check whether we can tell air-dura-gel-brain apart by looking at the LFPs
-
-
-
 
 #exp1.add_site(4000) 
 #exp1.maxDepth = 4000
@@ -124,8 +119,6 @@ experiments.append(exp2)
 # I recorded 2 fast sessions to check whether we can tell air-dura-gel-brain apart by looking at the LFPs
 # The mouse have a ground wire.
 
-
-
 exp2.add_site(4500) 
 exp2.maxDepth = 4500
 
@@ -152,12 +145,3 @@ exp2.add_session('18-42-54', 'd', 'optoNaturalInstances', 'natural_sound_detecti
 #exp2.add_site(1620) 
 #Shank 2 Bank A
 #exp2.add_session('16-06-27', 'f', 'tuningFreqLFP', 'am_tuning_curve') #40 trial
-
-
-
-
-
-
-
-
-
