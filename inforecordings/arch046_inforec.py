@@ -137,8 +137,8 @@ exp0.add_session('15-02-02', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 #LFP sessions
 #exp1.add_site(3748) #The tip is in the depth of 3750, I wrote 3748 because of having specific site for each. 
 # Shank 1 Bank A
-#exp1.add_session('14-18-10', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp1.add_session('14-18-10', 'i', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
 #exp1.add_site(870) 
 # Shank 1 Bank B
-#exp1.add_session('14-20-26', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
+#exp1.add_session('14-20-26', 'j', 'tuningFreqLFP', 'am_tuning_curve') #40 trial
