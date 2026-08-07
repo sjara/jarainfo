@@ -20,8 +20,8 @@ experiments = []
 #expx.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
 #expx.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
 
-#.........................................................................................
 
+#We saw from the histology that shank 3 and 4 are in the pStr
 exp0 = celldatabase.Experiment(subject, '2026-03-03', brainArea='right_pStr', probe='NPv2-3973', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundLeft'])
 
 experiments.append(exp0)
@@ -32,8 +32,6 @@ experiments.append(exp0)
 #Took the mouse out at 3:40pm.
 #Mouse had noticable eye discharge at the end, I acalled the vet. 
 #I zeroed the manipulator when I first touched dura-gel.
-
-
 
 exp0.add_site(4000) 
 exp0.maxDepth = 4000
@@ -64,14 +62,14 @@ exp0.add_site(3279)
 exp0.add_session('14-47-41', 'g', 'optoTuningAM', 'am_tuning_curve') #440
 exp0.add_session('15-02-02', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 
-
-exp0.add_site(3998) #The tip is in the depth of 4000, I wrote 3998 because of having specific site for each. 
+#LFP sessions
+#exp0.add_site(3998) #The tip is in the depth of 4000, I wrote 3998 because of having specific site for each. 
 # Shank 1 Bank A
-exp0.add_session('13-59-15', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp0.add_session('13-59-15', 'i', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-exp0.add_site(1120) 
+#exp0.add_site(1120) 
 # Shank 1 Bank B
-exp0.add_session('14-02-09', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
+#exp0.add_session('14-02-09', 'j', 'tuningFreqLFP', 'am_tuning_curve') #40 trial
 
 
 #...............................................................................................
@@ -92,8 +90,8 @@ exp0.add_session('14-02-09', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 #The data was very noisy, I tried grounding many things in the rig and it did not make it any better.
 #Today, i was not able to record.
 
-#................................................................................................
-
+#-------------------------------------------------------------------------------------------------------
+#We saw from the histology that this penetration didn't hit the pStr
 #2026-03-25
 #Mouse in the rig at 10:45 am.
 #The mouse does not have a ground wire, used the other well (right) as the refernce.
@@ -103,48 +101,44 @@ exp0.add_session('14-02-09', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
 #Took the mouse out at 15:45 pm. 
 #I zeroed the manipulator when I first touched dura-gel.
 
+#exp1 = celldatabase.Experiment(subject, '2026-03-25', brainArea='left_pStr', probe='NPv2-8253', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundRight'])
 
-exp1 = celldatabase.Experiment(subject, '2026-03-25', brainArea='left_pStr', probe='NPv2-8253', recordingTrack='centerCenter_DiD', info=['facesLateral', 'soundRight'])
+#experiments.append(exp1)
 
-experiments.append(exp1)
-
-
-
-exp1.add_site(3750) 
-exp1.maxDepth = 3750
-
+#exp1.add_site(3750) 
+#exp1.maxDepth = 3750
 
 #Recording from all shanks, channels 1-96.
-exp1.add_session('11-12-25', 'a', 'optoTuningAM', 'am_tuning_curve') #440
-exp1.add_session('11-27-24', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
-exp1.add_session('11-43-58', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
-exp1.add_session('12-11-42', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+#exp1.add_session('11-12-25', 'a', 'optoTuningAM', 'am_tuning_curve') #440
+#exp1.add_session('11-27-24', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+#exp1.add_session('11-43-58', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+#exp1.add_session('12-11-42', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-exp1.add_site(3030)
+#exp1.add_site(3030)
 #Recoeding from all shanks, channels 97-192.
-exp1.add_session('12-48-20', 'c', 'optoTuningAM', 'am_tuning_curve') #440
-exp1.add_session('13-04-06', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+#exp1.add_session('12-48-20', 'c', 'optoTuningAM', 'am_tuning_curve') #440
+#exp1.add_session('13-04-06', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 #Gave mouse water
-exp1.add_session('13-23-49', 'c', 'optoNaturalCategories', 'natural_sound_detection') #213 OptoNaturalCategories
-exp1.add_session('13-54-31', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+#exp1.add_session('13-23-49', 'c', 'optoNaturalCategories', 'natural_sound_detection') #213 OptoNaturalCategories
+#exp1.add_session('13-54-31', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-exp1.add_site(3749) 
+#exp1.add_site(3749) 
 # IT IS THE SAME SITE AS THE FIRST ONE (4000). I JUST ADDED A NEW SITE FOR DATA ANALYSIS PURPOSES
 #Recording from all shanks, channels 1-9 with the laser shining outside of the brain. 
-exp1.add_session('14-26-23', 'e', 'optoTuningAM', 'am_tuning_curve') #440
-exp1.add_session('14-41-11', 'f', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+#exp1.add_session('14-26-23', 'e', 'optoTuningAM', 'am_tuning_curve') #440
+#exp1.add_session('14-41-11', 'f', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 
-exp1.add_site(3029)
+#exp1.add_site(3029)
 # IT IS THE SAME SITE AS THE SECOND ONE (3280). I JUST ADDED A NEW SITE FOR DATA ANALYSIS PURPOSES
 #Recording from all shanks, channels 97-192, with the laser shining outside of the brain. 
-exp1.add_session('14-58-02', 'g', 'optoTuningAM', 'am_tuning_curve') #440
-exp1.add_session('15-12-29', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+#exp1.add_session('14-58-02', 'g', 'optoTuningAM', 'am_tuning_curve') #440
+#exp1.add_session('15-12-29', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 trials
 
-
-exp1.add_site(3748) #The tip is in the depth of 3750, I wrote 3748 because of having specific site for each. 
+#LFP sessions
+#exp1.add_site(3748) #The tip is in the depth of 3750, I wrote 3748 because of having specific site for each. 
 # Shank 1 Bank A
-exp1.add_session('14-18-10', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp1.add_session('14-18-10', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
 
-exp1.add_site(870) 
+#exp1.add_site(870) 
 # Shank 1 Bank B
-exp1.add_session('14-20-26', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
+#exp1.add_session('14-20-26', 'j', 'tuningFreq', 'am_tuning_curve') #40 trial
