@@ -101,7 +101,6 @@ exp0.add_session('16-32-18', 'd', 'optoNaturalInstances', 'natural_sound_detecti
 #exp2.add_site(2568) 
 #exp2.maxDepth = 2568
 
-
 #Recording from all shanks, channels 1-96.
 #exp2.add_session('13-14-00', 'a', 'optoTuningAM', 'am_tuning_curve') #440
 #exp2.add_session('13-29-29', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
