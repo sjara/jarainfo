@@ -175,7 +175,7 @@ exp2.add_session('15-36-23', 'f', 'optoNaturalInstances', 'natural_sound_detecti
 # Shank 1 Bank B
 #exp2.add_session('16-00-04', 'i', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-exp2.maxDepth = 4500
+exp2.maxDepth = 4501
 
 #-------------------------------------------------------------------------------------------------------
 #We saw from the histology that this penetration was too lateral (Didn't hit the pStr)
