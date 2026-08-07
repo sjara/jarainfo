@@ -58,6 +58,7 @@ exp1.add_session('14-21-21', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 exp1.add_session('14-39-05', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 
 
 
+#We saw from the histology that this penetration hit the pStr
 ### Oct 17
 exp2 = celldatabase.Experiment(subject, '2025-10-17', brainArea='right_pStr', probe='NPv2-1134', recordingTrack='centerCenter_DiI', info=['facesMedial', 'soundLeft'])
 experiments.append(exp2)
@@ -73,7 +74,6 @@ experiments.append(exp2)
 # Laser turned on and intensity according to the screen 08.4 and dial 3.15
 # There was not much saline at the end of the last session
 # Electrodes were facing medial (red towards the lateral)
-
 
 exp2.add_site(4000)
 exp2.maxDepth = 4000
