@@ -31,6 +31,13 @@ newSession = {'subject':subject, 'date':'20260716', 'time': '111231', 'suffix':'
 sessions.append(newSession)
 #11400 fr, 285 trials, session 000
 
+newSession = {'subject':subject, 'date':'20260716', 'time': '111231', 'suffix':'EDV',
+              'sessionLabel': 'widefieldMapping', 'signalType':'signalType', 
+              'LED':3, 'depth':200, 'frequencies':[3,15.5,28], 'intensities':[75,70,80],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#11400 fr, 285 trials, session 000
+
 
 
 
