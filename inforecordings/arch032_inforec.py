@@ -20,6 +20,8 @@ experiments = []
 #expx.add_session('xx-xx-xx', 'a', 'naturalSound', 'natural_sound_detection')
 #expx.add_session('xx-xx-xx', 'b', 'AM', 'am_tuning_curve')
 
+
+#First ephys session that Lizeth recorded. I did not use dye, so we don't know if this penetration hit the pStr or not.
 #Bank 1-96
 exp0 = celldatabase.Experiment(subject, '2025-10-16', brainArea='right_pStr', probe='NPv2-1134', recordingTrack='centerCenter', info=['facesMedial', 'soundLeft'])
 
