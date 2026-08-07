@@ -24,6 +24,7 @@ experiments = []
 # Started habituation of the mouse.
 # Took the mouse in the rig during 3 periods of 10, 15 and 20 minutes.
 
+#According to the histology, this penetration hit the pStr
 #2026-03-05
 exp0 = celldatabase.Experiment(subject, '2026-03-05', brainArea='right_pStr', probe='NPv2-3973', recordingTrack='centerCenter_DiI', info=['facesMedial', 'soundLeft'])
 
@@ -42,7 +43,6 @@ experiments.append(exp0)
 # The mouse has no ground wire.
 #I added saline before starting to record every session
 
-
 exp0.add_site(3600) 
 
 #Shanks 1 and 2. Manually selected channels 1-96 and 97-192.
@@ -52,16 +52,15 @@ exp0.add_session('13-10-57', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 exp0.add_session('13-28-35', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
 #LFP sessions
-exp0.add_site(3601)  #To differentiate from the recording with the 4 shanks I wrote "1" at the end
+#exp0.add_site(3601)  #To differentiate from the recording with the 4 shanks I wrote "1" at the end
 # Shank 1 Bank A
-exp0.add_session('13-50-50', 'c', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp0.add_session('13-50-50', 'c', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-exp0.add_site(720)
+#exp0.add_site(720)
 # Shank 1 Bank B
-exp0.add_session('13-54-03', 'd', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp0.add_session('13-54-03', 'd', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-exp0.maxDepth = 3600
-
+exp0.maxDepth = 3601
 
 #2026-03-06
 
@@ -71,6 +70,7 @@ exp0.maxDepth = 3600
 # I could not go beyond that point today.
 # I used DiD
 
+#According to the histology, this penetration hit the pStr
 #2026-03-19
 exp1 = celldatabase.Experiment(subject, '2026-03-19', brainArea='left_pStr', probe='NPv2-2171', recordingTrack='centerCenter_DiI', info=['facesLateral', 'soundRight'])
 
@@ -88,7 +88,6 @@ experiments.append(exp1)
 # I recorded 2 fast sessions to check whether we can tell air-dura-gel-brain apart by looking at the LFPs
 # The mouse has no ground wire.
 # Particularly today, the mouse is running almost all the time and that is creating big peaks in the signals
-
 
 exp1.add_site(3600) 
 
@@ -123,23 +122,24 @@ exp1.add_session('15-37-50', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 #CHANGE THE ELECTRODES
 
 #LFP sessions
-exp1.add_site(3601)  #To differentiate from the recording with the 4 shanks I wrote "1" at the end
+#exp1.add_site(3602)  #To differentiate from the recording with the 4 shanks I wrote "1" at the end
 #CHANGE THE ELECTRODES
 # Shank 1 Bank A
-exp1.add_session('15-54-16', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp1.add_session('15-54-16', 'i', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-exp1.add_site(720)
+#exp1.add_site(720)
 #CHANGE THE ELECTRODES
 # Shank 1 Bank B
-exp1.add_session('15-56-03', 'j', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp1.add_session('15-56-03', 'j', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-exp1.maxDepth = 3600
+exp1.maxDepth = 3602
 
-
+#-------------------------------------------------------------------------------------------------------
+#We saw from the histology that this penetration was too lateral (Didn't hit the pStr)
 #2026-03-20
-exp2 = celldatabase.Experiment(subject, '2026-03-20', brainArea='left_pStr', probe='NPv2-2171', recordingTrack='centerCenter_DiD', info=['facesMedial', 'soundRight'])
+#exp2 = celldatabase.Experiment(subject, '2026-03-20', brainArea='left_pStr', probe='NPv2-2171', recordingTrack='centerCenter_DiD', info=['facesMedial', 'soundRight'])
 
-experiments.append(exp2)
+#experiments.append(exp2)
 
 # Mouse in the rig at 10:10 am
 # Probe in the right depth at 11:55  am
@@ -154,24 +154,24 @@ experiments.append(exp2)
 # The mouse has no ground wire.
 # The mouse is running at a high speed over time
 
-exp2.add_site(3600) 
+#exp2.add_site(3600) 
 
 #All shanks -  1-96
-exp2.add_session('12-05-15', 'a', 'optoTuningAM', 'am_tuning_curve') #440
-exp2.add_session('12-19-41', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
-exp2.add_session('12-48-08', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
-exp2.add_session('13-05-04', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+#exp2.add_session('12-05-15', 'a', 'optoTuningAM', 'am_tuning_curve') #440
+#exp2.add_session('12-19-41', 'a', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+#exp2.add_session('12-48-08', 'b', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+#exp2.add_session('13-05-04', 'b', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
 #Gave water to the mouse before starting the new sessions
-exp2.add_site(2880) 
+#exp2.add_site(2880) 
 #All shanks -  97-192
-exp2.add_session('13-30-07', 'c', 'optoTuningAM', 'am_tuning_curve') #440
-exp2.add_session('13-46-10', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
-exp2.add_session('14-16-13', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
-exp2.add_session('14-33-14', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
+#exp2.add_session('13-30-07', 'c', 'optoTuningAM', 'am_tuning_curve') #440
+#exp2.add_session('13-46-10', 'c', 'optoNaturalCategories', 'natural_sound_detection') #200 OptoNaturalCategories
+#exp2.add_session('14-16-13', 'd', 'optoTuningFreq', 'am_tuning_curve') #640 trials
+#exp2.add_session('14-33-14', 'd', 'optoNaturalInstances', 'natural_sound_detection') #160 OptoNaturalInstances
 
-exp2.maxDepth = 3600
-
+#exp2.maxDepth = 3600
+#-------------------------------------------------------------------------------------------------------
 
 #2026-03-23
 # I was able to penetrate on the right hemispshere
@@ -180,6 +180,7 @@ exp2.maxDepth = 3600
 # So I had to take the probe out without recording
 # I used DiD and the depth was 4400 from the dura (layer of about 1mm)
 
+#According to the histology, this penetration hit the pStr
 #2026-03-26
 exp3 = celldatabase.Experiment(subject, '2026-03-26', brainArea='right_pStr', probe='NPv2-8253', recordingTrack='centerCenter_DiI', info=['facesMedial', 'soundLeft'])
 
@@ -196,7 +197,6 @@ experiments.append(exp3)
 # Total depth from the dura-gel 4400 um. Depth inside the brain 3600 um
 # I recorded 2 fast sessions to check whether we can tell air-dura-gel-brain apart by looking at the LFPs
 # The mouse has no ground wire.
-
 
 exp3.add_site(3600) 
 
@@ -236,15 +236,15 @@ exp3.add_session('15-43-22', 'h', 'optoTuningFreq', 'am_tuning_curve') #640 tria
 #CHANGE THE ELECTRODES
 
 #LFP sessions
-exp3.add_site(3601)  #To differentiate from the recording with the 4 shanks I wrote "1" at the end
+#exp3.add_site(3602)  #To differentiate from the recording with the 4 shanks I wrote "2" at the end
 #CHANGE THE ELECTRODES
 # Shank 1 Bank A
-exp3.add_session('15-59-21', 'i', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp3.add_session('15-59-21', 'i', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-exp3.add_site(720)
+#exp3.add_site(720)
 #CHANGE THE ELECTRODES
 # Shank 1 Bank B
-exp3.add_session('16-01-53', 'j', 'tuningFreq', 'am_tuning_curve') #40 trials
+#exp3.add_session('16-01-53', 'j', 'tuningFreqLFP', 'am_tuning_curve') #40 trials
 
-exp3.maxDepth = 3600
+exp3.maxDepth = 3602
 
