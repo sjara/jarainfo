@@ -59,3 +59,14 @@ newSession = {'subject':subject, 'date':'20260521', 'time': '123042', 'suffix':'
               'paradigm':'am_tuning_curve'}
 sessions.append(newSession)
 
+newSession = {'subject':subject, 'date':'20260903', 'time': '162815', 'suffix':'wf',
+              'sessionLabel': '3puretones', 'signalType':signalType, 
+              'LED':3.5, 'depth':200, 'frequencies':[3], 'intensities':[70],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20260903', 'time': '171502', 'suffix':'wf',
+              'sessionLabel': '9puretones', 'signalType':signalType, 
+              'LED':3.5, 'depth':200, 'frequencies':[9], 'intensities':[70],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)

@@ -123,4 +123,23 @@ newSession = {'subject':subject, 'date':'20260701', 'time': '103112', 'suffix':'
 sessions.append(newSession)
 #11400 fr, 285 trials, session 001
 
+newSession = {'subject':subject, 'date':'20260904', 'time': '163100', 'suffix':'wf',
+              'sessionLabel': '3freq', 'signalType':signalType, 
+              'LED':5.5, 'depth':200, 'frequencies':[3, 10, 30], 'intensities':[80,80,80],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#7600 frames, 180 trials
 
+newSession = {'subject':subject, 'date':'20260904', 'time': '170600', 'suffix':'wf',
+              'sessionLabel': '3freq', 'signalType':signalType, 
+              'LED':5.5, 'depth':200, 'frequencies':[2500, 3000, 3600], 'intensities':[70,75,80],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#22000 frames, 180 trials
+
+newSession = {'subject':subject, 'date':'20260904', 'time': '173500', 'suffix':'wf',
+              'sessionLabel': '3freq', 'signalType':signalType, 
+              'LED':5.5, 'depth':200, 'frequencies':[3000,3450,4000], 'intensities':[80,85,90],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#22000 frames, 180 trials
