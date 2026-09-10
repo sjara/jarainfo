@@ -563,7 +563,118 @@ newSession = {'subject':subject, 'date':'20260730','session': '029',
 sessions.append(newSession)
 #220 trials
 
+newSession = {'subject':subject, 'date':'20260909','session': '000',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 171.75, 'angle': 42.02,
+              'laserPower': 24,'wavelength': 920, 'nFrames': 7550,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'pure_tones',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#320 trials
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
+#new sound tuning paradigm w/ chords, fm sounds
 
+newSession = {'subject':subject, 'date':'20260909','session': '001',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 171.75, 'angle': 42.02,
+              'laserPower': 24,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'chord_tones',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#250 trials
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
+#new sound tuning paradigm w/ chords, fm sounds
+
+newSession = {'subject':subject, 'date':'20260909','session': '002',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 171.75, 'angle': 42.02,
+              'laserPower': 24,'wavelength': 920, 'nFrames': 7080,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'fm_sounds',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#300 trials
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7080
+#new sound tuning paradigm w/ chords, fm sounds
+
+newSession = {'subject':subject, 'date':'20260909','session': '003',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 147.77, 'angle': 42.02,
+              'laserPower': 29,'wavelength': 920, 'nFrames': 7550,
+              'brainArea': 'AAF_lowFreq', 'sessionLabel': 'pure_tones',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#320 trials
+
+newSession = {'subject':subject, 'date':'20260909','session': '004',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 147.77, 'angle': 42.02,
+              'laserPower': 29,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'AAF_lowFreq', 'sessionLabel': 'chord_tones',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#250 trials
+
+newSession = {'subject':subject, 'date':'20260909','session': '005',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 147.77, 'angle': 42.02,
+              'laserPower': 29,'wavelength': 920, 'nFrames': 7080,
+              'brainArea': 'AAF_lowFreq', 'sessionLabel': 'fm_sounds',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#300 trials
+
+newSession = {'subject':subject, 'date':'20260909','session': '006',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 223.66, 'angle': 42.02,
+              'laserPower': 28,'wavelength': 920, 'nFrames': 7550,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'pure_tones',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#320 trials
+
+newSession = {'subject':subject, 'date':'20260909','session': '007',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 223.66, 'angle': 42.02,
+              'laserPower': 31,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'chord_tones',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#250 trials
+
+newSession = {'subject':subject, 'date':'20260909','session': '008',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 223.66, 'angle': 42.02,
+              'laserPower': 32,'wavelength': 920, 'nFrames': 7080,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'fm_sounds',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#300 trials
+#note: prep moved down around half way through so actual new depth was around 300 micrometers
+
+newSession = {'subject':subject, 'date':'20260909','session': '009',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 223.66, 'angle': 42.02,
+              'laserPower': 29,'wavelength': 920, 'nFrames': 7080,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'fm_sounds',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#300 trials
+#redo of 008 but at correct depth of 223.66 micrometers, matching 006 and 008.
+
+newSession = {'subject':subject, 'date':'20260909','session': '010',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 164.19, 'angle': 42.02,
+              'laserPower': 30,'wavelength': 920, 'nFrames': 7080,
+              'brainArea': 'AAF_lowFreq', 'sessionLabel': 'pure_tones',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#320 trials
+#accidentally only ran 7080 fr, but all sound trials still finished nonetheless.
+
+newSession = {'subject':subject, 'date':'20260909','session': '011',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 164.19, 'angle': 42.02,
+              'laserPower': 30,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'AAF_lowFreq', 'sessionLabel': 'chord_tones',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#250 trials
+
+newSession = {'subject':subject, 'date':'20260909','session': '012',
+              'fps': 9.96, 'magnification': 2.0, 'depth': 164.19, 'angle': 42.02,
+              'laserPower': 31,'wavelength': 920, 'nFrames': 7080,
+              'brainArea': 'AAF_lowFreq', 'sessionLabel': 'fm_sounds',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#300 trials
 
 
 
