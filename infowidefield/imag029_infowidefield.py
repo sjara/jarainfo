@@ -150,3 +150,10 @@ newSession = {'subject':subject, 'date':'20260915', 'time': '183000', 'suffix':'
               'paradigm':'widefield_mapping'}
 sessions.append(newSession)
 #10000 frames, 160 trials
+
+newSession = {'subject':subject, 'date':'20260915', 'time': '210000', 'suffix':'wf',
+              'sessionLabel': '5LowFreq2Intensities', 'signalType':signalType, 
+              'LED':5.1, 'depth':300, 'frequencies':[3000,4000,5000,6000,7000], 'intensities':[70,80],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#12800 frames, 320 trials
