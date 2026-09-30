@@ -932,7 +932,7 @@ sessions.append(newSession)
 #new sound tuning paradigm w/ chords, fm sounds
 #chord Fo=6.5kHz
 
-newSession = {'subject':subject, 'date':'20260924','session': '021', 'FOV#':8,
+newSession = {'subject':subject, 'date':'20260924','session': '024', 'FOV#':8,
               'fps': 9.96, 'magnification': 2.0, 'depth': 129.45, 'angle': 42.2,
               'laserPower': 32,'wavelength': 920, 'nFrames': 7550,
               'brainArea': 'AAF_lowFreq', 'sessionLabel': 'pure_tones',
@@ -942,7 +942,7 @@ sessions.append(newSession)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #new sound tuning paradigm w/ chords, fm sounds
 
-newSession = {'subject':subject, 'date':'20260924','session': '022', 'FOV#':8,
+newSession = {'subject':subject, 'date':'20260924','session': '025', 'FOV#':8,
               'fps': 9.96, 'magnification': 2.0, 'depth': 129.45, 'angle': 42.2,
               'laserPower': 32,'wavelength': 920, 'nFrames': 5900,
               'brainArea': 'AAF_lowFreq', 'sessionLabel': 'chord_tones',
@@ -953,7 +953,7 @@ sessions.append(newSession)
 #new sound tuning paradigm w/ chords, fm sounds
 #chord Fo=4kHz
 
-newSession = {'subject':subject, 'date':'20260924','session': '023', 'FOV#':8,
+newSession = {'subject':subject, 'date':'20260924','session': '026', 'FOV#':8,
               'fps': 9.96, 'magnification': 2.0, 'depth': 129.45, 'angle': 42.2,
               'laserPower': 32,'wavelength': 920, 'nFrames': 5900,
               'brainArea': 'AAF_lowFreq', 'sessionLabel': 'chord_tones',
