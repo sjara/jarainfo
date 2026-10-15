@@ -65,4 +65,33 @@ exp1.add_session('18-09-03','a','naturalSounds','natural_sound_detection')
 
 experiments.append(exp1)
 
-### MOUSE OUT
+### MOUSE OUT 630pm
+
+# 20261008
+### MOUSE IN 1015
+
+# pia ~ 21450.5 (two anterior shanks)   (manipulator value at putative pia)
+# 15546.9
+# 15687.5
+#
+# 18220.4
+# 19000
+# 
+# 17083.6 (pia 4 shank left)
+# 19872.5
+# final ~ xxx   (manipulator value at final depth)
+# depth ~ x.x mm
+
+exp2 = celldatabase.Experiment(subject, '2026-10-08', brainArea='left_AC', probe='NPv2-8253',
+                               recordingTrack='leftAC_DiO', info=['facesRight', 'soundBinaural'])
+
+exp2.maxDepth = 2800    # depth of probe tip in microns
+exp2.add_site(2800) # 4 ref
+exp2.add_session('15-38-22','a','tuningFreq','am_tuning_curve')
+exp2.add_session('15-47-57','a','clickSeqs','gardner_clicks')
+exp2.add_session('16-12-23','a','naturalSounds','natural_sound_detection')
+
+experiments.append(exp2)
+
+
+### MOUSE OUT xxx
