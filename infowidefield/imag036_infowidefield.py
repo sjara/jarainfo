@@ -59,5 +59,29 @@ newSession = {'subject':subject, 'date':'20260701', 'time': '110534', 'suffix':'
 sessions.append(newSession)
 #11400 fr, 285 trials, session 001
 
+newSession = {'subject':subject, 'date':'20261021', 'time': '142845', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[3,15.5,28], 'intensities':[70,65,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 000
+#used max blue LED intensity to test for possible saturation
+#exposure time was 50 ms
 
+newSession = {'subject':subject, 'date':'20261021', 'time': '151029', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[3,15.5,28], 'intensities':[70,65,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 001
+#used max blue LED intensity to test for possible saturation
+#exposure time was 50 ms
 
+newSession = {'subject':subject, 'date':'20261021', 'time': '153047', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[3,15.5,28], 'intensities':[70,65,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 002
+#used max blue LED intensity to test for possible saturation
+#decreased exposure time to 45 ms to avoid dropped frames
