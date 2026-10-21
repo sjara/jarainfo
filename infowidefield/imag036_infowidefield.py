@@ -66,7 +66,7 @@ newSession = {'subject':subject, 'date':'20261021', 'time': '142845', 'suffix':'
 sessions.append(newSession)
 #5700 fr, 150 trials, session 000
 #used max blue LED intensity to test for possible saturation
-#exposure time was 50 ms
+#exposure time was 50 ms, may have dropped frames
 
 newSession = {'subject':subject, 'date':'20261021', 'time': '151029', 'suffix':'EDV',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
@@ -75,7 +75,7 @@ newSession = {'subject':subject, 'date':'20261021', 'time': '151029', 'suffix':'
 sessions.append(newSession)
 #5700 fr, 150 trials, session 001
 #used max blue LED intensity to test for possible saturation
-#exposure time was 50 ms
+#exposure time was 50 ms, may have dropped frames
 
 newSession = {'subject':subject, 'date':'20261021', 'time': '153047', 'suffix':'EDV',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
