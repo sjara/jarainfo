@@ -85,3 +85,11 @@ sessions.append(newSession)
 #5700 fr, 150 trials, session 002
 #used max blue LED intensity to test for possible saturation
 #decreased exposure time to 45 ms to avoid dropped frames
+
+newSession = {'subject':subject, 'date':'20261022', 'time': '140057', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[3,15.5,28], 'intensities':[70,65,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 285 trials, session 000
+#used max blue LED intensity to test for possible saturation
