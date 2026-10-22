@@ -581,7 +581,7 @@ sessions.append(newSession)
 #20kHz center freq
 #Aborted, was running at 60 dB SPL, but should have been 70 dB SPL. Repeated at 70 dB SPL in next session.
 
-newSession = {'subject':subject, 'date':'20261022','session': '011', 'FOV#':3,
+newSession = {'subject':subject, 'date':'20261022','session': '012', 'FOV#':3,
               'fps': 9.96, 'magnification': 2.0, 'depth': 147.94, 'angle': 44.1,
               'laserPower': 31,'wavelength': 920, 'nFrames': 8260,
               'brainArea': 'A1_highFreq', 'sessionLabel': 'band_noise_70dB',
@@ -593,7 +593,7 @@ sessions.append(newSession)
 #new sound tuning paradigm w/ chords, fm sounds (dur and range), band noise, fading noise, and noise pair
 #20kHz center freq
 
-newSession = {'subject':subject, 'date':'20261022','session': '012', 'FOV#':3,
+newSession = {'subject':subject, 'date':'20261022','session': '013', 'FOV#':3,
               'fps': 9.96, 'magnification': 2.0, 'depth': 147.94, 'angle': 44.1,
               'laserPower': 31,'wavelength': 920, 'nFrames': 8260,
               'brainArea': 'A1_highFreq', 'sessionLabel': 'noise_pair_60dB',
