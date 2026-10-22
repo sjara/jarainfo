@@ -442,7 +442,16 @@ sessions.append(newSession)
 #new sound tuning paradigm w/ chords, fm sounds (dur and range), band noise, fading noise, and noise pair
 #8kHz center freq
 
-
+newSession = {'subject':subject, 'date':'20261022','session': '000', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 162.31, 'angle': 44.1,
+              'laserPower': 26,'wavelength': 920, 'nFrames': 7550,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'pure_tones_70dB',
+              'pmt': [0], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#320 trials
+#70 dB SPL
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
+#session time around 11:05 am, duration 12min38s
 
 
 
