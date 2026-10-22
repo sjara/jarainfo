@@ -568,8 +568,30 @@ sessions.append(newSession)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session time around 2:48pm, duration 12min38s
 
+newSession = {'subject':subject, 'date':'20261022','session': '011', 'FOV#':3,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 147.94, 'angle': 44.1,
+              'laserPower': 31,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A1_highFreq', 'sessionLabel': 'band_noise_60dB',
+              'pmt': [0], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#60 dB SPL
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#new sound tuning paradigm w/ chords, fm sounds (dur and range), band noise, fading noise, and noise pair
+#20kHz center freq
+#Aborted, was running at 60 dB SPL, but should have been 70 dB SPL. Repeated at 70 dB SPL in next session.
 
-
+newSession = {'subject':subject, 'date':'20261022','session': '011', 'FOV#':3,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 147.94, 'angle': 44.1,
+              'laserPower': 31,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A1_highFreq', 'sessionLabel': 'band_noise_70dB',
+              'pmt': [0], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#70 dB SPL
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#new sound tuning paradigm w/ chords, fm sounds (dur and range), band noise, fading noise, and noise pair
+#20kHz center freq
 
 
 
