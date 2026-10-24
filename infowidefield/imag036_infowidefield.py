@@ -109,6 +109,6 @@ newSession = {'subject':subject, 'date':'20261023', 'time': '150438', 'suffix':'
               'LED':8, 'depth':200, 'frequencies':[3,3,3,3], 'intensities':[75,65,55,45],
               'paradigm':'widefield_mapping'}
 sessions.append(newSession)
-#7600 fr, 380 trials, session 000
+#7600 fr, 380 trials, session 001
 #used max blue LED intensity to test for possible saturation
 #testing 3khz sound intensity response with 4 different intensities
