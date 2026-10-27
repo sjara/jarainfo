@@ -112,3 +112,27 @@ sessions.append(newSession)
 #7600 fr, 380 trials, session 001
 #used max blue LED intensity to test for possible saturation
 #testing 3khz sound intensity response with 4 different intensities
+
+newSession = {'subject':subject, 'date':'20261027', 'time': '135415', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[3,3,3,3], 'intensities':[75,65,55,45],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#7600 fr, 380 trials, session 000
+#testing 3khz sound intensity response with 4 different intensities
+
+newSession = {'subject':subject, 'date':'20261027', 'time': '140324', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[10,10,10,10], 'intensities':[75,65,55,45],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#7600 fr, 380 trials, session 001
+#testing 10khz sound intensity response with 4 different intensities
+
+newSession = {'subject':subject, 'date':'20261027', 'time': '141222', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[29,29,29,29], 'intensities':[75,65,55,45],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#7600 fr, 380 trials, session 002
+#testing 29khz sound intensity response with 4 different intensities
