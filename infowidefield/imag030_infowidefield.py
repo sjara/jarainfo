@@ -70,3 +70,27 @@ newSession = {'subject':subject, 'date':'20260903', 'time': '171502', 'suffix':'
               'LED':3.5, 'depth':200, 'frequencies':[9], 'intensities':[70],
               'paradigm':'widefield_mapping'}
 sessions.append(newSession)
+
+newSession = {'subject':subject, 'date':'20261026', 'time': '121033', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[3,3,3,3], 'intensities':[75,65,55,45],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#7600 fr, 380 trials, session 000
+#testing 3khz sound intensity response with 4 different intensities
+
+newSession = {'subject':subject, 'date':'20261026', 'time': '123031', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[10,10,10,10], 'intensities':[75,65,55,45],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#7600 fr, 380 trials, session 001
+#testing 10khz sound intensity response with 4 different intensities
+
+newSession = {'subject':subject, 'date':'20261026', 'time': '125741', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[29,29,29,29], 'intensities':[75,65,55,45],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#7600 fr, 380 trials, session 002
+#testing 29khz sound intensity response with 4 different intensities
