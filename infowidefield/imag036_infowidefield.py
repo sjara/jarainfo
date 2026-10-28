@@ -136,3 +136,46 @@ newSession = {'subject':subject, 'date':'20261027', 'time': '141222', 'suffix':'
 sessions.append(newSession)
 #7600 fr, 380 trials, session 002
 #testing 29khz sound intensity response with 4 different intensities
+
+newSession = {'subject':subject, 'date':'20261028', 'time': '145232', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[5,15,30], 'intensities':[75,60,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 000
+#session failed, do not use
+
+newSession = {'subject':subject, 'date':'20261028', 'time': '150500', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[5,15,30], 'intensities':[75,60,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 001
+
+newSession = {'subject':subject, 'date':'20261028', 'time': '152459', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[4,12,29], 'intensities':[75,65,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 002
+
+newSession = {'subject':subject, 'date':'20261028', 'time': '154029', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[6,16,28], 'intensities':[75,50,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 003
+
+newSession = {'subject':subject, 'date':'20261028', 'time': '155613', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[4.5,11,27], 'intensities':[80,55,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 004
+
+newSession = {'subject':subject, 'date':'20261028', 'time': '161645', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[18,24,32], 'intensities':[75,75,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 005
