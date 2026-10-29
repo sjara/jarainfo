@@ -1150,6 +1150,7 @@ sessions.append(newSession)
 #73 dB SPL
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session start at 3:23 pm
+#2p/behav alignment fail from opening sound_tuning.py after 2p imaging started. This created a fake event.
 
 
 
