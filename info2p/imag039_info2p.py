@@ -949,7 +949,7 @@ newSession = {'subject':subject, 'date':'20260924','session': '025', 'FOV#':8,
               'pmt': [0,1], 'paradigm':'sound_tuning'}
 sessions.append(newSession)
 #250 trials
-#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
 #new sound tuning paradigm w/ chords, fm sounds
 #chord Fo=4kHz
 
@@ -960,7 +960,7 @@ newSession = {'subject':subject, 'date':'20260924','session': '026', 'FOV#':8,
               'pmt': [0,1], 'paradigm':'sound_tuning'}
 sessions.append(newSession)
 #250 trials
-#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
 #new sound tuning paradigm w/ chords, fm sounds
 #chord Fo=6.5kHz
 
@@ -984,7 +984,7 @@ newSession = {'subject':subject, 'date':'20261029','session': '001', 'FOV#':0,
 sessions.append(newSession)
 #350 trials
 #65 dB SPL
-#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session start at 11:25 am
 
 newSession = {'subject':subject, 'date':'20261029','session': '002', 'FOV#':0,
@@ -995,7 +995,7 @@ newSession = {'subject':subject, 'date':'20261029','session': '002', 'FOV#':0,
 sessions.append(newSession)
 #350 trials
 #60 dB SPL
-#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session start at 11:45 am
 #some "fading" observed, added gel around objective but did not move prep or objective.
 
@@ -1007,7 +1007,7 @@ newSession = {'subject':subject, 'date':'20261029','session': '003', 'FOV#':0,
 sessions.append(newSession)
 #250 trials
 #68 dB SPL
-#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session start at 12:01 pm
 
 newSession = {'subject':subject, 'date':'20261029','session': '004', 'FOV#':0,
@@ -1042,7 +1042,7 @@ newSession = {'subject':subject, 'date':'20261029','session': '006', 'FOV#':0,
 sessions.append(newSession)
 #320 trials
 #45-68 dB SPL
-#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=4263
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7500
 #session start at 12:41 pm
 
 newSession = {'subject':subject, 'date':'20261029','session': '007', 'FOV#':0,
@@ -1053,19 +1053,19 @@ newSession = {'subject':subject, 'date':'20261029','session': '007', 'FOV#':0,
 sessions.append(newSession)
 #220 trials
 #65 dB SPL
-#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=4263
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
 #session start at 12:55 pm
 #use this session as replacement of session 005, FOV0, which was run with too few AM levels and too small an AM range.
 
 newSession = {'subject':subject, 'date':'20261029','session': '008', 'FOV#':1,
               'fps': 9.96, 'magnification': 2.0, 'depth': 131.49, 'angle': 42.19,
-              'laserPower': 30,'wavelength': 920, 'nFrames': 5900,
+              'laserPower': 30,'wavelength': 920, 'nFrames': 7550,
               'brainArea': 'AAF_lowFreq', 'sessionLabel': 'pure_tones_73dB',
               'pmt': [0,1], 'paradigm':'sound_tuning'}
 sessions.append(newSession)
 #320 trials
 #73 dB SPL
-#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=4263
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session start at 1:16 pm
 
 
