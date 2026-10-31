@@ -50,3 +50,31 @@ sessions.append(newSession)
 #5700 fr, 150 trials, session 002
 #zoomed in 700 microns past where blood vessels were most clear
 #used 6 LED because 8 LED was overexposing the image
+
+newSession = {'subject':subject, 'date':'20261030', 'time': '155948', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':6, 'depth':700, 'frequencies':[3,15.5,28], 'intensities':[75,70,80],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 000
+#zoomed in 700 microns past where blood vessels were most clear
+#used 6 LED because 8 LED was overexposing the image
+#ran these same settings yesterday to compare
+
+newSession = {'subject':subject, 'date':'20261030', 'time': '155948', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':6, 'depth':1050, 'frequencies':[3,18,28], 'intensities':[75,70,80],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 001
+#zoomed in 1050 microns past where blood vessels were most clear
+#used 6 LED because 8 LED was overexposing the image
+
+newSession = {'subject':subject, 'date':'20261030', 'time': '164107', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':6, 'depth':1050, 'frequencies':[4,18,27], 'intensities':[75,70,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 002
+#zoomed in 1050 microns past where blood vessels were most clear
+#used 6 LED because 8 LED was overexposing the image
