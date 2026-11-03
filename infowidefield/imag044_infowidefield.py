@@ -34,7 +34,7 @@ sessions.append(newSession)
 #used 7 LED
 #ventromedial window dark, likely blood clot
 
-newSession = {'subject':subject, 'date':'20261103', 'time': '111106', 'suffix':'EDV',
+newSession = {'subject':subject, 'date':'20261103', 'time': '124956', 'suffix':'EDV',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
               'LED':7, 'depth':200, 'frequencies':[3,15.5,28], 'intensities':[72,68,80],
               'paradigm':'widefield_mapping'}
