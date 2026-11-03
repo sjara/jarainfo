@@ -24,7 +24,7 @@ signalType = 'GCaMP8m'
 sessions = []
 
 
-newSession = {'subject':subject, 'date':'20261103', 'time': '124133', 'suffix':'EDV',
+newSession = {'subject':subject, 'date':'20261103', 'time': '124433', 'suffix':'EDV',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
               'LED':7, 'depth':200, 'frequencies':[4,12,32], 'intensities':[72,68,80],
               'paradigm':'widefield_mapping'}
