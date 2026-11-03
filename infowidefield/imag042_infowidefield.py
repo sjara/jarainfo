@@ -40,7 +40,7 @@ newSession = {'subject':subject, 'date':'20261103', 'time': '110302', 'suffix':'
               'LED':8, 'depth':200, 'frequencies':[4,12,32], 'intensities':[72,68,80],
               'paradigm':'widefield_mapping'}
 sessions.append(newSession)
-#5700 fr, 150 trials, session 000
+#5700 fr, 150 trials, session 001
 #zoomed in 200 microns past where blood vessels were most clear
 #used 8 LED
 #ventromedial window dark, likely blood clot
@@ -50,7 +50,7 @@ newSession = {'subject':subject, 'date':'20261103', 'time': '111106', 'suffix':'
               'LED':8, 'depth':200, 'frequencies':[3,15.5,28], 'intensities':[72,68,80],
               'paradigm':'widefield_mapping'}
 sessions.append(newSession)
-#5700 fr, 150 trials, session 000
+#5700 fr, 150 trials, session 002
 #zoomed in 200 microns past where blood vessels were most clear
 #used 8 LED
 #ventromedial window dark, likely blood clot
