@@ -1082,6 +1082,7 @@ sessions.append(newSession)
 #center freq 8.09 kHz
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session start at 1:51 pm
+#next time run 8260 frames for band noise!
 
 newSession = {'subject':subject, 'date':'20261029','session': '010', 'FOV#':1,
               'fps': 9.96, 'magnification': 2.0, 'depth': 131.49, 'angle': 42.19,
@@ -1094,6 +1095,7 @@ sessions.append(newSession)
 #center freq 8.09 kHz
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session start at 2:05 pm
+#next time run 8260 frames for noise pair!
 
 newSession = {'subject':subject, 'date':'20261029','session': '011', 'FOV#':1,
               'fps': 9.96, 'magnification': 2.0, 'depth': 131.49, 'angle': 42.19,
