@@ -1,0 +1,58 @@
+"""
+Metadata for widefield imaging sessions.
+
+--- SESSION PARAMETERS ---
+subject: animal name.
+date: in ISO format (YYYYMMDD).
+time: in 24hr format (hhmmss).
+suffix: experimenter initials, e.g., 'SJ'.
+sessionLabel: short string that describes the session, e.g., '3_freq_mapping', '28kHz_mapping'.
+signalType: imaging type, e.g, 'GCaMP6f', 'GCaMP8mSoma', 'intrinsic', 'flavoprotein', etc.
+LED: LED intensity setting. A number from 0-8, matching the position of the LED knob.
+depth: imaging depth from brain surface (in microns).
+paradigm: name of the experimental paradigm used in the session.
+
+-- Optional parameters --
+frequencies: list of frequencies used in the session (in kHz), if applicable, e.g., [3, 32].
+intensities: list of sound intensities used (in dB SPL), if applicable, e.g., [70, 80].
+iso: percentage of isoflurane. Default is None for no anesthesia.
+oxy: oxygen flow rate. Default is None for no anesthesia.
+"""
+
+subject = 'imag042'
+signalType = 'GCaMP8m'
+sessions = []
+
+
+newSession = {'subject':subject, 'date':'20261103', 'time': '105125', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[4,12,32], 'intensities':[72,68,80],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 000
+#zoomed in 200 microns past where blood vessels were most clear
+#used 8 LED
+#ventromedial window dark, likely blood clot
+#failed, accidentally imaged at 50 Hz instead of 20 Hz
+
+newSession = {'subject':subject, 'date':'20261103', 'time': '110302', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[4,12,32], 'intensities':[72,68,80],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 000
+#zoomed in 200 microns past where blood vessels were most clear
+#used 8 LED
+#ventromedial window dark, likely blood clot
+
+newSession = {'subject':subject, 'date':'20261103', 'time': '111106', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':8, 'depth':200, 'frequencies':[3,15.5,28], 'intensities':[72,68,80],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 000
+#zoomed in 200 microns past where blood vessels were most clear
+#used 8 LED
+#ventromedial window dark, likely blood clot
+
+
