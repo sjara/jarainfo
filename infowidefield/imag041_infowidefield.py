@@ -78,3 +78,50 @@ sessions.append(newSession)
 #5700 fr, 150 trials, session 002
 #zoomed in 1050 microns past where blood vessels were most clear
 #used 6 LED because 8 LED was overexposing the image
+
+newSession = {'subject':subject, 'date':'20261103', 'time': '132719', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':6, 'depth':1050, 'frequencies':[4,18,27], 'intensities':[75,70,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 000
+#retesting last weeks final session to see how things align
+#the depth evaluation in the wiki seems off, but according to that I would be at 1050 micrometers (3/4 turn large knob)
+
+newSession = {'subject':subject, 'date':'20261103', 'time': '135829', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':5.5, 'depth':700, 'frequencies':[4,18,27], 'intensities':[75,70,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 001
+#retesting last weeks final session to see how things align
+#brought the depth back a bit to approximately 700 micrometers
+#reduced LED brightness a bit as well
+
+newSession = {'subject':subject, 'date':'20261103', 'time': '141118', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':6, 'depth':700, 'frequencies':[4,18,27], 'intensities':[75,70,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 002
+#retesting last weeks final session to see how things align
+#went a little deeper this time, maybe around 900 micrometers
+#put LED brightness back at 6 because signal was too dark
+
+newSession = {'subject':subject, 'date':'20261103', 'time': '142645', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':6, 'depth':300, 'frequencies':[4,18,27], 'intensities':[75,70,80],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 003
+#retesting last weeks final session to see how things align
+#went a little shallower this time, maybe around 300 micrometers
+
+newSession = {'subject':subject, 'date':'20261103', 'time': '143643', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':6, 'depth':300, 'frequencies':[4,6,9,13,18,27], 'intensities':[75,72,68,68,70,75],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#11400 fr, 300 trials, session 004
+#retesting last weeks final session to see how things align
+#testing a full range of frequencies as a proof of concept
