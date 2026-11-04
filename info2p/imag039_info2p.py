@@ -1154,7 +1154,17 @@ sessions.append(newSession)
 #session start at 3:23 pm
 #2p/behav alignment fail from opening sound_tuning.py after 2p imaging started. This created a fake event.
 
-
+newSession = {'subject':subject, 'date':'20261104','session': '000', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 314.7, 'angle': 42.22,
+              'laserPower': 71,'wavelength': 920, 'nFrames': 7550,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'pure_tones_71_4dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#320 trials
+#71.4 dB SPL
+#BF mode 
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
+#session start at 10:34 am
 
 
 
