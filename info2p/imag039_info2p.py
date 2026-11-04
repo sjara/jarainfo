@@ -1245,9 +1245,21 @@ newSession = {'subject':subject, 'date':'20261104','session': '007', 'FOV#':1,
 sessions.append(newSession)
 #320 trials
 #71.4 dB SPL
-#BF mode 
+#BF mode 8.94 kHz
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session start at 12:32 pm
+
+newSession = {'subject':subject, 'date':'20261104','session': '008', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 391.33, 'angle': 42.22,
+              'laserPower': 75,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'AAF_lowFreq', 'sessionLabel': 'band_noise_67dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#67 dB SPL
+#center freq 8.94 kHz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 1:07 pm
 
 
 
