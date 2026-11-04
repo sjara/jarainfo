@@ -1209,7 +1209,7 @@ newSession = {'subject':subject, 'date':'20261104','session': '004', 'FOV#':0,
 sessions.append(newSession)
 #350 trials
 #70 dB SPL
-#5430 Hz center, 6 oct range, 0.7-42 kHz
+#5430 Hz center (?or 8000 Hz? check!), 6 oct range, 0.7-42 kHz
 #should've used 8000 Hz center, as previously discussed, but will use this for now to compare with previous data.
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
 #session start at 11:41 am
