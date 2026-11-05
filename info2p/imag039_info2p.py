@@ -1604,7 +1604,7 @@ sessions.append(newSession)
 #70 dB SPL
 #8000 Hz center, 6 oct range, 1-64 kHz (as previously discussed)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
-#session start at 3:11 pm
+#session start at 3:10 pm
 
 
 
