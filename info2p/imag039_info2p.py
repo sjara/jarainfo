@@ -1439,6 +1439,30 @@ sessions.append(newSession)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
 #session start at 11:12 am
 
+newSession = {'subject':subject, 'date':'20261105','session': '005', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 134.6, 'angle': 42.17,
+              'laserPower': 30,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'noise_pair_62dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#62 dB SPL
+#center freq 9.88 kHz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 11:28 am
+
+newSession = {'subject':subject, 'date':'20261105','session': '006', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 134.6, 'angle': 42.17,
+              'laserPower': 31,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'chord_tones_68dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#250 trials
+#68 dB SPL
+#F0 9.88 kHz, irrational
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
+#session start at 11:40 am
+
 
 
 
