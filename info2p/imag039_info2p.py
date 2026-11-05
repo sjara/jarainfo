@@ -1471,7 +1471,7 @@ newSession = {'subject':subject, 'date':'20261105','session': '007', 'FOV#':1,
 sessions.append(newSession)
 #320 trials
 #73 dB SPL
-#BF mode 
+#BF mode 7325 Hz
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session start at 11:54 am
 
