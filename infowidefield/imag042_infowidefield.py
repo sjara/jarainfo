@@ -55,4 +55,29 @@ sessions.append(newSession)
 #used 8 LED
 #ventromedial window dark, likely blood clot
 
+newSession = {'subject':subject, 'date':'20261109', 'time': '142208', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':9, 'depth':300, 'frequencies':[3,15.5,28], 'intensities':[60,55,60],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 000
+#zoomed in 300 microns past where blood vessels were most clear
+#used 9 LED
+#test sequence before full mapping
+
+newSession = {'subject':subject, 'date':'20261109', 'time': '143917', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':9, 'depth':300, 'frequencies':[3,4.8,7.5,12,18.5,30], 'intensities':[70,65,60,55,60,70],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#11400 fr, 150 trials, session 001
+#testing a full frequency sweep
+
+newSession = {'subject':subject, 'date':'20261109', 'time': '145752', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':9, 'depth':300, 'frequencies':[3,4.8,7.5,12,18.5,30], 'intensities':[65,55,55,50,55,65],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#11400 fr, 150 trials, session 002
+#testing a full frequency sweep with slightly lower intensities
 
