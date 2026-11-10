@@ -233,6 +233,16 @@ sessions.append(newSession)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
 #session start at 3:39 pm
 
+newSession = {'subject':subject, 'date':'20261110','session': '017', 'FOV#':2,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 144.32, 'angle': 42.26,
+              'laserPower': 34,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'AAF_lowFreq', 'sessionLabel': 'fading_noise_45_75dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#45 to 75 dB SPL
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 3:50 pm
 
 
 
