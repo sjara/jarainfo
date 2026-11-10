@@ -95,7 +95,7 @@ newSession = {'subject':subject, 'date':'20261110','session': '005', 'FOV#':0,
               'brainArea': 'A1_lowFreq', 'sessionLabel': 'chord_tones_70dB',
               'pmt': [0,1], 'paradigm':'sound_tuning'}
 sessions.append(newSession)
-#350 trials
+#250 trials
 #70 dB SPL
 #center freq 3641 Hz
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
@@ -107,9 +107,9 @@ newSession = {'subject':subject, 'date':'20261110','session': '006', 'FOV#':0,
               'brainArea': 'A1_lowFreq', 'sessionLabel': 'chord_tones_70dB',
               'pmt': [0,1], 'paradigm':'sound_tuning'}
 sessions.append(newSession)
-#350 trials
+#250 trials
 #70 dB SPL
-#center freq 6629 Hz
+#F0 6629 Hz
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
 #session start at 12:26 pm
 
@@ -199,7 +199,17 @@ sessions.append(newSession)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
 #session start at 2:54 pm
 
-
+newSession = {'subject':subject, 'date':'20261110','session': '014', 'FOV#':2,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 144.32, 'angle': 42.26,
+              'laserPower': 33,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'AAF_lowFreq', 'sessionLabel': 'chord_tones_70dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#250 trials
+#70 dB SPL
+#F0 8094 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
+#session start at 3:09 pm
 
 
 
