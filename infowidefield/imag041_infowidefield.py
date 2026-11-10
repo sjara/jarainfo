@@ -125,7 +125,7 @@ sessions.append(newSession)
 #11400 fr, 300 trials, session 004
 #testing a full range of frequencies as a proof of concept
 
-newSession = {'subject':subject, 'date':'20261103', 'time': '141335', 'suffix':'EDV',
+newSession = {'subject':subject, 'date':'20261104', 'time': '141335', 'suffix':'EDV',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
               'LED':6, 'depth':300, 'frequencies':[4,18,27], 'intensities':[75,70,75],
               'paradigm':'widefield_mapping'}
@@ -133,7 +133,7 @@ sessions.append(newSession)
 #5700 fr, 150 trials, session 000
 #retesting last weeks final session to see how things align
 
-newSession = {'subject':subject, 'date':'20261103', 'time': '141335', 'suffix':'EDV',
+newSession = {'subject':subject, 'date':'20261104', 'time': '141335', 'suffix':'EDV',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
               'LED':6, 'depth':300, 'frequencies':[5,14,26], 'intensities':[75,70,80],
               'paradigm':'widefield_mapping'}
@@ -141,7 +141,7 @@ sessions.append(newSession)
 #5700 fr, 150 trials, session 001
 #trying slightly different depth and frequencies to see how it affects the signal
 
-newSession = {'subject':subject, 'date':'20261103', 'time': '145605', 'suffix':'EDV',
+newSession = {'subject':subject, 'date':'20261104', 'time': '145605', 'suffix':'EDV',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
               'LED':6, 'depth':300, 'frequencies':[3,14,29], 'intensities':[60,60,60],
               'paradigm':'widefield_mapping'}
@@ -149,14 +149,14 @@ sessions.append(newSession)
 #5700 fr, 150 trials, session 002
 #decreasing intensities to see how it affects the signal
     
-newSession = {'subject':subject, 'date':'20261103', 'time': '150919', 'suffix':'EDV',
+newSession = {'subject':subject, 'date':'20261104', 'time': '150919', 'suffix':'EDV',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
               'LED':6, 'depth':300, 'frequencies':[3,10,30], 'intensities':[60,55,65],
               'paradigm':'widefield_mapping'}
 sessions.append(newSession)
 #5700 fr, 150 trials, session 003
 
-newSession = {'subject':subject, 'date':'20261103', 'time': '152327', 'suffix':'EDV',
+newSession = {'subject':subject, 'date':'20261104', 'time': '152327', 'suffix':'EDV',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
               'LED':6, 'depth':300, 'frequencies':[3,4.8,7.5,12,18.5,30], 'intensities':[60,55,50,45,50,60],
               'paradigm':'widefield_mapping'}
@@ -166,7 +166,7 @@ sessions.append(newSession)
 #accidentally put in the wrong number of triggers
 #don't use this session
 
-newSession = {'subject':subject, 'date':'20261103', 'time': '154609', 'suffix':'EDV',
+newSession = {'subject':subject, 'date':'20261104', 'time': '154609', 'suffix':'EDV',
               'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
               'LED':6, 'depth':300, 'frequencies':[3,4.8,7.5,12,18.5,30], 'intensities':[60,55,50,45,50,60],
               'paradigm':'widefield_mapping'}
