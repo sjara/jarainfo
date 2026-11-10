@@ -136,6 +136,31 @@ sessions.append(newSession)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
 #session start at 12:55 pm
 
+newSession = {'subject':subject, 'date':'20261110','session': '009', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 167.65, 'angle': 42.26,
+              'laserPower': 37,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'fading_noise_45_75dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#45 to 75 dB SPL
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 1:09 pm
+
+#removed gel, cleaned objective and window, and reapplied gel
+
+newSession = {'subject':subject, 'date':'20261110','session': '010', 'FOV#':1,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 188.55, 'angle': 42.26,
+              'laserPower': 35,'wavelength': 920, 'nFrames': 7550,
+              'brainArea': 'AAF_lowFreq', 'sessionLabel': 'pure_tones_71_4dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#320 trials
+#71.4 dB SPL
+#BF mode 
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
+#session start at 1:32 pm
+
 
 
 
