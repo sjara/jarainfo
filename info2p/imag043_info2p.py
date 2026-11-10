@@ -161,6 +161,8 @@ sessions.append(newSession)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session start at 1:32 pm
 
+#too high freq and too few cells in FOV1, so moved a bit anterior and ventral to FOV2
+
 newSession = {'subject':subject, 'date':'20261110','session': '011', 'FOV#':2,
               'fps': 9.96, 'magnification': 2.0, 'depth': 144.32, 'angle': 42.26,
               'laserPower': 33,'wavelength': 920, 'nFrames': 7550,
