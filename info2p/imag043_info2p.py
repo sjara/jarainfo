@@ -280,10 +280,12 @@ sessions.append(newSession)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
 #session start at 11:39 am
 
-newSession = {'subject':subject, 'date':'20261110','session': '014', 'FOV#':2,
-              'fps': 9.96, 'magnification': 2.0, 'depth': 144.32, 'angle': 42.26,
-              'laserPower': 33,'wavelength': 920, 'nFrames': 5900,
-              'brainArea': 'AAF_lowFreq', 'sessionLabel': 'chord_tones_70dB',
+#added gel but did not touch or move prep or objective, so FOV is unchanged
+
+newSession = {'subject':subject, 'date':'20261110','session': '003', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 406, 'angle': 42.26,
+              'laserPower': 54,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'chord_tones_68dB',
               'pmt': [0,1], 'paradigm':'sound_tuning'}
 sessions.append(newSession)
 #250 trials
@@ -291,6 +293,8 @@ sessions.append(newSession)
 #F0 9884 Hz
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
 #session start at 11:54 am
+
+
 
 
 
