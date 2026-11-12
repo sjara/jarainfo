@@ -294,7 +294,7 @@ sessions.append(newSession)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
 #session start at 11:54 am
 
-newSession = {'subject':subject, 'date':'20261110','session': '004', 'FOV#':0,
+newSession = {'subject':subject, 'date':'20261112','session': '004', 'FOV#':0,
               'fps': 9.96, 'magnification': 2.0, 'depth': 406, 'angle': 42.26,
               'laserPower': 54,'wavelength': 920, 'nFrames': 8260,
               'brainArea': 'A1_lowFreq', 'sessionLabel': 'fm_sounds_frange_70dB',
@@ -316,7 +316,7 @@ sessions.append(newSession)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
 #session start at 12:19 pm
 
-newSession = {'subject':subject, 'date':'20261112','session': '006', 'FOV#':2,
+newSession = {'subject':subject, 'date':'20261112','session': '006', 'FOV#':0,
               'fps': 9.96, 'magnification': 2.0, 'depth': 406, 'angle': 42.25,
               'laserPower': 54,'wavelength': 920, 'nFrames': 8260,
               'brainArea': 'A1_lowFreq', 'sessionLabel': 'fading_noise_45_75dB',
@@ -388,7 +388,7 @@ sessions.append(newSession)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
 #session start at 2:24 pm
 
-newSession = {'subject':subject, 'date':'20261110','session': '012', 'FOV#':2,
+newSession = {'subject':subject, 'date':'20261112','session': '012', 'FOV#':2,
               'fps': 9.96, 'magnification': 2.0, 'depth': 264.76, 'angle': 42.26,
               'laserPower': 53,'wavelength': 920, 'nFrames': 8260,
               'brainArea': 'AAF_lowFreq', 'sessionLabel': 'fm_sounds_frange_70dB',
