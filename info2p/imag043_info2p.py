@@ -338,6 +338,7 @@ sessions.append(newSession)
 #BF mode 
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session start at 12:58 pm
+#only 8 responsive cells, so decided to move to nearby area w/ more cells - toward mid freq AAF, slighly less deep
 
 newSession = {'subject':subject, 'date':'20261112','session': '008', 'FOV#':2,
               'fps': 9.96, 'magnification': 2.0, 'depth': 264.76, 'angle': 42.25,
@@ -350,6 +351,8 @@ sessions.append(newSession)
 #BF mode 
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session start at 1:28 pm
+
+
 
 
 
