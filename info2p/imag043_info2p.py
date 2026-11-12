@@ -335,7 +335,7 @@ newSession = {'subject':subject, 'date':'20261112','session': '007', 'FOV#':1,
 sessions.append(newSession)
 #320 trials
 #72 dB SPL
-#BF mode 
+#BF mode not enough cells
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session start at 12:58 pm
 #only 8 responsive cells, so decided to move to nearby area w/ more cells - toward mid freq AAF, slighly less deep
@@ -348,11 +348,21 @@ newSession = {'subject':subject, 'date':'20261112','session': '008', 'FOV#':2,
 sessions.append(newSession)
 #320 trials
 #72 dB SPL
-#BF mode 
+#BF mode 8000 kHz
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session start at 1:28 pm
 
-
+newSession = {'subject':subject, 'date':'20261112','session': '009', 'FOV#':2,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 264.76, 'angle': 42.25,
+              'laserPower': 50,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'AAF_lowFreq', 'sessionLabel': 'band_noise_70dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#70 dB SPL
+#center freq 8000 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 1:53 pm
 
 
 
