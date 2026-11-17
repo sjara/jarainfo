@@ -49,3 +49,29 @@ newSession = {'subject':subject, 'date':'20261105', 'time': '150800', 'suffix':'
 sessions.append(newSession)
 #11400 fr, 150 trials, session 002
 #testing a full frequency sweep a second time with slightly higher intesnsities
+
+newSession = {'subject':subject, 'date':'20261116', 'time': '102350', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':6, 'depth':300, 'frequencies':[3,4.8,7.5,12,18.5,30], 'intensities':[60,55,50,45,50,60],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#11400 fr, 150 trials, session 000
+#testing the same frequency sweep as before to compare across a week of time
+
+newSession = {'subject':subject, 'date':'20261116', 'time': '104345', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':6, 'depth':300, 'frequencies':[3,4.8,7.5,10,12,18.5,22.5,26,30], 'intensities':[70,60,60,55,50,60,60,65,70],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#17100 fr, 450 trials, session 001
+#running same set of frequencies and intensities to compare to other mice
+#ran too many trials, don't use data, retesting
+
+newSession = {'subject':subject, 'date':'20261116', 'time': '110309', 'suffix':'EDV',
+              'sessionLabel': 'intensitytoneTrains', 'signalType':signalType, 
+              'LED':6, 'depth':300, 'frequencies':[3,4.8,7.5,10,12,18.5,22.5,26,30], 'intensities':[70,60,60,55,50,60,60,65,70],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#17100 fr, 450 trials, session 002
+#running same set of frequencies and intensities to compare to other mice
+#PCO software got hung up at 99%, going to see if that matters for the data
