@@ -421,9 +421,216 @@ sessions.append(newSession)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
 #session start at 2:59 pm
 
+newSession = {'subject':subject, 'date':'20261118','session': '000', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 209.96, 'angle': 42.25,
+              'laserPower': 35,'wavelength': 920, 'nFrames': 7550,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'pure_tones_72dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#320 trials
+#72 dB SPL
+#BF modes at 3 and 8 kHz (do 2 runs)
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
+#session start at 10:39 am
+#red channel: some cells, but many processes
 
+newSession = {'subject':subject, 'date':'20261118','session': '001', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 209.96, 'angle': 42.25,
+              'laserPower': 35,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'band_noise_70dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#70 dB SPL
+#center freq 3000 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 11:07 am
 
+newSession = {'subject':subject, 'date':'20261118','session': '002', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 209.96, 'angle': 42.25,
+              'laserPower': 35,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'noise_pair_62dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#62 dB SPL
+#center freq 3000 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 11:23 am
 
+#added gel at top side of meniscus but did not touch or move prep or objective, so FOV is unchanged
 
+newSession = {'subject':subject, 'date':'20261118','session': '003', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 209.96, 'angle': 42.25,
+              'laserPower': 37,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'chord_tones_68dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#250 trials
+#68 dB SPL
+#F0 3000 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
+#session start at 11:39 am
 
+newSession = {'subject':subject, 'date':'20261118','session': '004', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 209.96, 'angle': 42.25,
+              'laserPower': 38,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'band_noise_70dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#70 dB SPL
+#center freq 8000 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 11:50 am
+
+newSession = {'subject':subject, 'date':'20261118','session': '005', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 209.96, 'angle': 42.25,
+              'laserPower': 38,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'noise_pair_62dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#62 dB SPL
+#center freq 8000 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 12:04 pm
+
+newSession = {'subject':subject, 'date':'20261118','session': '006', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 209.96, 'angle': 42.25,
+              'laserPower': 37,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'chord_tones_68dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#250 trials
+#68 dB SPL
+#F0 8000 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
+#session start at 12:19 pm
+
+newSession = {'subject':subject, 'date':'20261118','session': '007', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 209.96, 'angle': 42.25,
+              'laserPower': 38,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'fm_sounds_frange_70dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#70 dB SPL
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 12:30 pm
+
+newSession = {'subject':subject, 'date':'20261118','session': '008', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 209.96, 'angle': 42.25,
+              'laserPower': 38,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'am_noise_68dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#250 trials
+#68 dB SPL
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
+#session start at 12:45 pm
+
+newSession = {'subject':subject, 'date':'20261118','session': '009', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 209.96, 'angle': 42.25,
+              'laserPower': 39,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'fading_noise_45_75dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#45 to 75 dB SPL
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 12:56 pm
+
+newSession = {'subject':subject, 'date':'20261118','session': '010', 'FOV#':1,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 417.08, 'angle': 42.25,
+              'laserPower': 76,'wavelength': 920, 'nFrames': 7550,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'pure_tones_72dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#320 trials
+#72 dB SPL
+#BF mode at 4450 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
+#session start at 1:35 pm
+
+newSession = {'subject':subject, 'date':'20261118','session': '011', 'FOV#':1,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 417.08, 'angle': 42.25,
+              'laserPower': 76,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'band_noise_70dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#70 dB SPL
+#center freq 4450 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 2:00 pm
+
+newSession = {'subject':subject, 'date':'20261118','session': '012', 'FOV#':1,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 417.08, 'angle': 42.25,
+              'laserPower': 76,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'noise_pair_62dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#62 dB SPL
+#center freq 4450 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 2:12 pm
+
+newSession = {'subject':subject, 'date':'20261118','session': '013', 'FOV#':1,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 417.08, 'angle': 42.25,
+              'laserPower': 76,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'chord_tones_68dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#250 trials
+#68 dB SPL
+#F0 4450 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
+#session start at 2:29 pm
+
+newSession = {'subject':subject, 'date':'20261118','session': '014', 'FOV#':1,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 417.08, 'angle': 42.25,
+              'laserPower': 77,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'fm_sounds_frange_70dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#70 dB SPL
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 2:38 pm
+
+newSession = {'subject':subject, 'date':'20261118','session': '015', 'FOV#':1,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 417.08, 'angle': 42.25,
+              'laserPower': 79,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'am_noise_68dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#250 trials
+#68 dB SPL
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
+#session start at 2:51 pm
+
+newSession = {'subject':subject, 'date':'20261118','session': '016', 'FOV#':1,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 417.08, 'angle': 42.25,
+              'laserPower': 83,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'fading_noise_45_75dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#45 to 75 dB SPL
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 3:04 pm
+
+newSession = {'subject':subject, 'date':'20261118','session': '017', 'FOV#':2,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 143.56, 'angle': 42.25,
+              'laserPower': 36,'wavelength': 920, 'nFrames': 7550,
+              'brainArea': 'A1_highFreq', 'sessionLabel': 'pure_tones_72dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#320 trials
+#72 dB SPL
+#BF mode 
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
+#session start at 3:31 pm
 
