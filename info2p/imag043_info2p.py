@@ -458,6 +458,21 @@ sessions.append(newSession)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
 #session start at 11:23 am
 
+#added gel at top side of meniscus but did not touch or move prep or objective, so FOV is unchanged
+
+newSession = {'subject':subject, 'date':'20261118','session': '003', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 209.96, 'angle': 42.25,
+              'laserPower': 37,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'chord_tones_68dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#250 trials
+#68 dB SPL
+#F0 3000 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
+#session start at 11:39 am
+
+
 
 
 
