@@ -56,4 +56,50 @@ sessions.append(newSession)
 #testing same frequencies as previous session but with higher intensities to see if the map changes
 #either forgot to save timestamp or something else happened, but the timestamp doesn't exist
 
+newSession = {'subject':subject, 'date':'20261118', 'time': '140213', 'suffix':'EDV',
+              'sessionLabel': 'widefieldMapping', 'signalType':'signalType', 
+              'LED':9, 'depth':300, 'frequencies':[4.5,12,27], 'intensities':[80,80,80],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 000
+#testing a 3 frequency session with slightly different frequencies and higher intensity
 
+newSession = {'subject':subject, 'date':'20261118', 'time': '142833', 'suffix':'EDV',
+              'sessionLabel': 'widefieldMapping', 'signalType':'signalType', 
+              'LED':9, 'depth':300, 'frequencies':[4.5,12,28], 'intensities':[80,80,80],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 001
+#testing last 2 low and mid frequency but with the the high frequency from yesterday
+
+newSession = {'subject':subject, 'date':'20261118', 'time': '143933', 'suffix':'EDV',
+              'sessionLabel': 'widefieldMapping', 'signalType':'signalType', 
+              'LED':9, 'depth':300, 'frequencies':[4.5,12,25], 'intensities':[80,80,80],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 002
+#testing a a lower high frequency
+
+newSession = {'subject':subject, 'date':'20261118', 'time': '145535', 'suffix':'EDV',
+              'sessionLabel': 'widefieldMapping', 'signalType':'signalType', 
+              'LED':9, 'depth':450, 'frequencies':[4.5,12,28], 'intensities':[80,80,80],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 003
+#testing ideal frequencies and intensities but slightly deeper
+
+newSession = {'subject':subject, 'date':'20261118', 'time': '150626', 'suffix':'EDV',
+              'sessionLabel': 'widefieldMapping', 'signalType':'signalType', 
+              'LED':9, 'depth':450, 'frequencies':[4.5,12,27], 'intensities':[75,75,65],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 004
+#testing lower intensities
+
+newSession = {'subject':subject, 'date':'20261118', 'time': '151635', 'suffix':'EDV',
+              'sessionLabel': 'widefieldMapping', 'signalType':'signalType', 
+              'LED':9, 'depth':450, 'frequencies':[4.5,12,28], 'intensities':[75,75,70],
+              'paradigm':'widefield_mapping'}
+sessions.append(newSession)
+#5700 fr, 150 trials, session 004
+#raising the intensity of high frequency slightly
