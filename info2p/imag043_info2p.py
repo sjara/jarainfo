@@ -532,7 +532,7 @@ sessions.append(newSession)
 
 newSession = {'subject':subject, 'date':'20261118','session': '009', 'FOV#':0,
               'fps': 9.96, 'magnification': 2.0, 'depth': 209.96, 'angle': 42.25,
-              'laserPower': 38,'wavelength': 920, 'nFrames': 8260,
+              'laserPower': 39,'wavelength': 920, 'nFrames': 8260,
               'brainArea': 'A2_lowFreq', 'sessionLabel': 'fading_noise_45_75dB',
               'pmt': [0,1], 'paradigm':'sound_tuning'}
 sessions.append(newSession)
