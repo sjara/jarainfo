@@ -432,7 +432,7 @@ sessions.append(newSession)
 #BF mode 
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=7550
 #session start at 10:39 am
-
+#red channel: some cells, but many processes
 
 
 
