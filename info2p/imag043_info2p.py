@@ -539,7 +539,9 @@ sessions.append(newSession)
 #350 trials
 #45 to 75 dB SPL
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
-#session start at 1:00 pm
+#session start at 12:56 pm
+
+
 
 
 
