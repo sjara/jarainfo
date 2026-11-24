@@ -29,7 +29,7 @@ sessions = []
 
 
 
-newSession = {'subject':subject, 'date':'20261120','session': '000', 'FOV#':0,
+newSession = {'subject':subject, 'date':'20261124','session': '000', 'FOV#':0,
               'fps': 9.96, 'magnification': 2.0, 'depth': 171.97, 'angle': 42.37,
               'laserPower': 34,'wavelength': 920, 'nFrames': 7550,
               'brainArea': 'A1_lowFreq', 'sessionLabel': 'pure_tones_72dB',
