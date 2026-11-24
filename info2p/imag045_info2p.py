@@ -146,4 +146,18 @@ sessions.append(newSession)
 #45 to 75 dB SPL
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
 #session start at 1:30 pm
+#aborted due to sound server error
+
+newSession = {'subject':subject, 'date':'20261124','session': '010', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 171.97, 'angle': 42.37,
+              'laserPower': 40,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A1_lowFreq', 'sessionLabel': 'fading_noise_45_75dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#45 to 75 dB SPL
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 1:34 pm
+#redo of session 009 - use this one instead
+
 
