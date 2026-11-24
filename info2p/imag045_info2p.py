@@ -109,7 +109,7 @@ newSession = {'subject':subject, 'date':'20261124','session': '006', 'FOV#':0,
 sessions.append(newSession)
 #250 trials
 #68 dB SPL
-#F0 9884 Hz
+#F0 8000 Hz
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
-#session start at 12:52 pm
+#session start at 12:49 pm
 
