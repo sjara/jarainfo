@@ -240,3 +240,28 @@ sessions.append(newSession)
 #center freq 4446 Hz
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
 #session start at 11:00 am
+
+newSession = {'subject':subject, 'date':'20261125','session': '004', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 193.61, 'angle': 42.77,
+              'laserPower': 32,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'AAF_lowFreq', 'sessionLabel': 'noise_pair_62dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#62 dB SPL
+#center freq 4446 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#ABORTED. sound_tuning.py crashed
+
+newSession = {'subject':subject, 'date':'20261125','session': '005', 'FOV#':0,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 193.61, 'angle': 42.77,
+              'laserPower': 32,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'AAF_lowFreq', 'sessionLabel': 'noise_pair_62dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#62 dB SPL
+#center freq 4446 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 11:14 am
+
