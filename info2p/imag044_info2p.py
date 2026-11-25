@@ -346,7 +346,7 @@ sessions.append(newSession)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
 #session start at 12:53 pm
 
-newSession = {'subject':subject, 'date':'20261125','session': '013', 'FOV#':0,
+newSession = {'subject':subject, 'date':'20261125','session': '013', 'FOV#':1,
               'fps': 9.96, 'magnification': 2.0, 'depth': 401.23, 'angle': 42.77,
               'laserPower': 85,'wavelength': 920, 'nFrames': 7550,
               'brainArea': 'A2_lowFreq', 'sessionLabel': 'pure_tones_72dB',
