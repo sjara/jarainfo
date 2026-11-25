@@ -395,3 +395,47 @@ sessions.append(newSession)
 #total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
 #session start at 2:29 pm
 
+newSession = {'subject':subject, 'date':'20261125','session': '017', 'FOV#':2,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 335.04, 'angle': 42.77,
+              'laserPower': 75,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'chord_tones_68dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#250 trials
+#68 dB SPL
+#F0 8000 Hz
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
+#session start at 2:45 pm
+
+newSession = {'subject':subject, 'date':'20261125','session': '018', 'FOV#':2,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 335.04, 'angle': 42.77,
+              'laserPower': 75,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'fm_sounds_frange_70dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#70 dB SPL
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 12:28 pm
+
+newSession = {'subject':subject, 'date':'20261125','session': '019', 'FOV#':2,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 335.04, 'angle': 42.77,
+              'laserPower': 75,'wavelength': 920, 'nFrames': 5900,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'am_noise_68dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#250 trials
+#68 dB SPL
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=5900
+#session start at 12:42 pm
+
+newSession = {'subject':subject, 'date':'20261125','session': '020', 'FOV#':2,
+              'fps': 9.96, 'magnification': 2.0, 'depth': 335.04, 'angle': 42.77,
+              'laserPower': 75,'wavelength': 920, 'nFrames': 8260,
+              'brainArea': 'A2_lowFreq', 'sessionLabel': 'fading_noise_45_75dB',
+              'pmt': [0,1], 'paradigm':'sound_tuning'}
+sessions.append(newSession)
+#350 trials
+#45 to 75 dB SPL
+#total frames = scan rate * #trials * (stim_dur + isi_mean)*1.128=8260
+#session start at 12:53 pm
